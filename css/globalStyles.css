@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0; }
+
+html{
+    scroll-behavior: smooth;
+    background-color: #202020;
+    width: 100%; }
+
+
+a {
+    text-decoration: none;
+}
+
+/* ------------  FONTS ------------------------------------------------------ */    
+
+@font-face {
+    font-family: 'Maine Light';
+    src: url('../assets/Maine/Maine-Light.otf');
+}
+
+@font-face {
+    font-family: 'Maine Regular';
+    src: url('../assets/Maine/Maine-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Maine Bold';
+    src: url('../assets/Maine/Maine-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Maine Medium Italic';
+    src: url('../assets/Maine/Maine-MediumItalic.otf');
+}
+
+.fonXl{
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.25rem;
+    line-height: 7rem;
+    color: #EEEEEE; }
+
+.fonH1{
+    font-family: 'Maine Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 7.5rem;
+    color: #EEEEEE; }
+
+.fonH2{
+    font-family: 'Maine Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5rem;
+    line-height: 6rem;
+    color: #EEEEEE; }
+
+.fonH3{
+    font-family: 'Maine Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.25rem;
+    line-height: 4rem;
+    color: #EEEEEE; }
+
+.fonH4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #EEEEEE; }
+
+.fonFoot{
+    font-family: 'Maine Bold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #EEEEEE; }
+
+.fonH5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #EEEEEE; }
+
+.fonH6{
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #EEEEEE;; 
+    opacity: 0.4; }
+
+.fonPg {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #EEEEEE; }
+
+.fonLink {
+    font-family: 'Maine Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #EEEEEE; }
+
+.fonSubFoot {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: #EEEEEE; }
+
+/* ------------  BUTTONS ------------------------------------------------------ */    
+
+button {
+    font-family: 'Maine Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #EEEEEE; 
+    background-color: #ED764A;
+    border: none;
+    cursor: pointer; }
+
+/* ------------  LINKS ----------------------------------------------------------- */    
+
+.aLink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #EEEEEE;
+    position: relative;
+    white-space: nowrap;
+    padding-bottom: 0.25rem;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+
+.aLink::before,
+.aLink::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none; }
+
+.aLink::before {
+    content: '';
+    /* show by default */ }
+
+.aLink--under::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 2, 1);
+    transition: transform 0.3s; }
+
+.aLink--under:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 2, 1); }
+
+.active{
+    font-weight: 600;
+}    
+
+/* ------------  NAV ----------------------------------------------------------- */    
+
+.nav__box{
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    position: fixed;
+    background-color:  #202020;
+    z-index: 10; }
+
+.nav__logobox{
+    width: auto;
+    height: auto;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute; }
+
+    .nav__logo{
+        fill: #EEEEEE;  }
+
+.nav__links{
+    width: auto;
+    height: auto;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute; }
+
+    .nav__links a{
+        margin-left: 2.5rem; }
+
+.nav__command{
+    width: auto;
+    height: auto;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute; }
+
+    .nav__darkSwitch{
+        fill:  #EEEEEE; 
+        cursor: pointer; }
+    
+/* ------------  FOOTER ----------------------------------------------------------- */    
+
+.footer{
+    width: auto;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 45rem; }
+
+.footer__box{
+    width: 100%;
+    height: 100%;
+    position: relative; }
+
+.footer__title1{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 8.5rem; }
+
+    .footer__title2{
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        top: 9.5rem; 
+        left: 27rem; }
+
+    .footer__title3{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 15rem; }
+
+    .footer__title4{
+        width: 9.25rem;
+        height: 4.5rem;
+        position: absolute;
+        top: 17rem; 
+        left: 6rem; }
+
+        .footer__title4 svg{
+            stroke:  #EEEEEE; }
+
+    .footer__title5{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 15rem; 
+        left: 18rem; }
+
+.footer__links{
+    width: 55rem;
+    height: auto;
+    position: absolute;
+    top: 28rem; }
+
+    .footer__linkstit1{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0; }
+
+        .footer__linksbox1{
+            width: 7rem;
+            height: auto;
+            position: absolute;
+            top: 3rem;
+            left: 0; }
+
+        .footer__linksbox1a{
+            width: 7rem;
+            height: auto;
+            position: absolute;
+            top: 5rem;
+            left: 9rem; }
+
+    .footer__linkstit2{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 22rem; }
+
+        .footer__linksbox2{
+            width: 7rem;
+            height: auto;
+            position: absolute;
+            bottom: 0;
+            top: 3rem;
+            left: 22rem; }
+
+.footer__btnbox{   
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 10rem;
+    right: 0; }
+
+.footer__btn{   
+    border-radius: 5.5rem;
+    width: 10.5rem;
+    height: 10.5rem;
+    font-size: 1.75rem; }
+
+.footer__copy{
+    height: 5rem;
+    width: 100%;
+    background-color: #282828;
+    align-items: center;
+    display: flex; }
+
+    .footer__copy h5{
+        height: auto;
+        width: auto;
+        margin-left: 12.5%; }
+
+/* ------------  @ MEDIA ----------------------------------------------------------- */    
+
