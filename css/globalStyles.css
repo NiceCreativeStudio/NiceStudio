@@ -4,11 +4,15 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: #202020;
     width: 100%; }
-
-
+    
+body{
+    background-color: #202020;
+    color: #EEEEEE;
+    transition: .3s ease all;
+}
 a {
+    color: #EEEEEE;
     text-decoration: none;
 }
 
@@ -40,7 +44,7 @@ a {
     font-weight: normal;
     font-size: 6.25rem;
     line-height: 7rem;
-    color: #EEEEEE; }
+}
 
 .fonH1{
     font-family: 'Maine Regular';
@@ -48,7 +52,7 @@ a {
     font-weight: normal;
     font-size: 6rem;
     line-height: 7.5rem;
-    color: #EEEEEE; }
+}
 
 .fonH2{
     font-family: 'Maine Regular';
@@ -56,7 +60,7 @@ a {
     font-weight: normal;
     font-size: 4.5rem;
     line-height: 6rem;
-    color: #EEEEEE; }
+}
 
 .fonH3{
     font-family: 'Maine Regular';
@@ -64,7 +68,7 @@ a {
     font-weight: normal;
     font-size: 3.25rem;
     line-height: 4rem;
-    color: #EEEEEE; }
+}
 
 .fonH4{
     font-family: Montserrat;
@@ -72,7 +76,7 @@ a {
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.5rem;
-    color: #EEEEEE; }
+}
 
 .fonFoot{
     font-family: 'Maine Bold';
@@ -80,7 +84,7 @@ a {
     font-weight: normal;
     font-size: 2rem;
     line-height: 2rem;
-    color: #EEEEEE; }
+}
 
 .fonH5{
     font-family: Montserrat;
@@ -88,7 +92,7 @@ a {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #EEEEEE; }
+}
 
 .fonH6{
     font-family: 'Maine Light';
@@ -96,7 +100,7 @@ a {
     font-weight: normal;
     font-size: 1rem;
     line-height: 2rem;
-    color: #EEEEEE;; 
+ 
     opacity: 0.4; }
 
 .fonPg {
@@ -105,7 +109,7 @@ a {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 2rem;
-    color: #EEEEEE; }
+}
 
 .fonLink {
     font-family: 'Maine Medium Italic';
@@ -113,7 +117,7 @@ a {
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: #EEEEEE; }
+}
 
 .fonSubFoot {
     font-family: Montserrat;
@@ -122,7 +126,7 @@ a {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.2rem;
-    color: #EEEEEE; }
+}
 
 /* ------------  BUTTONS ------------------------------------------------------ */    
 
@@ -136,6 +140,10 @@ button {
     background-color: #ED764A;
     border: none;
     cursor: pointer; }
+
+li{
+    list-style-type: none;
+}
 
 /* ------------  LINKS ----------------------------------------------------------- */    
 
@@ -340,5 +348,35 @@ button {
         width: auto;
         margin-left: 12.5%; }
 
+
+/* ============================ DARK MODE ============================ */
+body.light{
+    background-color: #EEEEEE;
+    color: #000000;
+}
+body.light a{
+    color: #000000;
+}
+body.light .nav__darkSwitch{
+    fill: #000000;
+}
+body.light .nav__box{
+    background-color: #EEEEEE;
+}
+body.light .nav__logo{
+    fill: #000000;
+}
+
+
+
+
+
 /* ------------  @ MEDIA ----------------------------------------------------------- */    
+
+
+
+
+
+
+
 

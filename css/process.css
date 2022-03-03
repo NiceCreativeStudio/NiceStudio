@@ -1,0 +1,108 @@
+
+/* ----------- Introduction ----------- */
+.process__intro{
+    margin: 15rem 12.5% 5rem 5%;
+}
+.process__intro h1{
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+.process__intro h2{
+    width: 70%;
+}
+
+
+
+/*----------- Process path ----------- */
+.lottie__container{
+    display: flex;
+    margin: 8% auto 8% 15%;
+    justify-content: center;
+}
+
+
+
+/* ----------- Undefined section -----------*/
+.undefined__container{
+    background-color: #ED764A;
+    color: #EEEEEE;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.undefined__container h2{
+    margin: 5rem 8rem 5rem 8rem;
+}
+
+
+
+/* ----------- Nice services ----------- */
+.services__list--container {
+    display: grid; 
+    grid-template-columns: 5% 40% 25% 25% 5%; 
+    grid-template-rows: 1fr 1fr min-content; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "..... ..... design content ....."
+        "..... nice strategy frontend ....."
+        "..... link ..... ..... ....."; 
+        margin-top: 6rem;
+}
+
+.services__title{
+    grid-area: nice;
+    text-transform: uppercase;
+}
+.service__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.service__container h4{
+    margin-bottom: 1.5rem;
+}
+.service__container p{
+    width: 80%;
+}
+.design{
+    grid-area: design;
+}
+.content{
+    grid-area: content;
+}
+.strategy{
+    grid-area: strategy;
+}
+.frontend{
+    grid-area: frontend;
+}
+.service__list--link{
+    grid-area: link;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+.service__list--link svg{
+    margin-right: 1rem;
+}
+
+/* ----------- Listed Services ----------- */
+.listed__services{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 5% 10rem 5%;
+}
+
+.service__column h4{
+    margin-bottom: 3rem;
+}
+.service__column li{
+    margin: 2rem 0 2rem 0;
+}
+
+
+
+/* ============================ DARK MODE ============================ */
