@@ -1,7 +1,9 @@
+/* ------------  HERO ----------------------------------------------------------- */    
+
 .hero{
-    width: 95%;
+    width: 93%;
     height: auto;
-    margin-left: 3.5%;
+    margin-left: 5%;
     }
 
 .hero__box{
@@ -40,7 +42,14 @@
         height: auto;
         position: absolute;
         bottom: 0;
-        right: 3%; }
+        right: 3.5%; }
 
         .hero__socialLinks a{
             margin-left: 3rem; }
+
+/* ------------  HORIZONTAL DRAG SCROLL --------------------------------- */    
+
+
+
+/* ------------ HOLISTIC METHOD --------------------------------- */    
+
