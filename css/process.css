@@ -93,7 +93,7 @@
 .listed__services{
     display: flex;
     justify-content: space-between;
-    margin: 10rem 5% 10rem 5%;
+    margin: 10rem 5% 10rem 2%;
 }
 
 .service__column h4{
@@ -104,5 +104,49 @@
 }
 
 
+/* ----------- Drag gallery ----------- */
 
-/* ============================ DARK MODE ============================ */
+
+.items {
+    cursor: url("../assets/grabCursor.svg"), pointer;
+    scrollbar-width: none;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    height: min-content;
+}
+.items::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.items.active {
+    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+.item {
+    cursor: url("../assets/grabCursor.svg"), pointer;
+    display: inline-block;
+    padding-bottom: 5rem;
+    min-height: 250px;
+    min-width: 400px;
+    margin: 2em 1em;
+}
+.gallery__card--container{
+    display: flex;
+    flex-direction: column;
+}
+.gallery__card--container h5{
+    margin: 2rem 0 1rem 0;
+}
+
+
+
+
+
+/* ============================ LIGHT MODE ============================ */
