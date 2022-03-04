@@ -16,7 +16,7 @@
 /*----------- Process path ----------- */
 .lottie__container{
     display: flex;
-    margin: 8% auto 8% 15%;
+    margin: 8% auto 8% auto;
     justify-content: center;
 }
 
@@ -130,6 +130,7 @@
     transform: scale(1);
 }
 .item {
+    /* 16 de font-size */
     cursor: url("../assets/grabCursor.svg"), pointer;
     display: inline-block;
     padding-bottom: 5rem;
