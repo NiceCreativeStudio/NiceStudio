@@ -25,3 +25,4 @@ slider.addEventListener('mousemove', (e) => {
     slider.scrollLeft = scrollLeft - walk;
     console.log(walk);
 });
+
