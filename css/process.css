@@ -1,111 +1,110 @@
 
 /* ----------- Introduction ----------- */
 .process__intro{
-    margin: 15rem 12.5% 5rem 5%;
-}
+    margin: 12rem 12.5% 5rem 12.5%; }
+
 .process__intro h1{
     text-transform: uppercase;
-    margin-bottom: 6rem;
-}
+    margin-bottom: 6rem; }
+
 .process__intro h2{
-    width: 70%;
-}
-
-
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    width: 70%; }
 
 /*----------- Process path ----------- */
+
 .lottie__container{
     display: flex;
     margin: 8% auto 8% auto;
-    justify-content: center;
-}
-
-
+    justify-content: center; }
 
 /* ----------- Undefined section -----------*/
+
 .undefined__container{
-    background-color: #ED764A;
-    color: #EEEEEE;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-}
+    height: auto;
+    min-height: 33rem;
+    width: auto;
+    margin-left: 12.5%;
+    margin-right: 12.5%; }
+
 .undefined__container h2{
-    margin: 5rem 8rem 5rem 8rem;
-}
-
-
+    width: 100%;
+    margin-bottom: 5rem; }
 
 /* ----------- Nice services ----------- */
+
 .services__list--container {
     display: grid; 
-    grid-template-columns: 5% 40% 25% 25% 5%; 
+    grid-template-columns: 5% 32rem auto auto 5%; 
     grid-template-rows: 1fr 1fr min-content; 
-    gap: 0px 0px; 
+    row-gap: 2rem;
     grid-template-areas: 
-        "..... ..... design content ....."
+        "..... nice design content ....."
         "..... nice strategy frontend ....."
         "..... link ..... ..... ....."; 
         margin-top: 6rem;
-}
+    background-color:#1A1A1A;
+    padding-top: 8rem;
+    padding-bottom: 6.5rem; }
 
 .services__title{
     grid-area: nice;
     text-transform: uppercase;
-}
+    position: relative; }
+
+.services__title h2{
+    position: absolute;
+    bottom: 0.5rem; }
+
 .service__container{
     display: flex;
     flex-direction: column;
-    justify-content: end;
-}
+    justify-content: start; }
+
 .service__container h4{
     margin-bottom: 1.5rem;
-}
+    color: #F0B35E; }
+
 .service__container p{
-    width: 80%;
-}
+    width: 80%; }
+
 .design{
-    grid-area: design;
-}
+    grid-area: design; }
+
 .content{
-    grid-area: content;
-}
+    grid-area: content; }
+
 .strategy{
-    grid-area: strategy;
-}
+    grid-area: strategy; }
+
 .frontend{
-    grid-area: frontend;
-}
+    grid-area: frontend; }
+
 .service__list--link{
     grid-area: link;
     margin-top: 5rem;
-    text-transform: uppercase;
-}
+    text-transform: uppercase; }
+
 .service__list--link svg{
-    margin-right: 1rem;
-}
+    margin-right: 1rem; }
 
 /* ----------- Listed Services ----------- */
+
 .listed__services{
     display: flex;
     justify-content: space-between;
-    margin: 10rem 5% 10rem 2%;
-}
+    margin: 0rem 5% 10rem 5%;
+    background-color:#1A1A1A; }
 
 .service__column h4{
-    margin-bottom: 3rem;
-}
-.service__column li{
-    margin: 2rem 0 2rem 0;
-}
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem; }
 
+.service__column li{
+    margin: 2rem 0 2rem 0; }
 
 /* ----------- Drag gallery ----------- */
-
 
 .items {
     cursor: url("../assets/grabCursor.svg"), pointer;
@@ -119,16 +118,16 @@
     transform: scale(0.98);
     will-change: transform;
     user-select: none;
-    height: min-content;
-}
+    height: min-content; }
+
 .items::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-}
+    display: none; } /* for Chrome, Safari, and Opera */
+
 .items.active {
     cursor: url("../assets/grabCursor.svg"), pointer;
     cursor: -webkit-grabbing;
-    transform: scale(1);
-}
+    transform: scale(1); }
+
 .item {
     /* 16 de font-size */
     cursor: url("../assets/grabCursor.svg"), pointer;
@@ -136,18 +135,13 @@
     padding-bottom: 5rem;
     min-height: 250px;
     min-width: 400px;
-    margin: 2em 1em;
-}
+    margin: 2em 1em; }
+
 .gallery__card--container{
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column; }
+
 .gallery__card--container h5{
-    margin: 2rem 0 1rem 0;
-}
-
-
-
-
+    margin: 2rem 0 1rem 0; }
 
 /* ============================ LIGHT MODE ============================ */
