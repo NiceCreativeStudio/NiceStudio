@@ -70,7 +70,7 @@
 /* ----------- Drag gallery ----------- */
 
 .items {
-    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: url("../assets/draghandle.svg"), pointer;
     scrollbar-width: none;
     position: relative;
     width: 100%;
@@ -87,13 +87,12 @@
     display: none; }/* for Chrome, Safari, and Opera */
 
 .items.active {
-    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: url("../assets/draghandle.svg"), pointer;
     cursor: -webkit-grabbing;
     transform: scale(1); }
 
 .item {
-    /* 16 de font-size */
-    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: url("../assets/draghandle.svg"), pointer;
     display: inline-block;
     padding-bottom: 5rem;
     min-height: 250px;

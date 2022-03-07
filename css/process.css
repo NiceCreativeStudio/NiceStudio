@@ -36,7 +36,7 @@
 
 .services__list--container {
     display: grid; 
-    grid-template-columns: 5% 32rem auto auto 5%; 
+    grid-template-columns: 5% 32rem 1fr 1fr 5%; 
     grid-template-rows: 1fr 1fr min-content; 
     row-gap: 2rem;
     grid-template-areas: 
@@ -55,7 +55,7 @@
 
 .services__title h2{
     position: absolute;
-    bottom: 0.5rem; }
+    bottom: 0rem; }
 
 .service__container{
     display: flex;
@@ -107,7 +107,7 @@
 /* ----------- Drag gallery ----------- */
 
 .items {
-    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: url("../assets/draghandle.svg"), pointer;
     scrollbar-width: none;
     position: relative;
     width: 100%;
@@ -124,13 +124,12 @@
     display: none; } /* for Chrome, Safari, and Opera */
 
 .items.active {
-    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: url("../assets/draghandle.svg"), pointer;
     cursor: -webkit-grabbing;
     transform: scale(1); }
 
 .item {
-    /* 16 de font-size */
-    cursor: url("../assets/grabCursor.svg"), pointer;
+    cursor: url("../assets/draghandle.svg"), pointer;
     display: inline-block;
     padding-bottom: 5rem;
     min-height: 250px;
