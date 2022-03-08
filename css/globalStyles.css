@@ -381,7 +381,8 @@ body.light .nav__logo{
     fill: #000000;
 }
 
-
+body.light .footer__title4 svg{
+    stroke: #000000; }
 
 
 

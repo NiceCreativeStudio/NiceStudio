@@ -67,7 +67,7 @@
             <h2 class="fonH3">INTERCONECTED PIECES THAT ARE PART OF A WHOLE: THE EXPERIENCE.</h2>
         </div>
     <!----------------- Nice services grid ----------------->
-        <section class="services__list--container">
+        <section class="services__listbox">
             <div class="services__title">
                 <h2 class="fonH2"><span>
                     <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,54 +114,65 @@
                 <h4 class="fonH4">Frontend</h4>
                 <p class="fonH5">Apply dynamic interactions and transform your digital properties into experiences that haunt visitors' eyeballs. Our dev team builds heavy-duty solutions for global brands across a range of technologies.</p>
             </div>
-            <a class="service__list--link fonLink" href="#">
-                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16.3135 1.65592L13.7302 1.65592L13.721 11.8883L2.57263 0.739868L0.740519 2.57198L11.8889 13.7204L1.65658 13.7112V16.3128H16.3135V1.65592Z" fill="#EEEEEE"/>
+            <a class="service__list fonLink" id="selectlistservice">
+                <svg class="services__fulllistbtn" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.3135 1.65592L13.7302 1.65592L13.721 11.8883L2.57263 0.739868L0.740519 2.57198L11.8889 13.7204L1.65658 13.7112V16.3128H16.3135V1.65592Z" fill=" "/>
                 </svg>
-                The full list
+                THE FULL LIST
             </a>
         </section>
 <!------------------- The full service list ------------------->
-        <section class="listed__services">
-            <!-- Strategy -->
-            <div class="service__column">
-                <h4 class="fonH4">Strategy</h4>
-                <li class="fonH5">Brand messaging strategy</li>
-                <li class="fonH5">Web strategy</li>
-                <li class="fonH5">Information architecture</li>
-                <li class="fonH5">Content strategy</li>
-                <li class="fonH5">SEO</li>
-                <li class="fonH5">E-commerce Strategy</li>
-            </div>
-            <!-- Content -->
-            <div class="service__column">
-                <h4 class="fonH4">Content</h4>
-                <li class="fonH5">Brand copywriting</li>
-                <li class="fonH5">Web copywriting</li>
-                <li class="fonH5">SEO writing</li>
-                <li class="fonH5">Content strategy</li>
-                <li class="fonH5">Content design</li>
-                <li class="fonH5">Motion Graphics</li>
-            </div>
-            <!-- Design -->
-            <div class="service__column">
-                <h4 class="fonH4">Design</h4>
-                <li class="fonH5">Brand identity design</li>
-                <li class="fonH5">UX design</li>
-                <li class="fonH5">UI design</li>
-                <li class="fonH5">Interaction design</li>
-                <li class="fonH5">Graphic design</li>
-                <li class="fonH5">Creative direction</li>
-                <li class="fonH5">Art direction</li>
-            </div>
-            <!-- Frontend -->
-            <div class="service__column">
-                <h4 class="fonH4">Frontend</h4>
-                <li class="fonH5">Responsive development</li>
-                <li class="fonH5">No-code development</li>
-                <li class="fonH5">Shopify</li>
-                <li class="fonH5">Wordpress</li>
-            </div>
+        <section class="services__table" style="display: none;" id="listservice">
+            <table class="services__tablebox">
+                <tr>
+                    <th class="fonH4">Strategy</th>
+                    <th class="fonH4">Content</th>
+                    <th class="fonH4">Design</th>
+                    <th class="fonH4">Frontend</th>
+                </tr>
+                <tr>
+                    <td class="fonH5">Brand messaging strategy</td>
+                    <td class="fonH5">Brand copywriting</td>
+                    <td class="fonH5">Brand identity design</td>
+                    <td class="fonH5">Responsive development</td>
+                </tr>
+                <tr>
+                    <td class="fonH5">Web strategy</td>
+                    <td class="fonH5">Web copywriting</td>
+                    <td class="fonH5">UX design</td>
+                    <td class="fonH5">No-code development</td>
+                </tr>
+                <tr>
+                    <td class="fonH5">Information architecture</td>
+                    <td class="fonH5">SEO writing</td>
+                    <td class="fonH5">UI design</td>
+                    <td class="fonH5">Shopify</td>
+                </tr>
+                <tr>
+                    <td class="fonH5">Content strategy</td>
+                    <td class="fonH5">Content design</td>
+                    <td class="fonH5">Interaction design</td>
+                    <td class="fonH5">Wordpress</td>
+                </tr>
+                <tr>
+                    <td class="fonH5">SEO</td>
+                    <td class="fonH5">Motion Graphics</td>
+                    <td class="fonH5">Graphic design</td>
+                    <td class="fonH5"></td>
+                </tr>
+                <tr>
+                    <td class="fonH5">E-commerce Strategy</td>
+                    <td class="fonH5"></td>
+                    <td class="fonH5">Creative direction</td>
+                    <td class="fonH5"></td>
+                </tr>
+                <tr>
+                    <td class="fonH5"></td>
+                    <td class="fonH5"></td>
+                    <td class="fonH5">Art direction</td>
+                    <td class="fonH5"></td>
+                </tr>
+            </table>
         </section>
     <!------------------- Grab horizontal gallery ------------------->
         <div class="grab__gallery">
@@ -229,9 +240,9 @@
                 <h2 class="footer__title3 fonXl">a</h2>
                 <article class="footer__title4">
                     <svg width="148" height="70" viewBox="0 0 148 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M111.614 1C112.007 10.3093 115.97 19.098 122.662 25.5018C129.354 31.9057 138.25 35.4211 147.462 35.3028" stroke="#EEEEEE" stroke-width="4.4966" stroke-miterlimit="10"/>
-                        <path d="M110.806 69.3938C111.179 59.956 115.231 51.0511 122.074 44.624C128.918 38.1969 137.998 34.7698 147.332 35.091" stroke="#EEEEEE" stroke-width="4.4966" stroke-miterlimit="10"/>
-                        <path d="M0 35.1348L147.488 35.082" stroke="#EEEEEE" stroke-width="4.4966" stroke-miterlimit="10"/>
+                        <path d="M111.614 1C112.007 10.3093 115.97 19.098 122.662 25.5018C129.354 31.9057 138.25 35.4211 147.462 35.3028" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
+                        <path d="M110.806 69.3938C111.179 59.956 115.231 51.0511 122.074 44.624C128.918 38.1969 137.998 34.7698 147.332 35.091" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
+                        <path d="M0 35.1348L147.488 35.082" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
                         </svg>
                 </article>
                 <h2 class="footer__title5 fonXl">line</h2>
@@ -266,5 +277,7 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <script src="./assets/js/process.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/openclose.js"></script>
 </body>
 </html>

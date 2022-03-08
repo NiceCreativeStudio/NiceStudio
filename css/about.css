@@ -46,6 +46,9 @@
         top: 7rem; 
         left: 18rem; }
 
+        .teamTxt__title5 svg{
+            stroke: #EEEEEE;}
+
     .teamTxt__title6{
         width: 32rem;
         height: auto;
@@ -156,6 +159,9 @@
     top: 1.5rem;
     left: 19rem;
     position: absolute; }
+
+    .team__titlesvg svg{
+        stroke: #EEEEEE;}
 
 /*----------- drag elements ----------- */
 
@@ -270,6 +276,7 @@
     
     .team__careers1 svg {
         position: absolute;
+        stroke: #EEEEEE;
         top: 3rem;
         left: 9rem; }   
 
@@ -350,3 +357,14 @@
     display: flex;
     flex-direction: column;
     height: auto; }
+
+
+/* ============================ LIGHT MODE ============================ */
+body.light .teamTxt__title5 svg{
+    stroke: #000000; }
+
+body.light .team__titlesvg svg{
+    stroke: #000000; }
+
+body.light .team__careers1 svg {
+    stroke: #000000; }

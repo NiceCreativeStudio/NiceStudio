@@ -34,7 +34,7 @@
 
 /* ----------- Nice services ----------- */
 
-.services__list--container {
+.services__listbox {
     display: grid; 
     grid-template-columns: 5% 32rem 1fr 1fr 5%; 
     grid-template-rows: 1fr 1fr min-content; 
@@ -56,6 +56,9 @@
 .services__title h2{
     position: absolute;
     bottom: 0rem; }
+
+.services__fulllistbtn{
+    fill:#EEEEEE; }
 
 .service__container{
     display: flex;
@@ -81,28 +84,38 @@
 .frontend{
     grid-area: frontend; }
 
-.service__list--link{
+.service__list{
     grid-area: link;
     margin-top: 5rem;
-    text-transform: uppercase; }
+    cursor: pointer; }
 
-.service__list--link svg{
+.service__list svg{
     margin-right: 1rem; }
 
 /* ----------- Listed Services ----------- */
 
-.listed__services{
-    display: flex;
-    justify-content: space-between;
-    margin: 0rem 5% 10rem 5%;
-    background-color:#1A1A1A; }
+.services__table{
+    width: 100%;
+    height: auto; 
+    background-color:#1A1A1A;
+    padding-bottom: 6rem; }
 
-.service__column h4{
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem; }
+.services__tablebox{
+    width: 90%;
+    height: auto;
+    margin-left: 5%; }
 
-.service__column li{
-    margin: 2rem 0 2rem 0; }
+.services__tablebox tr th{
+    border-top: 1px solid #3F3F3F;
+    border-bottom: 1px solid #3F3F3F;
+    width: 25%;
+    height: 5.5rem;
+    text-align: left; }
+
+.services__tablebox tr td{
+    border-bottom: 1px solid #3F3F3F;
+    height: 3.5rem;
+    text-align: left; }
 
 /* ----------- Drag gallery ----------- */
 
@@ -144,3 +157,21 @@
     margin: 2rem 0 1rem 0; }
 
 /* ============================ LIGHT MODE ============================ */
+body.light .storiesTxt__title5 svg{
+    stroke: #000000; }
+
+body.light .services__listbox {
+    background-color:transparent; }        
+
+body.light .services__fulllistbtn{
+    fill:#000000; }
+
+body.light .services__table{
+    background-color:transparent; }
+
+body.light .services__tablebox tr th{
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF; }
+
+body.light .services__tablebox tr td{
+    border-bottom: 1px solid #DFDFDF; }

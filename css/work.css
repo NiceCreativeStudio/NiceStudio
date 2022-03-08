@@ -46,6 +46,9 @@
         top: 7rem; 
         left: 12rem; }
 
+        .storiesTxt__title5 svg{
+            stroke: #EEEEEE; } 
+
     .storiesTxt__title6{
         width: auto;
         height: auto;
@@ -222,3 +225,14 @@
     height: auto;    
     width: auto;
     padding-bottom: 12rem; }
+
+
+/* ============================ LIGHT MODE ============================ */
+body.light .storiesTxt__title5 svg{
+    stroke: #000000; }
+
+body.light .grid{
+    background-color: #ED764A; }
+    
+body.light .doit{
+    background-color: #ED764A; }
