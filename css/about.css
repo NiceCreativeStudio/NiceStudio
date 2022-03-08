@@ -15,60 +15,52 @@
 .teamTxt__title1{
     width: auto;
     height: auto;
+    display: inline-flex;
     position: absolute;
     top: 0rem; }
 
-    .teamTxt__title2{
-        width: 6rem;
-        height: 6rem;
-        position: absolute;
-        top: 0.5rem; 
-        left: 5.5rem; }
+    .teamTxt__svg1{
+        width: 75px;
+        height: 75px;
+        margin: 0.75rem 1.5rem 0 1.5rem; }
 
-    .teamTxt__title3{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 0rem; 
-        left: 12rem; }
+.teamTxt__title2{
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    position: absolute;
+    top: 6rem; 
+    left: 0rem; }
 
-    .teamTxt__title4{
-        width: 9.25rem;
-        height: 4.5rem;
-        position: absolute;
-        top: 6rem; 
-        left: 0rem; }
+    .teamTxt__svg2{
+        width: 150px;
+        height: 70px; 
+        margin-top: 1rem;
+        margin-left: 1.5rem;}
 
-    .teamTxt__title5{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 7rem; 
-        left: 18rem; }
-
-        .teamTxt__title5 svg{
+        .teamTxt__svg2 svg{
             stroke: #EEEEEE;}
 
-    .teamTxt__title6{
-        width: 32rem;
-        height: auto;
-        position: absolute;
-        top: 15rem; 
-        left: 0rem; }
-    
-    .teamTxt__title7{
-        width: 32rem;
-        height: auto;
-        position: absolute;
-        top: 26rem; 
-        left: 0rem; }
+.teamTxt__title3{
+    width: 32rem;
+    height: auto;
+    position: absolute;
+    top: 15rem; 
+    left: 0rem; }
 
-    .teamTxt__title8{
-        width: 30rem;
-        height: auto;
-        position: absolute;
-        top: 35rem; 
-        left: 0rem; }
+.teamTxt__title4{
+    width: 32rem;
+    height: auto;
+    position: absolute;
+    top: 26rem; 
+    left: 0rem; }
+
+.teamTxt__title5{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: 35rem; 
+    left: 0rem; }
         
 .teamTxt__img{
     min-height: 32rem;
@@ -84,15 +76,13 @@
 .avatars {
     width: 100%;
     margin-bottom: 9rem;
-    margin-top: 10rem;
-}
+    margin-top: 10rem;  }
 
 .avatars__our{
     height: auto;
     margin-left: 12.5%;
     margin-right: 12.5%;
-    width: auto;
-    }
+    width: auto; }
 
 .avatars__box {
     display: grid;
@@ -102,10 +92,10 @@
     gap: 1rem;
     height: auto;
     width: 100%;
-    justify-content: stretch;
+    justify-content: center;
     justify-items: stretch;
     align-items: stretch;
-    align-content: stretch;
+    align-content: center;
     }
     .avatars__box p {
         margin-top: 1rem;
@@ -116,8 +106,8 @@
         }
     .avatars__box img {
         object-fit: cover;
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 70%;
         }
         .avatars__per1 {
             grid-area: per1;
@@ -142,23 +132,14 @@
 
 .team__titlebox {
     width: auto;
-    margin-left: 12.5%;
-    position: relative; }
+    margin-left: 12.5%; }
 
-.team__titletxt1 {
-    top: 0;
-    left: 0;
-    position: absolute; }
-
-.team__titletxt2 {
-    top: 6rem;
-    left: 0;
-    position: absolute; }
+.team__titletxt {
+    display: inline-flex; }
 
 .team__titlesvg {
-    top: 1.5rem;
-    left: 19rem;
-    position: absolute; }
+    margin-top: 1.5rem;
+    margin-left: 1.5rem; }
 
     .team__titlesvg svg{
         stroke: #EEEEEE;}
@@ -195,7 +176,7 @@
     border-radius: 1.5rem;
     height: 30rem;
     width: 30rem;
-    margin: 0 1rem; 
+    margin: 1rem 0.75rem 1rem 0.75rem; 
     vertical-align: bottom; }
 
     .dragelements__card h6 {
@@ -251,7 +232,6 @@
 
 .team__careers {
     width: auto;
-    margin-bottom: 5rem;
     margin-bottom: 10rem;
     margin-left: 12.5%;
     margin-right: 12.5%; }
@@ -320,6 +300,10 @@
     margin-left: 3rem;
     align-self: center; }
 
+    .team__careerssub2{
+        width: auto;
+    }
+
 /*----------- drag footer gallery ----------- */
 .items {
     cursor: url("../assets/draghandle.svg"), pointer;
@@ -342,6 +326,7 @@
     cursor: url("../assets/draghandle.svg"), pointer;
     cursor: -webkit-grabbing;
     transform: scale(1); }
+
 .item {
     cursor: url("../assets/draghandle.svg"), pointer;
     display: inline-block;
@@ -368,3 +353,111 @@ body.light .team__titlesvg svg{
 
 body.light .team__careers1 svg {
     stroke: #000000; }
+
+
+/* ============================ MEDIA ============================ */
+
+@media (max-width: 768px) {
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.teamTxt{
+    margin-left: 5%; 
+    margin-top: 6rem;  }
+
+    .teamTxt__svg1{
+        width: 65px;
+        height: 65px;
+        margin: 0.5rem 1.25rem 0 1.25rem; }
+
+    .teamTxt__title2{
+    top: 5rem;  }
+
+    .teamTxt__svg2{
+        width: 135px;
+        height: 60px; 
+        margin-top: 0.75rem; }
+
+        .teamTxt__img{  /* ========confrirmar ubicacion de esta foto ===== */
+            left: 35rem; }
+
+.avatars {
+    margin-bottom: 6rem;
+    margin-top: 6rem;  }
+    
+    .avatars__our{
+        margin-left: 5%;
+        margin-right: 5%; }
+
+    .avatars__box {
+        display: grid;
+        grid-template-areas: 
+        "per1 per2"
+        "per3 per4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr; }
+
+    .avatars__box img {
+        object-fit: cover;
+        width: 80%;
+        height: 60%;  }
+
+.team__title {
+    margin-top: 6rem;
+    margin-bottom: 6rem; }
+
+    .team__titlebox {
+        margin-left: 5%; }
+        
+    .team__titlesvg {
+        margin-top: 1rem; }
+
+.dragelements__card {
+    height: 27rem;
+    width: 27rem; }
+
+    .dragelements__card h6 {
+        margin-left: 2rem; }
+
+    .dragelements__card h4 {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 15rem;  }
+
+.team__subtitle {
+    margin-top: 6rem;
+    margin-bottom: 6rem; }
+
+    .team__subtitlebox {
+        margin-left: 5%;
+        margin-right: 5%; }
+
+    .team__careers {
+        margin-bottom: 6rem;
+        margin-left: 5%;
+        margin-right: 5%; }
+    
+    .team__careersbox {
+        display: grid;
+        grid-template-areas: "txt1 txt1" "txt2 txt3";
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 90px 150px; }
+
+.team__careers1 {
+    position: relative;
+    display: inline-flex; }
+
+    .team__careers1 svg {
+        top: 0.5rem;
+        left: 18.5rem; }   
+
+        .team__careerssub2{
+            width: 10rem;
+        }
+
+}
