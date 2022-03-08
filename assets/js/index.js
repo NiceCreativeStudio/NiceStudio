@@ -1,11 +1,11 @@
 LottieInteractivity.create({
-    player:'#processLottie',
+    player:'#firstLottie',
     mode:"scroll",
         actions: [
         {
             visibility:[0, 1.0],
             type: "seek",
-            frames: [0, 355],
+            frames: [0, 100],
         },
         ]
     });

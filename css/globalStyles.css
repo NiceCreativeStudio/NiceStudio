@@ -10,6 +10,7 @@ body{
     background-color: #202020;
     color: #EEEEEE;
     transition: .3s ease all;
+    overflow-x: hidden;
 }
 a {
     color: #EEEEEE;
@@ -71,7 +72,7 @@ a {
 }
 
 .fonH4{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
@@ -87,7 +88,7 @@ a {
 }
 
 .fonH5{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -104,7 +105,7 @@ a {
     opacity: 0.4; }
 
 .fonPg {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
@@ -120,7 +121,7 @@ a {
 }
 
 .fonSubFoot {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 1rem;
@@ -148,7 +149,7 @@ li{
 /* ------------  LINKS ----------------------------------------------------------- */    
 
 .aLink{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
@@ -195,8 +196,9 @@ li{
     height: 4rem;
     top: 0;
     position: fixed;
+    display: block;
     background-color:  #202020;
-    transition: .3s ease all;
+    transition: .3s ease top;
     z-index: 10; }
 
 .nav__logobox{
