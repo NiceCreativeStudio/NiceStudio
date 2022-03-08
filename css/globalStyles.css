@@ -395,5 +395,114 @@ body.light .footer__title4 svg{
 
 
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .fonXl{
+        font-family: 'Maine Light';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 6.25rem;
+        line-height: 7rem;
+    }
+    
+    .fonH1{
+        font-family: 'Maine Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 6rem;
+        line-height: 7.5rem;
+    }
+    
+    .fonH2{ /* -----change-------- */   
+        font-family: 'Maine Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    
+    .fonH3{  /* -----change-------- */   
+        font-family: 'Maine Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+    
+    .fonH4{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .fonFoot{
+        font-family: 'Maine Bold';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    .fonH5{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .fonH6{
+        font-family: 'Maine Light';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 2rem;
+     
+        opacity: 0.4; }
+    
+    .fonPg {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    
+    .fonPgSt {
+        font-family: 'Maine Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    
+    .fonLink {
+        font-family: 'Maine Medium Italic';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    
+    .fonSubFoot {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
 
 
+
+    .footer{
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 45rem; }
+
+
+
+}

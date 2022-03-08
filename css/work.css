@@ -16,64 +16,48 @@
     width: auto;
     height: auto;
     position: absolute;
+    display: inline-flex;
     top: 0rem; }
 
-    .storiesTxt__title2{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 0.5rem; 
-        left: 33.5rem; }
+    .storiesTxt__svg1{
+        width: 75px;
+        height: 75px;
+        padding: 0.75rem 1.5rem 0rem 1.5rem;  }
 
-    .storiesTxt__title3{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 0rem; 
-        left: 39rem; }
+.storiesTxt__title2{
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: inline-flex;
+    top: 6rem; 
+    left: 0rem; }
 
-    .storiesTxt__title4{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 6rem; 
-        left: 0rem; }
+    .storiesTxt__svg2{
+        width: 150px;
+        height: 70px;
+        padding: 0.75rem 1.5rem 0rem 1.5rem;  }
 
-    .storiesTxt__title5{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 7rem; 
-        left: 12rem; }
-
-        .storiesTxt__title5 svg{
+        .storiesTxt__svg2 svg{
             stroke: #EEEEEE; } 
+   
+.storiesTxt__title3{
+    width: 25rem;
+    height: auto;
+    position: absolute;
+    top: 15rem; 
+    left: 0rem; }
 
-    .storiesTxt__title6{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 6rem; 
-        left: 23rem; }
-    
-    .storiesTxt__title7{
-        width: 25rem;
-        height: auto;
-        position: absolute;
-        top: 15rem; 
-        left: 0rem; }
-
-    .storiesTxt__title8{
-        width: 30rem;
-        height: auto;
-        position: absolute;
-        top: 27rem; 
-        left: 0rem; }
+.storiesTxt__title4{
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    top: 27rem; 
+    left: 0rem; }
         
 /* ----------- Drag gallery ----------- */
 
 .items {
-    cursor: url("../assets/draghandle.svg"), pointer;
+    cursor: pointer;
     scrollbar-width: none;
     position: relative;
     width: 100%;
@@ -90,24 +74,29 @@
     display: none; }/* for Chrome, Safari, and Opera */
 
 .items.active {
-    cursor: url("../assets/draghandle.svg"), pointer;
+    cursor: pointer;
     cursor: -webkit-grabbing;
     transform: scale(1); }
 
 .item {
-    cursor: url("../assets/draghandle.svg"), pointer;
     display: inline-block;
     padding-bottom: 5rem;
-    min-height: 250px;
+    min-height: 200px;
     min-width: 400px;
     margin: 2em 1em; }
 
-.gallery__card--container{
+.gallery__card{
+    cursor: pointer;
     display: flex;
     flex-direction: column; }
 
-.gallery__card--container h5{
-    margin: 2rem 0 1rem 0; }
+    .gallery__card a img{
+        cursor: url("../assets/draghandle.svg"), pointer;  }
+        
+    .gallery__card h5{
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;  }
+
 
 /* ----------- Grid 4col Gallery ----------- */
 
@@ -216,18 +205,22 @@
     display: inline-flex; }
 
 .doit__svg1 {
-    margin: 1.25rem;  }
+    width: 65px;
+    height: 65px;
+    margin: 1.25rem 1.5rem 0 1.5rem;  }
 
 .doit__svg2 {
-    margin: 1rem 1.25rem 0 1.25rem;  }
+    width: 75px;
+    height: 75px;
+    margin: 1rem 1.5rem 0 1.5rem;  }
 
 .doit__subtitle {
     height: auto;    
     width: auto;
     padding-bottom: 12rem; }
 
-
 /* ============================ LIGHT MODE ============================ */
+
 body.light .storiesTxt__title5 svg{
     stroke: #000000; }
 
@@ -236,3 +229,76 @@ body.light .grid{
     
 body.light .doit{
     background-color: #ED764A; }
+
+/* ============================ MEDIA ============================ */
+
+@media (max-width: 768px) {
+
+
+        }
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.storiesTxt{
+    margin-left: 5%; 
+    margin-top: 6rem; } 
+
+    .storiesTxt__svg1{
+        width: 65px;
+        height: 65px;
+        padding: 0.75rem 1.25rem 0rem 1.25rem;  }
+
+    .storiesTxt__title2{
+        top: 5rem; 
+      }
+
+    .storiesTxt__svg2{
+        width: 135px;
+        height: 60px;
+        padding: 0.75rem 1.25rem 0rem 1.25rem;  }
+
+.grid{
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
+
+    .grid__subtitlebox {
+        margin-left: 5%;
+        margin-right: 5%; 
+        margin-bottom: 6rem; }
+
+    .grid__box{
+        margin-left: 5%;
+        margin-right: 5%;  }
+
+
+    .grid__img {
+        grid-template-columns: repeat(auto);
+        grid-template-rows: repeat(auto);
+        grid-template: 
+        "img1 . img2"
+        "img3 . img4"
+        ". img5 . "
+        "img6 . img7"
+        "img8 img9 img10" ;
+        min-height: 1200px;  }
+
+.doit__title {
+    margin-left: 3%;
+    margin-right: 3%; }
+
+    .doit__subtitle {
+        padding-bottom: 6rem; }
+
+        .doit__svg1 {
+            width: 55px;
+            height: 55px;
+            margin: 1rem 1rem 0 1rem;  }
+        
+        .doit__svg2 {
+            width: 65px;
+            height: 65px;
+            margin: 0.75rem 1rem 0 1rem;  }
+
+}  
