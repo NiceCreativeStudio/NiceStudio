@@ -35,6 +35,11 @@ a {
 }
 
 @font-face {
+    font-family: 'Maine Bold Italic';
+    src: url('../assets/Maine/Maine-BoldItalic.otf');
+}
+
+@font-face {
     font-family: 'Maine Medium Italic';
     src: url('../assets/Maine/Maine-MediumItalic.otf');
 }
@@ -68,7 +73,7 @@ a {
     font-style: normal;
     font-weight: normal;
     font-size: 3.25rem;
-    line-height: 4rem;
+    line-height: 4.75rem;
 }
 
 .fonH4{
@@ -108,6 +113,14 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.fonPgSt {
+    font-family: 'Maine Bold Italic';
+    font-style: normal;
+    font-weight: normal;
     font-size: 1.25rem;
     line-height: 2rem;
 }
@@ -370,7 +383,8 @@ body.light .nav__logo{
     fill: #000000;
 }
 
-
+body.light .footer__title4 svg{
+    stroke: #000000; }
 
 
 
