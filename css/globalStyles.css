@@ -209,9 +209,10 @@ li{
     height: 4rem;
     top: 0;
     position: fixed;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     background-color:  #202020;
-    transition: .3s ease top;
+    transition: .3s ease all;
     z-index: 10; }
 
 .nav__logobox{
@@ -359,7 +360,7 @@ li{
 
 /* ============================ LIGHT MODE ============================ */
 body.light{
-    background-color: #EEEEEE;
+    background-color: #FEFBF3;
     color: #000000; }
 
 body.light a{
@@ -369,7 +370,7 @@ body.light .nav__darkSwitch{
     fill: #000000; }
 
 body.light .nav__box{
-    background-color: #EEEEEE; }
+    background-color: #FEFBF3; }
 
 body.light .nav__logo{
     fill: #000000; }
