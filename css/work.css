@@ -216,7 +216,7 @@
     height: auto;    
     width: auto;
     background-color: #1A1A1A;
-    text-align: center;  }
+    text-align: center; }
 
 .doit__title {
     height: auto;    
@@ -224,21 +224,29 @@
     margin-left: 12.5%;
     margin-right: 12.5%; 
     margin-bottom: 2.5rem; 
+    text-align: center; 
     display: inline-flex; }
 
+    .doit__title1{
+        display: inline-flex; }
+
+.doit__titleh2{
+    visibility:hidden; }
+
 .doit__svg1 {
-    width: 65px;
-    height: 65px;
-    margin: 1.25rem 1.5rem 0 1.5rem;  }
+    width: 60px;
+    height: 60px;
+    margin: 1.25rem;  }
 
 .doit__svg2 {
     width: 75px;
     height: 75px;
-    margin: 1rem 1.5rem 0 1.5rem;  }
+    margin: 1rem 1.25rem 0 1.25rem;  }
 
 .doit__subtitle {
     height: auto;    
-    width: auto;
+    width: 100%;
+    text-align: center; 
     padding-bottom: 12rem; }
 
 /* ============================ LIGHT MODE ============================ */
@@ -334,21 +342,24 @@ body.light .doit{
             min-height: 1200px;  }
     
     .doit__title {
-        margin-left: 3%;
-        margin-right: 3%; }
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center; 
+        display: inline-block; }
     
         .doit__subtitle {
             padding-bottom: 4rem; }
     
-            .doit__svg1 {
-                width: 40px;
-                height: 40px;
-                margin: 0.25rem 1rem 0 1rem;  }
-            
-            .doit__svg2 {
-                width: 45px;
-                height: 45px;
-                margin: 0.25rem 1rem 0 1rem;  }
+        .doit__svg1 {
+            width: 40px;
+            height: 40px;
+            margin: 0.25rem 1rem 0 1rem;  }
+        
+        .doit__svg2 {
+            width: 45px;
+            height: 45px;
+            margin: 0.25rem 0rem 0 1rem;  }
+
     }  
 
         
@@ -413,7 +424,11 @@ body.light .doit{
             margin: 1rem 1rem 0 1rem;  }
         
         .doit__svg2 {
-            width: 65px;
-            height: 65px;
+            width: 60px;
+            height: 60px;
             margin: 0.75rem 1rem 0 1rem;  }
 }  
+
+
+
+

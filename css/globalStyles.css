@@ -503,23 +503,23 @@ body.light .footer__title4 svg{
         position: relative; }
 
     .footer__title2{
-        width: 65px;
-        height: 65px;
-        top: 0.75rem; 
-        left: 20rem; }
+        width: 60px;
+        height: 60px;
+        top: 1rem; 
+        left: 19rem; }
 
     .footer__title3{
         top: 6rem; }
 
     .footer__title4{
-        width: 140px;
-        height: 65px; 
+        width: 130px;
+        height: 60px; 
         top: 7rem; 
-        left: 5rem; }
+        left: 4rem; }
 
     .footer__title5{
         top: 6rem; 
-        left: 16rem; }
+        left: 13.5rem; }
 
     .footer__links{
         width: 100%;
