@@ -4,6 +4,7 @@
     width: auto;
     margin-left: 12.5%; 
     margin-top: 10rem;   
+    margin-bottom: 6rem;   
     height: auto; }
 
 .storiesTxt__box{
@@ -16,43 +17,59 @@
     width: auto;
     height: auto;
     position: absolute;
-    display: inline-flex;
     top: 0rem; }
 
-    .storiesTxt__svg1{
+    .storiesTxt__title2{
         width: 75px;
         height: 75px;
-        padding: 0.75rem 1.5rem 0rem 1.5rem;  }
+        position: absolute;
+        top: 0.5rem; 
+        left: 33.5rem; }
 
-.storiesTxt__title2{
-    width: auto;
-    height: auto;
-    position: absolute;
-    display: inline-flex;
-    top: 6rem; 
-    left: 0rem; }
+    .storiesTxt__title3{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0rem; 
+        left: 39rem; }
 
-    .storiesTxt__svg2{
+    .storiesTxt__title4{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 6rem; 
+        left: 0rem; }
+
+    .storiesTxt__title5{
         width: 150px;
         height: 70px;
-        padding: 0.75rem 1.5rem 0rem 1.5rem;  }
+        position: absolute;
+        top: 7rem; 
+        left: 12rem; }
 
-        .storiesTxt__svg2 svg{
+        .storiesTxt__title5 svg{
             stroke: #EEEEEE; } 
-   
-.storiesTxt__title3{
-    width: 25rem;
-    height: auto;
-    position: absolute;
-    top: 15rem; 
-    left: 0rem; }
 
-.storiesTxt__title4{
-    width: 30rem;
-    height: auto;
-    position: absolute;
-    top: 27rem; 
-    left: 0rem; }
+    .storiesTxt__title6{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 6rem; 
+        left: 23rem; }
+    
+    .storiesTxt__title7{
+        width: 25rem;
+        height: auto;
+        position: absolute;
+        top: 15rem; 
+        left: 0rem; }
+
+    .storiesTxt__title8{
+        width: 30rem;
+        height: auto;
+        position: absolute;
+        top: 27rem; 
+        left: 0rem; }
         
 /* ----------- Drag gallery ----------- */
 
@@ -80,10 +97,15 @@
 
 .item {
     display: inline-block;
-    padding-bottom: 5rem;
     min-height: 200px;
     min-width: 400px;
-    margin: 2em 1em; }
+    margin: 0em 1em; }
+
+.grab__gallery {
+    width: auto;
+    height: auto;
+    margin-bottom: 8rem;
+    margin-top: 8rem; }
 
 .gallery__card{
     cursor: pointer;
@@ -234,8 +256,102 @@ body.light .doit{
 
 @media (max-width: 768px) {
 
+    .storiesTxt{
+        margin-left: 5%; 
+        margin-top: 8rem; 
+        margin-bottom: 4rem;  } 
+    
+        .storiesTxt__box{
+            height: 23rem; }
 
-        }
+            .storiesTxt__title2{
+                width: 45px;
+                height: 45px;
+                top: 3.75rem; 
+                left: 13rem; }
+        
+            .storiesTxt__title3{
+                top: 3.5rem; 
+                left: 0rem; }
+        
+            .storiesTxt__title4{
+                top: 3.5rem; 
+                left: 6rem; }
+        
+            .storiesTxt__title5{
+                width: 120px;
+                height: 45px;
+                top: 7.25rem; 
+                left: 14rem; }
+        
+            .storiesTxt__title6{
+                top: 7rem; 
+                left: 0rem; }
+            
+            .storiesTxt__title7{
+                width: 20rem;
+                top: 12.5rem; 
+                left: 0rem; }
+        
+            .storiesTxt__title8{
+                top: 21rem; 
+                left: 0rem; }
+
+    .item {
+        min-height: 180px;
+        min-width: 350px;  }
+
+        .grab__gallery {
+            margin-bottom: 4rem;
+            margin-top: 4rem; }
+
+        .gallery__card h5{
+            margin-top: .5rem;
+            margin-bottom: 0.25rem;  }
+    
+    .grid{
+        padding-top: 4rem;
+        padding-bottom: 4rem; }
+    
+        .grid__subtitlebox {
+            margin-left: 5%;
+            margin-right: 5%; 
+            margin-bottom: 4rem; }
+    
+        .grid__box{
+            margin-left: 5%;
+            margin-right: 5%;  }
+    
+        .grid__img {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(1fr);
+            grid-template: 
+            "img1 img2"
+            "img3 img4"
+            "img5 img6 "
+            "img7 img8"
+            "img9 img10" ;
+            min-height: 1200px;  }
+    
+    .doit__title {
+        margin-left: 3%;
+        margin-right: 3%; }
+    
+        .doit__subtitle {
+            padding-bottom: 4rem; }
+    
+            .doit__svg1 {
+                width: 40px;
+                height: 40px;
+                margin: 0.25rem 1rem 0 1rem;  }
+            
+            .doit__svg2 {
+                width: 45px;
+                height: 45px;
+                margin: 0.25rem 1rem 0 1rem;  }
+    }  
+
+        
 
 
 
