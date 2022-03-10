@@ -267,7 +267,7 @@ body.light .doit{
     .storiesTxt{
         margin-left: 5%; 
         margin-top: 8rem; 
-        margin-bottom: 4rem;  } 
+        margin-bottom: 5rem;  } 
     
         .storiesTxt__box{
             height: 23rem; }
@@ -310,36 +310,41 @@ body.light .doit{
         min-width: 350px;  }
 
         .grab__gallery {
-            margin-bottom: 4rem;
-            margin-top: 4rem; }
+            margin-bottom: 8rem;
+            margin-top: 5rem; }
 
         .gallery__card h5{
             margin-top: .5rem;
             margin-bottom: 0.25rem;  }
     
     .grid{
-        padding-top: 4rem;
+        padding-top: 6rem;
         padding-bottom: 4rem; }
     
         .grid__subtitlebox {
             margin-left: 5%;
             margin-right: 5%; 
-            margin-bottom: 4rem; }
+            margin-bottom: 6rem; }
     
         .grid__box{
-            margin-left: 5%;
-            margin-right: 5%;  }
+            margin-left: 15%;
+            margin-right: 15%;  }
     
         .grid__img {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: repeat(1fr);
             grid-template: 
-            "img1 img2"
-            "img3 img4"
-            "img5 img6 "
-            "img7 img8"
-            "img9 img10" ;
-            min-height: 1200px;  }
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7" 
+            "img8"
+            "img9" 
+            "img10" ;
+            min-height: 2500px;  }
     
     .doit__title {
         margin-left: 5%;
@@ -348,7 +353,7 @@ body.light .doit{
         display: inline-block; }
     
         .doit__subtitle {
-            padding-bottom: 4rem; }
+            padding-bottom: 10rem; }
     
         .doit__svg1 {
             width: 40px;
