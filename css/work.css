@@ -41,8 +41,8 @@
         left: 0rem; }
 
     .storiesTxt__title5{
-        width: 150px;
-        height: 70px;
+        width: 125px;
+        height: 60px;
         position: absolute;
         top: 7rem; 
         left: 12rem; }
@@ -223,6 +223,7 @@
     width: auto;
     margin-left: 12.5%;
     margin-right: 12.5%; 
+    margin-top: 3rem;
     margin-bottom: 2.5rem; 
     text-align: center; 
     display: inline-flex; }
@@ -375,7 +376,7 @@ body.light .doit{
 
 .storiesTxt{
     margin-left: 5%; 
-    margin-top: 6rem; } 
+    margin-top: 8rem; } 
 
         .storiesTxt__box{
             height: 30rem; }
