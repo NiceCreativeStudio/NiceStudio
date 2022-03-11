@@ -40,8 +40,8 @@
             </article>
         </nav>
     </header>
-
     <main>
+    <!------------------- hero ------------------->
         <section class="heroimg">
             <div>
                 <svg width="257" height="225" viewBox="0 0 257 225" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,40 +68,42 @@
                     </svg>
             </div>
         </section>
+    <!--------------- central text ------------------->    
         <section class="centraltxt">
                 <article class="centraltxt__sub">
                     <svg class="centraltxt__Svg" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.41 10.59L2.83 6L7.41 1.41L6 0L0 6L6 12L7.41 10.59Z" fill="#DDDDDD"/>
                         </svg>
-                    <h4>OUR CASE STUDIES</h4>
+                    <h5 class="csH5">OUR CASE STUDIES</h5>
                 </article>
-                <h2 class="centraltxt__title">Natural beauty, where </h2>
-                <h2 class="centraltxt__title">accesibility meets luxury</h2>
+                <h2 class="centraltxt__title csH2">Natural beauty, where accesibility meets luxury</h2>
                 <div class="centraltxt__info">
                     <div class="centraltxt__mission">
-                        <h4>The Mission</h4>
-                        <p>After making the change to a healthier and more sustainable life, Paula encountered a problem in the supply of beauty products with natural ingredients that were available in her local market. None demonstrated the quality and presentation that Paula aspired to find in her bathroom cabinet. There were no exotic ingredients to inspire her scents, and worst of all, none of them worked enough to make her switch to a sustainable product worthwhile. That is why we created Nuet.</p>
+                        <h4 class="csH4bd">The Mission</h4>
+                        <p class="csPgMon">After making the change to a healthier and more sustainable life, Paula encountered a problem in the supply of beauty products with natural ingredients that were available in her local market. None demonstrated the quality and presentation that Paula aspired to find in her bathroom cabinet. There were no exotic ingredients to inspire her scents, and worst of all, none of them worked enough to make her switch to a sustainable product worthwhile. That is why we created Nuet.</p>
                     </div>
                     <div class="centraltxt__services">
-                        <h4>Services</h4>
-                        <p>Brand Identity / Art Direction / Packaging / Copywriting / Photography / Social Media Strategy / Newsletters</p>
+                        <h4 class="csH4bd">Services</h4>
+                        <p class="csPgMon">Brand Identity / Art Direction / Packaging / Copywriting / Photography / Social Media Strategy / Newsletters</p>
                         <article class="centraltxt__servicesSpace"></article>
-                        <h4>Website</h4>
-                        <p>nuet.com.ar</p>
-                        <p>@somosnuet</p>
+                        <h4 class="csH4bd">Website</h4>
+                        <p class="csPgMon">nuet.com.ar</p>
+                        <p class="csPgMon">@somosnuet</p>
                     </div>
                 </div>
         </section>
+    <!------------------stylescapes------------------->
         <section class="stylescapes"> 
                 <img src="https://ik.imagekit.io/nicecreativestudio/stylescape_3eG68kn37.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646083015894" alt="">
-                <p>fig 02. Stylescapes</p>
+                <p class="csInd">fig 02. Stylescapes</p>
         </section>
+    <!------------------elements------------------->    
         <section class="elements">
                 <div class="elements__box">
                     <div class="elements__txt">
-                        <h2>The Outcome</h2>
-                        <p>We created the brand from zero. Adding a good design label wasn't enough and helping other people to transform into healthy life wasn't also enough for us. So we designed and developed an ecommerce platform with national shipping. We reached the country from head to toes. We cared about the product from the very beginning to the coziness of the box they came out with.</p>
-                        <p>We reached the country from head to toes. We cared about the product from the very beginning to the coziness of the box they came out with.</p>
+                        <h2 class="csH2">The Outcome</h2>
+                        <p class="csPgMai">We created the brand from zero. Adding a good design label wasn't enough and helping other people to transform into healthy life wasn't also enough for us. So we designed and developed an ecommerce platform with national shipping. We reached the country from head to toes. We cared about the product from the very beginning to the coziness of the box they came out with.</p>
+                        <p class="csPgMai">We reached the country from head to toes. We cared about the product from the very beginning to the coziness of the box they came out with.</p>
                     </div>
                     <div class="elements__img">
                         <svg width="532" height="681" viewBox="0 0 532 681" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -591,10 +593,11 @@
                             </clipPath>
                             </defs>
                             </svg>
-                        <p>fig 03. The Elements</p>
+                        <p class="csInd">fig 03. The Elements</p>
                     </div>
                 </div>
         </section>
+    <!------------------multimedia------------------->      
         <section class="multimedia">
             <div class="multimedia__boximg">
                 <img src="https://ik.imagekit.io/nicecreativestudio/IMG_5229_r2vJLphmXO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646083012115" alt="">
@@ -604,41 +607,41 @@
             <div class=" c-video multimedia__boxvid ">
                 <video class="video" muted width="100%" height="auto" style="left: 5%" src="https://ik.imagekit.io/nicecreativestudio/NUET_FILM-2-2_aQVZ03PghUw.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1646145378989" ></video>
                 <div class="multimedia__controls"> 
-                        <button class="multimedia__btn" id="play">
-                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="34.9992" cy="35.2394" r="34.6222" fill="#FEFBF3"/>
-                                <path d="M30.5951 28.5622L40.5984 35.8601L30.5951 43.1579V28.5622ZM26.7988 20.6562V51.0639L47.6785 35.8601L26.7988 20.6562Z" fill="#282828"/>
-                                </svg>
-                        </button>
-                        <button class="multimedia__btn" id="pause" style="display:none"></button>
+                    <button class="multimedia__btn" id="play">
+                        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="34.9992" cy="35.2394" r="34.6222" fill="#FEFBF3"/>
+                            <path d="M30.5951 28.5622L40.5984 35.8601L30.5951 43.1579V28.5622ZM26.7988 20.6562V51.0639L47.6785 35.8601L26.7988 20.6562Z" fill="#282828"/>
+                            </svg>
+                    </button>
+                    <button class="multimedia__btn" id="pause" style="display:none"></button>
                 </div>
             </div>
         </section>
-
+    <!------------------legend------------------->
         <section class="legendtxt">
             <div class="legendtxt__box">
-                <h2><span class="legendtxt__boxgray">"</span> Nuet <span class="legendtxt__boxSp">changed</span> the way I <span class="legendtxt__boxSp">perceived</span> natural products <span class="legendtxt__boxgray">"</span></h2>
+                <h3 class="csH3"><span class="legendtxt__gray">“</span> Nuet <span class="csH3bdIt">changed</span> the way I <span class="csH3bdIt">perceived</span> natural products <span class="legendtxt__gray">”</span></h3>
             </div>
         </section>
-
+    <!------------------backend------------------->
         <section class="backend">
             <div class="backend__box">
                 <div class="backend__txt">
                     <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M56 28C38.8936 28 28 38.8875 28 56C28 38.8875 17.1125 28 0 28C17.1125 28 28 17.1125 28 0C28.0061 17.1125 38.8936 28 56 28Z" fill=" "/>
                         </svg>
-                        <h2>They <span class="backend__txtSp">believed</span> there was a <span class="backend__txtSp">better way</span> to take care of their skin </h2>
-                        <h3>And we delivered.</h3>
+                        <h2 class="csH3bd">They <span class="csH3bdIt">believed</span> there was a <span class="csH3bdIt">better way</span> to take care of their skin </h2>
+                        <h3 class="csH3bd">And we delivered.</h3>
                         <article class="backend__txtline"></article>
-                        <p>We reached more than 30 retailers all across the country. From the arid lands of the north to the freezing furthest point of the south, Tierra del Fuego.</p>
-                        <p>Wholesalers that aimed for the greater good collaborated in our mission to deliver a life changer natural product. They believed that out there was a better way to take care of your skin, without harming the planet.</p>
+                        <p class="csPgsm">We reached more than 30 retailers all across the country. From the arid lands of the north to the freezing furthest point of the south, Tierra del Fuego.</p>
+                        <p class="csPgsm">Wholesalers that aimed for the greater good collaborated in our mission to deliver a life changer natural product. They believed that out there was a better way to take care of your skin, without harming the planet.</p>
                 </div>
                 <div class="backend__img">
                     <img src="https://ik.imagekit.io/nicecreativestudio/IMG_4383_k4v8pipIyMI.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646083038389" alt="">
                 </div>
             </div>
         </section>
-
+    <!------------------grid------------------->
         <section class="grid">
                 <div class="grid__img">
                     <article class="grid__txt"> 
@@ -682,9 +685,9 @@
                         <article class="grid__wrap"></article>
                     </article>
             </div>
-
+            <!-------------backend final --------------->
             <div class="backend__lets">
-                <p>Feel like this could be your brand?</p>
+                <p class="csPgMonSm">Feel like this could be your brand?</p>
                 <a href="">LET’S TALK</a>
             </div>
             <div class="backend__href">
@@ -695,10 +698,10 @@
                             <path d="M22.3844 41.3812C22.1564 35.6868 19.6843 30.314 15.5081 26.4362C11.332 22.5583 5.79114 20.4905 0.0955048 20.6844" stroke="" stroke-width="1.59206" stroke-miterlimit="10"/>
                             <path d="M90 20.7037L0.000615983 20.6719" stroke="" stroke-width="1.59206" stroke-miterlimit="10"/>
                             </svg>
-                        <p>Improving one’s life one breath at a time</p>
+                        <p class="csPgsm">Improving one’s life one breath at a time</p>
                     </div>
                     <div class="backend__hrefrig">
-                        <p>Providing Solutions to solve ONGs needs</p>    
+                        <p class="csPgsm">Providing Solutions to solve ONGs needs</p>    
                         <svg width="87" height="41" viewBox="0 0 87 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M65.7904 0.273438C66.0219 5.69913 68.3576 10.8214 72.3024 14.5537C76.2472 18.2861 81.4908 20.3349 86.921 20.266" stroke="" stroke-width="1.53789" stroke-miterlimit="10"/>
                             <path d="M65.314 40.1374C65.5343 34.6368 67.9222 29.4468 71.9563 25.701C75.9903 21.9551 81.3426 19.9577 86.8444 20.1449" stroke="" stroke-width="1.53789" stroke-miterlimit="10"/>
