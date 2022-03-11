@@ -272,6 +272,7 @@ a {
     text-align: center; }
 
     .legendtxt__box h3 {
+        line-height: 5.5rem;
         margin-left: 1rem;
         margin-right: 1rem; }
 
@@ -545,11 +546,11 @@ body.light .backend__hrefrig svg{
 
 .centraltxt__mission{
     height: auto;
-    width: auto;
+    width: 95%;
     margin-bottom: 4rem; }
 
 .centraltxt__services {
-    width: 23rem;
+    width: 80%;
     height: auto; }
 
 /* ------------elements -------------- */
@@ -631,11 +632,11 @@ body.light .backend__hrefrig svg{
 
 .backend__box{
     height: auto;
-    width: 75%;
+    width: 90%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    margin-left: 12.5%;  }
+    margin-left: 5%;  }
 
     .backend__txt h2{
         width: 80%;  }
@@ -646,7 +647,7 @@ body.light .backend__hrefrig svg{
 
 .backend__img{
     margin-top: 4rem;
-    height: 40rem;
+    height: 38rem;
     width: 100%;  }
 
     .backend__img img{
