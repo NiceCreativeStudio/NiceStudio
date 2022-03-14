@@ -83,8 +83,6 @@
 .item {
   display: inline-block;
   padding-bottom: 5rem;
-  min-height: 200px;
-  min-width: 400px;
   margin: 2em 1em; }
 
 .gallery__card{
@@ -93,6 +91,7 @@
   flex-direction: column; }
 
   .gallery__card a img{
+    width: 50%;
       cursor: url("../assets/draghandle.svg"), pointer;  }
       
   .gallery__card h5{
@@ -146,43 +145,26 @@
 }
 /* ----------- Slide in text ----------- */
 
-.outer-container {
-  margin: auto;
+.container {
   position: relative;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
 }
 
-.section-title {
-  font-size: 64px;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  z-index: 1;
+.scrolling-text {
+  display: inline-block;
+  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.scrolling-text .scrolling-text-content {
+  color: #fff;
+  font-size: 120px;
   white-space: nowrap;
-}
-.outer-container {
-  position: relative;
-  display: block;
-}
-  
-
-
-.outer-container2 {
-  margin: auto;
-  position: relative;
-  width: 100%;
-}
-.section-title2 {
-  font-size: 64px;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  z-index: 1;
-  white-space: nowrap;
+  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
+  line-height: 1em;
+  margin: 50px 0;
 }
 
 
@@ -325,15 +307,109 @@
 /* ============================ MEDIA ============================ */
 
 @media (max-width: 768px) {
-  nav{
-    display: none;
+  .items{
+    width: 80%;
   }
   .hero__socialLinks{
     display: none;
   }
   .hero__socialH5{
-    font-size: 2rem;
     width: 100%;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+  }
+  .holistic__container{
+    flex-direction: column;
+  }
+  .holistic__descr--container{
+    width: 90%;
+    margin: 5% 5%;
+  }
+  .holistic__descr--container p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .holistic__descr--container .fonLink{
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+
+
+/*   .lottie__container{
+    display: none;
+  } */
+
+
+
+
+  .messy_gallery--container{
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+  .img1{
+    margin: 160% auto auto auto;
+  }
+  .img2{
+    margin: 120% 2% auto 0%;
+  }
+  .img3{
+    margin: 80% 2% auto 30%;
+  }
+  .img4{
+    margin: 40% 2% auto 0%;
+  }
+  .img5{
+    margin: 0% 2% auto 30%;
+  }
+  .messy__link{
+    margin: auto;
+  }
+
+
+
+
+  .philosophy__title{
+    display: none;
+  }
+  .philosophy__title--mobile{
+    display: block;
+  }
+  .philosophy__container{
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .philosophy__container img{
+    width: 100%;
+  }
+  .philosophy__container h3{
+    transform: translateX(-5rem);
+    width: 120%;
+    text-align: center;
+  }
+  .philosophy__card--container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .philosophy__card--epygraph{
+    width: 90%;
+    margin: 5% 5%;
+  }
+  .philosophy__card--epygraph a{
+    text-align: center;
+  }
+  .philosophy__epygraph{
+    display: none;
+  }
+  .philosophy__epygraph--mobile{
+    display: block;
+  }
+
+
+
+
+  .grab__gallery2, .grab__gallery{
+    display: none;
   }
 }
 
@@ -343,4 +419,53 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+  
+  .holistic__container{
+    justify-content: space-between;
+  }
+  .lottie__container{
+    margin-left: -30rem;
+  }
+  
+
+
+
+
+
+  .messy__link{
+    margin: auto;
+  }
+  
+  
+  .philosophy__title--mobile{
+    display: none;
+  }
+.philosophy__epygraph--mobile{
+    display: none;
+  }
+  .philosophy__title{
+    display: block;
+  }
+.philosophy__epygraph{
+    display: block;
+  }
+}
+
+@media (min-width: 1024px){
+  .philosophy__title--mobile{
+    display: none;
+  }
+.philosophy__epygraph--mobile{
+    display: none;
+  }
+  .philosophy__title{
+    display: block;
+  }
+.philosophy__epygraph{
+    display: block;
+  }
+}
