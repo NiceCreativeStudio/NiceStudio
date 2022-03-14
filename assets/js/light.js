@@ -19,6 +19,6 @@ if(localStorage.getItem('light-mode') === 'true'){
 	btnSwitch.classList.add('active');
 } else {
 	document.body.classList.remove('light');
-	$("body").css("transition", ".3s ease all")
+	$("body").css("transition", "0s ease all")
 	btnSwitch.classList.remove('active');
 }
