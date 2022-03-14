@@ -427,8 +427,7 @@ body.light .scrolling-text-content{
   .messy__gallery--container{
     display: flex;
     flex-direction: column;
-  }
-    /* margin-bottom: 80vh;
+    margin-bottom: 80vh;
     height: 80vh;
     margin-top: 20%;
   }
@@ -450,7 +449,7 @@ body.light .scrolling-text-content{
   
   .messy__gallery--link{
     margin-bottom: 40%;
-  } */
+  }
 
 
   /* ----------- A NICE philosophy ----------- */
