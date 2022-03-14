@@ -154,7 +154,12 @@ button {
     color: #EEEEEE; 
     background-color: #ED764A;
     border: none;
+    transition: .3s ease all;
     cursor: pointer; }
+
+button:hover{
+    transform: scale(1.1);
+}
 
 li{
     list-style-type: none;

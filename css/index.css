@@ -6,7 +6,7 @@
     }
 
 .hero__box{
-    width: 100%;
+    width: 95%;
     height: auto;
     margin-top: 10%;
     margin-bottom: 8rem; }
@@ -46,7 +46,7 @@
         height: auto;
         position: absolute;
         bottom: 0;
-        right: 3.5%; }
+        right: 10%; }
 
         .hero__socialLinks a{
             color: #eeeeee3f;
@@ -343,6 +343,7 @@ body.light .scrolling-text-content{
   }
   .hero__txt--mobile{
     display: block;
+    width: 90%;
     font-size: 3rem;
     line-height: 3.5rem;
   }
@@ -352,7 +353,7 @@ body.light .scrolling-text-content{
     margin-bottom: 1rem;
   }
   .hero{
-    margin: 10% 10% 5% 2%;
+    margin: 20% 10% 5% 2%;
   }
   .hero__social{
     margin-bottom: 18%;
@@ -539,10 +540,15 @@ body.light .scrolling-text-content{
 @media (min-width: 769px) and (max-width: 1024px) {
   /* ----------- Hero ----------- */ 
   .hero__txt{
+    font-size: 4.5rem;
+    line-height: 6rem;
     display: block;
   }
   .hero__txt--mobile{
     display: none;
+  }
+  .hero__socialLinks{
+    right: 5%;
   }
 
   /* ----------- Drag gallery ----------- */
