@@ -1,36 +1,39 @@
 /*----------- a nice team ----------- */
 
 .teamTxt{
-    width: auto;
-    margin-left: 12.5%; 
+    overflow: hidden;
+    width: 100%;
     margin-top: 10rem;   
-    height: auto; }
+    height: auto;
+    position: relative; }
 
 .teamTxt__box{
-    width: 100%;
-    height: 37rem;
-    position: relative;
-    overflow: hidden;}
+    margin-left: 12.5%; 
+    width: 32rem;
+    height: 11rem;
+    position: relative;  }
 
 .teamTxt__title1{
     width: auto;
     height: auto;
     display: inline-flex;
-    position: absolute;
-    top: 0rem; }
+    margin-top: 0rem; }
 
     .teamTxt__svg1{
         width: 75px;
         height: 75px;
-        margin: 0.75rem 1.5rem 0 1.5rem; }
+        margin: 0.75rem 1.25rem 0 1.25rem; }
+
+    .teamTxt__svg1a{
+        width: 60px;
+        height: 60px;
+        margin: 1.25rem 1.25rem 0 1.25rem; }
 
 .teamTxt__title2{
     width: auto;
     height: auto;
     display: inline-flex;
-    position: absolute;
-    top: 6rem; 
-    left: 0rem; }
+    margin-top: 1.25rem; }
 
     .teamTxt__svg2{
         width: 150px;
@@ -41,42 +44,45 @@
         .teamTxt__svg2 svg{
             stroke: #EEEEEE;}
 
-.teamTxt__title3{
-    width: 32rem;
-    height: auto;
-    position: absolute;
-    top: 15rem; 
-    left: 0rem; }
-
-.teamTxt__title4{
-    width: 32rem;
-    height: auto;
-    position: absolute;
-    top: 26rem; 
-    left: 0rem; }
-
-.teamTxt__title5{
+.teamTxt__boxPar{
+    margin-left: 12.5%; 
     width: 30rem;
     height: auto;
-    position: absolute;
-    top: 35rem; 
-    left: 0rem; }
+    margin-top: 5rem;
+    margin-bottom: 10rem; }
+
+    .teamTxt__title3{
+        width: 30rem;
+        height: auto;
+        margin-top: 4rem;  }
+
+    .teamTxt__title4{
+        width: 30rem;
+        height: auto;
+        margin-top: 3rem;  }
+
+    .teamTxt__title5{
+        width: 30rem;
+        height: auto;
+        margin-top: 3rem;  }
         
-.teamTxt__img{
-    min-height: 32rem;
-    max-height: 37rem;
-    width: auto;
-    border-radius: 1rem;
+.teamTxt__boxImg{
     position: absolute;
     top: 0rem; 
-    left: 40rem; }
+    left: 45rem;  }
+
+    .teamTxt__img{
+        min-height: 34rem;
+        max-height: 39rem;
+        width: auto;
+        border-radius: 1rem; }
 
 /*----------- avatars ----------- */
 
 .avatars {
     width: 100%;
     margin-bottom: 9rem;
-    margin-top: 10rem;  }
+    margin-top: 0rem;  }
 
 .avatars__our{
     height: auto;
@@ -87,40 +93,45 @@
 .avatars__box {
     display: grid;
     grid-template-areas: 
-    "per1 per2 per3 per4";
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 1rem;
+    "per1 per2 . per3 per4";
+    grid-template-columns: 24% 24% 4% 24% 24%;
     height: auto;
     width: 100%;
     justify-content: center;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: center;
-    }
+    justify-items: center;
+    align-items: center;
+    align-content: center; }
+
     .avatars__box p {
+        text-align: left;
         margin-top: 1rem;
-        margin-bottom: 0.5rem;
-        }
+        margin-bottom: 0.5rem; }
+
     .avatars__box h4 {
-        width: 50%;
-        }
+        text-align: left;
+        width: 100%; }
+
     .avatars__box img {
-        object-fit: cover;
+        object-fit: inherit;
         width: 100%;
-        height: 70%;
+        height: 100%;
+        max-height: 22rem;
         }
         .avatars__per1 {
             grid-area: per1;
-            }
+            height: auto; }
+
         .avatars__per2 {
             grid-area: per2;
-            }
+            height: auto; }
+
         .avatars__per3 {
             grid-area: per3;
-            }
+            height: auto; }
+
         .avatars__per4 {
             grid-area: per4;
-            }
+            height: auto; }
 
 /*----------- we believe in ----------- */
 
@@ -245,8 +256,12 @@
 
 .team__careers1 {
     grid-area: txt1;
-    position: relative;
-}
+    position: relative; }
+
+    .team__careers1a {
+        display: inline;
+        margin-left: 0; }
+
     .team__careers1 h4 {
         font-family: Montserrat;
         font-style: normal;
@@ -258,7 +273,7 @@
         position: absolute;
         stroke: #EEEEEE;
         top: 3rem;
-        left: 9rem; }   
+        left: 8rem; }   
 
 .team__careers2 {
     grid-area: txt2;
@@ -322,7 +337,7 @@
 .items::-webkit-scrollbar {
     display: none; }/* for Chrome, Safari, and Opera */
 
-.items.active {
+.items.active2 {
     cursor: url("../assets/draghandle.svg"), pointer;
     cursor: -webkit-grabbing;
     transform: scale(1); }
@@ -345,7 +360,7 @@
 
 
 /* ============================ LIGHT MODE ============================ */
-body.light .teamTxt__title5 svg{
+body.light .teamTxt__svg2 svg{
     stroke: #000000; }
 
 body.light .team__titlesvg svg{
@@ -360,31 +375,203 @@ body.light .team__careers1 svg {
 @media (max-width: 768px) {
 
 
+
+
+
+    .teamTxt{
+        margin-top: 8rem; }
+    
+        .teamTxt__box{
+            margin-left: 5%;
+            width: 18rem;
+            height: 7rem;  }
+    
+        .teamTxt__svg1{
+            width: 45px;
+            height: 45px;
+            margin: 0.25rem 1rem 0 1rem; }
+    
+        .teamTxt__svg1a{
+            width: 35px;
+            height: 35px;
+            margin: 0.5rem 1rem 0 1rem; }
+
+    .teamTxt__title2{
+        width: auto;
+        height: auto;
+        display: inline-flex;
+        margin-top: 1rem; }
+    
+        .teamTxt__svg2{
+            width: 120px;
+            height: 45px;
+            margin-top: 0.25rem;
+            margin-left: 0.5rem;}
+        
+    .teamTxt__boxPar{
+        margin-left: 5%;
+        width: 90%;
+        height: auto;
+        margin-top: 3rem;
+        margin-bottom: 6rem; }
+    
+        .teamTxt__title3{
+            width: 90%;
+            height: auto;
+            margin-top: 4rem;  }
+    
+        .teamTxt__title4{
+            width: 90%;
+            height: auto;
+            margin-top: 3rem;  }
+    
+        .teamTxt__title5{
+            width: 90%;
+            height: auto;
+            margin-top: 3rem;  }
+            
+    .teamTxt__boxImg{
+        overflow: hidden;
+        position: relative;
+        top: 0rem; 
+        left: 0rem;  }
+    
+        .teamTxt__img{
+            min-height: auto;
+            max-height: auto;
+            width: 100%;
+            border-radius: 0; }
+
+
+    
+
+
+
+    .avatars {
+        margin-bottom: 6rem;
+        margin-top: 6rem;  }
+        
+        .avatars__our{
+            margin-left: 15%;
+            margin-right: 15%; }
+    
+        .avatars__box {
+            display: grid;
+            grid-template-areas: 
+            "per1"
+            "per2"
+            "per3"
+            "per4";
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(1fr); }
+    
+        .avatars__box p {
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem; }
+    
+        .avatars__box h4 {
+            text-align: center; }
+
+
+    
+    .team__title {
+        height: 7rem;
+        margin-top: 8rem;
+        margin-bottom: 6rem; }
+    
+        .team__titlebox {
+            margin-left: 5%; }
+            
+        .team__titlesvg {
+            margin-top: 0.25rem; }
+
+    
+    
+    .dragelements__card {
+        height: 27rem;
+        width: 27rem; }
+    
+        .dragelements__card h6 {
+            margin-left: 2rem; }
+    
+        .dragelements__card h4 {
+            margin-left: 2rem;
+            margin-bottom: 2rem;
+            margin-top: 15rem;  }
+    
+    .team__subtitle {
+        margin-top: 6rem;
+        margin-bottom: 6rem; }
+    
+        .team__subtitlebox {
+            margin-left: 5%;
+            margin-right: 5%; }
+
+
+
+    
+    .team__careers {
+        margin-bottom: 6rem;
+        margin-left: 5%;
+        margin-right: 5%; }
+    
+        .team__careersbox {
+            display: grid;
+            grid-template-areas: "txt1 txt1" "txt2 txt2" "txt3 txt3";
+            grid-template-columns: 180px auto;
+            grid-template-rows: 150px 180px 150px; }
+        
+        .team__careers1 {
+            grid-area: txt1;
+            position: relative; }
+        
+        .team__careers2 {
+            width: 100%; }
+
+        .team__careerssub2{
+            width: 10rem; }
+
+
+
 }
 
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-.teamTxt{
-    margin-left: 5%; 
-    margin-top: 6rem;  }
+    .teamTxt__box{
+        margin-left: 5%; } 
 
-    .teamTxt__svg1{
-        width: 65px;
-        height: 65px;
-        margin: 0.5rem 1.25rem 0 1.25rem; }
+        .teamTxt__svg1{
+            width: 65px;
+            height: 65px; }
+    
+        .teamTxt__svg1a{
+            width: 50px;
+            height: 50px; }
 
-    .teamTxt__title2{
-    top: 5rem;  }
+        .teamTxt__svg2{
+            width: 140px;
+            height: 50px; 
+            margin-top: 1rem;
+            margin-left: 1.5rem;}
+    
+    .teamTxt__boxPar{
+        margin-left: 5%; }
 
-    .teamTxt__svg2{
-        width: 135px;
-        height: 60px; 
-        margin-top: 0.75rem; }
+    .teamTxt__boxImg{
+        overflow: hidden;
+        position: relative;
+        top: 0rem; 
+        left: 0rem;  }
+    
+        .teamTxt__img{
+            min-height: auto;
+            max-height: auto;
+            width: 100%;
+            border-radius: 0; }
 
-        .teamTxt__img{  /* ========confrirmar ubicacion de esta foto ===== */
-            left: 35rem; }
 
 .avatars {
     margin-bottom: 6rem;
@@ -402,10 +589,11 @@ body.light .team__careers1 svg {
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr 1fr; }
 
-    .avatars__box img {
-        object-fit: cover;
-        width: 80%;
-        height: 60%;  }
+        .avatars__box p {
+            text-align: center; }
+    
+        .avatars__box h4 {
+            text-align: center; }
 
 .team__title {
     margin-top: 6rem;
@@ -451,6 +639,9 @@ body.light .team__careers1 svg {
 .team__careers1 {
     position: relative;
     display: inline-flex; }
+
+    .team__careers1a {
+        margin-left: 0.75rem; }
 
     .team__careers1 svg {
         top: 0.5rem;

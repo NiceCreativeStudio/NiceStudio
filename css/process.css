@@ -15,10 +15,13 @@
 /*----------- Process path ----------- */
 
 .lottie__container{
+    display: none;
+}
+.lottie__container--light{
     display: flex;
     margin: 8% auto 8% auto;
-    justify-content: center; }
-
+    justify-content: center;
+}
 /* ----------- Undefined section -----------*/
 
 .undefined__container{
@@ -123,7 +126,9 @@
     text-align: left; }
 
 /* ----------- Drag gallery ----------- */
-
+.grab__gallery{
+    background-color:#1A1A1A ;
+}
 .items {
     cursor: pointer;
     scrollbar-width: none;
@@ -158,12 +163,15 @@
     display: flex;
     flex-direction: column; }
 
-    .gallery__card a img{
-        cursor: url("../assets/draghandle.svg"), pointer;  }
+.gallery__card a img{
+    cursor: url("../assets/draghandle.svg"), pointer;  }
         
-    .gallery__card h5{
-        margin-top: 1.25rem;
-        margin-bottom: 0.5rem;  }
+.gallery__card h5{
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;  }
+.gallery__card svg{
+    transform: rotate(270deg);
+}
 
 /* ============================ LIGHT MODE ============================ */
 body.light .storiesTxt__title5 svg{
@@ -184,6 +192,18 @@ body.light .services__tablebox tr th{
 
 body.light .services__tablebox tr td{
     border-bottom: 1px solid #DFDFDF; }
+
+body.light .lottie__container{
+    display: flex;
+    margin: 8% auto 8% auto;
+    justify-content: center;
+}
+body.light .lottie__container--light{
+    display: none;
+}
+body.light .grab__gallery{
+    color: #FEFBF3;
+}
 
 
 
@@ -248,15 +268,23 @@ body.light .services__tablebox tr td{
         line-height: 2.3rem;
     }
 
+    .services__table{
+        width: 130%;
+        overflow-x: scroll;
+    }
+    .services__tablebox{
+        width: 200%;
+    }
 
+    
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    .process__title{
-        display: block;
-    }
     .process__title--mobile{
         display: none;
+    }
+    .process__title{
+        display: block;
     }
 
 
@@ -264,7 +292,9 @@ body.light .services__tablebox tr td{
 
 }
 @media (min-width: 1024px){
-
+    .process__title--mobile{
+        display: none;
+    }
 
 
 

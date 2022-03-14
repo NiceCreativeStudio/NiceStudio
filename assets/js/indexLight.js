@@ -1,5 +1,5 @@
 LottieInteractivity.create({
-    player:'#indexLottie',
+    player:'#indexLottie--light',
     mode:"scroll",
         actions: [
         {
