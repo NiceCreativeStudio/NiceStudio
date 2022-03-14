@@ -15,10 +15,13 @@
 /*----------- Process path ----------- */
 
 .lottie__container{
+    display: none;
+}
+.lottie__container--light{
     display: flex;
     margin: 8% auto 8% auto;
-    justify-content: center; }
-
+    justify-content: center;
+}
 /* ----------- Undefined section -----------*/
 
 .undefined__container{
@@ -39,11 +42,13 @@
     grid-template-columns: 5% 32rem 1fr 1fr 5%; 
     grid-template-rows: 1fr 1fr min-content; 
     row-gap: 2rem;
+
     grid-template-areas: 
         "..... nice design content ....."
         "..... nice strategy frontend ....."
         "..... link ..... ..... ....."; 
-        margin-top: 6rem;
+    
+    margin-top: 6rem;
     background-color:#1A1A1A;
     padding-top: 8rem;
     padding-bottom: 6.5rem; }
@@ -65,6 +70,9 @@
     flex-direction: column;
     justify-content: start; }
 
+.service__container h5{
+    color: #fefbf367;
+}
 .service__container h4{
     margin-bottom: 1.5rem;
     color: #F0B35E; }
@@ -118,7 +126,9 @@
     text-align: left; }
 
 /* ----------- Drag gallery ----------- */
-
+.grab__gallery{
+    background-color:#1A1A1A ;
+}
 .items {
     cursor: pointer;
     scrollbar-width: none;
@@ -153,12 +163,15 @@
     display: flex;
     flex-direction: column; }
 
-    .gallery__card a img{
-        cursor: url("../assets/draghandle.svg"), pointer;  }
+.gallery__card a img{
+    cursor: url("../assets/draghandle.svg"), pointer;  }
         
-    .gallery__card h5{
-        margin-top: 1.25rem;
-        margin-bottom: 0.5rem;  }
+.gallery__card h5{
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;  }
+.gallery__card svg{
+    transform: rotate(270deg);
+}
 
 /* ============================ LIGHT MODE ============================ */
 body.light .storiesTxt__title5 svg{
@@ -179,3 +192,111 @@ body.light .services__tablebox tr th{
 
 body.light .services__tablebox tr td{
     border-bottom: 1px solid #DFDFDF; }
+
+body.light .lottie__container{
+    display: flex;
+    margin: 8% auto 8% auto;
+    justify-content: center;
+}
+body.light .lottie__container--light{
+    display: none;
+}
+body.light .grab__gallery{
+    color: #FEFBF3;
+}
+
+
+
+    /* ============================ MEDIA ============================ */
+@media (max-width: 768px) {
+    .process__title{
+        display: none;
+    }
+    .process__title--mobile{
+        display: block;
+        margin-top: 10rem;
+        font-size: 5rem;
+        line-height: 6.5rem;
+    }
+    .process__title--mobile svg{
+        width: 20%;
+    }
+    .process__intro{
+        margin: 5% 5%;
+    }
+    .process__intro h2{
+        width: 100%;
+    }
+
+
+
+
+    .undefined__container{
+        width: 90%;
+        margin: 30% 5% 30% 5%;
+    }
+    .undefined__container h2{
+        font-size: 3rem;
+        letter-spacing: 2px;
+        line-height: 4rem;
+    }
+
+
+    .services__listbox{
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        padding: 5% 5%;
+    }
+    .services__title h2{
+        position: relative;
+        margin: 5% 5%;
+        width: 90%;
+    }
+    .services__title svg{
+        width: 15%;
+    }
+    .service__container h5{
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+    }
+    .service__container h4{
+        font-size: 2.8rem;
+    }
+    .service__container p{
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+
+    .services__table{
+        width: 130%;
+        overflow-x: scroll;
+    }
+    .services__tablebox{
+        width: 200%;
+    }
+
+    
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .process__title--mobile{
+        display: none;
+    }
+    .process__title{
+        display: block;
+    }
+
+
+
+
+}
+@media (min-width: 1024px){
+    .process__title--mobile{
+        display: none;
+    }
+
+
+
+
+}

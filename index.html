@@ -17,10 +17,10 @@
     <meta name="keywords" content="GRAPHIC DESIGN, WEB DESIGN, BRANDING, BRAND STRATEGY, DEVELOPMENT, DESIGN STUDIO BARCELONA">
 </head>
 <body>
+    <!----------------------------------- Navbar -->
     <header>
-        <!----------------------------------- Navbar -->
         <nav class="nav__box" id="navbar">
-            <article class="nav__logobox">
+            <div class="nav__logobox">
                 <a href="index.html">
                     <svg class="nav__logo" width="63" height="24" viewBox="0 0 63 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.0385 21.5161V23.0596H10.293V21.5161L10.6784 21.3641C11.5085 21.0997 11.7753 20.5643 11.7753 19.2258V13.115C11.7753 11.7171 11.4459 10.8842 10.2041 10.8842C9.25546 10.8842 8.33643 11.4791 7.59529 12.2227V19.2126C7.59529 20.5511 7.86208 21.0865 8.69216 21.3509L9.07757 21.5029V23.0463H0.345284V21.5029L0.701017 21.4104C2.0186 21.0799 2.30188 20.5775 2.30188 19.2126V12.1335L0.3255 10.481V10.1505L7.35154 7.41406L7.68093 7.53307L7.18025 10.8941C8.45171 8.99052 10.2601 7.41406 12.78 7.41406C15.6852 7.41406 17.1082 9.34743 17.1082 12.9465V19.1927C17.1082 20.5577 17.4936 21.0964 18.6795 21.3906L19.0385 21.5161Z" fill=""/>
@@ -29,18 +29,23 @@
                         <path d="M61.613 17.4361L62.6506 17.8227C61.7909 21.2136 59.5378 23.5634 54.7945 23.5634C50.407 23.5634 46.9384 20.741 46.9384 15.8629C46.9384 10.6279 50.5255 7.44531 55.6246 7.44531C60.8126 7.44531 63.0657 10.5982 62.621 15.6547H52.7786C53.0158 18.5994 54.3795 20.1759 57.018 20.1759C59.1788 20.1759 60.6248 19.2835 61.613 17.4361ZM52.7786 13.5726H57.2551C57.1958 10.9848 56.5436 9.49765 55.2985 9.49765C53.9315 9.49765 52.9829 11.0146 52.7753 13.5726H52.7786Z" fill=" "/>
                     </svg>
                 </a>
-            </article>
-            <article class="nav__links">
+            </div>
+            <div class="nav__links">
                     <a class="aLink aLink--under" href="about.html">ABOUT</a>
                     <a class="aLink aLink--under" href="process.html">PROCESS</a>
                     <a class="aLink aLink--under" href="work.html">WORK</a>
-            </article>
-            <article class="nav__command">
+            </div>
+            <div class="nav__command">
                 <svg class="nav__darkSwitch" id="switch" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0046 0.284917C20.2011 1.68794 24.1181 7.82618 22.7151 14.0226C21.312 20.2191 15.1738 24.0775 8.97737 22.7331C2.78092 21.3301 -1.0775 15.1918 0.266893 8.9954C1.66992 2.79894 7.80815 -1.11815 14.0046 0.284917ZM9.971 2.85699C11.2571 2.56469 12.3678 2.68168 13.7123 2.7985C12.2508 4.14302 11.1986 5.01994 10.5556 7.00728C10.1465 8.23484 10.088 9.57936 10.3218 10.9824C10.6726 12.6777 11.5494 14.1391 12.7771 15.2499C14.6477 16.9452 16.2846 17.1205 18.6228 17.2958C16.9274 18.8157 15.7584 19.8679 13.4199 20.3357C8.62656 21.2711 3.94968 18.1143 2.95605 13.3208C2.02063 8.52743 5.11902 3.79189 9.97095 2.85692L9.971 2.85699Z" fill=" "/>
                 </svg>
-            </article>
+                <svg class="nav__burger" width="23" height="24" viewBox="0 0 43 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.658203 21.4434H42.1261" stroke="" stroke-width="3.45566"/>
+                    <path d="M0.658203 2.4375H42.1261" stroke="" stroke-width="3.45566"/>
+                </svg>
+            </div>
         </nav>
+    </header>
 
         <!------------------- Hero ------------------->
         <section class="hero">
@@ -63,14 +68,43 @@
                                 <path d="M19.3364 68.6665L54.9908 5.64774" stroke="#8790C4" stroke-width="5.94716" stroke-miterlimit="10"/>
                                 <path d="M37.4815 73.3643L36.8522 0.959895" stroke="#8790C4" stroke-width="5.94716" stroke-miterlimit="10"/>
                                 <path d="M55.538 68.3545L18.793 5.96777" stroke="#8790C4" stroke-width="5.94716" stroke-miterlimit="10"/>
-                                </svg> 
+                            </svg> 
                         </span> DIGITAL DESIGN SOLUTIONS <button href="#" class="hero__btn fonLink">LET'S <br> TALK</button>
                 </h1>
-                    
+                <!-- Mobile -->
+                <h1 class="hero__txt--mobile fonXl">CREATING <span>
+                    <svg width="38" height="38" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28.0792 29.7538C97.7619 29.7538 29.7433 97.7828 29.7433 28.0894C29.7433 97.7828 -38.2752 29.7538 31.4075 29.7538C-38.2752 29.7538 29.7433 -38.2752 29.7433 31.4182C29.8094 -38.2884 97.7619 29.7538 28.0792 29.7538Z" fill="#F0B35E"/>
+                        </svg>
+                        
+                </span>IMPACT <span>
+                    <svg width="40" height="40" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M66.113 33.0566C45.9174 33.0566 33.0565 45.9102 33.0565 66.113C33.0565 45.9102 20.2028 33.0566 0 33.0566C20.2028 33.0566 33.0565 20.2028 33.0565 0C33.0637 20.2028 45.9174 33.0566 66.113 33.0566Z" fill="#8790C4"/>
+                        </svg>
+                        
+                </span> FOR PURPOSE<span>
+                    <svg class="arrow" width="" height="" viewBox="0 0 155 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M116.742 1C117.153 10.7369 121.298 19.9293 128.297 26.6274C135.297 33.3254 144.601 37.0023 154.237 36.8786" stroke="#FEFBF3" stroke-width="2.99096" stroke-miterlimit="10"/>
+                        <path d="M115.896 72.5331C116.286 62.6617 120.524 53.3478 127.682 46.6254C134.84 39.903 144.337 36.3185 154.1 36.6545" stroke="#FEFBF3" stroke-width="2.99096" stroke-miterlimit="10"/>
+                        <path d="M0 36.7017L154.264 36.6465" stroke="#FEFBF3" stroke-width="2.99096" stroke-miterlimit="10"/>
+                        </svg>
+                        
+                </span> DRIVEN BRANDS WITH <span>
+                    <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.71484 19.4482L69.0258 55.2712" stroke="#F3A8BE" stroke-width="3.95582" stroke-miterlimit="10"/>
+                        <path d="M0.995117 37.6689L73.7358 37.0377" stroke="#F3A8BE" stroke-width="3.95582" stroke-miterlimit="10"/>
+                        <path d="M6.02671 55.8283L68.7064 18.9106" stroke="#F3A8BE" stroke-width="3.95582" stroke-miterlimit="10"/>
+                        <path d="M19.4569 69.0155L55.2788 5.70064" stroke="#F3A8BE" stroke-width="3.95582" stroke-miterlimit="10"/>
+                        <path d="M37.6846 73.734L37.0522 0.989494" stroke="#F3A8BE" stroke-width="3.95582" stroke-miterlimit="10"/>
+                        <path d="M55.8288 68.7022L18.9111 6.02246" stroke="#F3A8BE" stroke-width="3.95582" stroke-miterlimit="10"/>
+                        </svg>
+                        
+                </span> DIGITAL DESIGN SOLUTIONS<button href="#" class="hero__btn fonLink">LET'S <br> TALK</button> 
+                </h1>
             </div>
             <div class="hero__social">
                 <article class="hero__socialLine"></article>
-                <h5 class="hero__socialH5 fonH5"> WE ARE commited to create BEAUTIFUL products that engage with the right audiences through AMAZING user experience.</h5>
+                <h5 class="hero__socialH5 fonH5"> WE ARE COMMITED TO CREATE BEAUTIFUL PRODUCTS THAT ENGAGE WITH THE RIGHT AUDIENCES THROUGH AMAZING USER EXPERIENCE</h5>
                 <article class="hero__socialLinks">
                     <a class="aLink aLink--under" href=" ">Instagram</a>
                     <a class="aLink aLink--under" href=" ">Behance</a>
@@ -80,51 +114,78 @@
         </section>
     </header>
     
-    <main>
-
+    <main>  
         <!------------------- 1# Grab horizontal gallery ------------------->
         <section class="grab__gallery">
             <div class="items">
                 <div class="item item1">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__card">
+                        <a href="nuet.html"><img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt=""></a> 
                         <h5 class="fonH6">Branding / Website / Packaging </h5>
-                        <h4 class="fonH4">Nuet - Sustainable Skincare</h4>
+                        <a href="nuet.html"><h4 class="fonH4"><span>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3135 1.65788L13.7302 1.65788L13.721 11.8902L2.57263 0.741821L0.740519 2.57393L11.8889 13.7223L1.65658 13.7132V16.3148H16.3135V1.65788Z" fill="#FEFBF3"/>
+                            </svg>
+                        </span>Nuet - Sustainable <br> Skincare</h4></a> 
                     </div>
                 </div>
                 <div class="item item2">
-                    <div class="gallery__card--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__card">
+                        <a href="nuet.html"><img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt=""></a> 
                         <h5 class="fonH6">Branding / Website / Packaging </h5>
-                        <h4 class="fonH4">Nuet - Sustainable Skincare</h4>
+                        <a href="nuet.html"><h4 class="fonH4"><span>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3135 1.65788L13.7302 1.65788L13.721 11.8902L2.57263 0.741821L0.740519 2.57393L11.8889 13.7223L1.65658 13.7132V16.3148H16.3135V1.65788Z" fill="#FEFBF3"/>
+                            </svg>
+
+                        </span>Nuet - Sustainable <br> Skincare</h4></a> 
                     </div>
                 </div>
                 <div class="item item3">
-                    <div class="gallery__card--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__card">
+                        <a href="nuet.html"><img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt=""></a> 
                         <h5 class="fonH6">Branding / Website / Packaging </h5>
-                        <h4 class="fonH4">Nuet - Sustainable Skincare</h4>
+                        <a href="nuet.html"><h4 class="fonH4"><span>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3135 1.65788L13.7302 1.65788L13.721 11.8902L2.57263 0.741821L0.740519 2.57393L11.8889 13.7223L1.65658 13.7132V16.3148H16.3135V1.65788Z" fill="#FEFBF3"/>
+                            </svg>
+                        </span>Nuet - Sustainable <br> Skincare</h4></a> 
                     </div>
                 </div>
                 <div class="item item4">
-                    <div class="gallery__card--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__card">
+                        <a href="nuet.html"><img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt=""></a> 
                         <h5 class="fonH6">Branding / Website / Packaging </h5>
-                        <h4 class="fonH4">Nuet - Sustainable Skincare</h4>
+                        <a href="nuet.html"><h4 class="fonH4"><span>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3135 1.65788L13.7302 1.65788L13.721 11.8902L2.57263 0.741821L0.740519 2.57393L11.8889 13.7223L1.65658 13.7132V16.3148H16.3135V1.65788Z" fill="#FEFBF3"/>
+                            </svg>
+
+                        </span>Nuet - Sustainable <br> Skincare</h4></a> 
                     </div>
                 </div>
                 <div class="item item5">
-                    <div class="gallery__card--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__card">
+                        <a href="nuet.html"><img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt=""></a> 
                         <h5 class="fonH6">Branding / Website / Packaging </h5>
-                        <h4 class="fonH4">Nuet - Sustainable Skincare</h4>
+                        <a href="nuet.html"><h4 class="fonH4"><span>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3135 1.65788L13.7302 1.65788L13.721 11.8902L2.57263 0.741821L0.740519 2.57393L11.8889 13.7223L1.65658 13.7132V16.3148H16.3135V1.65788Z" fill="#FEFBF3"/>
+                            </svg>
+
+                        </span>Nuet - Sustainable <br> Skincare</h4></a> 
                     </div>
                 </div>
                 <div class="item item6">
-                    <div class="gallery__card--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__card">
+                        <a href="nuet.html"><img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt=""></a> 
                         <h5 class="fonH6">Branding / Website / Packaging </h5>
-                        <h4 class="fonH4">Nuet - Sustainable Skincare</h4>
+                        <a href="nuet.html"><h4 class="fonH4"><span>
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3135 1.65788L13.7302 1.65788L13.721 11.8902L2.57263 0.741821L0.740519 2.57393L11.8889 13.7223L1.65658 13.7132V16.3148H16.3135V1.65788Z" fill="#FEFBF3"/>
+                            </svg>
+
+                        </span>Nuet - Sustainable <br> Skincare</h4></a> 
                     </div>
                 </div>
     
@@ -136,49 +197,67 @@
 
         <section class="holistic__container">
             <div class="lottie__container">
-                <lottie-player id="firstLottie" src="https://assets7.lottiefiles.com/packages/lf20_dl6owyqv.json" style="width:105%; height: 105%;"></lottie-player>
+                <lottie-player class="lottie__player" id="indexLottie" src="https://assets7.lottiefiles.com/packages/lf20_ot1eirrl.json" style="width:105%; height: 105%;"></lottie-player>
+            </div>
+            <div class="lottie__container--light">
+                <lottie-player class="lottie__player" id="indexLottie--light" src="https://assets10.lottiefiles.com/packages/lf20_bs2bfby3.json" style="width:105%; height: 105%;"></lottie-player>
             </div>
             <div class="holistic__descr--container">
-                <h2 class="fonXl">THE <br> <span class="fonLink">HOLISTIC</span> <br> METHOD</h2>
-                <p class="fonH5">We approach each project as an interconnected piece that has <span class="fonLink">relationships</span> not only with its users but also with its founders and the environment it affects.  As in life, we make <span class="fonLink">connections</span> that bring support to our processes, creating strong solutions that <span class="fonLink">last</span> .</p>
-                <a href="#" class="fonLink"> <span>
-                    <svg class="holistic__arrow" width="48" height="20" viewBox="0 0 59 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <h2 class="holistic__descr--title fonXl">THE <br> <span>HOLISTIC</span> <br> METHOD</h2>
+                <p class="holistic__descr--p fonH5">We approach each project as an interconnected piece that has <span>relationships</span> not only with its users but also with its founders and the environment it affects.  As in life, we make <span>connections</span> that bring support to our processes, creating strong solutions that <span>last</span>.</p>
+                <div>
+                    <svg width="48" height="20" viewBox="0 0 59 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M43.8926 1C44.047 4.66089 45.6053 8.11704 48.2371 10.6354C50.8688 13.1537 54.3671 14.5361 57.9899 14.4896" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                         <path d="M43.5742 27.8962C43.7212 24.1848 45.3143 20.6829 48.0056 18.1554C50.6969 15.628 54.2677 14.2802 57.9383 14.4066" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                         <path d="M0 14.4241L58 14.4033" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                     </svg>
-                </span>OUR PROCESS</a>                        
+
+                    <a href="./process.html" class="fonLink aLink aLink--under">OUR PROCESS </a>
+                </div>                     
             </div>
         </section>
-
-    <!------------------- Slide in text ------------------->      
-
-    <section class="slideIn__txt--container">
-        <div class="scroll-reveal box left">
-            <h2 class="fonXl">UX/UI <span>
-                <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M38.6962 41.004C134.727 41.004 40.9896 134.756 40.9896 38.7103C40.9896 134.756 -52.7475 41.004 43.283 41.004C-52.7475 41.004 40.9896 -52.7475 40.9896 43.2978C41.0806 -52.7657 134.727 41.004 38.6962 41.004Z" fill="#ED764A"/>
-                </svg>                
-            </span>Design <span>
-                <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.85547 24.2744L87.1391 69.7009" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
-                    <path d="M0.873047 47.375L93.1143 46.5745" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
-                    <path d="M7.25053 70.4052L86.7337 23.5905" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
-                    <path d="M24.2786 87.1277L69.7038 6.83918" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
-                    <path d="M47.3971 93.1129L46.5952 0.866754" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
-                    <path d="M70.4026 86.7302L23.5879 7.24707" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
-                </svg>
-            </span><span>
-                <svg width="234" height="70" viewBox="0 0 234 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M197.613 1C198.006 10.3093 201.969 19.098 208.661 25.5018C215.353 31.9057 224.249 35.4211 233.461 35.3028" stroke="#FEFBF3" stroke-width="4.4966" stroke-miterlimit="10"/>
-                    <path d="M196.805 69.3948C197.178 59.957 201.23 51.0521 208.073 44.625C214.917 38.1979 223.997 34.7707 233.331 35.092" stroke="#FEFBF3" stroke-width="4.4966" stroke-miterlimit="10"/>
-                    <path d="M1 34.9998L233.488 35.083" stroke="#FEFBF3" stroke-width="7.08806" stroke-miterlimit="10"/>
-                </svg>
-            </span></h2>
+        
+        <!------------------- Slide in text ------------------->      
+        <div class="container" speed=20>
+            <div class='scrolling-text'>
+                <h2 class="scrolling-text-content fonXl">UX/UI <span>
+                    <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.952 32.1101C105.636 32.1101 32.7356 105.022 32.7356 30.3262C32.7356 105.022 -40.165 32.1101 34.5192 32.1101C-40.165 32.1101 32.7356 -40.8017 32.7356 33.894C32.8064 -40.8159 105.636 32.1101 30.952 32.1101Z" fill="#ED764A"/>
+                    </svg>
+                </span>Design <span>
+                    <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.37598 18.876L67.8136 54.2048" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M0.722656 36.8418L72.4599 36.2192" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M5.68294 54.7524L67.498 18.3439" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M18.9258 67.7585L54.2535 5.31703" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M36.9051 72.413L36.2814 0.671962" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M54.7971 67.4489L18.3887 5.63379" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                    </svg>
+                </span><span>
+                    <svg width="164" height="54" viewBox="0 0 164 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M135.909 0.210938C136.215 7.45089 139.296 14.286 144.501 19.2663C149.706 24.2467 156.624 26.9806 163.789 26.8887" stroke="#FEFBF3" stroke-width="3.49706" stroke-miterlimit="10"/>
+                        <path d="M135.28 53.4018C135.571 46.0619 138.722 39.1365 144.044 34.138C149.367 29.1396 156.428 26.4743 163.687 26.7241" stroke="#FEFBF3" stroke-width="3.49706" stroke-miterlimit="10"/>
+                        <path d="M-17 26.6521L163.809 26.7168" stroke="#FEFBF3" stroke-width="5.51248" stroke-miterlimit="10"/>
+                    </svg>
+                </span>UX/UI <span>
+                    <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.952 32.1101C105.636 32.1101 32.7356 105.022 32.7356 30.3262C32.7356 105.022 -40.165 32.1101 34.5192 32.1101C-40.165 32.1101 32.7356 -40.8017 32.7356 33.894C32.8064 -40.8159 105.636 32.1101 30.952 32.1101Z" fill="#ED764A"/>
+                    </svg>
+                </span>Design <span>
+                    <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.37598 18.876L67.8136 54.2048" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M0.722656 36.8418L72.4599 36.2192" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M5.68294 54.7524L67.498 18.3439" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M18.9258 67.7585L54.2535 5.31703" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M36.9051 72.413L36.2814 0.671962" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                        <path d="M54.7971 67.4489L18.3887 5.63379" stroke="#F3A8BE" stroke-width="5.89267" stroke-miterlimit="10"/>
+                    </svg>
+                </span></h2>
+            </div>
         </div>
-    
-        <div class="scroll-reveal box right">
-            <h2 class="fonXl"><span>
+    <div class="container left-to-right" speed=20>
+        <div class='scrolling-text'>
+            <h2 class="fonXl  scrolling-text-content"><span>
                 <svg width="234" height="70" viewBox="0 0 234 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M197.613 1C198.006 10.3093 201.969 19.098 208.661 25.5018C215.353 31.9057 224.249 35.4211 233.461 35.3028" stroke="#FEFBF3" stroke-width="4.4966" stroke-miterlimit="10"/>
                     <path d="M196.805 69.3948C197.178 59.957 201.23 51.0521 208.073 44.625C214.917 38.1979 223.997 34.7707 233.331 35.092" stroke="#FEFBF3" stroke-width="4.4966" stroke-miterlimit="10"/>
@@ -188,29 +267,43 @@
                 <svg width="111" height="110" viewBox="0 0 111 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M110.158 54.8293C76.6609 54.8293 55.3292 76.149 55.3292 109.658C55.3292 76.149 34.0094 54.8293 0.5 54.8293C34.0094 54.8293 55.3292 33.5094 55.3292 0C55.3411 33.5094 76.6609 54.8293 110.158 54.8293Z" fill="#8790C4"/>
                 </svg>
-            </span>Branding</h2>
+            </span>Branding<span>
+                <svg width="234" height="70" viewBox="0 0 234 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M197.613 1C198.006 10.3093 201.969 19.098 208.661 25.5018C215.353 31.9057 224.249 35.4211 233.461 35.3028" stroke="#FEFBF3" stroke-width="4.4966" stroke-miterlimit="10"/>
+                    <path d="M196.805 69.3948C197.178 59.957 201.23 51.0521 208.073 44.625C214.917 38.1979 223.997 34.7707 233.331 35.092" stroke="#FEFBF3" stroke-width="4.4966" stroke-miterlimit="10"/>
+                    <path d="M1 34.9998L233.488 35.083" stroke="#FEFBF3" stroke-width="7.08806" stroke-miterlimit="10"/>
+                </svg>
+            </span>Strategy <span>
+                <svg width="111" height="110" viewBox="0 0 111 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M110.158 54.8293C76.6609 54.8293 55.3292 76.149 55.3292 109.658C55.3292 76.149 34.0094 54.8293 0.5 54.8293C34.0094 54.8293 55.3292 33.5094 55.3292 0C55.3411 33.5094 76.6609 54.8293 110.158 54.8293Z" fill="#8790C4"/>
+                </svg>
+            </span></h2>
         </div>
-    </section>
+    </div>
+
 
         <!------------------- Messy gallery ------------------->
-        <section class="messy_gallery--container">
+        <!-- <section class="messy__gallery--container">
             <img class="messy__img img1" src="https://via.placeholder.com/500x300/237FA6/FFFFFF?text=1" alt="">
             <img class="messy__img img4" src="https://via.placeholder.com/500x300/1A1A1A/FFFFFF?text=4" alt="">
             <img class="messy__img img3" src="https://via.placeholder.com/380x400/50B263/FFFFFF?text=3" alt="">
             <img class="messy__img img2" src="https://via.placeholder.com/350x380/DB4724/FFFFFF?text=2" alt="">
             <img class="messy__img img5" src="https://via.placeholder.com/390x320/EB7A2F/FFFFFF?text=5" alt="">
         </section>
-        <a href="#" class="messy__link fonLink"> <span>
+        <div class="messy__gallery--link">
             <svg class="holistic__arrow" width="48" height="20" viewBox="0 0 59 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M43.8926 1C44.047 4.66089 45.6053 8.11704 48.2371 10.6354C50.8688 13.1537 54.3671 14.5361 57.9899 14.4896" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                 <path d="M43.5742 27.8962C43.7212 24.1848 45.3143 20.6829 48.0056 18.1554C50.6969 15.628 54.2677 14.2802 57.9383 14.4066" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                 <path d="M0 14.4241L58 14.4033" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
             </svg>
-        </span>OUR WORK</a>  
+
+            <a href="./work.html" class="fonLink aLink aLink--under">OUR WORK </a>
+        </div>  --> 
         <!------------------- A NICE philosophy ------------------->       
 
         <section class="philosophy__container">
-            <h2 class="fonXl">A NICE <br> PHILOSOPHY</h2>
+            <h2 class="philosophy__title fonXl">A NICE <br> PHILOSOPHY</h2>
+            <h2 class="philosophy__title--mobile fonXl">A NICE <br> PHILO- <br> SOPHY</h2>
             <h3 class="fonH3">Keep it simple <span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M24 12C16.6687 12 12 16.6661 12 24C12 16.6661 7.33391 12 0 12C7.33391 12 12 7.33391 12 0C12.0026 7.33391 16.6687 12 24 12Z" fill="#8790C4"/>
@@ -226,16 +319,18 @@
             </span>Respect is all</h3>
 
             <div class="philosophy__card--container">
-                <img src="https://via.placeholder.com/800x500" alt="">
+                <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_393_U57CJh_jD4B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826405630" alt="">
                 <div class="philosophy__card--epygraph">
-                    <p class="fonH5">Pursuing value and collaboration we focus on creating products that sustainably evolve and are fun to interact with. Interconected pieces that are part of a whole The experience.</p>
-                    <a href="#" class="fonLink"> <span>
-                        <svg class="holistic__arrow" width="48" height="20" viewBox="0 0 59 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <p class="philosophy__epygraph fonH5">Pursuing value and collaboration we focus on creating products that sustainably evolve and are fun to interact with. Interconected pieces that are part of a whole The experience.</p>
+                    <p class="philosophy__epygraph--mobile fonH5">we are a team of misfits, creatives and rebels who think we can change the world through art and design. based in the beautiful barcelona, we deliver to the world.</p>
+                    <div class="philosophy__card--link">
+                        <svg class="holistic__arrow" width="" height="" viewBox="0 0 59 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M43.8926 1C44.047 4.66089 45.6053 8.11704 48.2371 10.6354C50.8688 13.1537 54.3671 14.5361 57.9899 14.4896" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                             <path d="M43.5742 27.8962C43.7212 24.1848 45.3143 20.6829 48.0056 18.1554C50.6969 15.628 54.2677 14.2802 57.9383 14.4066" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                             <path d="M0 14.4241L58 14.4033" stroke="#FEFBF3" stroke-width="2.01551" stroke-miterlimit="10"/>
                         </svg>
-                    </span>ABOUT US</a>  
+                        <a href="./about.html" class="fonLink aLink aLink--under">ABOUT US </a>
+                    </div> 
                 </div>
             </div>
         </section>
@@ -248,40 +343,39 @@
         </div>
         
 
-        <!------------------- 2# Grab horizontal gallery ------------------->
+        <!------------------- Drag footer gallery ------------------->
         <section class="grab__gallery">
-            <div class="items">
+            <div class="items2">
                 <div class="item item1">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__cardbox">
+                        <img width="100%" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_369_c0KaoC3TlN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489804" alt="">
                     </div>
                 </div>
                 <div class="item item2">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__cardbox">
+                        <img width="100%" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_370_sknIzbzSarZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489850" alt="">
                     </div>
                 </div>
                 <div class="item item3">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__cardbox">
+                        <img width="100%" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_371_76gmvUpxogo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826490195" alt="">
                     </div>
                 </div>
                 <div class="item item4">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__cardbox">
+                        <img width="100%" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_372_u7Q4_8-DV5e5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826488734" alt="">
                     </div>
                 </div>
                 <div class="item item5">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__cardbox">
+                        <img width="100%" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_369_c0KaoC3TlN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489804" alt="">
                     </div>
                 </div>
                 <div class="item item6">
-                    <div class="gallery__img--container">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+                    <div class="gallery__cardbox">
+                        <img width="100%" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_370_sknIzbzSarZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489850" alt="">
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -295,7 +389,7 @@
             <div class="footer__box">
                 <h2 class="footer__title1 fonXl">Drop us</h2>
                 <article class="footer__title2">
-                    <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width=" " height=" " viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.85547 24.2734L87.1391 69.6999" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
                         <path d="M0.873047 47.375L93.1143 46.5745" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
                         <path d="M7.25053 70.4042L86.7337 23.5895" stroke="#F3A8BE" stroke-width="7.57692" stroke-miterlimit="10"/>
@@ -306,7 +400,7 @@
                 </article>
                 <h2 class="footer__title3 fonXl">a</h2>
                 <article class="footer__title4">
-                    <svg width="148" height="70" viewBox="0 0 148 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width=" " height=" " viewBox="0 0 148 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M111.614 1C112.007 10.3093 115.97 19.098 122.662 25.5018C129.354 31.9057 138.25 35.4211 147.462 35.3028" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
                         <path d="M110.806 69.3938C111.179 59.956 115.231 51.0511 122.074 44.624C128.918 38.1969 137.998 34.7698 147.332 35.091" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
                         <path d="M0 35.1348L147.488 35.082" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
@@ -340,16 +434,17 @@
     </footer>
 
 
-
-
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/slideIn.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./assets/js/navbar.js"></script>
-    <script src="./assets/js/slider.js"></script>
-    <script src="./assets/js/slideIn.js"></script>
-    <script src="./assets/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/light.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/indexLight.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/footerGallery.js"></script>
 </body>
 </html>

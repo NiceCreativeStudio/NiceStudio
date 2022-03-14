@@ -337,7 +337,7 @@
 .items::-webkit-scrollbar {
     display: none; }/* for Chrome, Safari, and Opera */
 
-.items.active {
+.items.active2 {
     cursor: url("../assets/draghandle.svg"), pointer;
     cursor: -webkit-grabbing;
     transform: scale(1); }
