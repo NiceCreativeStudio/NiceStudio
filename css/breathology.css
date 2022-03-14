@@ -90,17 +90,9 @@ a {
 .heroimg {
     width: 100%;
     height: 37rem;
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/Rectangle_60__1__qbLEMJlHJZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646138083105);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathology-cover_1__FlltdyXfn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273115492);
     background-position: center;
-    background-size: cover;
-    position: relative; }
-
-.heroimg div {
-    width: 100%;
-    height: auto;
-    top: 40%;
-    text-align: center;
-    position: absolute;  }
+    background-size: cover; }
 
  /* ------------central text -------------- */
 
@@ -218,19 +210,23 @@ a {
     margin-left: 5%;
     column-gap: 1.5rem;  }
 
-.multimedia__boximg img{
-    height: 37rem;
-    width: 100%;
-    object-fit: cover; }
+    .multimedia__boximg img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
 
 .multimedia__boxlogo{
-    height: 530px;
+    height: auto;
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 1.5rem;
-    position: relative; 
-    background-color: #3458C7; }
+    position: relative; }
+
+    .multimedia__boxlogo img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
 
 .multimedia__txt{
     height: auto;
@@ -285,18 +281,22 @@ a {
     margin-left: 5%;
     column-gap: 1.5rem;  }
 
-.graphics__boximg img{
-    height: 37rem;
-    width: 100%;
-    object-fit: cover; }
+    .graphics__boximg img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
 
 .graphics__boxstudy{
-    height: 780px;
+    height: auto;
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 1.5rem;
-    background-color: #3458C7; }
+    margin-bottom: 1.5rem;  }
+
+    .graphics__boxstudy img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
 
 .graphics__txt{
     height: auto;
@@ -308,12 +308,16 @@ a {
     margin-top: 5rem;  }   
     
 .graphics__screen{
-    height: 600px;
+    height: auto;
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10rem;
-    background-color: #3458C7; }  
+    margin-top: 10rem; }  
+
+    .graphics__screen img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
 
 
 /* ------------legend -------------- */
@@ -375,13 +379,12 @@ a {
     margin-bottom: 3rem; } 
 
 .backend__img{
-    height: 45rem;
+    height: auto;
     width: 100%;  }
 
     .backend__img img{
-        height: 100%;
-        width: 95%;
-        margin-left: 5%;
+        height: 90%;
+        width: 100%;
         object-fit: cover; }
 
 /* ------------grid -------------- */
@@ -556,13 +559,6 @@ body.light .backend__hrefrig svg{
 
  /* ------------hero -------------- */
 
- .heroimg {
-    height: 37rem; }
-
-.heroimg div {
-    width: 100%;
-    height: auto;
-    top: 40%;  }
 
  /* ------------central text -------------- */
 
@@ -633,11 +629,8 @@ body.light .backend__hrefrig svg{
     margin-left: 5%;
     row-gap: 1.5rem;  }
 
-.multimedia__boximg img{
-    height: 25rem; }
-
 .multimedia__boxlogo{
-    height: 530px;
+    height: auto;
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
@@ -694,11 +687,8 @@ body.light .backend__hrefrig svg{
     margin-left: 5%;
     row-gap: 1.5rem;  }
 
-.graphics__boximg img{
-    height: 25rem; }
-
 .graphics__boxstudy{
-    height: 500px;
+    height:  auto;
     width: auto;
     margin-left: 5%;
     margin-right: 5%; }
@@ -714,7 +704,7 @@ body.light .backend__hrefrig svg{
     margin-top: 5rem;  }   
     
 .graphics__screen{
-    height: 500px;
+    height: auto;
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
@@ -807,11 +797,6 @@ body.light .backend__hrefrig svg{
 
  .heroimg {
     height: 37rem; }
-
-.heroimg div {
-    width: 100%;
-    height: auto;
-    top: 40%;  }
 
  /* ------------central text -------------- */
 
