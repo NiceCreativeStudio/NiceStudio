@@ -343,7 +343,6 @@ body.light .scrolling-text-content{
   }
   .hero__txt--mobile{
     display: block;
-    margin-top: 5rem;
     font-size: 3rem;
     line-height: 3.5rem;
   }
@@ -351,6 +350,9 @@ body.light .scrolling-text-content{
     vertical-align: middle;
     width: 5rem;
     margin-bottom: 1rem;
+  }
+  .hero{
+    margin: 10% 10% 5% 2%;
   }
   .hero__social{
     margin-bottom: 18%;
@@ -392,6 +394,17 @@ body.light .scrolling-text-content{
   .holistic__descr--container{
     width: 90%;
     margin: 5% 5%;
+    align-items: center;
+  }
+  .holistic__descr--title{
+    font-size: 4.5rem;
+    line-height: 6rem;
+  }
+  .holistic__descr--title span{
+    font-family: 'Maine Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5rem
   }
   .holistic__descr--p{
     width: 100%;
