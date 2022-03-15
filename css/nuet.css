@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0; }
 
-button {
-    border: none;
-    background: transparent; }
-
 a {
     color: #EEEEEE; }
 
@@ -202,11 +198,18 @@ a {
         width: 85%;
         margin-bottom: 5rem; }
 
-    .elements__img svg {
+    .elements__img img {
         padding-top: 1rem;
         min-width: 530px;
         width: auto; 
         height: auto; }
+
+        .elements__imgdark{
+            display: block;
+        }
+        .elements__imglight{
+            display: none;
+        }
 
     .elements__img p {
         text-align: center;
@@ -406,7 +409,7 @@ a {
         fill:  #FEFBF3;
         position: absolute;
         bottom: 40%;
-        left: 40%;  }
+        left: 39%;  }
 
 .grid__wrap1{
     width: 100%; 
@@ -608,6 +611,12 @@ a {
 
 
 /* ============================ LIGHT MODE ============================ */
+
+body.light .elements__imgdark{
+    display: none;}
+
+body.light .elements__imglight{
+    display: block }
 
 body.light a {
     color:  #282828;  }
@@ -1008,4 +1017,14 @@ body.light .backend__hrefrig svg{
         text-align: end;
         padding-right: 1rem;  }
 
+}
+
+
+
+
+@media (min-width: 1600px) {
+  
+    main{
+        width: 80%;
+        margin-left: 10%; } 
 }
