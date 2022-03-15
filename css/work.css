@@ -108,16 +108,23 @@
     margin-top: 8rem; }
 
 .gallery__card{
-    cursor: url("../assets/draghandle.svg"), pointer;  
+    cursor: pointer;  
     display: flex;
     flex-direction: column; }
 
-    .gallery__card a img{
-        cursor: url("../assets/draghandle.svg"), pointer;  }
+    .gallery__card img{
+        height: 400px; 
+        width: 650px; 
+        object-fit: cover; 
+        cursor: url("../assets/draghandle.svg"), pointer;}
         
     .gallery__card h5{
         margin-top: 1.25rem;
         margin-bottom: 0.5rem;  }
+
+    .gallery__card svg{
+        transform: rotate(270deg);
+    }
 
 
 /* ----------- Grid 4col Gallery ----------- */
