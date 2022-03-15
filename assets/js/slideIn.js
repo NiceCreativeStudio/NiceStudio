@@ -59,11 +59,9 @@ $(document).ready(function() {
                 if (delta > 0) {
                     // going down
                     transformAmount += transformSpeed * transformDirection;
-                    container.find('.scrolling-text .scrolling-text-content').css('transform', 'skewX(10deg)');
                 }
                 else {
                     transformAmount -= transformSpeed * transformDirection;
-                    container.find('.scrolling-text .scrolling-text-content').css('transform', 'skewX(-10deg)');
                 }
                 setTimeout(function(){
                     container.find('.scrolling-text').css('transform', 'translate3d('+ transformAmount * -1 +'px, 0, 0)');
