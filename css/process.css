@@ -113,15 +113,18 @@
     height: auto;
     margin-left: 5%; }
 
-.services__tablebox tr th{
+.services__tablebox tbody {
+    border-left: none;
+    border-right: none;
     border-top: 1px solid #3F3F3F;
-    border-bottom: 1px solid #3F3F3F;
+    border-bottom: 1px solid #3F3F3F;  }
+
+.services__tablebox tr th{
     width: 25%;
     height: 5.5rem;
     text-align: left; }
 
 .services__tablebox tr td{
-    border-bottom: 1px solid #3F3F3F;
     height: 3.5rem;
     text-align: left; }
 

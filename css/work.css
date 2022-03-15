@@ -661,11 +661,6 @@ body.light .doit{
             margin: 0.75rem 1rem 0 1rem;  }
 }  
 
-@media (min-width: 1600px) {
-  
-    main{
-        width: 80%;
-        margin-left: 10%; } 
-}
+
 
 

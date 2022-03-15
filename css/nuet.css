@@ -198,6 +198,9 @@ a {
         width: 85%;
         margin-bottom: 5rem; }
 
+.elements__img{
+    text-align: center;  }
+
     .elements__img img {
         padding-top: 1rem;
         min-width: 530px;
@@ -212,7 +215,6 @@ a {
         }
 
     .elements__img p {
-        text-align: center;
         padding: 1.5rem;  }
 
 /* ------------multimedia -------------- */
@@ -710,14 +712,12 @@ body.light .backend__hrefrig svg{
         width: auto;
         margin-bottom: 5rem; }
 
-    .elements__img svg {
-        padding-top: 1rem;
-        min-width: auto;
+    .elements__img img {
+        object-fit: contain;
         width: auto; 
         height: auto; }
 
     .elements__img p {
-        text-align: center;
         padding: 1.5rem;  }
 
 /* ------------multimedia -------------- */
@@ -899,9 +899,9 @@ body.light .backend__hrefrig svg{
         width: auto;
         margin-bottom: 5rem; }
 
-    .elements__img svg {
-        padding-top: 1rem;
-        min-width: auto;
+    .elements__img img {
+        text-align: center;
+        min-width: 300px;
         width: auto; 
         height: auto; }
 
