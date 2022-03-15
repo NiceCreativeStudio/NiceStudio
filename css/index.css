@@ -55,6 +55,7 @@
 
 
 /* ----------- Drag gallery ----------- */
+
 .items {
   scrollbar-width: none;
   position: relative;
@@ -87,15 +88,18 @@
   cursor: pointer;
   display: flex;
   flex-direction: column; }
-  .gallery__card a{
-    width: 3rem;
-  }
-  .gallery__card a img{
-      cursor: url("../assets/draghandle.svg"), pointer;  }
+
+  .gallery__card .img__container img{
+    width: 50rem;
+    cursor: url("../assets/draghandle.svg"), pointer;  }
       
   .gallery__card h5{
       margin-top: 1.25rem;
       margin-bottom: 0.5rem;  }
+  .gallery__card svg{
+    transform: rotate(270deg);
+    margin-right: 0.5rem;
+  }
 
 
 
@@ -381,10 +385,10 @@ body.light .scrolling-text-content{
     width: 40%;
     margin-right: -14rem;
   }
-  .gallery__card a{
+  .gallery__card .img__container{
     width: max-content;
   }
-  .gallery__card a img{
+  .gallery__card .img__container img{
     width: 70%;
   }
   .gallery__card svg{
@@ -665,7 +669,7 @@ body.light .scrolling-text-content{
   .gallery__card{
     width: 100%;
   }
-  .gallery__card a{
+  .gallery__card .img__container{
     width: 100%;
   }
 

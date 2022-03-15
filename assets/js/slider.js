@@ -1,8 +1,11 @@
 const slider = document.querySelector('.items');
 let isDown = false;
-let startX;
+let startX = 50;
 let scrollLeft;
-
+$( document ).ready(function() {
+    slider.scrollLeft = 2700;
+    console.log( "ready!" );
+});
 slider.addEventListener('mousedown', (e) => {
     isDown = true;
     slider.classList.add('active');

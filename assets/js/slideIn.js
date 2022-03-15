@@ -27,7 +27,7 @@ $(document).ready(function() {
                 leftBound = 0,
                 rightBound = scrollAmountBoundary,
                 transformDirection = container.hasClass('left-to-right') ? -1 : 1,
-                transformSpeed = 200;
+                transformSpeed = 500;
 
             // Read transform speed
             if (container.attr('speed')) {
