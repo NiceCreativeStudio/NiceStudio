@@ -8,7 +8,7 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 } */
-var lastScrollTop; // This Varibale will store the top position
+/* var lastScrollTop; // This Varibale will store the top position
 
 navbar = document.getElementById('navbar'); // Get The NavBar
 
@@ -28,4 +28,15 @@ window.addEventListener('scroll',function(){
   }
   
   lastScrollTop = scrollTop; //New Position Stored
-});
+}); */
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos ||  window.pageYOffset < 50) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
