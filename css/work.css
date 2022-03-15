@@ -108,16 +108,23 @@
     margin-top: 8rem; }
 
 .gallery__card{
-    cursor: url("../assets/draghandle.svg"), pointer;  
+    cursor: pointer;  
     display: flex;
     flex-direction: column; }
 
-    .gallery__card a img{
-        cursor: url("../assets/draghandle.svg"), pointer;  }
+    .gallery__card img{
+        height: 400px; 
+        width: 650px; 
+        object-fit: cover; 
+        cursor: url("../assets/draghandle.svg"), pointer;}
         
     .gallery__card h5{
         margin-top: 1.25rem;
         margin-bottom: 0.5rem;  }
+
+    .gallery__card svg{
+        transform: rotate(270deg);
+    }
 
 
 /* ----------- Grid 4col Gallery ----------- */
@@ -149,11 +156,11 @@
     grid-gap: 0.75rem;
     grid-template: 
     "img1 . img2 img3"
-    "img4 . img5 ."
-    ". img6 . img7"
-    "img8 . img9 ."
-    ". . img10 ." ;
-    min-height: 1200px;
+    ". img4 . img5"
+    "img6 img7 . ."
+    ". img8 img9 img10"
+    "img11 . img12 ." ;
+    min-height: 1100px;
     width: auto;
     justify-content: stretch;
     justify-items: stretch;
@@ -189,6 +196,12 @@
 }
 .grid__img10{
     grid-area: img10;
+}
+.grid__img11{
+    grid-area: img11;
+}
+.grid__img12{
+    grid-area: img12;
 }
 
 .grid__wrap1{
@@ -371,6 +384,41 @@
     background-size:120%;
     filter: grayscale(0%); }
 
+.grid__wrap11{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/gallery11_vVbICWXxB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647296580484) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    filter: grayscale(100%);
+    -webkit-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -moz-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -ms-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -o-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+            transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */ }
+    .grid__wrap11:hover{
+    background-size:120%;
+    filter: grayscale(0%); }   
+    
+.grid__wrap12{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/gallery12_VTU9WrelT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647296579965) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    filter: grayscale(100%);
+    -webkit-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -moz-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -ms-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -o-transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+            transition: all 800ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */ }
+    .grid__wrap12:hover{
+    background-size:120%;
+    filter: grayscale(0%); }
 
 /* ----------- How we do it ----------- */
 
@@ -506,8 +554,10 @@ body.light .doit{
             "img7" 
             "img8"
             "img9" 
-            "img10" ;
-            min-height: 2500px;  }
+            "img10"
+            "img11"
+            "img12" ;
+            min-height: 3000px;  }
     
     .doit__title {
         margin-left: 5%;
@@ -582,15 +632,16 @@ body.light .doit{
 
 
     .grid__img {
-        grid-template-columns: repeat(auto);
-        grid-template-rows: repeat(auto);
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(1fr);
         grid-template: 
         "img1 . img2"
         "img3 . img4"
         ". img5 . "
         "img6 . img7"
-        "img8 img9 img10" ;
-        min-height: 1200px;  }
+        "img8 img9 img10" 
+        "img11 . img12";
+        min-height: 1500px;  }
 
 .doit__title {
     margin-left: 3%;
