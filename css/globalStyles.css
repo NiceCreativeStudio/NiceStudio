@@ -152,7 +152,7 @@ button {
     font-size: 1.5rem;
     line-height: 1.5rem;
     color: #EEEEEE; 
-    background-color: #ED764A;
+    background-color: #DE5D37;
     border: none;
     transition: .3s ease all;
     cursor: pointer; }
@@ -402,6 +402,9 @@ body.light .footer__title4 svg{
 body.light .nav__burger{
     stroke: #000000;
 }
+body.light .footer__copy h5{
+    color: #EEEEEE;
+}
 
 body.light .grab__gallery{
     background-color: #FEFBF3;
@@ -534,8 +537,8 @@ body.light .grab__gallery{
         width: 60px;
         height: 60px;
         top: 1rem; 
-        left: 18rem; }
-
+        left: 18rem; 
+    }
     .footer__title3{
         top: 6rem; }
 

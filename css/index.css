@@ -52,7 +52,10 @@
             color: #eeeeee3f;
             margin-left: 3rem; }
 
-
+  /* Forzar cursor */
+  header{
+    cursor: default;
+}
 
 /* ----------- Drag gallery ----------- */
 
@@ -155,24 +158,21 @@
 
 .container {
   position: relative;
-  width: 100vw;
+  width: 150%;
   overflow: hidden;
+  left: -5rem;
+  vertical-align: middle;
 }
 
 .scrolling-text {
   display: inline-block;
-  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
-  will-change: transform;
-  backface-visibility: hidden;
 }
 
 .scrolling-text .scrolling-text-content {
   color: #fff;
   font-size: 120px;
   white-space: nowrap;
-  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
-  line-height: 1em;
-  margin: 50px 0;
+  margin: 1.5rem 0;
 }
 
 
@@ -214,13 +214,16 @@
   display: flex;
   justify-content:center ;
   margin-top: 10%;
+  margin-right: 1rem;
+
 }
 .messy__gallery--link a{
-    font-family: 'Maine Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+  font-family: 'Maine Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
 }
 
 
@@ -238,8 +241,8 @@
 }
 .philosophy__container h3{
   font-size: 2rem;
-  text-align: center;
-  margin: 5% 5%;
+  text-align: left;
+  margin: 2rem auto 2rem 5% ;
 }
 .philosophy__container h3 span{
   margin: 1.3rem 1.3rem;
@@ -278,19 +281,27 @@
 
 /* ----------- Quote ----------- */
 .index__quote{
-  margin: 10% 5% 10% 5%;
+  margin: 15% 5% 5% 5%;
 }
 
 .index__quote h2{
-  margin-bottom: 8%;
+  margin-bottom: 15%;
 }
-
+.index__quote h4{
+  font-size: 2rem;
+}
+.index__quote h5{
+  font-family: 'Maine Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
 
 
 /* ----------- 2# grab horizontal gallery ----------- */
 
 .items2 {
-  cursor: url("../assets/draghandle.svg"), pointer;
   scrollbar-width: none;
   position: relative;
   width: 100%;
@@ -307,12 +318,10 @@
   display: none; }/* for Chrome, Safari, and Opera */
 
 .items2.active {
-  cursor: url("../assets/draghandle.svg"), pointer;
   cursor: -webkit-grabbing;
   transform: scale(1); }
 
 .item {
-  cursor: url("../assets/draghandle.svg"), pointer;
   display: inline-block;
   height: 4rem;
   margin: 0.5rem;
