@@ -443,7 +443,7 @@ body.light .footer__title4 svg {
 }
 
 body.light .footer__subtitle a {
-    color: #FCB95C;
+    color: #DE5D37;
 }
 
 body.light .footer__copy h5 {
@@ -455,7 +455,7 @@ body.light .footer__backToTop svg {
 }
 
 body.light .footer__backToTop svg:hover {
-    stroke: #FCB95C;
+    stroke: #DE5D37;
 }
 
 body.light .arrow__link {
