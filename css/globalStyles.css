@@ -211,20 +211,18 @@ nav {
     padding: 0 5% 0 5%;
     background-color: #202020;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     transition: .3s ease all;
     z-index: 20;
 }
 
 .logo{
-    fill: #FEFBF3;
+    position: absolute;
+    top: 1.5rem;
+    left: 5%;
 }
-
-#brand {
-    font-weight: bold;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
+.logo svg{
+    fill: #FEFBF3;
 }
 
 
@@ -243,8 +241,10 @@ ul li {
     padding: 5px;
     transition: 0.3s ease all;
 }
+
 .nav__lightSwitch{
     fill: #FEFBF3;
+    margin: 1.7rem 0 auto 2.5rem;
 }
 #hamburger-icon {
     margin: auto 0;
@@ -422,7 +422,7 @@ body.light a {
 body.light nav{
     background-color: #FEFBF3;
 }
-body.light .logo{
+body.light .logo svg{
     fill: #000000;
 }
 body.light .nav__lightSwitch {
@@ -473,8 +473,9 @@ body.light .grab__gallery {
     nav .nav__links {
         display: none;
     }
-
-    
+    .nav__lightSwitch{
+        margin: 1.8rem 2.5rem auto 0;
+    }
     #hamburger-icon {
         display: block;
     }
