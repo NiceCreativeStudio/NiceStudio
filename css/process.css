@@ -11,7 +11,14 @@
     font-size: 2.25rem;
     line-height: 3.5rem;
     width: 70%; }
-
+.process__title svg{
+    vertical-align: middle;
+    margin: 0 0.6rem 1rem 0.6rem;
+}
+.process__title--mobile svg{
+    vertical-align: middle;
+    margin: 0 0.6rem 1rem 0.6rem;
+}
 /*----------- Process path ----------- */
 
 .lottie__container{
