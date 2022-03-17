@@ -1,25 +1,27 @@
-*{
+* {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+}
 
-html{
+html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    width: 100%; }
-    
-body{
+    width: 100%;
+}
+
+body {
     background-color: #202020;
     color: #EEEEEE;
     overflow-x: hidden;
-
-/*     transition: .3s ease all; */
+    transition: .3s ease all;
 }
+
 a {
-    color: #EEEEEE;
+    color: #FEFBF3;
     text-decoration: none;
 }
 
-/* ------------  FONTS ------------------------------------------------------ */    
+/* ------------  FONTS ------------------------------------------------------ */
 
 @font-face {
     font-family: 'Maine Light';
@@ -46,7 +48,7 @@ a {
     src: url('../assets/Maine/Maine-MediumItalic.otf');
 }
 
-.fonXl{
+.fonXl {
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
@@ -54,7 +56,7 @@ a {
     line-height: 7rem;
 }
 
-.fonH1{
+.fonH1 {
     font-family: 'Maine Regular';
     font-style: normal;
     font-weight: normal;
@@ -62,7 +64,7 @@ a {
     line-height: 7.5rem;
 }
 
-.fonH2{
+.fonH2 {
     font-family: 'Maine Regular';
     font-style: normal;
     font-weight: normal;
@@ -70,7 +72,7 @@ a {
     line-height: 6rem;
 }
 
-.fonH3{
+.fonH3 {
     font-family: 'Maine Regular';
     font-style: normal;
     font-weight: normal;
@@ -78,7 +80,7 @@ a {
     line-height: 4.75rem;
 }
 
-.fonH4{
+.fonH4 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -86,7 +88,7 @@ a {
     line-height: 2.5rem;
 }
 
-.fonFoot{
+.fonFoot {
     font-family: 'Maine Bold';
     font-style: normal;
     font-weight: normal;
@@ -94,7 +96,7 @@ a {
     line-height: 2rem;
 }
 
-.fonH5{
+.fonH5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -102,13 +104,14 @@ a {
     line-height: 1.5rem;
 }
 
-.fonH6{
+.fonH6 {
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
     line-height: 2rem;
-    opacity: 0.4; }
+    opacity: 0.4;
+}
 
 .fonPg {
     font-family: 'Montserrat', sans-serif;
@@ -143,25 +146,26 @@ a {
     letter-spacing: 0.2rem;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-/* ------------  LINKS ----------------------------------------------------------- */    
+/* ------------  LINKS ----------------------------------------------------------- */
 
-.aLink{
+.aLink {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 2rem;
-    color: #EEEEEE;
+    color: #FEFBF3;
     position: relative;
     white-space: nowrap;
     padding-bottom: 0.25rem;
     text-decoration: none;
     -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    transition: all 0.4s ease;
+}
 
 .aLink::before,
 .aLink::after {
@@ -171,228 +175,315 @@ li{
     background: currentColor;
     top: 100%;
     left: 0;
-    pointer-events: none; }
+    pointer-events: none;
+}
 
 .aLink::before {
     content: '';
-    /* show by default */ }
+    /* show by default */
+}
 
 .aLink--under::before {
     transform-origin: 100% 50%;
     transform: scale3d(0, 2, 1);
-    transition: transform 0.3s; }
+    transition: transform 0.3s;
+}
 
 .aLink--under:hover::before {
     transform-origin: 0% 50%;
-    transform: scale3d(1, 2, 1); }
+    transform: scale3d(1, 2, 1);
+}
 
-.active{
+.active {
     font-weight: 600;
-}    
+}
 
-.arrow__link{
+.arrow__link {
     fill: #FEFBF3;
 }
 
-/* ------------  NAV ----------------------------------------------------------- */    
-
-.nav__box{
-    width: 100%;
-    height: 4rem;
-    top: 0;
+/* ------------  NAV ----------------------------------------------------------- */
+nav {
     position: fixed;
+    width: 90%;
+    height: 5rem;
+    top: 0;
+    padding: 0 5% 0 5%;
+    background-color: #202020;
     display: flex;
     justify-content: space-between;
-    background-color:  #202020;
     transition: .3s ease all;
-    z-index: 10; }
+    z-index: 20;
+}
 
-.nav__logobox{
-    width: auto;
-    height: auto;
-    left: 5%;
-    top: 55%;
-    transform: translateY(-50%);
-    position: absolute; }
+.logo{
+    fill: #FEFBF3;
+}
 
-    .nav__logo{
-        fill: #EEEEEE;  }
-
-.nav__links{
-    width: auto;
-    height: auto;
-    right: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute; }
-
-    .nav__links a{
-        margin-left: 2.5rem; }
-
-.nav__command{
-    width: auto;
-    height: auto;
+#brand {
+    font-weight: bold;
+    font-size: 18px;
     display: flex;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute; }
+    align-items: center;
+}
 
-    .nav__darkSwitch{
-        fill:  #EEEEEE;
-        margin-right: 1rem;
-        cursor: pointer; }
-    .nav__burger{
-        stroke: #EEEEEE;
-    }
-    
-/* ------------  FOOTER ----------------------------------------------------------- */    
 
-.footer{
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__links li{
+    margin-left: 2.5rem;
+}
+ul li {
+    padding: 5px;
+    transition: 0.3s ease all;
+}
+.nav__lightSwitch{
+    fill: #FEFBF3;
+}
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 30px;
+    height: 3px;
+    background-color: #FEFBF3;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(1px, 14px);
+    transform: rotate(-45deg) translate(1px, 14px);
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(50deg) translate(5px, -10px);
+    transform: rotate(45deg) translate(5px, -10px);
+}
+
+.open .mobile__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1;
+    top: 3rem;
+    left: 0;
+    height: 110vh;
+    width: 100%;
+}
+.open .mobile__menu li{
+    transform: translateY(-3rem);
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+.mobile__menu {
+    background-color: #202020;
+    display: none;
+    position: absolute;
+    transition: .3s ease all;
+}
+
+
+
+/* ------------  FOOTER ----------------------------------------------------------- */
+
+.footer {
     width: auto;
     height: auto;
     margin-left: 12.5%;
-    margin-right: 12.5%; }
+    margin-right: 12.5%;
+}
 
-.footer__box{
+.footer__box {
     width: 100%;
     height: 30rem;
     margin-top: 20rem;
     margin-bottom: 8rem;
-    position: relative; }
+    position: relative;
+}
 
-.footer__title span{
+.footer__title span {
     font-size: 6.25rem;
-    }
+}
 
-.footer__subtitle{
+.footer__subtitle {
     font-size: 1.5rem;
     font-weight: 300;
     width: 50%;
     margin-top: 3rem;
 }
-.footer__subtitle a{
+
+.footer__subtitle a {
     color: #FCB95C;
 }
-.footer__links{
+
+.footer__links {
     width: 26rem;
     height: auto;
     position: absolute;
     right: 3rem;
-    top: 20rem; }
+    top: 20rem;
+}
 
-    .footer__linkstit1{
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: 0; }
+.footer__linkstit1 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-        .footer__linksbox1{
-            width: 7rem;
-            height: auto;
-            position: absolute;
-            top: 3rem;
-            left: 0; }
+.footer__linksbox1 {
+    width: 7rem;
+    height: auto;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+}
 
-        .footer__linksbox1a{
-            width: 7rem;
-            height: auto;
-            position: absolute;
-            top: 5rem;
-            left: 9rem; }
+.footer__linksbox1a {
+    width: 7rem;
+    height: auto;
+    position: absolute;
+    top: 5rem;
+    left: 9rem;
+}
 
-    .footer__linkstit2{
-        width: 6rem;
-        height: auto;
-        position: absolute;
-        top: 0;
-        right: 0rem; }
+.footer__linkstit2 {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0rem;
+}
 
-        .footer__linksbox2{
-            width: 6rem;
-            height: auto;
-            position: absolute;
-            bottom: 0;
-            top: 3rem;
-            right: 0rem;}
+.footer__linksbox2 {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    top: 3rem;
+    right: 0rem;
+}
 
-.footer__backToTop{   
+.footer__backToTop {
     width: 100%;
     height: auto;
     position: absolute;
     text-align: end;
-    top: 6rem;  
+    top: 6rem;
 }
 
-.footer__backToTop svg{
+.footer__backToTop svg {
     stroke: #FEFBF3;
     transition: .3s ease all;
 }
-.footer__backToTop svg:hover{
+
+.footer__backToTop svg:hover {
     stroke: #FCB95C;
     transform: translateY(-1rem);
 }
 
-.footer__copy{
+.footer__copy {
     height: 5rem;
     width: 100%;
     background-color: #282828;
     align-items: center;
-    display: flex; }
+    display: flex;
+}
 
-    .footer__copy h5{
-        height: auto;
-        width: auto;
-        margin-left: 12.5%; }
+.footer__copy h5 {
+    height: auto;
+    width: auto;
+    margin-left: 12.5%;
+}
 
 
 /* ============================ LIGHT MODE ============================ */
-body.light{
+body.light {
     background-color: #FEFBF3;
-    color: #000000; }
-
-body.light a{
-    color: #000000; }
-
-body.light .nav__darkSwitch{
-    fill: #000000; }
-
-body.light .nav__box{
-    background-color: #FEFBF3; }
-
-body.light .nav__logo{
-    fill: #000000; }
-
-body.light .footer__title4 svg{
-    stroke: #000000; }
-
-body.light .nav__burger{
-    stroke: #000000;
+    color: #000000;
 }
-body.light .footer__subtitle a{
-    color: #FCB95C;
+
+body.light a {
+    color: #000000;
 }
-body.light .footer__copy h5{
-    color: #EEEEEE;
+
+body.light nav{
+    background-color: #FEFBF3;
 }
-body.light .footer__backToTop svg{
-    stroke: #000000;
-}
-body.light .footer__backToTop svg:hover{
-    stroke: #FCB95C;
-}
-body.light .arrow__link{
+body.light .logo{
     fill: #000000;
 }
-body.light .grab__gallery{
+body.light .nav__lightSwitch {
+    fill: #000000;
+}
+body.light #hamburger-icon div{
+    background-color: #000000;
+}
+body.light .nav__burger {
+    stroke: #000000;
+}
+body.light .mobile__menu{
+    background-color: #FEFBF3;
+    color: #000000;
+}
+body.light .footer__title4 svg {
+    stroke: #000000;
+}
+
+body.light .footer__subtitle a {
+    color: #FCB95C;
+}
+
+body.light .footer__copy h5 {
+    color: #EEEEEE;
+}
+
+body.light .footer__backToTop svg {
+    stroke: #000000;
+}
+
+body.light .footer__backToTop svg:hover {
+    stroke: #FCB95C;
+}
+
+body.light .arrow__link {
+    fill: #000000;
+}
+
+body.light .grab__gallery {
     background-color: #FEFBF3;
 }
-/* ------------  @ MEDIA ----------------------------------------------------------- */    
+
+/* ------------  @ MEDIA ----------------------------------------------------------- */
 
 @media (max-width: 768px) {
 
-    .fonXl{  /* -----change-------- */
+    nav .nav__links {
+        display: none;
+    }
+
+    
+    #hamburger-icon {
+        display: block;
+    }
+    #hamburger-icon:active .mobile__menu{
+        transform: translateY(-100vh);
+    }
+
+    .fonXl {
+        /* -----change-------- */
         font-family: 'Maine Light';
         font-style: normal;
         font-weight: normal;
@@ -400,7 +491,8 @@ body.light .grab__gallery{
         line-height: 5rem;
     }
 
-    .fonH1{   /* -----change-------- */
+    .fonH1 {
+        /* -----change-------- */
         font-family: 'Maine Regular';
         font-style: normal;
         font-weight: normal;
@@ -408,7 +500,8 @@ body.light .grab__gallery{
         line-height: 4.5rem;
     }
 
-    .fonH2{  /* -----change-------- */
+    .fonH2 {
+        /* -----change-------- */
         font-family: 'Maine Regular';
         font-style: normal;
         font-weight: normal;
@@ -416,7 +509,8 @@ body.light .grab__gallery{
         line-height: 3.25rem;
     }
 
-    .fonH3{  /* -----change-------- */
+    .fonH3 {
+        /* -----change-------- */
         font-family: 'Maine Regular';
         font-style: normal;
         font-weight: normal;
@@ -424,7 +518,8 @@ body.light .grab__gallery{
         line-height: 2.75rem;
     }
 
-    .fonH4{   /* -----change-------- */
+    .fonH4 {
+        /* -----change-------- */
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -432,7 +527,8 @@ body.light .grab__gallery{
         line-height: 2.5rem;
     }
 
-    .fonFoot{   /* -----change-------- */
+    .fonFoot {
+        /* -----change-------- */
         font-family: 'Maine Bold';
         font-style: normal;
         font-weight: normal;
@@ -440,7 +536,7 @@ body.light .grab__gallery{
         line-height: 1.5rem;
     }
 
-    .fonH5{
+    .fonH5 {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -448,15 +544,17 @@ body.light .grab__gallery{
         line-height: 1.5rem;
     }
 
-    .fonH6{
+    .fonH6 {
         font-family: 'Maine Light';
         font-style: normal;
         font-weight: normal;
         font-size: 1rem;
         line-height: 2rem;
-        opacity: 0.4; }
+        opacity: 0.4;
+    }
 
-    .fonPg {  /* -----change-------- */
+    .fonPg {
+        /* -----change-------- */
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -464,7 +562,8 @@ body.light .grab__gallery{
         line-height: 1.5rem;
     }
 
-    .fonPgSt {  /* -----change-------- */
+    .fonPgSt {
+        /* -----change-------- */
         font-family: 'Maine Bold Italic';
         font-style: normal;
         font-weight: normal;
@@ -472,7 +571,8 @@ body.light .grab__gallery{
         line-height: 1.5rem;
     }
 
-    .fonLink { /* -----change-------- */
+    .fonLink {
+        /* -----change-------- */
         font-family: 'Maine Medium Italic';
         font-style: normal;
         font-weight: normal;
@@ -490,139 +590,155 @@ body.light .grab__gallery{
     }
 
     /* --------------------------- Navbar */
-    .nav__links{
+    .nav__links {
         display: none;
     }
-    .nav__mobile, .nav__burger{
+
+    .nav__mobile,
+    .nav__burger {
         display: block;
     }
 
 
 
-    .footer{
+    .footer {
         height: auto;
         width: auto;
         margin-left: 5%;
-        margin-right: 5%; }
+        margin-right: 5%;
+    }
 
-    .footer__box{
+    .footer__box {
         width: 100%;
         height: 38rem;
         margin-top: 8rem;
         margin-bottom: 8rem;
-        position: relative; }
+        position: relative;
+    }
 
-    .footer__title2{
+    .footer__title2 {
         width: 60px;
         height: 60px;
-        top: 1rem; 
-        left: 18rem; 
+        top: 1rem;
+        left: 18rem;
     }
-    .footer__title3{
-        top: 6rem; }
 
-    .footer__title4{
+    .footer__title3 {
+        top: 6rem;
+    }
+
+    .footer__title4 {
         width: 130px;
-        height: 60px; 
-        top: 7rem; 
-        left: 3.75rem; }
+        height: 60px;
+        top: 7rem;
+        left: 3.75rem;
+    }
 
-    .footer__title5{
-        top: 6rem; 
-        left: 13rem; }
+    .footer__title5 {
+        top: 6rem;
+        left: 13rem;
+    }
 
-    .footer__links{
+    .footer__links {
         width: 100%;
         height: auto;
         position: absolute;
-        top: 29rem; }
+        top: 29rem;
+    }
 
-        .footer__linksbox1a{
-            left: 7.5rem; }
+    .footer__linksbox1a {
+        left: 7.5rem;
+    }
 
-    .footer__btnbox{   
+    .footer__btnbox {
         width: 100%;
         height: auto;
         position: absolute;
         text-align: center;
-        top: 15rem;  }
+        top: 15rem;
+    }
 
-.footer__copy{
-    height: 4rem; }
+    .footer__copy {
+        height: 4rem;
+    }
 
-    .footer__copy h5{
-        margin-left: 5%; }
+    .footer__copy h5 {
+        margin-left: 5%;
+    }
 
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .fonXl{
+    .fonXl {
         font-family: 'Maine Light';
         font-style: normal;
         font-weight: normal;
         font-size: 6rem;
         line-height: 7rem;
     }
-    
-    .fonH1{
+
+    .fonH1 {
         font-family: 'Maine Regular';
         font-style: normal;
         font-weight: normal;
         font-size: 6rem;
         line-height: 7.5rem;
     }
-    
-    .fonH2{ /* -----change-------- */   
+
+    .fonH2 {
+        /* -----change-------- */
         font-family: 'Maine Regular';
         font-style: normal;
         font-weight: normal;
         font-size: 4rem;
         line-height: 5rem;
     }
-    
-    .fonH3{  /* -----change-------- */   
+
+    .fonH3 {
+        /* -----change-------- */
         font-family: 'Maine Regular';
         font-style: normal;
         font-weight: normal;
         font-size: 2.5rem;
         line-height: 3.25rem;
     }
-    
-    .fonH4{
+
+    .fonH4 {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 2rem;
         line-height: 2.5rem;
     }
-    
-    .fonFoot{
+
+    .fonFoot {
         font-family: 'Maine Bold';
         font-style: normal;
         font-weight: normal;
         font-size: 2rem;
         line-height: 2rem;
     }
-    
-    .fonH5{
+
+    .fonH5 {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.5rem;
     }
-    
-    .fonH6{
+
+    .fonH6 {
         font-family: 'Maine Light';
         font-style: normal;
         font-weight: normal;
         font-size: 1rem;
         line-height: 2rem;
-     
-        opacity: 0.4; }
-    
+
+        opacity: 0.4;
+    }
+
     .fonPg {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -630,7 +746,7 @@ body.light .grab__gallery{
         font-size: 1.25rem;
         line-height: 2rem;
     }
-    
+
     .fonPgSt {
         font-family: 'Maine Bold Italic';
         font-style: normal;
@@ -638,7 +754,7 @@ body.light .grab__gallery{
         font-size: 1.25rem;
         line-height: 2rem;
     }
-    
+
     .fonLink {
         font-family: 'Maine Medium Italic';
         font-style: normal;
@@ -646,7 +762,7 @@ body.light .grab__gallery{
         font-size: 1.5rem;
         line-height: 1.5rem;
     }
-    
+
     .fonSubFoot {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -657,50 +773,56 @@ body.light .grab__gallery{
     }
 
 
-    .nav__mobile, .nav__burger{
+    .nav__mobile,
+    .nav__burger {
         display: none;
     }
-    
 
 
 
-    .footer{
+
+    .footer {
         height: auto;
         width: auto;
         margin-left: 5%;
-        margin-right: 5%; }
-    
-    .footer__box{
+        margin-right: 5%;
+    }
+
+    .footer__box {
         width: 100%;
         height: 30rem;
         margin-top: 8rem;
         margin-bottom: 8rem;
-        position: relative; }
-        
-        .footer__title2{
-            width: 75px;
-            height: 75px;
-            top: 2rem;
-            left: 24rem; }
-    
-        .footer__title3{
-            top: 6.5rem; }
-    
-        .footer__title4{
-            top: 8.5rem; 
-            left: 4.5rem; }
-    
-        .footer__title5{
-            top: 6.5rem; 
-            left: 15rem; }
+        position: relative;
+    }
+
+    .footer__title2 {
+        width: 75px;
+        height: 75px;
+        top: 2rem;
+        left: 24rem;
+    }
+
+    .footer__title3 {
+        top: 6.5rem;
+    }
+
+    .footer__title4 {
+        top: 8.5rem;
+        left: 4.5rem;
+    }
+
+    .footer__title5 {
+        top: 6.5rem;
+        left: 15rem;
+    }
 
 }
 
-@media (min-width: 1024px){
-    .nav__mobile, .nav__burger{
+@media (min-width: 1024px) {
+
+    .nav__mobile,
+    .nav__burger {
         display: none;
     }
 }
-
-
-
