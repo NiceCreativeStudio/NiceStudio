@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+    <link rel="stylesheet" href="./css/globalStyles.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!----------------------------------- Navbar -->
+        <nav id="navbar">
+            <a href="./index.html" class="logo">
+                <svg width="65" height="30" viewBox="0 0 58 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.8709 20.1184V21.5167H9.94798V20.1184L10.2971 19.9807C11.0491 19.7412 11.2908 19.2562 11.2908 18.0436V12.5075C11.2908 11.2411 10.9925 10.4865 9.86744 10.4865C9.00801 10.4865 8.17542 11.0255 7.50399 11.6992V18.0316C7.50399 19.2442 7.74569 19.7292 8.4977 19.9687L8.84685 20.1065V21.5047H0.935891V20.1065L1.25817 20.0227C2.45182 19.7233 2.70845 19.2681 2.70845 18.0316V11.6183L0.917969 10.1213V9.82187L7.28317 7.34277L7.58158 7.45059L7.12799 10.4955C8.27986 8.77095 9.91816 7.34277 12.201 7.34277C14.833 7.34277 16.1222 9.0943 16.1222 12.3548V18.0136C16.1222 19.2502 16.4713 19.7382 17.5456 20.0047L17.8709 20.1184Z"fill="" />
+                    <path d="M18.7865 21.5167V20.1184L19.1088 19.9807C20.2338 19.5525 20.5561 19.2801 20.5561 18.0435V11.6093L18.7656 10.1272V9.82781L25.0741 7.43256L25.3725 7.5403V18.0495C25.3725 19.2861 25.6709 19.5465 26.796 19.9867L27.1451 20.1244V21.5227L18.7865 21.5167ZM19.7802 3.73485C19.8044 2.97956 20.1204 2.26332 20.6615 1.73761C21.2025 1.2119 21.9261 0.917969 22.6793 0.917969C23.4325 0.917969 24.1561 1.2119 24.6972 1.73761C25.2382 2.26332 25.5543 2.97956 25.5784 3.73485C25.5909 4.12468 25.5251 4.51309 25.3851 4.87692C25.245 5.24076 25.0334 5.57259 24.763 5.85278C24.4925 6.13296 24.1687 6.35573 23.8108 6.50787C23.4529 6.66002 23.0681 6.73842 22.6793 6.73842C22.2906 6.73842 21.9058 6.66002 21.5478 6.50787C21.1899 6.35573 20.8661 6.13296 20.5957 5.85278C20.3252 5.57259 20.1137 5.24076 19.9736 4.87692C19.8335 4.51309 19.7678 4.12468 19.7802 3.73485Z"fill="" />
+                    <path d="M41.0218 16.1845L41.935 16.4839C41.2636 19.5828 39.2224 21.978 35.3013 21.978C31.219 21.978 28.3184 19.2834 28.3184 14.9749C28.3184 10.2862 31.5144 7.37598 36.4292 7.37598C39.3298 7.37598 42.0424 8.69631 42.0424 10.9868C42.0424 12.388 41.0218 13.0347 39.9744 13.0347C38.2555 13.0347 37.3961 11.6874 37.1544 9.26218H36.856C34.7343 9.26218 33.66 11.0137 33.66 14.0857C33.66 17.1007 34.8954 18.8253 37.2051 18.8253C38.927 18.8223 40.1087 18.0169 41.0218 16.1845Z"fill="" />
+                    <path d="M56.4409 16.4231L57.3809 16.7734C56.602 19.8453 54.5609 21.9742 50.2637 21.9742C46.2888 21.9742 43.1465 19.4172 43.1465 14.998C43.1465 10.2554 46.3962 7.37207 51.0157 7.37207C55.7157 7.37207 57.7569 10.2284 57.354 14.8093H48.4374C48.6523 17.477 49.8877 18.9052 52.278 18.9052C54.2356 18.9052 55.5456 18.0968 56.4409 16.4231ZM48.4374 12.923H52.4928C52.4391 10.5787 51.8482 9.23138 50.7202 9.23138C49.4818 9.23138 48.6224 10.6056 48.4344 12.923H48.4374Z"fill="" />
+                </svg>
+            </a>
+            <ul class="nav__links">
+                <li><a href="./about.html" class="aLink aLink--under">ABOUT</a></li>
+                <li><a href="./process.html" class="aLink aLink--under">PROCESS</a></li>
+                <li><a href="./work.html" class="aLink aLink--under">WORK</a></li>
+                <li><a href="./contact.html" class="aLink aLink--under">CONTACT</a></li>
+            </ul>
+            <span>
+                <svg id="switch" class="nav__lightSwitch" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0046 0.284917C20.2011 1.68794 24.1181 7.82618 22.7151 14.0226C21.312 20.2191 15.1738 24.0775 8.97737 22.7331C2.78092 21.3301 -1.0775 15.1918 0.266893 8.9954C1.66992 2.79894 7.80815 -1.11815 14.0046 0.284917ZM9.971 2.85699C11.2571 2.56469 12.3678 2.68168 13.7123 2.7985C12.2508 4.14302 11.1986 5.01994 10.5556 7.00728C10.1465 8.23484 10.088 9.57936 10.3218 10.9824C10.6726 12.6777 11.5494 14.1391 12.7771 15.2499C14.6477 16.9452 16.2846 17.1205 18.6228 17.2958C16.9274 18.8157 15.7584 19.8679 13.4199 20.3357C8.62656 21.2711 3.94968 18.1143 2.95605 13.3208C2.02063 8.52743 5.11902 3.79189 9.97095 2.85692L9.971 2.85699Z" fill=" "/>
+                </svg>
+            </span>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar3"></div>
+                <ul class="mobile__menu">
+                    <li><a href="./about.html" class="fonFoot">ABOUT</a></li>
+                    <li><a href="./process.html" class="fonFoot">PROCESS</a></li>
+                    <li><a href="./work.html" class="fonFoot">WORK</a></li>
+                    <li><a href="./contact.html" class="fonFoot">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!---================================= Form grid =================================-->
+        <section class="form__container">
+            <h1 class="fonXl">DROP US <br> A<span>
+                <svg class="arrow__link" width="130" height="130" viewBox="0 0 436 201" fill="" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M336.394 201H323.978C323.978 191.955 327.035 145.466 366.304 115.239C371.195 111.449 376.421 108.108 381.917 105.257H0V92.8846H381.541C372.589 88.1315 364.382 82.1004 357.18 74.9825C337.375 54.9834 326.144 28.0966 325.86 0H338.322C338.512 24.8009 348.418 48.5464 365.928 66.172C382.806 82.4516 405.141 91.9187 428.617 92.7439H436V100.242V104.929C434.401 104.929 432.285 104.929 429.651 104.929C409.402 105.568 389.857 112.481 373.734 124.705C339.122 151.558 336.535 192.986 336.394 201Z" fill=""/>
+                </svg>
+            </span> LINE</h1>
+            <h4 class="fonH4">For new project inquiries, please fill out the form below. <br> We’re currently booking projects for April 2022 and on.</h4>
+            
+            <!----------------------- Form left -->
+            <div class="name">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email">
+            </div>
+            <div class="textarea">
+                <label for="textarea">Tell us a bit about your project</label>
+                <br>
+                <textarea name="textarea"></textarea>
+            </div>
+            <div class="launch">
+                <label for="launch">What’s your ideal launch date?</label>
+                <br>
+                <select id="launch__date">
+                    <option value="date__Less than a month" selected>Less than a month</option>
+                    <option value="date__Option2">Option2</option>
+                    <option value="date__Option3">Option3</option>
+                    <option value="date__Option4">Option4</option>
+                </select>
+            </div>
+            <div class="budget">
+                <label for="budget">What’s your ideal all-in budget?</label>
+                <br>
+                <select id="budget">
+                    <option value="budget__Under $10k" selected>Under $10k</option>
+                    <option value="budget__Option2">Option2</option>
+                    <option value="budget__Option3">Option3</option>
+                    <option value="budget__Option4">Option4</option>
+                </select>
+            </div>
+            <div class="hear">
+                <label for="hear">How did you hear about us?</label>
+                <br>
+                <input type="text" name="hear">
+            </div>      
+            <button type="submit" class="hero__btn">SUBMIT</button>
+
+            <!----------------------- Form right -->
+            <div class="shapes">
+                <svg class="shape1" width="184" height="183" viewBox="0 0 184 183" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M135.887 171.103L48.3058 11.3966" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
+                    <path d="M169.938 138.535L14.2375 44.0146" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
+                    <path d="M183.166 93.2401L1.06409 89.2341" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
+                    <path d="M171.955 47.4666L12.2466 135.057" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
+                    <path d="M139.363 13.3921L44.8398 169.102" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
+                    <path d="M94.1056 0.200133L90.0996 182.302" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
+                </svg>
+                <svg class="shape2" width="194" height="194" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M34.001 22.942L76.8965 35.2771L104.553 0.233333L126.176 39.2896L170.502 34.0563L158.167 76.9517L193.21 104.608L154.148 126.224L159.382 170.55L116.486 158.215L88.8297 193.259L67.2197 154.204L22.8938 159.437L35.2288 116.541L0.185056 88.885L39.2343 67.268L34.001 22.942Z" fill="#F3A8BE"/>
+                </svg>
+                <svg class="shape3" width="196" height="195" viewBox="0 0 196 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.849669 37.405C60.3106 74.2118 121.602 59.8066 158.422 0.324495C121.602 59.8066 136.021 121.077 195.503 157.897C136.021 121.077 74.7501 135.496 37.9302 194.978C74.729 135.483 60.3106 74.2118 0.849669 37.405Z" fill="#F0B35E"/>
+                </svg>
+            </div>
+            <div class="us">
+                <h4 class="fonH4">hello@nicecreativestudio.com</h4>
+                <h4 class="fonH4">Barcelona, Spain</h4>
+            </div>
+        </section>
+
+        <!---================================= Instagram gallery =================================-->
+        <section class="instagram__gallery">
+            <h4 class="fonLink">THE SOCIAL JOURNAL</h4>
+            <a href="https://www.instagram.com/wearenicestudio/" target="_blank">@wearenicestudio</a>
+            <div class="items2">
+                <div class="item item1">
+                    <div class="gallery__cardbox">
+                        <img width="100%"
+                            src="https://ik.imagekit.io/nicecreativestudio/Rectangle_369_c0KaoC3TlN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489804"
+                            alt="">
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="gallery__cardbox">
+                        <img width="100%"
+                            src="https://ik.imagekit.io/nicecreativestudio/Rectangle_370_sknIzbzSarZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489850"
+                            alt="">
+                    </div>
+                </div>
+                <div class="item item3">
+                    <div class="gallery__cardbox">
+                        <img width="100%"
+                            src="https://ik.imagekit.io/nicecreativestudio/Rectangle_371_76gmvUpxogo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826490195"
+                            alt="">
+                    </div>
+                </div>
+                <div class="item item4">
+                    <div class="gallery__cardbox">
+                        <img width="100%"
+                            src="https://ik.imagekit.io/nicecreativestudio/Rectangle_372_u7Q4_8-DV5e5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826488734"
+                            alt="">
+                    </div>
+                </div>
+                <div class="item item5">
+                    <div class="gallery__cardbox">
+                        <img width="100%"
+                            src="https://ik.imagekit.io/nicecreativestudio/Rectangle_369_c0KaoC3TlN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489804"
+                            alt="">
+                    </div>
+                </div>
+                <div class="item item6">
+                    <div class="gallery__cardbox">
+                        <img width="100%"
+                            src="https://ik.imagekit.io/nicecreativestudio/Rectangle_370_sknIzbzSarZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646826489850"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!----------------------------------- footer -->
+    <footer>
+        <div class="footer"> 
+            <div class="footer__box">
+                <h2 class="footer__title fonXl">It would be <span class="fonLink">nice</span><br>to hear from you</h2>
+                <h4 class="footer__subtitle fonH4">Feel free to reach out if you want to collaborate with us or simply, have a chat: <a href="mailto:hello@nicecreativestudio.com">hello@nicecreativestudio.com</a></h4>
+                <div class="footer__links" >
+                    <h4 class="footer__linkstit1 fonSubFoot">SITEMAP</h4>
+                    <article class="footer__linksbox1">
+                        <a class="aLink aLink--under" href="index.html">HOME</a>
+                        <a class="aLink aLink--under" href="about.html">ABOUT US</a>
+                        <a class="aLink aLink--under" href="#">CAREERS</a>
+                    </article>
+                    <article class="footer__linksbox1a">
+                        <a class="aLink aLink--under" href="process.html">PROCESS</a>
+                        <a class="aLink aLink--under" href="#">CONTACT</a>
+                    </article>
+                    <h4  class="footer__linkstit2 fonSubFoot">SOCIAL</h4>
+                    <articl class="footer__linksbox2">
+                        <a class="aLink aLink--under" href="https://www.behance.net/wearenicestudio">BEHANCE</a>
+                        <a class="aLink aLink--under" href="https://dribbble.com/nicestudio">DRIBBLE</a>
+                        <a class="aLink aLink--under" href="https://www.linkedin.com/company/nicecreativestudio">LINKEDIN</a>
+                    </article>
+                </div>
+                <a class="footer__backToTop" href="#top">
+                    <svg width="60" height="60" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22" cy="22" r="21" stroke="" stroke-width="2"/>
+                        <path d="M16.944 15.9062C18.4148 15.8431 19.8033 15.2055 20.8151 14.1288C21.8268 13.0521 22.3822 11.6209 22.3635 10.1388" stroke="" stroke-width="1.68052" stroke-miterlimit="10"/>
+                        <path d="M27.7506 16.0391C26.2595 15.9789 24.8526 15.3272 23.8372 14.2261C22.8217 13.125 22.2803 11.6642 22.331 10.1625" stroke="" stroke-width="1.68052" stroke-miterlimit="10"/>
+                        <path d="M22.3393 33.8672L22.3309 10.1384" stroke="" stroke-width="1.68052" stroke-miterlimit="10"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <h5 class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
+        </div>
+    </footer>
+
+<!-- Scripts -->
+    <script src="./assets/js/light.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+</body>
+</html>
