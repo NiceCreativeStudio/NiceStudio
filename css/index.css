@@ -212,33 +212,56 @@
   grid-template-rows: 1fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
-    ". one two four four ."
-    ". one three three five ."; 
+    ". one two four five ."
+    ". one three . five ."; 
     margin-top: 10%;
 }
+.messy__img--container{
+  width: 120%;
+  transition: .3s ease all;
+}
+.messy__img--container img{
+  border-radius: 8px;
+  transition: .3s ease all;
+}
+.messy__img--container:hover {
+  transform: scale(1.1);
+  z-index: 5;
+}
+.messy__img--container:hover > img{
+  box-shadow: 0px 2px 10px 10px rgba(26, 26, 26, 0.281);
+}
+
+/* oceans */
 .img1{
   grid-area: one;
-  margin: auto;
+  margin: auto auto auto 4rem;
 }
+/* girl */
 .img2{
   grid-area: two;
-  margin: auto;
-  z-index: 2;
-}
-.img3{
-  grid-area: three;
-  margin: auto;
+  margin: auto 3rem 0 auto;
   z-index: 1;
 }
-.img4{
-  grid-area: four;
-  margin: auto;
-}
-.img5{
-  grid-area: five;
-  margin: auto;
+/* Van Gogh */
+.img3{
+  grid-area: three;
+  margin: -3rem auto auto 10rem;
   z-index: 2;
 }
+/* pottery */
+.img4{
+  grid-area: four;
+  margin: auto auto -8rem 2rem;
+  z-index: 3;
+}
+/* typographic */
+.img5{
+  grid-area: five;
+  margin: auto auto 4rem -10rem;
+  z-index: 1;
+}
+
 .messy__gallery--link{
   display: flex;
   justify-content:center ;
@@ -480,7 +503,7 @@ body.light .scrolling-text-content{
   .messy__gallery--container{
     display: grid; 
     grid-template-columns: 5% 45% 45% 5%; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: min-content min-content min-content min-content min-content; 
     gap: 0px 0px; 
     grid-template-areas: 
     ". one one ."
@@ -490,33 +513,45 @@ body.light .scrolling-text-content{
     ". five five ."; 
       margin-top: 10%;
   }
-  .img1{
-    grid-area: one;
-    margin: auto 0 auto 8rem;
-    z-index: 3;
-  }
-  .img2{
-    grid-area: two;
-    margin: -5rem 0 8rem 0;
-  }
-  .img3{
-    grid-area: three;
-    margin: -10rem 0 auto 8rem;
-    z-index: 1;
-  }
-  .img4{
-    grid-area: four;
-    margin: -5rem 15rem auto 0;
-  }
-  .img5{
-    grid-area: five;
-    margin: -10rem 0 auto 8rem;
-    z-index: 2;
-  }
+.messy__img--container{
+  width: 80%;
+}
+
+/* oceans */
+.img1{
+  grid-area: one;
+  margin: auto auto -10% 30%;
+  z-index: 2;
+}
+/* girl */
+.img2{
+  grid-area: two;
+  margin: auto 30% -10% auto;
+  z-index: 1;
+}
+/* Van Gogh */
+.img3{
+  grid-area: three;
+  margin: auto auto -10% 30%;
+  z-index: 2;
+}
+/* pottery */
+.img4{
+  grid-area: four;
+  margin: auto 30% -10% auto;
+  z-index: 3;
+}
+/* typographic */
+.img5{
+  grid-area: five;
+  margin: auto auto -10% 30%;
+  z-index: 1;
+}
+
   
   .messy__gallery--link{
-    margin-top: -15%;
-    margin-bottom: 40%;
+    margin-top: 30%;
+    margin-bottom: 50%;
   }
 
 
@@ -634,7 +669,47 @@ body.light .scrolling-text-content{
   
   /* ----------- Messy gallery ----------- */
   .messy__gallery--container{
-    height: 70vh;
+    display: grid; 
+    grid-template-columns: 5% 22.5% 22.5% 22.5% 22.5% 5%; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". one two four five ."
+      ". one three . five ."; 
+      margin-top: 10%;
+  }
+  .messy__img--container{
+    width: 150%;
+  }
+  /* oceans */
+  .img1{
+    grid-area: one;
+    margin: auto auto auto 20%;
+    z-index: 1;
+  }
+  /* girl */
+  .img2{
+    grid-area: two;
+    margin: auto 30% -10% auto;
+    z-index: 1;
+  }
+  /* Van Gogh */
+  .img3{
+    grid-area: three;
+    margin: auto auto -10% 30%;
+    z-index: 2;
+  }
+  /* pottery */
+  .img4{
+    grid-area: four;
+    margin: auto 30% -10% auto;
+    z-index: 3;
+  }
+  /* typographic */
+  .img5{
+    grid-area: five;
+    margin: auto auto auto -75%;
+    z-index: 1;
   }
 
   /* ----------- A NICE philosophy ----------- */
