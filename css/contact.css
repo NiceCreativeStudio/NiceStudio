@@ -123,7 +123,7 @@ label {
 }
 
 /* SUBMIT */
-.hero__btn {
+.submit__btn {
     grid-area: submit;
     width: min-content;
     color: #FEFBF3;
@@ -139,6 +139,10 @@ label {
     vertical-align: middle;
     transition: .3s ease all;
     margin-top: 5rem;
+}
+.submit__btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(20, 20, 20, 0.137), 0 17px 15px 0 rgba(15, 15, 15, 0.103);
 }
 
 
