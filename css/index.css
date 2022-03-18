@@ -357,7 +357,9 @@
 
 
 /* ----------- 2# grab horizontal gallery ----------- */
-
+.instagram__gallery img{
+  border-radius: 0px;
+}
 .items2 {
   scrollbar-width: none;
   position: relative;
