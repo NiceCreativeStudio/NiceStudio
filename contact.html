@@ -46,84 +46,91 @@
         </nav>
     </header>
     <main>
-        <!---================================= Form grid =================================-->
-        <section class="form__container">
-            <h1 class="fonXl">DROP US <br> A<span>
-                <svg class="arrow__link" width="130" height="130" viewBox="0 0 436 201" fill="" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M336.394 201H323.978C323.978 191.955 327.035 145.466 366.304 115.239C371.195 111.449 376.421 108.108 381.917 105.257H0V92.8846H381.541C372.589 88.1315 364.382 82.1004 357.18 74.9825C337.375 54.9834 326.144 28.0966 325.86 0H338.322C338.512 24.8009 348.418 48.5464 365.928 66.172C382.806 82.4516 405.141 91.9187 428.617 92.7439H436V100.242V104.929C434.401 104.929 432.285 104.929 429.651 104.929C409.402 105.568 389.857 112.481 373.734 124.705C339.122 151.558 336.535 192.986 336.394 201Z" fill=""/>
-                </svg>
-            </span> LINE</h1>
-            <h4 class="fonH4">For new project inquiries, please fill out the form below. <br> We’re currently booking projects for April 2022 and on.</h4>
-            
-            <!----------------------- Form left -->
-            <div class="name">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" name="name">
-            </div>
-            <div class="email">
-                <label for="email">Email</label>
-                <br>
-                <input type="text" name="email">
-            </div>
-            <div class="textarea">
-                <label for="textarea">Tell us a bit about your project</label>
-                <br>
-                <textarea name="textarea"></textarea>
-            </div>
-            <div class="launch">
-                <label for="launch">What’s your ideal launch date?</label>
-                <br>
-                <div class="custom-select">
-                    <select id="launch__date">
-                        <option value="date__Less than a month" selected>Less than a month</option>
-                        <option value="date__Option2">Option2</option>
-                        <option value="date__Option3">Option3</option>
-                        <option value="date__Option4">Option4</option>
-                    </select>
+    <!---================================= Form grid =================================-->
+        <section class="contact">
+            <div class="contact__box">
+                <div class="contact__txtbox">
+                    <div class="contact__title">
+                        <h1 class="fonXl">Drop us <span class="fonXlBd">a line</span></h1>
+                        <h4 class="fonPg">For new project inquiries, please fill out the form below. <br> We’re currently booking projects for April 2022 and on.</h4>
+                    </div>
+                    <div class="contact__form">
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <br>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="textarea">
+                            <label for="textarea">Tell us a bit about your project</label>
+                            <br>
+                            <textarea name="textarea"></textarea>
+                        </div>
+                        <div class="launch">
+                            <label for="launch">What’s your ideal launch date?</label>
+                            <br>
+                            <div class="custom-select">
+                                <select id="launch__date">
+                                    <option value="date__Less than a month" selected>Less than a month</option>
+                                    <option value="date__Option2">Option2</option>
+                                    <option value="date__Option3">Option3</option>
+                                    <option value="date__Option4">Option4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="budget">
+                            <label for="budget">What’s your ideal all-in budget?</label>
+                            <br>
+                            <div class="custom-select">
+                                <select id="budget">
+                                    <option class="custom-select__txt" value="budget__Under $10k" selected>Under $10k</option>
+                                    <option class="custom-select__txt" value="budget__Option2">Option2</option>
+                                    <option class="custom-select__txt" value="budget__Option3">Option3</option>
+                                    <option class="custom-select__txt" value="budget__Option4">Option4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hear">
+                            <label for="hear">How did you hear about us?</label>
+                            <br>
+                            <input type="text" name="hear">
+                        </div> 
+                        <div  class="btn" >
+                            <button type="submit" class="submit__btn">SUBMIT</button>
+                        </div> 
+                    </div>
                 </div>
-            </div>
-            <div class="budget">
-                <label for="budget">What’s your ideal all-in budget?</label>
-                <br>
-                <div class="custom-select">
-                    <select id="budget">
-                        <option value="budget__Under $10k" selected>Under $10k</option>
-                        <option value="budget__Option2">Option2</option>
-                        <option value="budget__Option3">Option3</option>
-                        <option value="budget__Option4">Option4</option>
-                    </select>
+                <div class="shapes">
+                    <div class="shapes__svgbox">
+                        <svg class="shape__pink" width="45%" height="45%" viewBox="0 0 151 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M113.007 144.478L116.254 108.597L150.702 98.0218L127.628 70.3435L144.513 38.5178L108.632 35.2708L98.057 0.823268L70.3822 23.9031L38.5565 7.01854L35.3095 42.8993L0.86197 53.4745L23.9383 81.1428L7.05372 112.969L42.9344 116.216L53.5097 150.663L81.1815 127.593L113.007 144.478Z" fill=" "/>
+                            </svg>
+                        <svg class="shape__yellow" width="50%" height="50%" viewBox="0 0 182 182" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M108.043 181.766C97.7144 126.273 126.456 84.3598 181.969 74.0271C126.456 84.3598 84.5626 55.6143 74.2299 0.101057C84.5626 55.6143 55.8171 97.5078 0.303828 107.841C55.8208 97.5275 97.7144 126.273 108.043 181.766Z" fill=" "/>
+                            </svg>
+                        <svg class="shape__orange" width="45%" height="45%" viewBox="0 0 148 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.9504 17.9658L121.545 130.515" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M61.4012 1.85547L87.0493 146.624" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M99.3479 5.13217L49.1743 143.33" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M130.518 26.9378L17.9602 121.532" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M146.639 61.4147L1.86267 87.062" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M143.345 99.323L5.14758 49.1494" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            </svg>
+                    </div>
+                    <div class="shapes__us">
+                        <h4 class="fonPg">hello@nicecreativestudio.com</h4>
+                        <h4 class="fonPg">Barcelona, Spain</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="hear">
-                <label for="hear">How did you hear about us?</label>
-                <br>
-                <input type="text" name="hear">
-            </div>      
-            <button type="submit" class="submit__btn">SUBMIT</button>
-
-            <!----------------------- Form right -->
-            <div class="shapes">
-                <svg class="shape1" width="184" height="183" viewBox="0 0 184 183" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M135.887 171.103L48.3058 11.3966" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M169.938 138.535L14.2375 44.0146" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M183.166 93.2401L1.06409 89.2341" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M171.955 47.4666L12.2466 135.057" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M139.363 13.3921L44.8398 169.102" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M94.1056 0.200133L90.0996 182.302" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                </svg>
-                <svg class="shape2" width="194" height="194" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M34.001 22.942L76.8965 35.2771L104.553 0.233333L126.176 39.2896L170.502 34.0563L158.167 76.9517L193.21 104.608L154.148 126.224L159.382 170.55L116.486 158.215L88.8297 193.259L67.2197 154.204L22.8938 159.437L35.2288 116.541L0.185056 88.885L39.2343 67.268L34.001 22.942Z" fill="#F3A8BE"/>
-                </svg>
-                <svg class="shape3" width="196" height="195" viewBox="0 0 196 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.849669 37.405C60.3106 74.2118 121.602 59.8066 158.422 0.324495C121.602 59.8066 136.021 121.077 195.503 157.897C136.021 121.077 74.7501 135.496 37.9302 194.978C74.729 135.483 60.3106 74.2118 0.849669 37.405Z" fill="#F0B35E"/>
-                </svg>
-            </div>
-            <div class="us">
-                <h4 class="fonH4">hello@nicecreativestudio.com</h4>
-                <h4 class="fonH4">Barcelona, Spain</h4>
             </div>
         </section>
+
+
+
 
         <!---================================= Instagram gallery =================================-->
         <section class="instagram__gallery">

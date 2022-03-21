@@ -59,6 +59,14 @@ img{
     line-height: 7rem;
 }
 
+.fonXlBd {
+    font-family: 'Maine Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.25rem;
+    line-height: 7rem;
+}
+
 .fonH1 {
     font-family: 'Maine Regular';
     font-style: normal;
