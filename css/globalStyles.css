@@ -152,6 +152,34 @@ img{
 li {
     list-style-type: none;
 }
+/* =========================== COLORES =========================== */
+
+.orange{
+    color: #FEFBF3;
+}
+.yellow{
+    color: #FEFBF3;
+}
+.pink{
+    color: #FEFBF3;
+}
+.blue{
+    color: #FEFBF3;
+}
+
+body.color .orange{
+    color: #DE5D37;
+}
+body.color .yellow{
+    color: #FCB95C;
+}
+body.color .pink{
+    color: #F3A8BE;
+}
+body.color .blue{
+    color: #6273D1;
+}
+
 
 /* ------------  LINKS ----------------------------------------------------------- */
 
@@ -412,60 +440,63 @@ ul li {
 }
 
 
-/* ============================ LIGHT MODE ============================ */
-body.light {
+/* ============================ COLOR MODE ============================ */
+
+
+
+body.color {
     background-color: #FEFBF3;
     color: #000000;
 }
 
-body.light a {
+body.color a {
     color: #000000;
 }
 
-body.light nav{
+body.color nav{
     background-color: #FEFBF3;
 }
-body.light .logo svg{
+body.color .logo svg{
     fill: #000000;
 }
-body.light .nav__lightSwitch {
+body.color .nav__colorSwitch {
     fill: #000000;
 }
-body.light #hamburger-icon div{
+body.color #hamburger-icon div{
     background-color: #000000;
 }
-body.light .nav__burger {
+body.color .nav__burger {
     stroke: #000000;
 }
-body.light .mobile__menu{
+body.color .mobile__menu{
     background-color: #FEFBF3;
     color: #000000;
 }
-body.light .footer__title4 svg {
+body.color .footer__title4 svg {
     stroke: #000000;
 }
 
-body.light .footer__subtitle a {
+body.color .footer__subtitle a {
     color: #DE5D37;
 }
 
-body.light .footer__copy h5 {
+body.color .footer__copy h5 {
     color: #EEEEEE;
 }
 
-body.light .footer__backToTop svg {
+body.color .footer__backToTop svg {
     stroke: #000000;
 }
 
-body.light .footer__backToTop svg:hover {
+body.color .footer__backToTop svg:hover {
     stroke: #DE5D37;
 }
 
-body.light .arrow__link {
+body.color .arrow__link {
     fill: #000000;
 }
 
-body.light .grab__gallery {
+body.color .grab__gallery {
     background-color: #FEFBF3;
 }
 
