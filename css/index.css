@@ -17,9 +17,7 @@
   grid-area: title;
   line-height: 9rem;
 }
-.hero h1 .boldItalic{
-  font-family: 'Maine Bold Italic';
-}
+
 .hero h1 .underline{
   text-decoration: underline 5px;
 }
@@ -29,7 +27,18 @@
   line-height: 1.8rem;
   margin: 3.5rem auto 3.5rem 0;
 }
-
+.btn__active {
+  grid-area: button;
+  width: 30%;
+  padding: auto 1rem auto 1rem;
+  background: none;
+  border: 2px solid #FEFBF3;
+  border-radius: 60px;
+  transition: .3s ease all;
+}
+.btn__active svg{
+  margin-right: 0.5rem;
+}
 .shapes{
   grid-area: shapes;
   margin: auto 0 auto auto;
@@ -57,6 +66,9 @@ header {
 /* ----------- Holistic ----------- */
 .holistic{
   margin: 11rem 12.5%;
+}
+.holistic a{
+  margin-left: 2rem;
 }
 
 .holistic__values{
@@ -215,12 +227,6 @@ header {
   margin-right: 0.8rem;
 }
 
-.holistic__descr--p span {
-  font-size: 1rem;
-  font-family: 'Maine Medium Italic';
-  font-style: normal;
-  font-weight: normal;
-}
 
 .holistic__descr--container div .aLink {
   font-family: 'Maine Medium Italic';
@@ -233,7 +239,7 @@ header {
   position: relative;
   width: 150%;
   overflow: hidden;
-  left: -5rem;
+  left: -4rem;
   vertical-align: middle;
 }
 
@@ -242,22 +248,41 @@ header {
 }
 
 .scrolling-text .scrolling-text-content {
-  color: #fff;
+  color: #FEFBF3;
   font-size: 120px;
   white-space: nowrap;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
-
+.slide__star{
+  fill: #FEFBF3;
+}
+.slide__asterisk{
+  stroke: #FEFBF3;
+  margin: 0 2rem;
+}
+.slide__venus{
+  fill: #FEFBF3;
+  margin-left: 2rem;
+}
+.slide__arrow{
+  vertical-align: middle;
+  fill: #FEFBF3;
+}
+.slide__flower{
+  fill: #FEFBF3;
+  margin: 0 2rem;
+}
 
 /* ----------- Messy gallery ----------- */
 .messy__gallery--container {
   display: grid;
   grid-template-columns: 5% 22.5% 22.5% 22.5% 22.5% 5%;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr min-content;
   gap: 0px 0px;
   grid-template-areas:
     ". one two four five ."
-    ". one three . five .";
+    ". one three . five ."
+    ".  .   .   button  . .";
   margin-top: 10%;
 }
 
@@ -277,7 +302,7 @@ header {
 }
 
 .messy__img--container:hover>img {
-  box-shadow: 0px 2px 10px 10px rgba(26, 26, 26, 0.281);
+  box-shadow: 0px 0px 20px 5px rgba(26, 26, 26, 0.116);
 }
 
 /* oceans */
@@ -315,20 +340,8 @@ header {
 }
 
 .messy__gallery--link {
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
-  margin-right: 1rem;
-
-}
-
-.messy__gallery--link a {
-  font-family: 'Maine Medium Italic';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  margin-left: 1rem;
+  grid-area: button;
+  margin: 1rem 4rem auto auto;
 }
 
 
@@ -456,8 +469,29 @@ body.color .philosophy svg .respect{
   stroke: #FCB95C;
 }
 body.color .philosophy svg .text{
-  fill: #000000;
+  fill: #202020;
 }
+
+body.color .scrolling-text .scrolling-text-content {
+  color: #202020;
+}
+body.color .slide__star{
+  fill: #F3A8BE;
+}
+body.color .slide__asterisk{
+  stroke: #FCB95C;
+}
+body.color .slide__venus{
+  fill: #6273D1;
+}
+body.color .slide__arrow{
+  vertical-align: middle;
+  fill: #202020;
+}
+body.color .slide__flower{
+  fill: #DE5D37;
+}
+
 
 body.light .lottie__container {
   display: none;
