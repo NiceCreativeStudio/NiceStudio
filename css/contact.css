@@ -13,13 +13,13 @@ textarea {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
-    width: 99%;
+    width: 98.5%;
     min-height: 8.5rem;
     border: 2px solid #424242;
     border-radius: 5px;
-    padding-left: 1%;
-    background: none; 
-    color: #EEEEEE; }
+    padding-left: 1.5%;
+    background-color: transparent; 
+    color:  #FEFBF3; }
 
 input {
     font-family: 'Montserrat', sans-serif;
@@ -32,8 +32,9 @@ input {
     border: 2px solid #424242;
     border-radius: 5px;
     padding-left: 2%;
-    background: none;
-    color: #EEEEEE; }
+    background-color: transparent; 
+    color:#FEFBF3; }
+
 
 /* ----------- Form ----------- */
 
@@ -111,18 +112,18 @@ input {
     border: 2px solid #424242;
     border-radius: 5px;
     width: 100%;
-    color: #EEEEEE; }
+    color: #FEFBF3; }
 
 .custom-select select {
     display: none; }
 
 .select-selected {
-    background: none; }
+    background: none;  }
 
 .select-selected:after {
     position: absolute;
     content: "";
-    top: 18px;
+    top: 19px;
     right: 10px;
     width: 0;
     height: 0;
@@ -131,7 +132,7 @@ input {
 
 .select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
-    top: 7px; }
+    top: 11px; }
 
 .select-items div,
 .select-selected {
@@ -190,7 +191,7 @@ input {
     width: 100%;
     height: auto; 
     position: absolute;
-    bottom: 0;  }
+    bottom: 5.75rem;  }
 
 /* SUBMIT -------- */
 
@@ -198,30 +199,49 @@ input {
     grid-area: submit;
     width: min-content;
     color: #FEFBF3;
-    background-color: #717CBE;
-    font-family: 'Maine Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    padding: 1rem 3rem 1rem 3rem;
-    border: none;
-    border-radius: 35px;
-    vertical-align: middle;
+    border-color: #FEFBF3;
     transition: .3s ease all;
+    padding: 7px 1.75rem 3px 0.75rem;
     margin-top: 0.5rem;
-}
+    display: inline-flex; }
+
+.submit__btn svg {
+    fill: #FEFBF3;
+    padding: 8px 1rem 3px 0.75rem; }
 
 .submit__btn:hover {
+    color:  #DE5D37;
+    border-color: #DE5D37;
     transform: scale(1.1);
     box-shadow: 0 12px 16px 0 rgba(20, 20, 20, 0.137), 0 17px 15px 0 rgba(15, 15, 15, 0.103);
 }
 
+.submit__btn svg:hover {
+    fill:  #DE5D37;
+}
+
+/* ----------- central txt ----------- */
+
+.centraltxt{
+    width: 100%;
+    height: auto;
+    margin-top: 11rem;
+    margin-bottom: 11rem; }
+
+.centraltxt__box{
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%; }
+        
+.centralsvg{
+    padding: 0.75rem;
+    transform: translateY(1.25rem); }
 
 
 
 
 /* ----------- Instagram gallery ----------- */
+
 .instagram__gallery {
     margin-top: 15%;
 }
@@ -288,18 +308,45 @@ input {
 }
 
 /* ============================ LIGHT MODE ============================ */
-body.light .form__container input[type=text] {
-    border: 2px solid #202020;
+
+
+body.color textarea {
     color: #000000;
 }
 
-body.light .textarea textareatxt {
-    color:#000000; }
+body.color input {
+    color: #000000;
+}
 
-body.light .select-items div,
-.select-selected {
-    color:#FEFBF3;
-}
-body.light .select-items {
-    background-color: #FEFBF3;
-}
+body.color .shape__pink {
+    fill:#F3A8BE; }
+
+body.color .shape__yellow {
+    fill:#FCB95C; }
+
+body.color .shape__orange {
+    stroke:#DE5D37; }
+
+body.color .select-items div,
+body.color .select-selected {
+    color:#202020;
+    border-color: transparent transparent #eeeeee transparent; }
+
+body.color .select-items {
+    background-color: #FEFBF3; }
+
+body.color .select-selected:after {
+    border-color:#202020 transparent transparent transparent; }
+
+body.color .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #202020 transparent; }
+
+body.color .submit__btn {
+    color:#202020;
+    border-color: #202020; }
+    
+body.color .submit__btn svg {
+    fill:#202020; }
+
+
+
