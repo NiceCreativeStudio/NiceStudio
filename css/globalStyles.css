@@ -59,6 +59,11 @@ button{
 }
 
 @font-face {
+    font-family: 'Maine Book Italic';
+    src: url('../assets/Maine/Maine-BookItalic.otf');
+}
+
+@font-face {
     font-family: 'Maine Bold';
     src: url('../assets/Maine/Maine-Bold.otf');
 }
@@ -97,20 +102,13 @@ button{
     }
 
 .fonH2 {  
-    font-family: 'Maine Regular';
+    font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
     font-size: 5.25rem;
     line-height: 6rem;
 }
-    .fonH2Bd {  
-        font-family: 'Maine Medium Italic';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5.25rem;
-        line-height: 6rem;
-    }
-
+  
 .fonH3 {
     font-family: 'Maine Light';
     font-style: normal;
@@ -215,6 +213,24 @@ button{
     line-height: 1.5rem;
     letter-spacing: 0.2rem;
 }
+
+.Rg {  
+    font-family: 'Maine Regular'; }
+
+.BkIt {  
+    font-family: 'Maine Book Italic'; }
+
+.Bd {  
+    font-family: 'Maine Bold'; }
+
+.BdIt {  
+    font-family: 'Maine Bold Italic'; }
+
+.MeIt {  
+    font-family: 'Maine Medium Italic'; }
+
+.Un {  
+    text-decoration: underline; }
 
 li {
     list-style-type: none;
