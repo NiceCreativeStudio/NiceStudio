@@ -46,89 +46,146 @@
         </nav>
     </header>
     <main>
-        <!---================================= Form grid =================================-->
-        <section class="form__container">
-            <h1 class="fonXl">DROP US <br> A<span>
-                <svg class="arrow__link" width="130" height="130" viewBox="0 0 436 201" fill="" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M336.394 201H323.978C323.978 191.955 327.035 145.466 366.304 115.239C371.195 111.449 376.421 108.108 381.917 105.257H0V92.8846H381.541C372.589 88.1315 364.382 82.1004 357.18 74.9825C337.375 54.9834 326.144 28.0966 325.86 0H338.322C338.512 24.8009 348.418 48.5464 365.928 66.172C382.806 82.4516 405.141 91.9187 428.617 92.7439H436V100.242V104.929C434.401 104.929 432.285 104.929 429.651 104.929C409.402 105.568 389.857 112.481 373.734 124.705C339.122 151.558 336.535 192.986 336.394 201Z" fill=""/>
-                </svg>
-            </span> LINE</h1>
-            <h4 class="fonH4">For new project inquiries, please fill out the form below. <br> We’re currently booking projects for April 2022 and on.</h4>
-            
-            <!----------------------- Form left -->
-            <div class="name">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" name="name">
-            </div>
-            <div class="email">
-                <label for="email">Email</label>
-                <br>
-                <input type="text" name="email">
-            </div>
-            <div class="textarea">
-                <label for="textarea">Tell us a bit about your project</label>
-                <br>
-                <textarea name="textarea"></textarea>
-            </div>
-            <div class="launch">
-                <label for="launch">What’s your ideal launch date?</label>
-                <br>
-                <div class="custom-select">
-                    <select id="launch__date">
-                        <option value="date__Less than a month" selected>Less than a month</option>
-                        <option value="date__Option2">Option2</option>
-                        <option value="date__Option3">Option3</option>
-                        <option value="date__Option4">Option4</option>
-                    </select>
+    <!---================================= Form grid =================================-->
+        <section class="contact">
+            <div class="contact__box">
+                <div class="contact__txtbox">
+                    <div class="contact__title">
+                        <h1 class="fonH1">Drop us <span class="fonH1Bd orange">a line</span></h1>
+                        <h4 class="fonPar">For new project inquiries, please fill out the form below. <br> We’re currently booking projects for April 2022 and on.</h4>
+                    </div>
+                    <div class="contact__form">
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <br>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="textarea">
+                            <label for="textarea">Tell us a bit about your project</label>
+                            <br>
+                            <textarea name="textarea"></textarea>
+                        </div>
+                        <div class="launch">
+                            <label for="launch">What’s your ideal launch date?</label>
+                            <br>
+                            <div class="custom-select">
+                                <select id="launch__date">
+                                    <option value="date__Less than a month" selected>Less than a month</option>
+                                    <option value="date__Option2">Option2</option>
+                                    <option value="date__Option3">Option3</option>
+                                    <option value="date__Option4">Option4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="budget">
+                            <label for="budget">What’s your ideal all-in budget?</label>
+                            <br>
+                            <div class="custom-select">
+                                <select id="budget">
+                                    <option class="custom-select__txt" value="budget__Under $10k" selected>Under $10k</option>
+                                    <option class="custom-select__txt" value="budget__Option2">Option2</option>
+                                    <option class="custom-select__txt" value="budget__Option3">Option3</option>
+                                    <option class="custom-select__txt" value="budget__Option4">Option4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hear">
+                            <label for="hear">How did you hear about us?</label>
+                            <br>
+                            <input type="text" name="hear">
+                        </div> 
+                        <div  class="btn" >
+                            <button type="submit" class="submit__btn"> <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3825 3.88326H0V0H20.2658V20.2658H16.3825V3.88326Z" fill=" "/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.13956e-05 16.3926C7.15278 16.3926 12.9512 10.5941 12.9512 3.44141L16.8245 3.44141C16.8245 12.7333 9.29191 20.2658 4.12263e-05 20.2658L4.13956e-05 16.3926Z" fill=" "/>
+                                </svg> Send</button>
+                        </div> 
+                    </div>
                 </div>
-            </div>
-            <div class="budget">
-                <label for="budget">What’s your ideal all-in budget?</label>
-                <br>
-                <div class="custom-select">
-                    <select id="budget">
-                        <option value="budget__Under $10k" selected>Under $10k</option>
-                        <option value="budget__Option2">Option2</option>
-                        <option value="budget__Option3">Option3</option>
-                        <option value="budget__Option4">Option4</option>
-                    </select>
+                <div class="shapes">
+                    <div class="shapes__svgbox">
+                        <svg class="shape__pink" width="45%" height="45%" viewBox="0 0 151 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M113.007 144.478L116.254 108.597L150.702 98.0218L127.628 70.3435L144.513 38.5178L108.632 35.2708L98.057 0.823268L70.3822 23.9031L38.5565 7.01854L35.3095 42.8993L0.86197 53.4745L23.9383 81.1428L7.05372 112.969L42.9344 116.216L53.5097 150.663L81.1815 127.593L113.007 144.478Z" fill=" "/>
+                            </svg>
+                        <svg class="shape__yellow" width="50%" height="50%" viewBox="0 0 182 182" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M108.043 181.766C97.7144 126.273 126.456 84.3598 181.969 74.0271C126.456 84.3598 84.5626 55.6143 74.2299 0.101057C84.5626 55.6143 55.8171 97.5078 0.303828 107.841C55.8208 97.5275 97.7144 126.273 108.043 181.766Z" fill=" "/>
+                            </svg>
+                        <svg class="shape__orange" width="45%" height="45%" viewBox="0 0 148 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.9504 17.9658L121.545 130.515" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M61.4012 1.85547L87.0493 146.624" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M99.3479 5.13217L49.1743 143.33" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M130.518 26.9378L17.9602 121.532" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M146.639 61.4147L1.86267 87.062" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            <path d="M143.345 99.323L5.14758 49.1494" stroke=" " stroke-width="14.9612" stroke-miterlimit="10"/>
+                            </svg>
+                    </div>
+                    <div class="shapes__us">
+                        <h4 class="fonPar">hello@nicecreativestudio.com</h4>
+                        <h4 class="fonPar">Barcelona, Spain</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="hear">
-                <label for="hear">How did you hear about us?</label>
-                <br>
-                <input type="text" name="hear">
-            </div>      
-            <button type="submit" class="submit__btn">SUBMIT</button>
-
-            <!----------------------- Form right -->
-            <div class="shapes">
-                <svg class="shape1" width="184" height="183" viewBox="0 0 184 183" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M135.887 171.103L48.3058 11.3966" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M169.938 138.535L14.2375 44.0146" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M183.166 93.2401L1.06409 89.2341" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M171.955 47.4666L12.2466 135.057" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M139.363 13.3921L44.8398 169.102" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                    <path d="M94.1056 0.200133L90.0996 182.302" stroke="#ED764A" stroke-width="14.9612" stroke-miterlimit="10"/>
-                </svg>
-                <svg class="shape2" width="194" height="194" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M34.001 22.942L76.8965 35.2771L104.553 0.233333L126.176 39.2896L170.502 34.0563L158.167 76.9517L193.21 104.608L154.148 126.224L159.382 170.55L116.486 158.215L88.8297 193.259L67.2197 154.204L22.8938 159.437L35.2288 116.541L0.185056 88.885L39.2343 67.268L34.001 22.942Z" fill="#F3A8BE"/>
-                </svg>
-                <svg class="shape3" width="196" height="195" viewBox="0 0 196 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.849669 37.405C60.3106 74.2118 121.602 59.8066 158.422 0.324495C121.602 59.8066 136.021 121.077 195.503 157.897C136.021 121.077 74.7501 135.496 37.9302 194.978C74.729 135.483 60.3106 74.2118 0.849669 37.405Z" fill="#F0B35E"/>
-                </svg>
-            </div>
-            <div class="us">
-                <h4 class="fonH4">hello@nicecreativestudio.com</h4>
-                <h4 class="fonH4">Barcelona, Spain</h4>
             </div>
         </section>
-
-        <!---================================= Instagram gallery =================================-->
+    <!---================================= central txt =================================-->
+        <section class="centraltxt">
+            <div class="centraltxt__box">
+                <h3 class="fonH2">What defines us as <span class="fonH2Bd blue">humans</span> are the <span class="fonH2Bd yellow">actions</span> we take every day, 
+                    so here’s a quick look into <span class="fonH2Bd yellow">our team</span> 
+                    <span><a href="about.html"><svg class="centralsvg" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="29.5" cy="29.5" r="28" stroke="#DE5D37" stroke-width="3"/>
+                    <mask id="path-2-inside-1_719_700" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z" fill="#FEFBF3"/>
+                    <path d="M19 23.8833H8.36877V34.5145H19V23.8833ZM35.3825 23.8833H46.0137V13.252H35.3825V23.8833ZM19 20V9.36877H8.36877V20H19ZM39.2658 20H49.897V9.36877H39.2658V20ZM39.2658 40.2658V50.897H49.897V40.2658H39.2658ZM35.3825 40.2658H24.7513V50.897H35.3825V40.2658ZM19 34.5145H35.3825V13.252H19V34.5145ZM8.36877 20V23.8833H29.6312V20H8.36877ZM35.3825 50.897H39.2658V29.6346H35.3825V50.897ZM24.7513 23.8833V40.2658H46.0137V23.8833H24.7513ZM39.2658 9.36877H19V30.6312H39.2658V9.36877ZM49.897 40.2658V20H28.6346V40.2658H49.897Z" fill="#DE5D37" mask="url(#path-2-inside-1_719_700)"/>
+                    <mask id="path-4-inside-2_719_700" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z" fill="#FEFBF3"/>
+                    <path d="M31.951 23.4414L31.951 12.8102L21.3197 12.8102L21.3197 23.4414L31.951 23.4414ZM18.9998 36.3926L18.9998 25.7614L8.36857 25.7614L8.36857 36.3926L18.9998 36.3926ZM35.8242 23.4414L46.4554 23.4414L46.4554 12.8102L35.8242 12.8102L35.8242 23.4414ZM18.9998 40.2658L8.36857 40.2658L8.36857 50.8971L18.9998 50.8971L18.9998 40.2658ZM21.3197 23.4414C21.3197 24.7227 20.2811 25.7614 18.9998 25.7614L18.9998 47.0238C32.024 47.0238 42.5822 36.4656 42.5822 23.4414L21.3197 23.4414ZM35.8242 12.8102L31.951 12.8102L31.951 34.0726L35.8242 34.0726L35.8242 12.8102ZM18.9998 50.8971C34.1631 50.8971 46.4554 38.6047 46.4554 23.4414L25.193 23.4414C25.193 26.8618 22.4202 29.6346 18.9998 29.6346L18.9998 50.8971ZM8.36857 36.3926L8.36857 40.2658L29.631 40.2658L29.631 36.3926L8.36857 36.3926Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
+                    </svg> </a></span> 
+                    our <span class="pink">holistic process</span> 
+                    <span><a href="process.html"><svg class="centralsvg" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="29.5" cy="29.5" r="28" stroke="#DE5D37" stroke-width="3"/>
+                    <mask id="path-2-inside-1_719_700" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z" fill="#FEFBF3"/>
+                    <path d="M19 23.8833H8.36877V34.5145H19V23.8833ZM35.3825 23.8833H46.0137V13.252H35.3825V23.8833ZM19 20V9.36877H8.36877V20H19ZM39.2658 20H49.897V9.36877H39.2658V20ZM39.2658 40.2658V50.897H49.897V40.2658H39.2658ZM35.3825 40.2658H24.7513V50.897H35.3825V40.2658ZM19 34.5145H35.3825V13.252H19V34.5145ZM8.36877 20V23.8833H29.6312V20H8.36877ZM35.3825 50.897H39.2658V29.6346H35.3825V50.897ZM24.7513 23.8833V40.2658H46.0137V23.8833H24.7513ZM39.2658 9.36877H19V30.6312H39.2658V9.36877ZM49.897 40.2658V20H28.6346V40.2658H49.897Z" fill="#DE5D37" mask="url(#path-2-inside-1_719_700)"/>
+                    <mask id="path-4-inside-2_719_700" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z" fill="#FEFBF3"/>
+                    <path d="M31.951 23.4414L31.951 12.8102L21.3197 12.8102L21.3197 23.4414L31.951 23.4414ZM18.9998 36.3926L18.9998 25.7614L8.36857 25.7614L8.36857 36.3926L18.9998 36.3926ZM35.8242 23.4414L46.4554 23.4414L46.4554 12.8102L35.8242 12.8102L35.8242 23.4414ZM18.9998 40.2658L8.36857 40.2658L8.36857 50.8971L18.9998 50.8971L18.9998 40.2658ZM21.3197 23.4414C21.3197 24.7227 20.2811 25.7614 18.9998 25.7614L18.9998 47.0238C32.024 47.0238 42.5822 36.4656 42.5822 23.4414L21.3197 23.4414ZM35.8242 12.8102L31.951 12.8102L31.951 34.0726L35.8242 34.0726L35.8242 12.8102ZM18.9998 50.8971C34.1631 50.8971 46.4554 38.6047 46.4554 23.4414L25.193 23.4414C25.193 26.8618 22.4202 29.6346 18.9998 29.6346L18.9998 50.8971ZM8.36857 36.3926L8.36857 40.2658L29.631 40.2658L29.631 36.3926L8.36857 36.3926Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
+                    </svg>
+                    </a></span>  and the things we’be been 
+                    <span class="fonH2Bd yellow">working on</span> <span><a href="work.html"><svg class="centralsvg" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="29.5" cy="29.5" r="28" stroke="#DE5D37" stroke-width="3"/>
+                    <mask id="path-2-inside-1_719_700" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z" fill="#FEFBF3"/>
+                    <path d="M19 23.8833H8.36877V34.5145H19V23.8833ZM35.3825 23.8833H46.0137V13.252H35.3825V23.8833ZM19 20V9.36877H8.36877V20H19ZM39.2658 20H49.897V9.36877H39.2658V20ZM39.2658 40.2658V50.897H49.897V40.2658H39.2658ZM35.3825 40.2658H24.7513V50.897H35.3825V40.2658ZM19 34.5145H35.3825V13.252H19V34.5145ZM8.36877 20V23.8833H29.6312V20H8.36877ZM35.3825 50.897H39.2658V29.6346H35.3825V50.897ZM24.7513 23.8833V40.2658H46.0137V23.8833H24.7513ZM39.2658 9.36877H19V30.6312H39.2658V9.36877ZM49.897 40.2658V20H28.6346V40.2658H49.897Z" fill="#DE5D37" mask="url(#path-2-inside-1_719_700)"/>
+                    <mask id="path-4-inside-2_719_700" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z"/>
+                    </mask>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z" fill="#FEFBF3"/>
+                    <path d="M31.951 23.4414L31.951 12.8102L21.3197 12.8102L21.3197 23.4414L31.951 23.4414ZM18.9998 36.3926L18.9998 25.7614L8.36857 25.7614L8.36857 36.3926L18.9998 36.3926ZM35.8242 23.4414L46.4554 23.4414L46.4554 12.8102L35.8242 12.8102L35.8242 23.4414ZM18.9998 40.2658L8.36857 40.2658L8.36857 50.8971L18.9998 50.8971L18.9998 40.2658ZM21.3197 23.4414C21.3197 24.7227 20.2811 25.7614 18.9998 25.7614L18.9998 47.0238C32.024 47.0238 42.5822 36.4656 42.5822 23.4414L21.3197 23.4414ZM35.8242 12.8102L31.951 12.8102L31.951 34.0726L35.8242 34.0726L35.8242 12.8102ZM18.9998 50.8971C34.1631 50.8971 46.4554 38.6047 46.4554 23.4414L25.193 23.4414C25.193 26.8618 22.4202 29.6346 18.9998 29.6346L18.9998 50.8971ZM8.36857 36.3926L8.36857 40.2658L29.631 40.2658L29.631 36.3926L8.36857 36.3926Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
+                    </svg>
+                    </a></span></h3>
+            </div>
+        </section>
+    <!---================================= Instagram gallery =================================-->
         <section class="instagram__gallery">
-            <h4 class="fonLink">THE SOCIAL JOURNAL</h4>
-            <a href="https://www.instagram.com/wearenicestudio/" target="_blank">@wearenicestudio</a>
+            <div class="instagram__title">
+                <h3 class="fonH3">We also <span class="fonH3Bd pink">like</span> to <span class="fonH3Bd blue">have fun</span></h3>
+                <a class="fonH4tit" href="https://www.instagram.com/wearenicestudio/" target="_blank">@wearenicestudio</a>
+            </div>
             <div class="items2">
                 <div class="item item1">
                     <div class="gallery__cardbox">

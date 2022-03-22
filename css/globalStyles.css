@@ -25,6 +25,22 @@ img {
     border-radius: 8px;
 }
 
+button{
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    height: 3.5rem;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1.75rem;
+    background-color: transparent;
+}
+
+
+
 /* ------------  FONTS ------------------------------------------------------ */
 
 @font-face {
@@ -35,6 +51,11 @@ img {
 @font-face {
     font-family: 'Maine Regular';
     src: url('../assets/Maine/Maine-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Maine Book';
+    src: url('../assets/Maine/Maine-Book.otf');
 }
 
 @font-face {
@@ -52,7 +73,7 @@ img {
     src: url('../assets/Maine/Maine-MediumItalic.otf');
 }
 
-.fonXl {
+.fonXl {  /* == Confirmar si va === */
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
@@ -61,41 +82,62 @@ img {
 }
 
 .fonH1 {
-    font-family: 'Maine Regular';
+    font-family: 'Maine Book';
     font-style: normal;
     font-weight: normal;
-    font-size: 6rem;
+    font-size: 6.5rem;
     line-height: 7.5rem;
 }
+    .fonH1Bd {
+        font-family: 'Maine Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 6.5rem;
+        line-height: 7.5rem;
+    }
 
-.fonH2 {
+.fonH2 {  
     font-family: 'Maine Regular';
     font-style: normal;
     font-weight: normal;
-    font-size: 4.5rem;
+    font-size: 5.25rem;
     line-height: 6rem;
 }
+    .fonH2Bd {  
+        font-family: 'Maine Medium Italic';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5.25rem;
+        line-height: 6rem;
+    }
 
 .fonH3 {
-    font-family: 'Maine Regular';
+    font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
-    font-size: 3.25rem;
+    font-size: 3.75rem;
     line-height: 4.75rem;
-}
+} 
+    .fonH3Bd {
+        font-family: 'Maine Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.75rem;
+        line-height: 4.75rem;
+    } 
 
 .fonH4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Maine Light';
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 2rem;
     line-height: 2.5rem;
 }
 
-.fonFoot {
-    font-family: 'Maine Bold';
+.fonH4tit {  /* == Cambie nombre === */
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 2rem;
     line-height: 2rem;
 }
@@ -103,9 +145,25 @@ img {
 .fonH5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+.fonLab {
+    font-family: 'Maine Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.fonPar {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .fonH6 {
@@ -117,7 +175,15 @@ img {
     opacity: 0.4;
 }
 
-.fonPg {
+.fonSmall {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.fonPg {  /* == Confirmar si va === */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -125,7 +191,7 @@ img {
     line-height: 2rem;
 }
 
-.fonPgSt {
+.fonPgSt { /* == Confirmar si va === */
     font-family: 'Maine Bold Italic';
     font-style: normal;
     font-weight: normal;
@@ -133,7 +199,7 @@ img {
     line-height: 2rem;
 }
 
-.fonLink {
+.fonLink { /* == Confirmar si va === */
     font-family: 'Maine Medium Italic';
     font-style: normal;
     font-weight: normal;
@@ -141,7 +207,7 @@ img {
     line-height: 1.5rem;
 }
 
-.fonSubFoot {
+.fonSubFoot { /* == Confirmar si va === */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
