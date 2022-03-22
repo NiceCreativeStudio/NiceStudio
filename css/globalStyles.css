@@ -117,7 +117,14 @@ button{
     font-weight: normal;
     font-size: 3.75rem;
     line-height: 4.75rem;
-}
+} 
+    .fonH3Bd {
+        font-family: 'Maine Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.75rem;
+        line-height: 4.75rem;
+    } 
 
 .fonH4 {
     font-family: 'Maine Light';

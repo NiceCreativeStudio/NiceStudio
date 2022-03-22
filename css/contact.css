@@ -33,7 +33,9 @@ input {
     border-radius: 5px;
     padding-left: 2%;
     background-color: transparent; 
-    color:#FEFBF3; }
+    color:#FEFBF3; 
+    }
+
 
 
 /* ----------- Form ----------- */
@@ -244,26 +246,23 @@ input {
 
 .instagram__gallery {
     margin-top: 15%;
+    width: 100%;
 }
 
-.instagram__gallery h4 {
-    font-size: 2rem;
-    margin: 10% auto 2rem 5%;
-}
+.instagram__title{
+    margin-left: 12.5%;
+    width: 75%;
+    height: auto;
+    margin-bottom: 3.5rem; }
 
-.instagram__gallery a {
-    font-family: 'Maine Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    transition: .3s ease all;
-    margin-left: 5%;
+    .instagram__gallery h3 {
+        padding-bottom: 1rem; }
 
-}
+    .instagram__gallery a {
+        transition: .3s ease all; }
 
-.instagram__gallery a:hover {
-    color: #DE5D37;
-}
+    .instagram__gallery a:hover {
+        color: #DE5D37; }
 
 .items2 {
     margin-top: 3%;
