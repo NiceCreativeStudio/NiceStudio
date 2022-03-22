@@ -216,7 +216,8 @@ button{
     font-family: 'Maine Medium Italic'; }
 
 .Un {  
-    text-decoration: underline; }
+    text-decoration: underline 6px;
+    text-underline-offset: 8px; }
 
 li {
     list-style-type: none;
