@@ -240,6 +240,13 @@ li {
 .hoverLink:hover > span{
     display: block;
 }
+
+.arrow__link{
+    transition: .3s ease all;
+}
+.arrow__link:hover{
+    transform: scale(1.2);
+}
 /* =========================== COLORES =========================== */
 
 .orange {
@@ -549,7 +556,7 @@ ul li {
 }
 
 .footer__backToTop svg:hover {
-    stroke: #FCB95C;
+    stroke: #DE5D37;
     transform: translateY(-1rem);
 }
 
@@ -580,7 +587,19 @@ body.color {
 body.color a {
     color: #202020;
 }
+body.color .btn__active{
+    border: 2px solid #202020;
+}
+body.color .btn__active:hover {
+    border: 2px solid #DE5D37;
+}
+body.color .btn__active:hover svg {
+    fill: #DE5D37;
+}
 
+body.color .btn__active svg{
+    fill: #202020;
+}
 body.color nav {
     background-color: #FEFBF3;
 }

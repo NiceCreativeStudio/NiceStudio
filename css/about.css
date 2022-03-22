@@ -1,159 +1,111 @@
 /*----------- a nice team ----------- */
-
-.teamTxt{
-    overflow: hidden;
-    width: 100%;
-    margin-top: 10rem;   
-    height: auto;
-    position: relative; }
-
-.teamTxt__box{
-    margin-left: 12.5%; 
-    width: 32rem;
-    height: 11rem;
-    position: relative;  }
-
-.teamTxt__title1{
-    width: auto;
-    height: auto;
-    display: inline-flex;
-    margin-top: 0rem; }
-
-    .teamTxt__svg1{
-        width: 75px;
-        height: 75px;
-        margin: 0.75rem 1.25rem 0 1.25rem; }
-
-    .teamTxt__svg1a{
-        width: 60px;
-        height: 60px;
-        margin: 1.25rem 1.25rem 0 1.25rem; }
-
-.teamTxt__title2{
-    width: auto;
-    height: auto;
-    display: inline-flex;
-    margin-top: 1.25rem; }
-
-    .teamTxt__svg2{
-        width: 150px;
-        height: 70px; 
-        margin-top: 1rem;
-        margin-left: 1.5rem;}
-
-        .teamTxt__svg2 svg{
-            stroke: #EEEEEE;}
-
-.teamTxt__boxPar{
-    margin-left: 12.5%; 
-    width: 30rem;
-    height: auto;
-    margin-top: 5rem;
-    margin-bottom: 10rem; }
-
-    .teamTxt__title3{
-        width: 30rem;
-        height: auto;
-        margin-top: 4rem;  }
-
-    .teamTxt__title4{
-        width: 30rem;
-        height: auto;
-        margin-top: 3rem;  }
-
-    .teamTxt__title5{
-        width: 30rem;
-        height: auto;
-        margin-top: 3rem;  }
-        
-.teamTxt__boxImg{
-    position: absolute;
-    top: 0rem; 
-    left: 45rem;  }
-
-    .teamTxt__img{
-        min-height: 34rem;
-        max-height: 39rem;
-        width: auto;
-        border-radius: 1rem; }
-
-/*----------- avatars ----------- */
-
-.avatars {
-    width: 100%;
-    margin-bottom: 9rem;
-    margin-top: 0rem;  }
-
-.avatars__our{
-    height: auto;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-    width: auto; }
-
-.avatars__box {
-    display: grid;
+.team {
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: min-content min-content min-content min-content; 
+    gap: 0px 0px; 
     grid-template-areas: 
-    "per1 per2 . per3 per4";
-    grid-template-columns: 24% 24% 4% 24% 24%;
-    height: auto;
-    width: 100%;
+        "title title . ."
+        "subtitle1 subtitle1 subtitle2 subtitle2"
+        "team team . ."
+        "lautaro yohanna laura ignacio"; 
+    margin: 12.5% 11rem;
+}
+.team h1{
+    grid-area: title;
+    margin-bottom: 3.5rem;
+}
+.team p{
+    width: 90%;
+    margin-bottom: 3.5rem;
+}
+.team .team__subtitle1{
+    grid-area: subtitle1;
+}
+.team .team__subtitle2{
+    grid-area: subtitle2;
+}
+.team h3{
+    grid-area: team;
+    margin-bottom: 11rem;
+}
+.team__container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center; }
+    width: 100%;
+}
+.team__container .team__emoji{
+    width: 100%;
+}
+.team__container .team__occupation{
+    color: #fefbf348;
+    margin-bottom: 2rem;
+    margin-left: 0 auto 1rem 0;
+}
+.team__container .team__name{
+    line-height: 3rem;
+}
+.lautaro{
+    grid-area: lautaro;
+}
+.yohanna{
+    grid-area: yohanna;
+}
+.laura{
+    grid-area: laura;
+}
+.ignacio{
+    grid-area: ignacio;
+}
 
-    .avatars__box p {
-        text-align: left;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem; }
 
-    .avatars__box h4 {
-        text-align: left;
-        width: 100%; }
+/*----------- Our core values ----------- */
+.values{
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: min-content min-content min-content; 
+    gap: 3.5rem 3rem; 
+    grid-template-areas: 
+        "title ."
+        "work simple"
+        "true respect"; 
+    margin: 0 12.5%;
+}
+.values h1{
+    grid-area: title;
+    margin-bottom: 1;
+}
+.values__container{
+    display: flex;
+    flex-direction: column;
+}
+.values__container h6{
+    color: #fefbf3;
+    font-size: 1rem
+}
+.values__container h4{
+    margin-bottom: 3rem;
+}
 
-    .avatars__box img {
-        object-fit: inherit;
-        width: 100%;
-        height: 100%;
-        max-height: 22rem;
-        }
-        .avatars__per1 {
-            grid-area: per1;
-            height: auto; }
-
-        .avatars__per2 {
-            grid-area: per2;
-            height: auto; }
-
-        .avatars__per3 {
-            grid-area: per3;
-            height: auto; }
-
-        .avatars__per4 {
-            grid-area: per4;
-            height: auto; }
-
+.work{
+    grid-area: work;
+}
+.simple{
+    grid-area: simple;
+}
+.true{
+    grid-area: true;
+}
+.respect{
+    grid-area: respect;
+}
 /*----------- we believe in ----------- */
 
-.team__title {
-    width: 100%;
-    height: 12rem;
-    margin-top: 10rem;
-    margin-bottom:7rem; }
-
-.team__titlebox {
-    width: auto;
-    margin-left: 12.5%; }
-
-.team__titletxt {
-    display: inline-flex; }
-
-.team__titlesvg {
-    margin-top: 1.5rem;
-    margin-left: 1.5rem; }
-
-    .team__titlesvg svg{
-        stroke: #EEEEEE;}
+.about__quote{
+    line-height: 8rem;
+    margin: 11rem 12.5%;
+}
 
 /*----------- drag elements ----------- */
 
@@ -359,15 +311,10 @@
     height: auto; }
 
 
-/* ============================ LIGHT MODE ============================ */
-body.light .teamTxt__svg2 svg{
-    stroke: #000000; }
-
-body.light .team__titlesvg svg{
-    stroke: #000000; }
-
-body.light .team__careers1 svg {
-    stroke: #000000; }
+/* ============================ COLOR MODE ============================ */
+body.color .values__container h6{
+    color: #20202048;
+}
 
 
 /* ============================ MEDIA ============================ */

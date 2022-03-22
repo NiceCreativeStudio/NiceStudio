@@ -28,16 +28,12 @@
                 </svg>
             </a>
             <ul class="nav__links">
-                <li><a href="./about.html" class="aLink aLink--under">ABOUT</a></li>
-                <li><a href="./process.html" class="aLink aLink--under">PROCESS</a></li>
-                <li><a href="./work.html" class="aLink aLink--under">WORK</a></li>
-                <li><a href="./contact.html" class="aLink aLink--under">CONTACT</a></li>
+                <li><a href="./about.html" class="aLink aLink--under">About</a></li>
+                <li><a href="./process.html" class="aLink aLink--under">Process</a></li>
+                <li><a href="./work.html" class="aLink aLink--under">Work</a></li>
+                <li><a href="./contact.html" class="aLink aLink--under">Contact</a></li>
             </ul>
-            <span>
-                <svg id="switch" class="nav__lightSwitch" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0046 0.284917C20.2011 1.68794 24.1181 7.82618 22.7151 14.0226C21.312 20.2191 15.1738 24.0775 8.97737 22.7331C2.78092 21.3301 -1.0775 15.1918 0.266893 8.9954C1.66992 2.79894 7.80815 -1.11815 14.0046 0.284917ZM9.971 2.85699C11.2571 2.56469 12.3678 2.68168 13.7123 2.7985C12.2508 4.14302 11.1986 5.01994 10.5556 7.00728C10.1465 8.23484 10.088 9.57936 10.3218 10.9824C10.6726 12.6777 11.5494 14.1391 12.7771 15.2499C14.6477 16.9452 16.2846 17.1205 18.6228 17.2958C16.9274 18.8157 15.7584 19.8679 13.4199 20.3357C8.62656 21.2711 3.94968 18.1143 2.95605 13.3208C2.02063 8.52743 5.11902 3.79189 9.97095 2.85692L9.971 2.85699Z" fill=" "/>
-                </svg>
-            </span>
+            <img id="switch" class="colorSwitch" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png" alt="">
             <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
                 <div class="bar1"></div>
                 <div class="bar3"></div>
@@ -51,133 +47,63 @@
         </nav>
     </header>
     <main>
-    <!------------------- a nice team ------------------->
-        <section class="teamTxt">
-            <div class="teamTxt__box">
-                <article class="teamTxt__title1">
-                    <h2 class="fonH2">A</h2>
-                    <article class="teamTxt__svg1">
-                        <svg width=" " height=" " viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5.66016 19.332L68.6751 54.9875" stroke="#F3A8BE" stroke-width="5.94716" stroke-miterlimit="10"/>
-                            <path d="M0.964844 37.4639L73.3654 36.8356" stroke="#F3A8BE" stroke-width="5.94716" stroke-miterlimit="10"/>
-                            <path d="M5.97098 55.5406L68.3576 18.7955" stroke="#F3A8BE" stroke-width="5.94716" stroke-miterlimit="10"/>
-                            <path d="M19.3364 68.6665L54.9908 5.64774" stroke="#F3A8BE" stroke-width="5.94716" stroke-miterlimit="10"/>
-                            <path d="M37.4815 73.3643L36.8522 0.959895" stroke="#F3A8BE" stroke-width="5.94716" stroke-miterlimit="10"/>
-                            <path d="M55.538 68.3545L18.793 5.96777" stroke="#F3A8BE" stroke-width="5.94716" stroke-miterlimit="10"/>
-                            </svg>
-                    </article>
-                    <h2 class="fonH2">NICE</h2>
-                    <article class="teamTxt__svg1a">
-                        <svg width=" " height=" " viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M28.3143 30.003C98.5806 30.003 29.9924 98.6017 29.9924 28.3246C29.9924 98.6017 -38.5957 30.003 31.6705 30.003C-38.5957 30.003 29.9924 -38.5957 29.9924 31.6813C30.059 -38.6091 98.5806 30.003 28.3143 30.003Z" fill="#F0B35E"/>
-                            </svg>
-                    </article>
-                </article>
-                <article class="teamTxt__title2">
-                    <h2 class="fonH2">TEAM</h2>
-                    <article class="teamTxt__svg2">
-                        <svg width=" " height=" " viewBox="0 0 148 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M111.613 1C112.006 10.3093 115.969 19.098 122.661 25.5018C129.353 31.9057 138.249 35.4211 147.461 35.3028" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
-                            <path d="M110.805 69.3948C111.178 59.957 115.23 51.0521 122.073 44.625C128.917 38.1979 137.997 34.7707 147.331 35.092" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
-                            <path d="M0 35.1358L147.488 35.083" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
-                            </svg>
-                    </article>
-                </article>
+    <!------------------- A nice team ------------------->
+        <section class="team">
+            <h1 class="fonXl">A <span class="BdIt blue">nice</span> <br> team</h1>
+            <p class="team__subtitle1 fonPg">After a decade of working in digital and creative spaces and driven by the <span class="BdIt">slow design movement</span> , we started this studio to shift the paradigm of how design processes are executed. </p>
+            <p class="team__subtitle2 fonPg">We are a small team of experts focusing on delivering our best work while having fun in the meantime. </p>
+            <h3 class="fonH4 Bd">This is our team</h3>
+            <div class="team__container lautaro">
+                <img class="team__emoji" src="https://ik.imagekit.io/nicecreativestudio/lautaro_JoERZ4n-qU8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647343475680" alt="Lautaro Curto">
+                <h5 class="team__occupation fonH5">COO / Management</h5>
+                <h4 class="team__name fonH4tit">Lautaro <br> Curto</h4>
             </div>
-            <div class="teamTxt__boxPar">
-                <p class="teamTxt__title3 fonPg">After a decade of working in digital and creative spaces and driven by the <span class="fonPgSt">slow design movement</span>, we started this studio to shift the paradigm of how design processes are executed.</p>
-                <p class="teamTxt__title4 fonPg">We are a small team of experts focusing on delivering our best work while having fun in the meantime.</p>
-                <p class="teamTxt__title5 fonFoot">This is our team</p>
+            <div class="team__container yohanna">
+                <img class="team__emoji" src="https://ik.imagekit.io/nicecreativestudio/yohanna_QPRC1ZJjFc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647343477116" alt="Yohanna Etchemendy">
+                <h5 class="team__occupation fonH5">CEO / Creative Direction</h5>
+                <h4 class="team__name fonH4tit">Yohanna <br> Etchemendy</h4>
             </div>
-            <div class="teamTxt__boxImg">
-                <img class="teamTxt__img" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
+            <div class="team__container laura">
+                <img class="team__emoji" src="https://ik.imagekit.io/nicecreativestudio/laura_cOPid4xVI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647343475004" alt="Laura Brea">
+                <h5 class="team__occupation fonH5">Design & Development</h5>
+                <h4 class="team__name fonH4tit">Laura <br> Brea</h4>
+            </div>
+            <div class="team__container ignacio">
+                <img class="team__emoji" src="https://ik.imagekit.io/nicecreativestudio/nacho_r71dHsA4U1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647343472856" alt="Ignacio Curto">
+                <h5 class="team__occupation fonH5">Design & Development</h5>
+                <h4 class="team__name fonH4tit">Ignacio <br> Curto</h4>
             </div>
         </section>
-    <!------------------- avatars ------------------->
-        <section class="avatars">
-            <div class="avatars__our">
-                <div class="avatars__box">
-                    <article class="avatars__per1">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/lau_XFDmQYWUh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646597699236" alt="">
-                        <p class="fonH6">COO / Management</p>
-                        <h4 class="fonH4">Lautaro</h4>
-                        <h4 class="fonH4">Curto</h4>
-                    </article>
-                    <article class="avatars__per2">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/yoha_swxZsLb_4Tj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646597699177" alt="">
-                        <p class="fonH6">CEO / Creative Direction</p>
-                        <h4 class="fonH4">Yohanna</h4>
-                        <h4 class="fonH4">Etchemendy</h4>
-                    </article>
-                    <article class="avatars__per3">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/laura_pI4pA_zs5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646597699335" alt="">
-                        <p class="fonH6">Design & Development</p>
-                        <h4 class="fonH4">Laura</h4>
-                        <h4 class="fonH4">Brea</h4>
-                    </article>
-                    <article class="avatars__per4">
-                        <img src="https://ik.imagekit.io/nicecreativestudio/nacho_8mN8ZyNZs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646597694660" alt="">
-                        <p class="fonH6">Design & Development</p>
-                        <h4 class="fonH4">Ignacio</h4>
-                        <h4 class="fonH4">Curto</h4>
-                    </article>
-                </div>
+
+    <!------------------- Our core values ------------------->
+        <section class="values">
+            <h2 class="fonXl">Our <span class="BdIt orange">core</span> <br> values</h2>
+            <div class="values__container work">
+                <h6 class="fonPar">NO .1</h6>
+                <h4 class="fonH4">Work <span class="orange">Together</span></h4>
+                <p class="fonPg">We believe everything is better when shared, our teammates bring the spark to innovate and find better solutions every day.</p>
             </div>
-        </section>
-    <!------------------- we believe in ------------------->
-        <section class="team__title">
-            <div class="team__titlebox">
-                <article class="team__titletxt">
-                    <h2 class="fonH2">WHAT</h2>
-                    <article class="team__titlesvg">
-                        <svg width="109" height="52" viewBox="0 0 109 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M81.7305 1C82.0181 7.81682 84.9197 14.2524 89.8202 18.9417C94.7207 23.631 101.235 26.2052 107.981 26.1186" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
-                            <path d="M81.1387 51.083C81.4123 44.172 84.3788 37.6513 89.3903 32.945C94.4017 28.2387 101.051 25.7291 107.886 25.9644" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
-                            <path d="M0 25.9967L108 25.958" stroke=" " stroke-width="4.4966" stroke-miterlimit="10"/>
-                            </svg>
-                    </article>
-                </article>
-                <h2 class="fonH2">WE BELIEVE IN</h2>
-            </div>
-        </section>
-    <!------------------- drag elements ------------------->
-        <section class="dragelements">
-            <div class="dragelements__box">
-                <div class="dragelements__items">
-                    <div class="dragelements__card element1">
-                        <h4 class="fonFoot">Collaboration</h4>
-                        <h6 class="fonH5">We believe everything is better when shared,</h6>
-                        <h6 class="fonH5">our teammates bring the spark to innovate </h6>
-                        <h6 class="fonH5">and find better solutions every day.</h6>
-                    </div>
-                    <div class="dragelements__card element2">
-                        <h4 class="fonFoot">Simplicity </h4>
-                        <h6 class="fonH5">We avoid overcomplication, overselling and</h6>
-                        <h6 class="fonH5">never-ending processes. We bring solutions</h6>
-                        <h6 class="fonH5">that solve problems with precise design.</h6>
-                    </div>
-                    <div class="dragelements__card element3">
-                        <h4 class="fonFoot">Transparency </h4>
-                        <h6 class="fonH5">We care about our communications and the </h6>
-                        <h6 class="fonH5">people we work with, trust and honesty are </h6>
-                        <h6 class="fonH5">the pillars of the relationships we make.</h6>
-                    </div>
-                    <div class="dragelements__card element4">
-                        <h4 class="fonFoot">Respect</h4>
-                        <h6 class="fonH5">Caring is not a concept you can isolate. </h6>
-                        <h6 class="fonH5">We value and appreciate our clients, the world we</h6>
-                        <h6 class="fonH5">live in, our coworkers and the work we create.</h6>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!------------------- subtible text ------------------->
-        <section class="team__subtitle">
-            <div class="team__subtitlebox">
-                <h2 class="team__subtitletxt fonH3">WE’VE LEARNED THAT IS POSSIBLE TO LIVE BY WHAT YOU BELIEVE, BUT OVERALL WE LEARNED WE’RE NOT ALONE IN THIS JOURNEY. </h2>
-            </div>
-        </section>
-    <!------------------- careers ------------------->
+            <div class="values__container simple">
+                <h6 class="fonPar">NO .2</h6>
+                <h4 class="fonH4">Keep it <span class="blue">simple</span></h4>
+                <p class="fonPg">We avoid overcomplication, overselling and never-ending processes. We bring solutions that solve problems with precise design.</p>
+            </div> 
+            <div class="values__container true">
+                <h6 class="fonPar">NO .3</h6>
+                <h4 class="fonH4"><span class="yellow">Stay true</span></h4>
+                <p class="fonPg">We care about our communications and the people we work with, trust and honesty are the pillars of the relationships we make.</p>
+            </div> 
+            <div class="values__container respect">
+                <h6 class="fonPar">NO .4</h6>
+                <h4 class="fonH4"><span class="pink">Respect</span> is all</h4>
+                <p class="fonPg">Caring is not a concept you can isolate. We value and appreciate our clients, the world we live in, our coworkers and the work we create.</p>
+            </div>   
+        </section>  
+
+        <!------------------- Quote ------------------->
+        <h2 class="about__quote fonXl">We’ve <span class="Bd blue">learned</span> that it’s <span class="BdIt pink">possible</span> to live by what <span class="Un yellow">you believe</span>, but overall we learned we’re <span class="BdIt orange">not alone</span> in this journey.</h2>
+    
+        <!------------------- careers ------------------->
         <section class="team__careers">
             <div class="team__careersbox">
                 <div class="team__careers1">
@@ -216,41 +142,7 @@
                 </div>
             </div>
         </section>
-    <!------------------- drag footer gallery ------------------->
-        <section class="gallery__card">
-            <div class="items">
-                <div class="item item1">
-                    <div class="gallery__cardbox">
-                        <img width="450px" height="350px" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
-                    </div>
-                </div>
-                <div class="item item2">
-                    <div class="gallery__cardbox">
-                        <img width="450px" height="350px" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_370_49_sGJRhckx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646598110621" alt="">
-                    </div>
-                </div>
-                <div class="item item3">
-                    <div class="gallery__cardbox">
-                        <img width="450px" height="350px" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_371_cTl-Xx-S8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646598176199" alt="">
-                    </div>
-                </div>
-                <div class="item item4">
-                    <div class="gallery__cardbox">
-                        <img width="450px" height="350px" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_389_UxZ4A-GH5zK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646354988087" alt="">
-                    </div>
-                </div>
-                <div class="item item5">
-                    <div class="gallery__cardbox">
-                        <img width="450px" height="350px" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_370_49_sGJRhckx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646598110621" alt="">
-                    </div>
-                </div>
-                <div class="item item6">
-                    <div class="gallery__cardbox">
-                        <img width="450px" height="350px" src="https://ik.imagekit.io/nicecreativestudio/Rectangle_371_cTl-Xx-S8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646598176199" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
+
     </main>
         <!----------------------------------- footer -->
         <footer>

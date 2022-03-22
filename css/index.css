@@ -67,7 +67,7 @@ header {
 .holistic{
   margin: 11rem 12.5%;
 }
-.holistic a{
+.holistic .arrow__link{
   margin-left: 2rem;
 }
 
@@ -144,7 +144,6 @@ header {
 }
 
 .gallery__card svg {
-  transform: rotate(270deg);
   margin-right: 0.5rem;
   fill: #DE5D37;
 }
@@ -492,19 +491,6 @@ body.color .slide__flower{
   fill: #DE5D37;
 }
 
-
-body.light .lottie__container {
-  display: none;
-}
-
-body.light .lottie__container--light {
-  display: block;
-}
-
-body.light .scrolling-text-content {
-  color: #282828;
-}
-
 /* ============================ MEDIA ============================ */
 
 
@@ -752,7 +738,7 @@ body.light .scrolling-text-content {
   /* ----------- Quote ----------- */
   .index__quote h2 {
     font-size: 3rem;
-    line-height: 4rem;
+    line-height: 8rem;
     margin: 40% auto 30% auto;
   }
 
