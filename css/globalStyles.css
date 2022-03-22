@@ -21,9 +21,10 @@ a {
     text-decoration: none;
 }
 
-img{
+img {
     border-radius: 8px;
 }
+
 /* ------------  FONTS ------------------------------------------------------ */
 
 @font-face {
@@ -152,36 +153,97 @@ img{
 li {
     list-style-type: none;
 }
+
+.hoverLink{
+    padding: 1rem 4rem;
+    border-radius: 50%;
+    border: 2px solid #DE5D37;
+    margin: 5rem;
+}
+.hoverLink svg{
+    margin: auto;
+    vertical-align: middle;
+}
+.hoverLink span{
+    display: none;
+}
+
+.hoverLink:hover > span{
+    display: block;
+}
 /* =========================== COLORES =========================== */
 
-.orange{
-    color: #FEFBF3;
-}
-.yellow{
-    color: #FEFBF3;
-}
-.pink{
-    color: #FEFBF3;
-}
-.blue{
+.orange {
     color: #FEFBF3;
 }
 
-body.color .orange{
+.yellow {
+    color: #FEFBF3;
+}
+
+.pink {
+    color: #FEFBF3;
+}
+
+.blue {
+    color: #FEFBF3;
+}
+
+body.color .orange {
     color: #DE5D37;
 }
-body.color .yellow{
+
+body.color .yellow {
     color: #FCB95C;
 }
-body.color .pink{
+
+body.color .pink {
     color: #F3A8BE;
 }
-body.color .blue{
+
+body.color .blue {
     color: #6273D1;
 }
 
 
 /* ------------  LINKS ----------------------------------------------------------- */
+
+.btn__active {
+    grid-area: button;
+    width: 50%;
+    padding: auto 3rem auto 3rem;
+    background: none;
+    border: 2px solid #FEFBF3;
+    border-radius: 60px;
+    transition: .3s ease all;
+}
+
+.btn__active:hover {
+    border: 2px solid #DE5D37;
+}
+
+.btn__active a {
+    transition: .3s ease all;
+
+}
+
+.btn__active svg {
+    fill: #FEFBF3;
+    vertical-align: middle;
+    margin: auto 0.2rem 0.5rem auto;
+    transition: .3s ease all;
+}
+
+.btn__active:hover>a {
+    color: #DE5D37;
+}
+
+.btn__active:hover svg {
+    fill: #DE5D37;
+}
+
+
+
 
 .aLink {
     font-family: 'Montserrat', sans-serif;
@@ -247,12 +309,13 @@ nav {
     z-index: 20;
 }
 
-.logo{
+.logo {
     position: absolute;
     top: 1.5rem;
     left: 5%;
 }
-.logo svg{
+
+.logo svg {
     fill: #FEFBF3;
 }
 
@@ -265,18 +328,20 @@ ul {
     justify-content: space-around;
 }
 
-.nav__links li{
+.nav__links li {
     margin-left: 2.5rem;
 }
+
 ul li {
     padding: 5px;
     transition: 0.3s ease all;
 }
 
-.nav__lightSwitch{
-    fill: #FEFBF3;
-    margin: 1.7rem 0 auto 2.5rem;
+.colorSwitch {
+    width: 1.5rem;
+    margin: 1.7rem 0 auto 4rem;
 }
+
 #hamburger-icon {
     margin: auto 0;
     display: none;
@@ -312,11 +377,13 @@ ul li {
     height: 110vh;
     width: 100%;
 }
-.open .mobile__menu li{
+
+.open .mobile__menu li {
     transform: translateY(-3rem);
     margin-top: -2rem;
     margin-bottom: -2rem;
 }
+
 .mobile__menu {
     background-color: #202020;
     display: none;
@@ -453,25 +520,27 @@ body.color a {
     color: #000000;
 }
 
-body.color nav{
+body.color nav {
     background-color: #FEFBF3;
 }
-body.color .logo svg{
+
+body.color .logo svg {
     fill: #000000;
 }
-body.color .nav__colorSwitch {
-    fill: #000000;
-}
-body.color #hamburger-icon div{
+
+body.color #hamburger-icon div {
     background-color: #000000;
 }
+
 body.color .nav__burger {
     stroke: #000000;
 }
-body.color .mobile__menu{
+
+body.color .mobile__menu {
     background-color: #FEFBF3;
     color: #000000;
 }
+
 body.color .footer__title4 svg {
     stroke: #000000;
 }
@@ -507,13 +576,16 @@ body.color .grab__gallery {
     nav .nav__links {
         display: none;
     }
-    .nav__lightSwitch{
-        margin: 1.8rem 2.5rem auto 0;
+
+    .colorSwitch {
+        margin-right: 2rem;
     }
+
     #hamburger-icon {
         display: block;
     }
-    #hamburger-icon:active .mobile__menu{
+
+    #hamburger-icon:active .mobile__menu {
         transform: translateY(-100vh);
     }
 
