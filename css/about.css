@@ -27,7 +27,7 @@
 }
 .team h3{
     grid-area: team;
-    margin-bottom: 11rem;
+    margin-bottom: 7rem;
 }
 .team__container{
     display: flex;
@@ -208,6 +208,7 @@
 
 .team__careers1 {
     grid-area: txt1;
+    margin-top: 5rem;
     position: relative; }
 
     .team__careers1a {
@@ -218,14 +219,14 @@
         font-family: Montserrat;
         font-style: normal;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 2.5rem; } 
     
     .team__careers1 svg {
         position: absolute;
         fill: #EEEEEE;
         top: 2.8rem;
-        left: 6rem;
+        left: 8rem;
     }   
 
 .team__careers2 {
