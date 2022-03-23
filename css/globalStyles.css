@@ -118,89 +118,78 @@ img {
     font-style: normal;
     font-weight: normal;
     font-size: 6.25rem;
-    line-height: 7rem;
-}
+    line-height: 6.75rem; }
 
 .fonH1 {
     font-family: 'Maine Book';
     font-style: normal;
     font-weight: normal;
     font-size: 6.5rem;
-    line-height: 7.5rem;
-}
+    line-height: 7.5rem; }
 
 .fonH2 {  
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
     font-size: 5.25rem;
-    line-height: 6rem;
-}
+    line-height: 6.5rem; }
   
 .fonH3 {
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
     font-size: 3.75rem;
-    line-height: 4.75rem;
-} 
+    line-height: 4.75rem; } 
 
 .fonH4 {
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
-    line-height: 2.5rem;
-}
+    line-height: 2.5rem; }
 
 .fonH4tit {  /* == Cambie nombre === */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
-    line-height: 2rem;
-}
+    line-height: 2rem; }
 
 .fonH5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 1.5rem;
-}
+    line-height: 1.5rem; }
 
 .fonLab {
     font-family: 'Maine Regular';
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
-    line-height: 1.5rem;
-}
+    line-height: 1.5rem; }
 
 .fonPar {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
-    line-height: 2rem;
-}
-
-.fonH6 {
-    font-family: 'Maine Light';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 2rem;
-    opacity: 0.4;
-}
+    line-height: 2rem; }
 
 .fonSmall {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.75rem;
-    line-height: 1rem;
-}
+    line-height: 1rem; }
+
+.fonH6 { /* == Confirmar si va === */
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    opacity: 0.4; }
 
 .fonPg {  /* == Confirmar si va === */
     font-family: 'Montserrat', sans-serif;

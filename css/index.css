@@ -1,53 +1,50 @@
 /* ----------- Hero ----------- */
-.hero {
+
+.hero{
+  width:100%;
+  height: auto;
+  margin-top: 11rem;
+  margin-bottom: 11rem; }
+
+.hero__box {
+  width: 90%;
+  margin-left: 5%; }
+
+.hero__box h1 {
+  width: auto;
+  height: auto;
+  line-height: 9rem; }
+
+  .hero__box h1 .underline{
+    text-decoration: underline 5px; }
+
+.hero__box h4 {
+  width: 550px;
+  height: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem; }
+
+.hero__btn{
   width: 100%;
+  height: min-content;
   display: grid;
-  grid-template-columns: 40% 25% 25%;
-  grid-template-rows: 1fr min-content min-content min-content;
-  gap: 0px 0px;
-  grid-template-areas:
-    "title title title"
-    "subtitle . ."
-    "button . shapes"
-    "reel reel reel";
-  margin: 11rem 5% 3.5rem 5%;
-}
+  grid-template-columns: 50% 50%; }
 
-.hero h1 {
-  grid-area: title;
-  line-height: 9rem;
-}
+.shapes {
+  text-align: right; }
 
-.hero h1 .underline{
-  text-decoration: underline 5px;
-}
-.hero h4 {
-  grid-area: subtitle;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  margin: 3.5rem auto 3.5rem 0;
-}
-.btn__active {
-  grid-area: button;
-}
-.shapes{
-  grid-area: shapes;
-  margin: auto 0 auto auto;
-}
-.shapes .shape2, .shape3, .shape4 {
-  fill: #FEFBF3;
-  margin-left: 1.5rem;
-}
-.shapes .shape1{
-  fill: #FEFBF3;
-  stroke: #FEFBF3;
-}
+  .shapes .shape2, .shape3, .shape4 {
+    fill: #FEFBF3;
+    margin-left: 1.5rem; }
+
+  .shapes .shape1{
+    fill: #FEFBF3;
+    stroke: #FEFBF3; }
+
 .reel{
-  grid-area: reel;
   background-color: #DE5D37;
   margin-top: 3.5rem;
-  padding-bottom: 45rem;
-}
+  padding-bottom: 45rem; }
 
 
 /* Forzar cursor */
@@ -68,8 +65,9 @@ header {
 .holistic__values{
   display: flex;
   flex-wrap: wrap;
+  min-width: 900px;
   width: 60%;
-  margin-top: 2rem;
+  margin-top: 3.5rem;
 }
 .holistic__values p{
   line-height: 2rem;
