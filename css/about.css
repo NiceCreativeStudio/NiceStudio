@@ -223,9 +223,10 @@
     
     .team__careers1 svg {
         position: absolute;
-        stroke: #EEEEEE;
-        top: 3rem;
-        left: 8rem; }   
+        fill: #EEEEEE;
+        top: 2.8rem;
+        left: 6rem;
+    }   
 
 .team__careers2 {
     grid-area: txt2;
@@ -246,17 +247,14 @@
     top: 4rem;
     text-align: justify;
     text-justify: inter-word; }
-
+.team__careerstxt a{
+    font-weight: bold;
+}
 .team__careersSub {
     height: 2.5rem;
     display: flex;
     align-items: flex-start;
     position: relative;  }
-
-.team__careersSvg {
-    width: 2.25rem;
-    height: 2.25rem;
-    position: absolute; }
 
 .team__careersSub h5 {
     font-family: Montserrat;
@@ -269,6 +267,18 @@
 
     .team__careerssub2{
         width: auto;
+    }
+    .team__careersSvg--shape1{
+        stroke: #fefbf3;
+        width: 2.25rem;
+        height: 2.25rem;
+        position: absolute;
+    }
+    .team__careersSvg--shape2{
+        fill: #fefbf3;
+        width: 2.25rem;
+        height: 2.25rem;
+        position: absolute;
     }
 
 /*----------- drag footer gallery ----------- */
@@ -314,6 +324,18 @@
 /* ============================ COLOR MODE ============================ */
 body.color .values__container h6{
     color: #20202048;
+}
+body.color .team__occupation{
+    color: #20202048;
+}
+body.color .team__careers1 svg {
+    fill: #202020;
+}
+body.color .team__careersSvg--shape1{
+    stroke: #ED764A;
+}
+body.color .team__careersSvg--shape2{
+    fill: #F3A8BE;
 }
 
 

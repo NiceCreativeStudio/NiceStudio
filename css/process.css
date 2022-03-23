@@ -1,143 +1,74 @@
 
 /* ----------- Introduction ----------- */
 .process__intro{
-    margin: 12rem 12.5% 5rem 12.5%; }
-
+    margin: 11rem 12.5%; 
+}
 .process__intro h1{
-    text-transform: uppercase;
-    margin-bottom: 6rem; }
-
-.process__intro h2{
-    font-size: 2.25rem;
-    line-height: 3.5rem;
-    width: 70%; }
-.process__title svg{
-    vertical-align: middle;
-    margin: 0 0.6rem 1rem 0.6rem;
+    margin-bottom: 3.5rem;
 }
-.process__title--mobile svg{
-    vertical-align: middle;
-    margin: 0 0.6rem 1rem 0.6rem;
+.process__intro h3{
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 70%;
 }
-/*----------- Process path ----------- */
-
-.lottie__container{
-    display: none;
+.process__intro{
+    margin-bottom: 11rem;
 }
-.lottie__container--light{
-    display: flex;
-    margin: 8% auto 8% auto;
-    justify-content: center;
+/*----------- Process Accordion ----------- */
+.process__accordion--container{
+    margin: 0 12.5%;
 }
-/* ----------- Undefined section -----------*/
-
-.undefined__container{
-    height: auto;
-    min-height: 33rem;
-    width: auto;
-    margin-left: 12.5%;
-    margin-right: 12.5%; }
-
-.undefined__container h2{
-    width: 100%;
-    margin-bottom: 5rem; }
-
-.undefined__container span{
-    color: #F0B35E;
-}
-
-/* ----------- Nice services ----------- */
-
-.services__listbox {
-    display: grid; 
-    grid-template-columns: 5% 32rem 1fr 1fr 5%; 
-    grid-template-rows: 1fr 1fr min-content; 
-    row-gap: 2rem;
-
-    grid-template-areas: 
-        "..... nice design content ....."
-        "..... nice strategy frontend ....."
-        "..... link ..... ..... ....."; 
-    
-    margin-top: 6rem;
-    background-color:#1A1A1A;
-    padding-top: 8rem;
-    padding-bottom: 6.5rem; }
-
-.services__title{
-    grid-area: nice;
-    text-transform: uppercase;
-    position: relative; }
-
-.services__title h2{
-    position: absolute;
-    bottom: 0rem; }
-
-.services__fulllistbtn{
-    fill:#EEEEEE; }
-
-.service__container{
-    display: flex;
-    flex-direction: column;
-    justify-content: start; }
-
-.service__container h5{
-    color: #fefbf367;
-}
-.service__container h4{
-    margin-bottom: 1.5rem;
-    color: #F0B35E; }
-
-.service__container p{
-    width: 80%; }
-
-.design{
-    grid-area: design; }
-
-.content{
-    grid-area: content; }
-
-.strategy{
-    grid-area: strategy; }
-
-.frontend{
-    grid-area: frontend; }
-
-.service__list{
-    grid-area: link;
-    margin-top: 5rem;
-    cursor: pointer; }
-
-.service__list svg{
-    margin-right: 1rem; }
-
-/* ----------- Listed Services ----------- */
-
-.services__table{
-    width: 100%;
-    height: auto; 
-    background-color:#1A1A1A;
-    padding-bottom: 6rem; }
-
-.services__tablebox{
-    width: 90%;
-    height: auto;
-    margin-left: 5%; }
-
-.services__tablebox tbody {
+.process__accordion {
+    background: none;
+    color: #444;
+    border-bottom: 1px solid #FEFBF3;
+    border-top: none;
     border-left: none;
     border-right: none;
-    border-top: 1px solid #3F3F3F;
-    border-bottom: 1px solid #3F3F3F;  }
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+.process__accordion h2{
+    position: relative;
+}
+.process__accordion--arrow{
+    position: absolute;
+    right: 0;
+    top: 2.5rem;
+}
 
-.services__tablebox tr th{
-    width: 25%;
-    height: 5.5rem;
-    text-align: left; }
+.active, .process__accordion:hover {
+    background-color: #fefbf30a;
+}
 
-.services__tablebox tr td{
-    height: 3.5rem;
-    text-align: left; }
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+
+.process__accordion--values{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 2rem;
+}
+.process__accordion--values p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+.process__accordion--values .audit, .benchmarking, .problem, .strategy, .persona, .journeys, .style, .design, .guidelines, .uxui, .wireframes, .product, .system, .prototyping, .social, .web, .responsive, .qa, .testing{
+    border: 2px solid #FEFBF3;
+}
 
 /* ----------- Drag gallery ----------- */
 .grab__gallery{
@@ -188,42 +119,37 @@
     margin-right: 0.5rem;
   }
 
-/* ============================ LIGHT MODE ============================ */
-body.light .storiesTxt__title5 svg{
-    stroke: #000000; }
-
-body.light .services__listbox {
-    background-color:transparent; }        
-
-body.light .services__fulllistbtn{
-    fill:#000000; }
-
-body.light .services__table{
-    background-color:transparent; }
-
-body.light .services__tablebox tr th{
-    border-top: 1px solid #DFDFDF;
-    border-bottom: 1px solid #DFDFDF; }
-
-body.light .services__tablebox tr td{
-    border-bottom: 1px solid #DFDFDF; }
-
-body.light .lottie__container{
-    display: flex;
-    margin: 8% auto 8% auto;
-    justify-content: center;
+/* ============================ COLOR MODE ============================ */
+body.color .process__accordion {
+    border-bottom: 1px solid #202020;
 }
-body.light .lottie__container--light{
-    display: none;
+body.color .active, .process__accordion:hover {
+    background-color: #20202013;
 }
-body.light .grab__gallery{
-    color: #FEFBF3;
-}
-body.light .undefined__container span{
-    color: #DE5D37;
-}
-body.light .service__container h5{
-    color: #000000;
+body.color .process__accordion--values .audit, 
+body.color .process__accordion--values .benchmarking, 
+body.color .process__accordion--values .problem, 
+body.color .process__accordion--values .strategy, 
+body.color .process__accordion--values .persona, 
+body.color .process__accordion--values .journeys{
+    border: 2px solid #6273D1;
+} 
+body.color .process__accordion--values .style, 
+body.color .process__accordion--values .design, 
+body.color .process__accordion--values .guidelines, 
+body.color .process__accordion--values .uxui, 
+body.color .process__accordion--values .wireframes, 
+body.color .process__accordion--values .product, 
+body.color .process__accordion--values .system, 
+body.color .process__accordion--values .prototyping{
+    border: 2px solid #DE5D37;
+} 
+body.color .process__accordion--values .social, 
+body.color .process__accordion--values .web, 
+body.color .process__accordion--values .responsive, 
+body.color .process__accordion--values .qa, 
+body.color .process__accordion--values .testing{
+    border: 2px solid #F3A8BE;
 }
 
 
