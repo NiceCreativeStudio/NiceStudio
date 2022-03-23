@@ -20,13 +20,12 @@
 }
 .process__accordion {
     background: none;
-    color: #444;
     border-bottom: 1px solid #FEFBF3;
     border-top: none;
     border-left: none;
     border-right: none;
     cursor: pointer;
-    padding: 18px;
+    padding: 2rem 2rem 2rem 0;
     width: 100%;
     text-align: left;
     transition: 0.3s;
@@ -41,10 +40,6 @@
     top: 2.5rem;
 }
 
-.active, .process__accordion:hover {
-    background-color: #fefbf30a;
-}
-
 .panel {
     padding: 0 18px;
     max-height: 0;
@@ -57,15 +52,24 @@
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .process__accordion--values p{
-    font-size: 1.5rem;
     line-height: 2rem;
     padding: 0.5rem 1rem;
-    margin: 0.5rem;
+    margin: 0 1rem 1rem 0;
     border-radius: 25px;
 }
+.process__accordion .fonPar{
+    color: #FEFBF3;
+}
+#accordion--arrow{
+    transition: .3s ease all;
+}
+.process__accordion.active #accordion--arrow{
+    transform: rotate(-90deg);
+}
+
 .process__accordion--values .audit, .benchmarking, .problem, .strategy, .persona, .journeys, .style, .design, .guidelines, .uxui, .wireframes, .product, .system, .prototyping, .social, .web, .responsive, .qa, .testing{
     border: 2px solid #FEFBF3;
 }
@@ -123,8 +127,8 @@
 body.color .process__accordion {
     border-bottom: 1px solid #202020;
 }
-body.color .active, .process__accordion:hover {
-    background-color: #20202013;
+body.color .process__accordion h6{
+    color: #20202043;
 }
 body.color .process__accordion--values .audit, 
 body.color .process__accordion--values .benchmarking, 
@@ -133,6 +137,7 @@ body.color .process__accordion--values .strategy,
 body.color .process__accordion--values .persona, 
 body.color .process__accordion--values .journeys{
     border: 2px solid #6273D1;
+    color: #6273D1;
 } 
 body.color .process__accordion--values .style, 
 body.color .process__accordion--values .design, 
@@ -143,6 +148,8 @@ body.color .process__accordion--values .product,
 body.color .process__accordion--values .system, 
 body.color .process__accordion--values .prototyping{
     border: 2px solid #DE5D37;
+    color: #DE5D37;
+
 } 
 body.color .process__accordion--values .social, 
 body.color .process__accordion--values .web, 
@@ -150,6 +157,8 @@ body.color .process__accordion--values .responsive,
 body.color .process__accordion--values .qa, 
 body.color .process__accordion--values .testing{
     border: 2px solid #F3A8BE;
+    color: #F3A8BE;
+
 }
 
 
