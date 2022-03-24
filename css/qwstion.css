@@ -5,6 +5,10 @@
 a {
     color: #EEEEEE; }
 
+.text__space{
+    height: 2rem;  }
+
+
  /* ------------ case study fonts -------------- */
 
 .csH2 {
@@ -91,7 +95,7 @@ a {
     width: 100%;
     height: 33rem;
     margin-top: 4rem;
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathology-cover_1__FlltdyXfn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273115492);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/grey-backpack-with-female-mode-qwstion_GkEojizotc?ik-sdk-version=javascript-1.4.3&updatedAt=1648079927054);
     background-position: center;
     background-size: cover; }
 
@@ -99,7 +103,7 @@ a {
 
 .centraltxt{
     margin-top: 5.5rem;
-    margin-bottom: 14rem;
+    margin-bottom: 11rem;
     width: 100%;
     height: auto; }   
 
@@ -121,7 +125,7 @@ a {
         align-self: center; }
 
 .centraltxt__title {
-    width: 800px;
+    width: 45%;
     margin-left: 1.5rem;
     align-self: center;
     margin-left: 12.5%; }
@@ -203,18 +207,25 @@ a {
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
-.multimedia__boximg{
+.multimedia__boxexamp{
     height: auto;
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     margin-left: 5%;
     column-gap: 1.5rem;  }
+
+.multimedia__boximg{
+    text-align: center; }
 
     .multimedia__boximg img{
         height: auto;
         width: 100%;
         object-fit: cover; }
+
+    .multimedia__boximg p{
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
 
 .multimedia__boxlogo{
     height: auto;
@@ -222,12 +233,17 @@ a {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 1.5rem;
-    position: relative; }
+    position: relative; 
+    text-align: center;}
 
     .multimedia__boxlogo img{
         height: auto;
         width: 100%;
         object-fit: cover; }
+
+    .multimedia__boxlogo p{
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
 
 .multimedia__txt{
     height: auto;
@@ -236,20 +252,16 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     margin-left: 12.5%;
-    margin-top: 5rem;  }    
+    margin-top: 5rem; 
+    margin-bottom: 7.5rem; }    
 
 /* ---------Going Digital--------- */
 
 .digital{
     height: auto;
     width: 100%;
-    margin-top: 8rem;
-    margin-bottom: 8rem; }
-
-.digital__title {
-    width: 800px;
-    margin-left: 1.5rem;
-    margin-left: 12.5%; }
+    margin-top: 11rem;
+    margin-bottom: 11rem; }
 
 .digital__box{
     height: auto;
@@ -258,56 +270,54 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     margin-left: 12.5%;
-    margin-top: 6rem;  }
+    margin-top: 6rem; 
+    margin-bottom: 6rem; }
 
 .digital__txt{
+    height: auto;
     width: 100%;  }
 
-    .digital__txt p{
-        margin-bottom: 1.75rem;  }
+    .digital__txt h2 {
+        width: 95%;
+        margin-bottom: 3.5rem; }
+
+.digital__img{
+    height: 100%;
+    width: 100%;  }
+
+    .digital__img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+
+.digital__boxexamp{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12.5%;
+    column-gap: 1.5rem;  }
+
+.digital__boximg{
+    text-align: center; }
+
+    .digital__boximg img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+
+    .digital__boximg p{
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
 
 /* -------------Graphics-------------- */
 
 .graphics{
     height: auto;
     width: 100%;
-    margin-top: 8rem;
-    margin-bottom: 10rem; }
+    margin-top: 11rem;
+    margin-bottom: 11rem; }
 
-.graphics__boximg{
-    height: auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 5%;
-    column-gap: 1.5rem;  }
-
-    .graphics__boximg img{
-        height: auto;
-        width: 100%;
-        object-fit: cover; }
-
-.graphics__boxstudy{
-    height: auto;
-    width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1.5rem;  }
-
-    .graphics__boxstudy img{
-        height: auto;
-        width: 100%;
-        object-fit: cover; }
-
-.graphics__txt{
-    height: auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin-left: 12.5%;
-    margin-top: 5rem;  }   
-    
 .graphics__screen{
     height: auto;
     width: auto;
@@ -319,34 +329,6 @@ a {
         height: auto;
         width: 100%;
         object-fit: cover; }
-
-
-/* ------------legend -------------- */
-
-.legendtxt{
-    width: 100%;
-    height: auto;
-    margin-top: 8rem;
-    margin-bottom: 10rem; }
-
-.legendtxt__box {
-    width: 100%;
-    text-align: center; }
-
-    .legendtxt__box h3 {
-        line-height: 5.5rem;
-        margin-left: 1rem;
-        margin-right: 1rem; }
-
-    .legendtxt__gray {
-        font-family: 'Maine Bold Italic';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5.5rem;
-        line-height: 5.5rem;
-        color:#DDDDDD; 
-        margin-left: 4px;
-        margin-right: 4px; }
 
 /* ------------backend -------------- */
 
@@ -398,9 +380,9 @@ a {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 8rem;
+    padding-top: 0rem;
     padding-bottom: 2rem;
-    margin-top: 8rem; }
+    margin-top: 11rem; }
 
 .grid__img {
     display: grid;
@@ -460,7 +442,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/breathology1_UGfFEAVVT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647299494509) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -477,7 +459,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/breathology2_oeYRuImoU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647299496185) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -494,7 +476,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/breathology4_8qG6a36IR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647299498931) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -511,7 +493,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/breathology3_HHKIiDiliqu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647299491838) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -528,7 +510,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/breathology5_OcXPMNl9i.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647299500979) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 

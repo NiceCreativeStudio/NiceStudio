@@ -614,28 +614,28 @@ a {
 
 /* ============================ LIGHT MODE ============================ */
 
-body.light .elements__imgdark{
+body.color .elements__imgdark{
     display: none;}
 
-body.light .elements__imglight{
+body.color .elements__imglight{
     display: block }
 
-body.light a {
+body.color a {
     color:  #282828;  }
 
-body.light .backend__txt svg{
+body.color .backend__txt svg{
     fill:  #282828; }
 
-body.light .backend__txtline{
+body.color .backend__txtline{
     background-color: #282828;  } 
 
-body.light .grid__txtbox svg{
+body.color .grid__txtbox svg{
     fill: #282828;  }
 
-body.light .backend__hrefleft svg{
+body.color .backend__hrefleft svg{
     stroke: #282828;  }
 
-body.light .backend__hrefrig svg{
+body.color .backend__hrefrig svg{
     stroke: #282828;  }
 
 /* ============================ MEDIA ============================ */
