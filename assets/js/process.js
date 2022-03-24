@@ -5,7 +5,7 @@ LottieInteractivity.create({
         {
             visibility:[0, 1.0],
             type: "seek",
-            frames: [0, 355],
+            frames: [0, 55],
         },
         ]
     });
