@@ -3,7 +3,7 @@
     padding: 0; }
 
 a {
-    color: #EEEEEE; }
+    color: #FEFBF3; }
 
  /* ------------ case study fonts -------------- */
 
@@ -857,12 +857,12 @@ body.color .backend__hrefrig svg{
 
     .backend__hrefleft p{
         height: 1rem;
-        visibility: hidden;
+        display: none;
         width: 2rem; }
 
     .backend__hrefrig p{
         height: 1rem;
-        visibility: hidden;
+        display: none;
         width: 2rem; }
 }
 

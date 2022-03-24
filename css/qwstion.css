@@ -3,7 +3,7 @@
     padding: 0; }
 
 a {
-    color: #EEEEEE; }
+    color: #FEFBF3; }
 
 .text__space{
     height: 2rem;  }
@@ -95,7 +95,7 @@ a {
     width: 100%;
     height: 33rem;
     margin-top: 4rem;
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/grey-backpack-with-female-mode-qwstion_GkEojizotc?ik-sdk-version=javascript-1.4.3&updatedAt=1648079927054);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/qwstion-case-study-cover-nice-studio_TnsgZK4sw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648136664787);
     background-position: center;
     background-size: cover; }
 
@@ -253,7 +253,28 @@ a {
     gap: 3rem;
     margin-left: 12.5%;
     margin-top: 5rem; 
-    margin-bottom: 7.5rem; }    
+    margin-bottom: 7.5rem; }   
+    
+.multimedia__boxfoot{
+    height: auto;
+    width: 100%;
+    text-align: center; }
+
+    .multimedia__boxfootimg {
+        height: auto;
+        width: 100%;
+        background-color: #FFFFFF;}
+
+    .multimedia__boxfootimg img{
+        padding: 2rem;
+        height: auto;
+        width: 75%;
+        max-width: 900px;
+        object-fit: cover; }
+
+    .multimedia__boxfoot p{
+        margin-top: 1.5rem;
+        margin-bottom: 2rem; }
 
 /* ---------Going Digital--------- */
 
@@ -442,7 +463,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/bag-grid-qwstion-case-study-nice-studio_h430MPUS_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139804702) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -459,7 +480,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/a-material-revoluction-qwstion-case-study-black_vlxBcKa15.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139812184) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -476,7 +497,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/flap-tote-card-shop-qwstion-case-study-nice-studio_bS6YtxyGX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139817368) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -493,7 +514,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/hip-pouch-highlight-qwstion-case-study_vg4b2nkiL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139808665) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -510,7 +531,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/nice-studio-creatives-for-change-advocates-brands.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648051005306) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/bananatex-qwstion-case-study-nice-studio_2c4wPqtTd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139804777) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -838,12 +859,12 @@ body.color .backend__hrefrig svg{
 
     .backend__hrefleft p{
         height: 1rem;
-        visibility: hidden;
+        display: none;
         width: 2rem; }
 
     .backend__hrefrig p{
         height: 1rem;
-        visibility: hidden;
+        display: none;
         width: 2rem; }
 }
 
