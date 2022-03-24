@@ -507,7 +507,7 @@ body.color .slide__flower{
 .quote{
   width: 75%;
   height: auto;
-  margin: 11rem 7.5%; }
+  margin: 10rem 7.5%; }
 
 .index__quote {
   width: 100%;
@@ -528,102 +528,153 @@ body.color .slide__flower{
 .instagram__title h3{
   padding-bottom: 1.5rem; }
 
-
 }
-
 
 /* ============================================== Tablet */
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-  /* ----------- Hero ----------- */
-  .hero__txt {
-    font-size: 4.5rem;
-    line-height: 6rem;
-    display: block;
-  }
+/* ----------- Hero OKKKK----------- */
 
-  .hero__txt--mobile {
-    display: none;
-  }
+.hero__box {
+  width: 80%;
+  margin-left: 10%; }
 
-  .hero__socialLinks {
-    right: 5%;
-  }
+.hero__box h1 {
+  line-height: 8.5rem; }
 
-  /* ----------- Drag gallery ----------- */
-  .gallery__card {
+.hero__box h4 {
+  width: 80%; }
+
+.reel{
+  padding-bottom: 35rem; }
+
+/* ----------- Holistic OKKKK----------- */
+.holistic{
+  margin: 11rem 10%; }
+
+.holistic__values{
+  min-width: 100%;
+  width: 100%;
+  margin-top: 3.5rem; }
+  
+/* ----------- Case studies OKKK----------- */
+.case__studies{
+  margin: 0 10% 2rem 10%; }
+
+.gallery__card .img__container img {
+  width: 40rem; }
+  
+/* ----------- A Nice philosophy OKKK----------- */
+.philosophy{
+  width: 80%;
+  margin-left: 10%; }
+
+.philosophy__box{
+  height: auto;
+  width: 100%;
+  display: grid; 
+  grid-template-columns: auto;
+  grid-template-rows: min-content min-content;
+  row-gap: 3.5rem; }
+
+.philosophy__title{
+  height: auto;
+  width: 100%; }
+
+  .philosophy h5{
     width: 100%;
-    margin-right: 2rem;
-  }
+    min-width: 100%; }
 
-  /* ----------- The holistic method ----------- */
-  .holistic__container {
-    justify-content: space-between;
-  }
+.philosophy__svg{
+  height: auto;
+  width: 100%; 
+  max-width: 500px;
+  justify-self: center; }
 
-  .lottie__container {
-    margin-left: -30rem;
-    width: 80%;
-  }
-
-  .holistic__descr--container {
-    width: 60%;
-  }
-
-  /* ----------- Messy gallery ----------- */
-  .messy__gallery--container {
-    display: grid;
-    grid-template-columns: 5% 22.5% 22.5% 22.5% 22.5% 5%;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      ". one two four five ."
-      ". one three . five .";
-    margin-top: 10%;
-  }
-
-  .messy__img--container {
-    width: 150%;
-  }
-
-  /* oceans */
-  .img1 {
-    grid-area: one;
-    margin: auto auto auto 20%;
-    z-index: 1;
-  }
-
-  /* girl */
-  .img2 {
-    grid-area: two;
-    margin: auto 30% -10% auto;
-    z-index: 1;
-  }
-
-  /* Van Gogh */
-  .img3 {
-    grid-area: three;
-    margin: auto auto -10% 30%;
-    z-index: 2;
-  }
-
-  /* pottery */
-  .img4 {
-    grid-area: four;
-    margin: auto 30% -10% auto;
-    z-index: 3;
-  }
-
-  /* typographic */
-  .img5 {
-    grid-area: five;
-    margin: auto auto auto -75%;
-    z-index: 1;
-  }
+/* ----------- Slide in text ----------- */
 
 
+
+
+/* ----------- Messy gallery ----------- */
+
+.messy__gallery--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "one two four five"
+    "one three . five";
+}
+
+.messy__img--container {
+  width: 150%;
+}
+
+/* oceans */
+.img1 {
+  grid-area: one;
+  margin: auto auto auto 20%;
+  z-index: 1;
+}
+
+/* girl */
+.img2 {
+  grid-area: two;
+  margin: auto 30% -10% auto;
+  z-index: 1;
+}
+
+/* Van Gogh */
+.img3 {
+  grid-area: three;
+  margin: auto auto -10% 30%;
+  z-index: 2;
+}
+
+/* pottery */
+.img4 {
+  grid-area: four;
+  margin: auto 30% -10% auto;
+  z-index: 3;
+}
+
+/* typographic */
+.img5 {
+  grid-area: five;
+  margin: auto auto auto -75%;
+  z-index: 1;
+}
+
+/* ----------- Quote OKKKK----------- */
+
+.quote{
+  width: 75%;
+  height: auto;
+  margin: 11rem 7.5%; }
+
+.index__quote {
+  width: 100%;
+  line-height: 7.5rem;
+}
+
+/* ----------- Instagram gallery OKKK----------- */
+
+.instagram__gallery{
+  margin: 11rem 0; }
+
+.instagram__title{
+  height: auto;
+  width: 90%; 
+  margin-left: 10%; }
+
+.instagram__title h3{
+  padding-bottom: 1.25rem; }
 
 }
+
+
 
 

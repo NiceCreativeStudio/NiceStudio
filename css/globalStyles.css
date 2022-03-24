@@ -736,79 +736,11 @@ body.color .grab__gallery {
 
 
 
-    .fonH1 {
-        /* -----change-------- */
-        font-family: 'Maine Regular';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3.75rem;
-        line-height: 4.5rem;
-    }
 
 
 
 
-    .fonFoot {
-        /* -----change-------- */
-        font-family: 'Maine Bold';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
 
-    .fonH5 {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .fonH6 {
-        font-family: 'Maine Light';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 2rem;
-        opacity: 0.4;
-    }
-
-    .fonPg {
-        /* -----change-------- */
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .fonPgSt {
-        /* -----change-------- */
-        font-family: 'Maine Bold Italic';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .fonLink {
-        /* -----change-------- */
-        font-family: 'Maine Medium Italic';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-    }
-
-    .fonSubFoot {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.2rem;
-    }
 
     /* --------------------------- Navbar */
     .nav__links {
