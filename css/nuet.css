@@ -249,17 +249,21 @@ a {
 
 .multimedia__controls{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 48%;
     cursor: pointer;  }
 
 .multimedia__btn{
+    transform: translateX(35px);
+    transform: translateY(-35px);
     height: 70px;
     width: 70px;
     border: none;
     background-color: transparent;  }
 
 .multimedia__btn button:before{
+    transform: translateX(35px);
+    transform: translateY(-35px);
     height: 70px;
     width: 70px;
     border: none;
@@ -737,15 +741,18 @@ body.color .backend__hrefrig svg{
     position: relative;  }
 
 .multimedia__controls{
-    position: absolute;
-    top: 40%;
-    left: 47%;  }
-
+    top: 49%;
+    left: 46%; }
+    
     .multimedia__btn{
+        transform: translateX(25px);
+        transform: translateY(-25px);
         height: 50px;
-        width: 50px; }
+        width: 50px;  }
     
     .multimedia__btn button:before{
+        transform: translateX(25px);
+        transform: translateY(-25px);
         height: 50px;
         width: 50px; }
 
@@ -937,9 +944,20 @@ body.color .backend__hrefrig svg{
     position: relative;  }
 
 .multimedia__controls{
-    position: absolute;
-    top: 40%;
-    left: 47%;  }
+    top: 49%;
+    left: 47%; }
+    
+    .multimedia__btn{
+        transform: translateX(30px);
+        transform: translateY(-30px);
+        height: 60px;
+        width: 60px;  }
+    
+    .multimedia__btn button:before{
+        transform: translateX(30px);
+        transform: translateY(-30px);
+        height: 60px;
+        width: 60px; }
 
 /* ------------legend -------------- */
 
