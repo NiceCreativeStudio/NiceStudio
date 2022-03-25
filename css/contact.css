@@ -238,7 +238,7 @@ input {
     margin-bottom: 3.5rem; }
 
     .instagram__gallery h3 {
-        padding-bottom: 1rem; }
+        padding-bottom: 2rem; }
 
     .instagram__gallery a {
         transition: .3s ease all; }
@@ -362,11 +362,12 @@ body.color .select-selected.select-arrow-active:after {
     .shapes {
         width: 100%;
         height: auto;
-        position: relative; }
+        position: relative;
+        margin-top: 2rem; }
 
     .shapes__svgbox {
         position: relative; 
-        height: 200px;
+        height: 130px;
         width: 100%; }  
 
     .shape__pink {
@@ -394,7 +395,7 @@ body.color .select-selected.select-arrow-active:after {
         width: 100%;
         height: auto; 
         position: absolute;
-        bottom: 0rem;
+        bottom: -2.25rem;
         margin-left: 0rem;  }
 
     /* ----central txt ----- */
