@@ -401,9 +401,7 @@ nav {
     transition: .3s ease all;
     z-index: 20;
 }
-/* nav .open{
-    top: 0 !important;
-} */
+
 
 .logo {
     position: absolute;
@@ -471,14 +469,14 @@ ul li {
     z-index: -1;
     top: 3rem;
     left: 0;
-    height: 110vh;
+    padding-top: 15vh;
+    padding-bottom: 70%;
+    height: 60vh;
     width: 100%;
 }
 
 .open .mobile__menu li {
-    transform: translateY(-3rem);
-    margin-top: -2rem;
-    margin-bottom: -2rem;
+    font-size: 2.5rem;
 }
 
 .mobile__menu {
@@ -486,6 +484,11 @@ ul li {
     display: none;
     position: absolute;
     transition: .3s ease all;
+}
+.open .mobile__menu--mail{
+    position: absolute;
+    top: 90vh;
+    font-size: 1.5rem;
 }
 
 
