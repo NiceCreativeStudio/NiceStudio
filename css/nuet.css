@@ -723,7 +723,7 @@ body.color .backend__hrefrig svg{
     row-gap: 1.5rem;  }
 
 .multimedia__boximg img{
-    height: 25rem; }
+    height: 21rem; }
 
 .multimedia__boxvid{
     height: auto;
@@ -799,7 +799,7 @@ body.color .backend__hrefrig svg{
     grid-template: 
     "img1" "txt" "img2" "img3" "img4"
     "img5" "img6" "img7" "img8" ;
-    min-height: 2700px;
+    min-height: 2600px;
     width: 80%;
     margin-left: 10%;  }
 
@@ -808,7 +808,7 @@ body.color .backend__hrefrig svg{
 
     .grid__txtbox svg{
         bottom: 40%;
-        left: 42%;  }
+        left: 41%;  }
 
 /* ------------backend final -------------- */
 
