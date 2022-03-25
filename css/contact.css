@@ -36,8 +36,6 @@ input {
     color:#FEFBF3; 
     }
 
-
-
 /* ----------- Form ----------- */
 
 .contact {
@@ -69,7 +67,7 @@ input {
     margin-bottom: 3.5rem; }
 
 .contact__form{
-    min-width: 580px;
+    min-width: 570px;
     width: 85%;
     height: auto;
     display: grid;
@@ -193,7 +191,8 @@ input {
     width: 100%;
     height: auto; 
     position: absolute;
-    bottom: 5.75rem;  }
+    bottom: 6.75rem;
+    margin-left: 0.5rem;  }
 
 /* SUBMIT -------- */
 
@@ -213,17 +212,22 @@ input {
     height: auto;
     margin-left: 12.5%; }
         
+    .centraltxt__box h2{
+        line-height: 7.5rem; }
+
 .centralsvg{
-    padding: 0.75rem;
-    transform: translateY(1.25rem); }
+    width: 60px;
+    height: 60px;
+    padding: 0 0.5rem; }
 
-
-
+.centralsvg:hover{
+    transform: scale(1.1);
+    transition: .5s ease all; } 
 
 /* ----------- Instagram gallery ----------- */
 
 .instagram__gallery {
-    margin-top: 15%;
+    margin-top: 11rem;
     width: 100%;
 }
 
@@ -319,5 +323,174 @@ body.color .select-selected.select-arrow-active:after {
     border-color: transparent transparent #202020 transparent; }
 
 
+/* ============================ MEDIA ============================ */
 
+@media (max-width: 768px) { 
 
+    /* ----------- Form ----------- */
+
+    .contact {
+        width: 100%;
+        height: auto;
+        margin-top: 10rem;
+        margin-top: 10rem; }
+
+    .contact__box {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%; 
+        grid-template-rows: auto auto;}
+
+    .contact__form{
+        min-width: auto;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto) ;
+        column-gap: 0rem;
+        row-gap: 1.5rem;
+        grid-template-areas: 
+        "name" "email" "textarea"
+        "launch" "budget" "hear" "btn"; }
+
+    /* Shapes ----- */
+
+    .shapes {
+        width: 100%;
+        height: auto;
+        position: relative; }
+
+    .shapes__svgbox {
+        position: relative; 
+        height: 200px;
+        width: 100%; }  
+
+    .shape__pink {
+        fill:#FEFBF3;
+        width: auto;
+        position: absolute;
+        top: -25%;
+        right: 0; }
+
+    .shape__yellow {
+        fill:#FEFBF3;
+        width: auto;
+        position: absolute;
+        top: -15%;
+        right: 22%; }
+
+    .shape__orange {
+        stroke:#FEFBF3;
+        width: auto;
+        position: absolute;
+        top: 25%;
+        right: 8%; }
+
+    .shapes__us {
+        width: 100%;
+        height: auto; 
+        position: absolute;
+        bottom: 0rem;
+        margin-left: 0rem;  }
+
+    /* ----central txt ----- */
+
+    .centraltxt{
+        margin-top: 10rem;
+        margin-bottom: 10rem; }
+
+    .centraltxt__box{
+        width: 80%;
+        height: auto;
+        margin-left: 10%; }
+
+    .centralsvg{
+        width: 45px;
+        height: 45px;
+        padding: 0 0.5rem; }
+
+    /* ----- Instagram gallery ---- */
+
+    .instagram__gallery {
+        margin-top: 10rem;
+        width: 100%; }
+
+    .instagram__title{
+        margin-left: 10%;
+        width: 70%; }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* ----------- Form ----------- */
+    .contact {
+        width: 100%;
+        height: auto;
+        margin-top: 11rem;
+        margin-top: 11rem; }
+
+    .contact__box {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%; 
+        grid-template-rows: auto auto;}
+
+    .contact__form{
+        min-width: auto;
+        width: 100%;  }
+
+    /* Shapes ----- */
+
+    .shapes {
+        width: 100%;
+        height: auto;
+        position: relative; }
+
+    .shapes__svgbox {
+        position: relative; 
+        height: 250px;
+        width: 100%; }  
+
+    .shape__pink {
+        fill:#FEFBF3;
+        width: auto;
+        position: absolute;
+        top: -25%;
+        right: 0; }
+
+    .shape__yellow {
+        fill:#FEFBF3;
+        width: auto;
+        position: absolute;
+        top: -15%;
+        right: 19%; }
+
+    .shape__orange {
+        stroke:#FEFBF3;
+        width: auto;
+        position: absolute;
+        top: 25%;
+        right: 8%; }
+
+    .shapes__us {
+        width: 100%;
+        height: auto; 
+        position: absolute;
+        bottom: 4rem;
+        margin-left: 0rem;  }
+
+    /* ----central txt ----- */
+        
+    .centraltxt__box{
+        width: 80%;
+        height: auto;
+        margin-left: 10%; }
+
+}

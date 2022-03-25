@@ -149,7 +149,8 @@ header {
   height: auto;
   width: 100%; 
   max-width: 500px;
-  justify-self: right; }
+  justify-self: right;
+  align-self: flex-end; }
 
   .philosophy__svg svg{
     width: 100%;
