@@ -3,7 +3,7 @@
     padding: 0; }
 
 a {
-    color: #EEEEEE; }
+    color: #FEFBF3; }
 
  /* ------------ case study fonts -------------- */
 
@@ -162,6 +162,7 @@ a {
     text-align: center; }
 
     .stylescapes img {
+        border-radius: 0;
         width: 100%;
         height: 20rem;
         object-fit: cover; }
@@ -580,7 +581,7 @@ a {
     flex-direction: row; }
 
     .backend__hrefleft p{
-        width: 12rem;
+        width: 15rem;
         padding-left: 1.5rem; }
 
     .backend__hrefleft svg{
@@ -604,22 +605,22 @@ a {
 
 /* ============================ LIGHT MODE ============================ */
 
-body.light a {
+body.color a {
     color:  #282828;  }
 
-body.light .backend__txt svg{
+body.color .backend__txt svg{
     fill:  #282828; }
 
-body.light .backend__txtline{
+body.color .backend__txtline{
     background-color: #282828;  } 
 
-body.light .grid__txtbox svg{
+body.color .grid__txtbox svg{
     fill: #282828;  }
 
-body.light .backend__hrefleft svg{
+body.color .backend__hrefleft svg{
     stroke: #282828;  }
 
-body.light .backend__hrefrig svg{
+body.color .backend__hrefrig svg{
     stroke: #282828;  }
 
 /* ============================ MEDIA ============================ */
@@ -856,12 +857,12 @@ body.light .backend__hrefrig svg{
 
     .backend__hrefleft p{
         height: 1rem;
-        visibility: hidden;
+        display: none;
         width: 2rem; }
 
     .backend__hrefrig p{
         height: 1rem;
-        visibility: hidden;
+        display: none;
         width: 2rem; }
 }
 
