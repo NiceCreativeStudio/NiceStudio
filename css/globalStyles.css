@@ -240,7 +240,8 @@ img {
     font-family: 'Maine Medium Italic'; }
 
 .Un {  
-    text-decoration: underline 6px;
+    -webkit-text-decoration-line: underline; /* Safari */
+    text-decoration-line: underline; 
     text-underline-offset: 8px; }
 
 li {
@@ -400,6 +401,9 @@ nav {
     transition: .3s ease all;
     z-index: 20;
 }
+/* nav .open{
+    top: 0 !important;
+} */
 
 .logo {
     position: absolute;
@@ -515,7 +519,8 @@ ul li {
 }
 
 .footer__subtitle .Un{
-    text-decoration: underline 2px;
+    -webkit-text-decoration-line: underline; /* Safari */
+    text-decoration-line: underline; ;
 }
 
 .footer__links {
