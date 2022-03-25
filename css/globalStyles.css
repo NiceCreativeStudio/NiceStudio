@@ -24,6 +24,10 @@ a {
 img {
     border-radius: 8px;
 }
+
+.img__container img{
+    filter: grayscale(100%); }
+
 /* ======================= LINK FLECHA ACTIVO ======================= */
 /* 
 <button class="btn__active">
@@ -67,18 +71,35 @@ img {
         </svg>
     </a> 
 */
+
+/* ======================= FLECHA REDONDA ======================= */
 .arrow__link{
-    transition: .3s ease all;
-}
+    width: 60px;
+    height: 60px;
+    padding: 0 0.5rem;
+    transition: .3s ease all; }
+
 .arrow__link:hover{
-    transform: scale(1.2);
-}
-.img__container img{
-    filter: grayscale(100%);
+    transform: scale(1.2); }
+
+/* ======================= FLECHA REDONDA FOOTER ======================= */    
+
+.arrowbounce { 
+    animation: bounce 2s infinite; }
+    
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+        }
+        40% {
+        transform: translateY(-30px);
+        }
+        60% {
+        transform: translateY(-15px);
+        }
     }
 
-    
-/* ------------  FONTS ------------------------------------------------------ */
+/* ======================= FONTS ======================= */    
 
 @font-face {
     font-family: 'Maine Light';
@@ -268,7 +289,6 @@ li {
     display: block;
 }
 
-
 /* =========================== COLORES =========================== */
 
 .orange {
@@ -303,8 +323,7 @@ body.color .blue {
     color: #6273D1;
 }
 
-
-/* ------------  LINKS ----------------------------------------------------------- */
+/* ------------  BUTTONS LINKS ------------------- */
 
 .btn__active:hover {
     border: 2px solid #DE5D37;  
@@ -327,7 +346,7 @@ body.color .blue {
 .btn__active:hover svg {
     fill: #DE5D37;  }
 
-
+/* ------------ A LINKS ------------------- */
 
 .aLink {
     font-family: 'Montserrat', sans-serif;
@@ -375,28 +394,7 @@ body.color .blue {
     font-weight: 600;
 }
 
-.arrow__link {
-    fill: #FEFBF3;
-}
-
-
-.arrowbounce {  /* ----arrow footer------ */
-    animation: bounce 2s infinite; }
-  
-    @keyframes bounce {
-        0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-        }
-        40% {
-        transform: translateY(-30px);
-        }
-        60% {
-        transform: translateY(-15px);
-        }
-    }
-
-
-/* ------------  NAV ----------------------------------------------------------- */
+/* ------------  NAV ------------------------ */
 nav {
     position: fixed;
     width: 90%;
@@ -410,7 +408,6 @@ nav {
     z-index: 20;
 }
 
-
 .logo {
     position: absolute;
     top: 1.5rem;
@@ -420,7 +417,6 @@ nav {
 .logo svg {
     fill: #FEFBF3;
 }
-
 
 ul {
     list-style: none;
@@ -517,7 +513,7 @@ ul li {
 .mobile__menu li .shapes4{
     fill: #FEFBF3;
 }
-/* ------------  FOOTER ------------------------------------------------------- */
+/* ------------  FOOTER ------------------------------- */
 
 .footer {
     width: auto;
@@ -617,8 +613,7 @@ ul li {
         height: auto;
         width: auto; }
 
-
-/* ============================ COLOR MODE ============================ */
+/* ===================== COLOR MODE ============================ */
 
 body.color {
     background-color: #FEFBF3;
@@ -693,17 +688,19 @@ body.color .footer__backToTop svg {
     fill:  #202020;
 }
 
-body.color .arrow__link {
-    fill: #202020;
-}
-
 body.color .grab__gallery {
     background-color: #FEFBF3;
 }
 
-/* ------------  @ MEDIA ----------------------------------------------------------- */
+/* ------------  @ MEDIA -------------------------------- */
 
 @media (max-width: 768px) {
+
+    .arrow__link{
+        width: 45px;
+        height: 45px;
+        padding: 0 0.5rem;
+        transition: .3s ease all; }
 
     nav .nav__links {
         display: none;
