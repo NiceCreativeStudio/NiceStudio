@@ -263,9 +263,9 @@ img {
     font-family: 'Maine Medium Italic'; }
 
 .Un {  
-    -webkit-text-decoration-line: underline; /* Safari */
     text-decoration-line: underline; 
-    text-underline-offset: 8px; }
+    text-underline-offset: 8px; 
+    -webkit-text-decoration-line: underline; /* Safari */}
 
 li {
     list-style-type: none;
