@@ -330,19 +330,19 @@ body.color .holistic__values .brdBlue{
   color: #6273D1;
 }
 
-body.color .philosophy svg .work{
+body.color .philosophy__svg svg .work{
   stroke: #6273D1;
 }
-body.color .philosophy svg .simple{
+body.color .philosophy__svg svg .simple{
   stroke: #DE5D37;
 }
-body.color .philosophy svg .true{
+body.color .philosophy__svg svg .true{
   stroke: #F3A8BE;
 }
-body.color .philosophy svg .respect{
+body.color .philosophy__svg svg .respect{
   stroke: #FCB95C;
 }
-body.color .philosophy svg .text{
+body.color .philosophy__svg svg .text{
   fill: #202020;
 }
 body.color .scrolling-text .scrolling-text-content {
@@ -490,13 +490,13 @@ body.color .slide__flower{
   /* pottery */
   .img4 {
     grid-area: four;
-    margin: auto 30% -10% auto;
+    margin: -5% 30% 15% auto;
     z-index: 3;  }
 
   /* typographic */
   .img5 {
     grid-area: five;
-    margin: auto auto -10% 30%;
+    margin: -30% auto -10% 30%;
     z-index: 1; }
 
   .messy__gallery--button {
