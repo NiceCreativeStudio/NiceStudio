@@ -44,7 +44,10 @@
     transition: 0.3s;
     margin-bottom: 2rem;
 }
-
+.work__accordion .fonPar{
+    color: #FEFBF3;
+    margin-bottom: 1rem;
+}
 .work__accordion h2 {
     color: #FEFBF3;
     position: relative;
@@ -89,6 +92,9 @@
 }
 
 /* ============================ COLOR MODE ============================ */
+body.color .work__accordion .fonPar{
+    color: #20202043;
+}
 body.color .work__accordion h2 {
     color: #202020;
 }
