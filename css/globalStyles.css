@@ -11,7 +11,7 @@ html {
 
 body {
     background-color: #202020;
-    color: #EEEEEE;
+    color: #FEFBF3;
     overflow-x: hidden;
     transition: .3s ease all;
 }
@@ -509,21 +509,21 @@ ul li {
 
 .footer__subtitle {
     font-size: 1.5rem;
-    font-weight: 300;
-    width: 50%;
-    margin-top: 3rem;
+    width: 55%;
+    margin-top: 3.5rem;
+    line-height: 2rem;
 }
 
-.footer__subtitle a {
-    color: #FCB95C;
+.footer__subtitle .Un{
+    text-decoration: underline 2px;
 }
 
 .footer__links {
     width: 26rem;
     height: auto;
     position: absolute;
-    right: 3rem;
-    top: 20rem;
+    left: 0;
+    top: 28rem;
 }
 
 .footer__linkstit1 {
@@ -586,17 +586,17 @@ ul li {
 }
 
 .footer__copy {
-    height: 5rem;
-    width: 100%;
-    background-color: #282828;
-    align-items: center;
+    height: 11rem;
+    margin-top: -2.8rem;
+    margin-right: 12.5%;
     display: flex;
+    justify-content: flex-end;
 }
 
 .footer__copy h5 {
+    color: #FEFBF3;
     height: auto;
     width: auto;
-    margin-left: 12.5%;
 }
 
 
@@ -655,7 +655,7 @@ body.color .footer__subtitle a {
 }
 
 body.color .footer__copy h5 {
-    color: #EEEEEE;
+    color: #202020;
 }
 
 body.color .footer__backToTop svg {
