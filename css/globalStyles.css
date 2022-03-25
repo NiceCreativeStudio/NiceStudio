@@ -435,7 +435,6 @@ ul {
 }
 
 ul li {
-    padding: 5px;
     transition: 0.3s ease all;
 }
 
@@ -486,7 +485,9 @@ ul li {
 .open .mobile__menu li {
     font-size: 2.5rem;
 }
-
+.mobile__menu li svg{
+    vertical-align: middle;
+}
 .mobile__menu {
     background-color: #202020;
     display: none;
@@ -497,8 +498,25 @@ ul li {
     position: absolute;
     top: 90vh;
     font-size: 1.5rem;
+    transition: .3s ease all;
+}
+.open .mobile__menu--mail:hover{
+    color: #DE5D37;
 }
 
+.mobile__menu li .shape1{
+    stroke: #FEFBF3;
+}
+.mobile__menu li .shape2{
+    fill: #FEFBF3;
+    margin: 1rem;
+}
+.mobile__menu li .shape3{
+    fill: #FEFBF3;
+}
+.mobile__menu li .shapes4{
+    fill: #FEFBF3;
+}
 /* ------------  FOOTER ------------------------------------------------------- */
 
 .footer {
@@ -646,7 +664,18 @@ body.color .mobile__menu {
     background-color: #FEFBF3;
     color: #202020;
 }
-
+body.color .mobile__menu li .shape1{
+    stroke: #F3A8BE;
+}
+body.color .mobile__menu li .shape2{
+    fill: #6273D1;
+}
+body.color .mobile__menu li .shape3{
+    fill: #FCB95C;
+}
+body.color .mobile__menu li .shapes4{
+    fill: #FCB95C;
+}
 body.color .footer__title4 svg {
     stroke: #202020;
 }
