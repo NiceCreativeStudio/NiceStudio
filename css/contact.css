@@ -198,29 +198,7 @@ input {
 /* SUBMIT -------- */
 
 .submit__btn {
-    grid-area: submit;
-    width: min-content;
-    color: #FEFBF3;
-    border-color: #FEFBF3;
-    transition: .3s ease all;
-    padding: 7px 1.75rem 3px 0.75rem;
-    margin-top: 0.5rem;
-    display: inline-flex; }
-
-.submit__btn svg {
-    fill: #FEFBF3;
-    padding: 8px 1rem 3px 0.75rem; }
-
-.submit__btn:hover {
-    color:  #DE5D37;
-    border-color: #DE5D37;
-    transform: scale(1.1);
-    box-shadow: 0 12px 16px 0 rgba(20, 20, 20, 0.137), 0 17px 15px 0 rgba(15, 15, 15, 0.103);
-}
-
-.submit__btn svg:hover {
-    fill:  #DE5D37;
-}
+    margin-top: 1.5rem; }
 
 /* ----------- central txt ----------- */
 
@@ -340,12 +318,6 @@ body.color .select-selected:after {
 body.color .select-selected.select-arrow-active:after {
     border-color: transparent transparent #202020 transparent; }
 
-body.color .submit__btn {
-    color:#202020;
-    border-color: #202020; }
-    
-body.color .submit__btn svg {
-    fill:#202020; }
 
 
 
