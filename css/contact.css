@@ -479,3 +479,10 @@ body.color .select-selected.select-arrow-active:after {
         margin-left: 10%; }
 
 }
+
+@media (min-width: 1600px) {
+  
+    .contact, .centraltxt,.instagram__gallery, .footer  {
+        width: 80%;
+        margin-left: 10%; } 
+}

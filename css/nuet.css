@@ -334,7 +334,6 @@ a {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-bottom: 8rem;
     margin-top: 11rem; }
 
 .grid__img {
@@ -551,15 +550,10 @@ a {
         margin-bottom: 1rem; }
 
     .backend__lets a{
-        text-decoration: none;
-        text-transform: uppercase;
         font-weight: 600;
         font-size: 1.3rem;
         letter-spacing: 0.15em;
-        line-height: 1.3rem;
-        text-align: center;
-        text-decoration: underline;
-        text-underline-offset: 0.75rem;  }
+        line-height: 1.3rem; }
 
 .backend__href{
     height: auto;
@@ -581,8 +575,12 @@ a {
         width: 15rem;
         padding-left: 1.5rem; }
 
-    .backend__hrefleft svg{
-        stroke: #FEFBF3; }
+    .backend__arrowL {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        transform: rotate(180deg);
+        padding-bottom: 0.5rem;  }
 
 .backend__hrefrig{
     height: auto;
@@ -592,12 +590,15 @@ a {
     justify-content: end; }
 
     .backend__hrefrig p{
-        width: 15rem;
+        width: 13rem;
         text-align: end;
         padding-right: 1.5rem;  }
 
-    .backend__hrefrig svg{
-        stroke: #FEFBF3;  }
+    .backend__arrowR {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        padding-top: 0.25rem; }
 
 /* ============================ LIGHT MODE ============================ */
 
@@ -608,22 +609,23 @@ body.color .elements__imglight{
     display: block }
 
 body.color a {
-    color:  #282828;  }
+    color: #202020; }
 
 body.color .backend__txt svg{
-    fill:  #282828; }
+    fill: #202020; }
 
 body.color .backend__txtline{
-    background-color: #282828;  } 
+    background-color: #202020;  } 
 
 body.color .grid__txtbox svg{
-    fill: #282828;  }
+    fill:#202020; }
 
-body.color .backend__hrefleft svg{
-    stroke: #282828;  }
+    body.color .backend__arrowL {
+    fill: #202020;  }
 
-body.color .backend__hrefrig svg{
-    stroke: #282828;  }
+body.color .backend__arrowR {
+    fill: #202020;  }
+    
 
 /* ============================ MEDIA ============================ */
 
@@ -1005,13 +1007,11 @@ body.color .backend__hrefrig svg{
     .backend__hrefrig p{
         display: none; }
 
-
 }
-
 
 @media (min-width: 1600px) {
   
-    .centraltxt, .elements, .multimedia, .legendtxt, .backend, .grid, .backend__lets {
+    .centraltxt, .elements, .multimedia, .legendtxt, .backend, .grid, .backend__lets, .footer {
         width: 80%;
         margin-left: 10%; } 
 }

@@ -1,9 +1,13 @@
 /*----------- a nice team ----------- */
 .team {
     height: auto;
-    width: 75%;
+    width: 100%;
     margin-top: 11rem;
-    margin-bottom: 11rem;
+    margin-bottom: 11rem; }
+
+.team__box {
+    height: auto;
+    width: 75%;
     margin-left: 12.5%; }
 
     .team h1 {
@@ -59,7 +63,12 @@
 }
 
 /*----------- Our core values ----------- */
+
 .values{
+    width: 100%;
+    height: auto;  }
+
+.values__box{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: min-content min-content min-content; 
@@ -92,24 +101,32 @@
 .respect{
     grid-area: respect;}
 
-/*----------- we believe in ----------- */
+/*-----------  Quote ----------- */
+
+.about__quote{
+    width: 100%;
+    height: auto; }
 
 .about__quote{
     line-height: 8rem;
+    width: 75%;
     margin: 11rem 12.5%; }
 
 /*----------- careers ------------------ */
 
 .team__careers {
-    width: auto;
-    margin: 11rem 12.5%;  }
+    height: auto;
+    width: 100%;
+    margin-top: 11rem;
+    margin-bottom: 11rem; }
 
 .team__careersbox {
     display: grid;
     grid-template-areas: "txt1 txt2 txt3";
     grid-template-columns: auto 22rem 13rem;
     height: auto;
-    width: auto; }
+    width: 75%;
+    margin-left: 12.5%;  }
 
 .team__careers1 {
     grid-area: txt1;
@@ -204,7 +221,12 @@ body.color .team__careersSvg--shape2{
 @media (max-width: 768px) {
 
     /*----------- a nice team ----------- */
+
     .team {
+        margin-top: 10rem;
+        margin-bottom: 10rem; }
+
+    .team__box {
         width: 80%;
         margin-left: 10%; }
 
@@ -240,7 +262,8 @@ body.color .team__careersSvg--shape2{
             transform: translateX(0%); }
 
     /*----------- Our core values ----------- */
-    .values{
+    
+    .values__box{
         display: grid; 
         grid-template-columns: 100%; 
         grid-template-rows: repeat(auto); 
@@ -254,123 +277,125 @@ body.color .team__careersSvg--shape2{
     .values__container h4{
         margin-bottom: 2rem; }
 
-    /*----------- we believe in ----------- */
+    /*----------- Quote ----------- */
     .about__quote{
         line-height: 6rem;
+        width: 80%;
         margin: 10rem 10%; }
 
     /*----------- careers ------------------ */
-    .team__careers {
-        width: auto;
-        margin: 10rem 10%;  }
-        
-        .team__careersbox {
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto;
-            grid-template-areas: "txt1" "txt2" "txt3";
-            row-gap: 3.5rem;
-            height: auto;
-            width: auto; }
-        
-        .team__careers1 {
-            grid-area: txt1;
-            width: 100%;
-            height: 5rem;
-            position: relative; }
-        
-        .team__careers1a {
-            position: absolute;
-            margin: 0;
-            left: 0;
-            top: 0rem; }
-        
-        .team__careers1b {
-            position: absolute;
-            left: 0rem;
-            top: 3rem; }
-        
-        .team__careers1svg {
-            position: absolute;
-            left: 8rem;
-            top: 3.25rem; 
-            transform: rotate(90deg);}
-        
-        .team__careers2 {
-            height: 9.25rem; }
 
-        .team__careers3 {
-            height: 9.25rem; }
-        
-        .team__careerssub2{
-            width: 100px;  }
+    .team__careers {
+        margin-top: 10rem;
+        margin-bottom: 10rem; }
+
+    .team__careersbox {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "txt1" "txt2" "txt3";
+        row-gap: 3.5rem;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;  }
+    
+    .team__careers1 {
+        grid-area: txt1;
+        width: 100%;
+        height: 5rem;
+        position: relative; }
+    
+    .team__careers1a {
+        position: absolute;
+        margin: 0;
+        left: 0;
+        top: 0rem; }
+    
+    .team__careers1b {
+        position: absolute;
+        left: 0rem;
+        top: 3rem; }
+    
+    .team__careers1svg {
+        position: absolute;
+        left: 8rem;
+        top: 3.25rem; 
+        transform: rotate(90deg);}
+    
+    .team__careers2 {
+        height: 9.25rem; 
+        position: relative;
+        width: 100%; }
+
+    .team__careers3 {
+        height: 9.25rem; }
+    
+    .team__careerssub2{
+        width: 100px;  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
     /*----------- a nice team ----------- */
     .team {
-        width: 80%;
-        margin-left: 10%; }
+        width: 100%;
+        margin-left: 0%; }
 
     /*----------- Our core values ----------- */
     .values{
         margin: 11rem 10%; }
 
-    /*----------- we believe in ----------- */
+    /*----------- Quote ----------- */
     .about__quote{
+        width: 80%;
         margin: 11rem 10%; }
 
     /*----------- careers ------------------ */
-    .team__careers {
-        width: auto;
+    .team__careersbox {
+        width: 80%;
         margin: 11rem 10%;  }
-        
-        .team__careersbox {
-            display: grid;
-            grid-template-columns: 1.4fr 1fr;
-            grid-template-rows: auto auto;
-            grid-template-areas: "txt1 txt1" "txt2 txt3";
-            row-gap: 3.5rem;
-            height: auto;
-            width: auto; }
-        
-        .team__careers1 {
-            grid-area: txt1;
-            width: 100%;
-            height: 2rem;
-            position: relative; }
-        
-        .team__careers1a {
-            position: absolute;
-            margin: 0;
-            left: 0;
-            top: 0rem; }
-        
-        .team__careers1b {
-            position: absolute;
-            left: 12.5rem;
-            top: 0rem; }
-        
-        .team__careers1svg {
-            position: absolute;
-            left: 21.25rem;
-            top: 0.5rem; 
-            transform: rotate(90deg);}
-        
-        .team__careers2 {
-            height: 9.25rem; }
+    
+    .team__careers1 {
+        grid-area: txt1;
+        width: 100%;
+        height: 2rem;
+        position: relative; }
+    
+    .team__careers1a {
+        position: absolute;
+        margin: 0;
+        left: 0;
+        top: 0rem; }
+    
+    .team__careers1b {
+        position: absolute;
+        left: 12.5rem;
+        top: 0rem; }
+    
+    .team__careers1svg {
+        position: absolute;
+        left: 21.25rem;
+        top: 0.5rem; 
+        transform: rotate(90deg);}
+    
+    .team__careers2 {
+        height: 9.25rem; }
 
-        .team__careers3 {
-            height: 9.25rem; }
-        
-        .team__careerssub2{
-            width: 100px;  }
+    .team__careers3 {
+        height: 9.25rem; }
+    
+    .team__careerssub2{
+        width: 100px;  }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
 
     /*----------- a nice team AVATARS----------- */
+
+    .team__box {
+        height: auto;
+        width: 80%;
+        margin-left: 10%; }
 
     .team__boximg{
         width: 100%;
@@ -391,6 +416,25 @@ body.color .team__careersSvg--shape2{
         width: 90%;
         height: 70%;
         transform: translateX(-10%); }
+
+    /*----------- careers ------------------ */
+        
+    .team__careersbox {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "txt1 txt1" "txt2 txt3";
+        row-gap: 3.5rem;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;  }
+}
+
+@media (min-width: 1600px) {
+  
+    .team, .values, .quote, .team__careers, .footer {
+        width: 80%;
+        margin-left: 10%; } 
 }
 
 

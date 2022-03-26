@@ -403,7 +403,6 @@ a {
     width: 100%;
     margin-left: 0;
     padding-top: 0rem;
-    padding-bottom: 2rem;
     margin-top: 11rem; }
 
 .grid__img {
@@ -557,15 +556,10 @@ a {
         margin-bottom: 1rem; }
 
     .backend__lets a{
-        text-decoration: none;
-        text-transform: uppercase;
         font-weight: 600;
         font-size: 1.3rem;
         letter-spacing: 0.15em;
-        line-height: 1.3rem;
-        text-align: center;
-        text-decoration: underline;
-        text-underline-offset: 0.75rem;  }
+        line-height: 1.3rem; }
 
 .backend__href{
     height: auto;
@@ -584,11 +578,15 @@ a {
     flex-direction: row; }
 
     .backend__hrefleft p{
-        width: 12rem;
+        width: 13rem;
         padding-left: 1.5rem; }
 
-    .backend__hrefleft svg{
-        stroke: #FEFBF3; }
+    .backend__arrowL {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        transform: rotate(180deg);
+        padding-bottom: 0.5rem;  }
 
 .backend__hrefrig{
     height: auto;
@@ -598,33 +596,35 @@ a {
     justify-content: end; }
 
     .backend__hrefrig p{
-        width: 14rem;
+        width: 15rem;
         text-align: end;
         padding-right: 1.5rem;  }
 
-    .backend__hrefrig svg{
-        stroke: #FEFBF3;  }
-
+    .backend__arrowR {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        padding-top: 0.25rem; }
 
 /* ============================ LIGHT MODE ============================ */
 
 body.color a {
-    color:  #282828;  }
+    color: #202020; }
 
 body.color .backend__txt svg{
-    fill:  #282828; }
+    fill: #202020; }
 
 body.color .backend__txtline{
-    background-color: #282828;  } 
+    background-color: #202020;  } 
 
 body.color .grid__txtbox svg{
-    fill: #282828;  }
+    fill:#202020;  }
 
-body.color .backend__hrefleft svg{
-    stroke: #282828;  }
+body.color .backend__arrowL {
+    fill: #202020;  }
 
-body.color .backend__hrefrig svg{
-    stroke: #282828;  }
+body.color .backend__arrowR {
+    fill: #202020;  }
 
 /* ============================ MEDIA ============================ */
 
@@ -1087,7 +1087,6 @@ body.color .backend__hrefrig svg{
     width: 75%;
     margin-left: 12.5%;  }
 
-
 /* ------------backend final -------------- */
 
     .backend__hrefleft p{
@@ -1095,17 +1094,15 @@ body.color .backend__hrefrig svg{
         padding-left: 1rem; }
 
     .backend__hrefrig p{
-        width: 11rem;
+        width: 15rem;
         text-align: end;
         padding-right: 1rem;  }
 
 }
 
-
-
 @media (min-width: 1600px) {
   
-    main{
+    .centraltxt, .elements, .multimedia, .digital, .graphics, .backend, .grid, .backend__lets, .footer {
         width: 80%;
         margin-left: 10%; } 
 }

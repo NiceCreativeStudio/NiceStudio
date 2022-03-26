@@ -156,7 +156,7 @@ header {
   width: 100%; 
   max-width: 500px;
   justify-self: right;
-  align-self: flex-end; }
+  align-self: flex-end;  }
 
   .philosophy__svg svg{
     width: 100%;
@@ -168,7 +168,7 @@ header {
   .philosophy__svg svg .work, .simple, .true, .respect{
     stroke: #FEFBF3; }
 
-/* ----------- Slide in text XXXXXXXXXXXXXXXXXXXXX----------- */
+/* ----------- Slide in text OKKKK----------- */
 
 .container {
   position: relative;
@@ -442,22 +442,36 @@ body.color .slide__flower{
 
 .philosophy__title{
   height: auto;
-  width: 100%; }
+  width: 100%; 
+  overflow: hidden;}
 
   .philosophy h5{
     width: 100%;
     min-width: 100%; }
 
-.philosophy__svg{
-  height: auto;
-  width: 100%; 
-  max-width: 500px;
-  justify-self: center; }
-
+    .philosophy__svg{
+      height: auto;
+      width: 100%; 
+      max-width: 100%;
+      justify-self: center;
+      align-self: flex-end; }
+    
 /* ----------- Slide in text ----------- */
 
+.scrolling-text {
+  transform: translateX(-140px); }
 
+.scrolling-text .scrolling-text-content {
+  font-size: 90px; }
 
+.slide__asterisk{
+  margin: 0 0.5rem; }
+
+.slide__venus{
+  margin-left: 0.5rem; }
+
+.slide__flower{
+  margin: 0 0.5rem; }
 
 /* ----------- Messy gallery ----------- */
 
