@@ -190,9 +190,6 @@
 
 /* ============================ COLOR MODE ============================ */
 
-body.color .team__occupation{
-    color: #20202048; }
-
 body.color .team__careers1svg {
     fill: #202020; }
 
@@ -392,7 +389,7 @@ body.color .team__careersSvg--shape2{
     .team__container img {
         object-fit: contain;
         width: 90%;
-        height: 80%;
+        height: 70%;
         transform: translateX(-10%); }
 }
 

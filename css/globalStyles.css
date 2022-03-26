@@ -43,7 +43,7 @@ img {
 .btn__active{
     line-height: 2rem;
     height: 3.5rem;
-    border: 2px solid #FEFBF3;
+    border: 3px solid #FEFBF3;
     padding: 0 1rem;
     margin: auto auto auto 0;
     background: none;
@@ -80,7 +80,7 @@ img {
     transition: .3s ease all; }
 
 .arrow__link:hover{
-    transform: scale(1.2); }
+    transform: scale(1.15); }
 
 /* ======================= FLECHA REDONDA FOOTER ======================= */    
 
@@ -191,7 +191,7 @@ img {
     font-weight: 700;
     font-size: 1rem;
     line-height: 2rem;
-    opacity: 0.6; }
+    opacity: 0.5; }
 
 .fonLab {
     font-family: 'Maine Regular';
@@ -326,8 +326,8 @@ body.color .blue {
 /* ------------  BUTTONS LINKS ------------------- */
 
 .btn__active:hover {
-    border: 2px solid #DE5D37;  
-    transform: scale(1.03);}
+    border: 3px solid #DE5D37;  
+    transform: scale(1.1);}
 
 .btn__active a {
     padding: 4px;
