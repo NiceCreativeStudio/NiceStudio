@@ -280,14 +280,11 @@ input {
 
 /* ============================ LIGHT MODE ============================ */
 
-
 body.color textarea {
-    color: #000000;
-}
+    color: #000000; }
 
 body.color input {
-    color: #000000;
-}
+    color: #000000; }
 
 body.color .shape__pink {
     fill:#F3A8BE; }
@@ -311,7 +308,6 @@ body.color .select-selected:after {
 
 body.color .select-selected.select-arrow-active:after {
     border-color: transparent transparent #202020 transparent; }
-
 
 /* ============================ MEDIA ============================ */
 

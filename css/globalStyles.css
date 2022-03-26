@@ -185,6 +185,14 @@ img {
     font-size: 1rem;
     line-height: 1.5rem; }
 
+.fonH6 { 
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    opacity: 0.6; }
+
 .fonLab {
     font-family: 'Maine Regular';
     font-style: normal;
@@ -205,14 +213,6 @@ img {
     font-weight: 500;
     font-size: 0.75rem;
     line-height: 1rem; }
-
-.fonH6 { /* == Confirmar si va === */
-    font-family: 'Maine Light';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 2rem;
-    opacity: 0.4; }
 
 .fonPg {  /* == Confirmar si va === */
     font-family: 'Montserrat', sans-serif;
