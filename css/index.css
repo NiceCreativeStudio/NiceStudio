@@ -305,6 +305,10 @@ header {
   color: #DE5D37; 
   transition: .3s ease all;}
 
+.instagram__screen .lightwidget-widget{
+  margin-top: 3.5rem;
+}
+
 
 /* ============================ COLOR MODE ============================ */
 body.color .shape1{
@@ -373,9 +377,6 @@ body.color .slide__flower{
 }
 
 /* ============================ MEDIA ============================ */
-
-
-/* ======================= Mobile =======================*/
 
 @media (max-width: 768px) {
 
@@ -532,8 +533,7 @@ body.color .slide__flower{
 
 .index__quote {
   width: 100%;
-  line-height: 5rem;
-}
+  line-height: 5rem; }
 
 /* ----------- Instagram gallery OKKK----------- */
 
@@ -550,8 +550,6 @@ body.color .slide__flower{
   padding-bottom: 1.5rem; }
 
 }
-
-/* ============================================== Tablet */
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
