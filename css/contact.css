@@ -236,46 +236,8 @@ input {
     .instagram__gallery a:hover {
         color: #DE5D37; }
 
-.items2 {
-    margin-top: 3%;
-    scrollbar-width: none;
-    position: relative;
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    transition: all 0.2s;
-    transform: scale(0.98);
-    will-change: transform;
-    user-select: none;
-    height: min-content;
-}
-
-.items2::-webkit-scrollbar {
-    display: none;
-}
-
-/* for Chrome, Safari, and Opera */
-
-.items2.active {
-    cursor: -webkit-grabbing;
-    transform: scale(1);
-}
-
-.item {
-    display: inline-block;
-    height: 4rem;
-    margin: 0.5rem;
-    object-fit: cover;
-}
-
-.gallery__card {
-    height: 4rem;
-}
-
-.gallery__cardbox {
-    display: flex;
-    flex-direction: column;
+.instagram__screen .lightwidget-widget{
+    margin-top: 3.5rem;
 }
 
 /* ============================ LIGHT MODE ============================ */
