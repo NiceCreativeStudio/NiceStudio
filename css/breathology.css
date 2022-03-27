@@ -93,7 +93,7 @@ a {
     margin-top: 4rem;
     background-image: url(https://ik.imagekit.io/nicecreativestudio/stone-balancing-breathology-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648048831007);
     background-position: center;
-    background-size: contain; }
+    background-size: cover; }
 
  /* ------------central text -------------- */
 
@@ -443,7 +443,8 @@ a {
         fill:  #FEFBF3;
         position: absolute;
         bottom: 40%;
-        left: 39%;  }
+        left: 50%;  
+        transform: translateX(-35px); }
 
 .grid__wrap1{
     width: 100%; 
@@ -687,12 +688,27 @@ body.color .backend__arrowR {
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
+    /*
 .multimedia__boxlogo{
     height: auto;
     width: auto;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem; }  */
+
+.multimedia__boxlogo{
+    height: 550px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px;  }
+
+    .multimedia__boxlogo img{
+        height: 100%;
+        width: auto;
+        object-fit: cover; }
 
 .multimedia__boximg{
     height: auto;
@@ -702,7 +718,6 @@ body.color .backend__arrowR {
     grid-template-rows: repeat(1fr);
     margin-left: 10%;
     row-gap: 1.5rem;  }
-
 
 .multimedia__txt{
     height: auto;
@@ -816,11 +831,13 @@ body.color .backend__arrowR {
 .backend__img{
     margin-top: 4rem;
     height: auto;
-    width: 100%;
-    justify-self: center; }
+    max-height: 500px;
+    max-width: 100%;
+    width: 100%; 
+    justify-self: left;
+    height: auto; }
 
     .backend__img img{
-        border-radius: 8px;
         height: 100%;
         width: 100%;
         margin-left: 0%; }
@@ -852,7 +869,7 @@ body.color .backend__arrowR {
 
     .grid__txtbox svg{
         bottom: 40%;
-        left: 40%;  }
+        left: 50%;  }
 
 /* ------------backend final -------------- */
 
@@ -1055,8 +1072,10 @@ body.color .backend__arrowR {
 .backend__img{
     margin-top: 4rem;
     height: auto;
+    max-height: 550px;
+    max-width: 100%;
     width: 100%; 
-    justify-self: center; }
+    justify-self: left; }
 
     .backend__img img{
         height: 100%;
@@ -1085,16 +1104,23 @@ body.color .backend__arrowR {
     width: 80%;
     margin-left: 10%;  }
 
+.grid__txt p{
+    bottom: 5rem; }
+
+.grid__txtbox svg{
+    bottom: 40%;
+    left: 50%;  }
+
 /* ------------backend final -------------- */
 
-    .backend__hrefleft p{
-        width: 12rem;
-        padding-left: 1rem; }
+.backend__hrefleft p{
+    width: 13rem;
+    padding-left: 1rem; }
 
-    .backend__hrefrig p{
-        width: 11rem;
-        text-align: end;
-        padding-right: 1rem;  }
+.backend__hrefrig p{
+    width: 12rem;
+    text-align: end;
+    padding-right: 1rem;  }
 
 }
 
