@@ -116,6 +116,7 @@ header {
   flex-direction: column; }
 
 .gallery__card .img__container img {
+  width: 48rem;
   cursor: url("../assets/draghandle.svg"), pointer; }
 
 .gallery__card h5 {
@@ -213,7 +214,7 @@ header {
 .messy__gallery {
   width: 100%;
   height: auto;
-  margin-top: 7rem;
+  margin-top: 11rem;
   margin-bottom: 11rem; }
 
 .messy__gallery--container {
@@ -423,7 +424,7 @@ body.color .slide__flower{
   margin: 0 7.5% 2rem 7.5%; }
 
 .gallery__card .img__container img {
-  width: 35rem; }
+  width: 30rem; }
   
 /* ----------- A Nice philosophy OKKK----------- */
 .philosophy{
@@ -581,7 +582,7 @@ body.color .slide__flower{
   margin: 0 10% 2rem 10%; }
 
 .gallery__card .img__container img {
-  width: 40rem; }
+  width: 38rem; }
   
 /* ----------- A Nice philosophy OKKK----------- */
 .philosophy{
@@ -692,7 +693,4 @@ body.color .slide__flower{
   padding-bottom: 1.25rem; }
 
 }
-
-
-
 
