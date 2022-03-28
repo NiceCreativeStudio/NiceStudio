@@ -403,7 +403,6 @@ a {
     width: 100%;
     margin-left: 0;
     padding-top: 0rem;
-    padding-bottom: 2rem;
     margin-top: 11rem; }
 
 .grid__img {
@@ -457,7 +456,8 @@ a {
         fill:  #FEFBF3;
         position: absolute;
         bottom: 40%;
-        left: 39%;  }
+        left: 50%; 
+        transform: translateX(-35px); }
 
 .grid__wrap1{
     width: 100%; 
@@ -557,15 +557,10 @@ a {
         margin-bottom: 1rem; }
 
     .backend__lets a{
-        text-decoration: none;
-        text-transform: uppercase;
         font-weight: 600;
         font-size: 1.3rem;
         letter-spacing: 0.15em;
-        line-height: 1.3rem;
-        text-align: center;
-        text-decoration: underline;
-        text-underline-offset: 0.75rem;  }
+        line-height: 1.3rem; }
 
 .backend__href{
     height: auto;
@@ -584,11 +579,15 @@ a {
     flex-direction: row; }
 
     .backend__hrefleft p{
-        width: 12rem;
+        width: 13rem;
         padding-left: 1.5rem; }
 
-    .backend__hrefleft svg{
-        stroke: #FEFBF3; }
+    .backend__arrowL {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        transform: rotate(180deg);
+        padding-bottom: 0.5rem;  }
 
 .backend__hrefrig{
     height: auto;
@@ -598,33 +597,35 @@ a {
     justify-content: end; }
 
     .backend__hrefrig p{
-        width: 14rem;
+        width: 15rem;
         text-align: end;
         padding-right: 1.5rem;  }
 
-    .backend__hrefrig svg{
-        stroke: #FEFBF3;  }
-
+    .backend__arrowR {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        padding-top: 0.25rem; }
 
 /* ============================ LIGHT MODE ============================ */
 
 body.color a {
-    color:  #282828;  }
+    color: #202020; }
 
 body.color .backend__txt svg{
-    fill:  #282828; }
+    fill: #202020; }
 
 body.color .backend__txtline{
-    background-color: #282828;  } 
+    background-color: #202020;  } 
 
 body.color .grid__txtbox svg{
-    fill: #282828;  }
+    fill:#202020;  }
 
-body.color .backend__hrefleft svg{
-    stroke: #282828;  }
+body.color .backend__arrowL {
+    fill: #202020;  }
 
-body.color .backend__hrefrig svg{
-    stroke: #282828;  }
+body.color .backend__arrowR {
+    fill: #202020;  }
 
 /* ============================ MEDIA ============================ */
 
@@ -644,20 +645,19 @@ body.color .backend__hrefrig svg{
     margin-bottom: 10rem; }   
 
 .centraltxt__sub{
-    margin-left: 5%; }
+    margin-left: 10%; }
 
 .centraltxt__title {
-    width: 85%;
-    margin-left: 5%; }
+    width: 80%;
+    margin-left: 10%; }
 
 .centraltxt__info{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    width: auto;
+    width: 80%;
     height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
     margin-top: 6rem; }
 
 .centraltxt__mission{
@@ -677,16 +677,16 @@ body.color .backend__hrefrig svg{
 
 .elements__title{
     width: auto;
-    margin-left: 5%;  }
+    margin-left: 10%;  }
 
 .elements__box{
     height: auto;
-    width: 90%;
+    width: 80%;
     display: grid;
     gap: 1.75rem;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 4rem; }
 
 .elements__txt{
@@ -698,102 +698,97 @@ body.color .backend__hrefrig svg{
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
-.multimedia__boximg{
+.multimedia__boxexamp{
     height: auto;
-    width: 90%;
+    width: 80%;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(1fr);
-    margin-left: 5%;
-    row-gap: 1.5rem;  }
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    row-gap: 1.5rem; 
+    text-align: center; }
 
 .multimedia__boxlogo{
     height: auto;
-    width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1.5rem; }
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    text-align: center; }
+
+    .multimedia__boxlogo img{
+        height: 380px;
+        width: auto;
+        object-fit: cover; }
+
+    .multimedia__boxlogo p{
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
 
 .multimedia__txt{
     height: auto;
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     gap: 2rem;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5rem;  }   
 
 /* ---------Going Digital--------- */
 
 .digital{
-    margin-top: 8rem;
+    margin-top: 10rem;
     margin-bottom: 8rem; }
 
 .digital__title {
     width: auto;
-    margin-left: 5%;  }
+    margin-left: 10%; }
 
 .digital__box{
     height: auto;
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     gap: 0rem;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 4rem;  }
 
 .digital__txt{
-    width: 100%;  }
+    width: 100%; 
+    margin-bottom: 3.5rem;  }
+        
+.digital__boxexamp{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    row-gap: 1.5rem;  }
+        
+.digital__boximg{
+    text-align: center; }
 
-    .digital__txt p{
-        margin-bottom: 1.75rem;  }
+    .digital__boximg img{
+        height: 90%;
+        width: 100%;
+        object-fit: cover; }
 
 /* -------------Graphics-------------- */
 
 .graphics{
-    margin-top: 8rem;
-    margin-bottom: 8rem; }
+    margin-top: 10rem;
+    margin-bottom: 10rem; }
 
-.graphics__boximg{
-    height: auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(1fr);
-    margin-left: 5%;
-    row-gap: 1.5rem;  }
-
-.graphics__boxstudy{
-    height:  auto;
-    width: auto;
-    margin-left: 5%;
-    margin-right: 5%; }
-
-.graphics__txt{
-    height: auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    gap: 2rem;
-    margin-left: 5%;
-    margin-top: 5rem;  }   
-    
 .graphics__screen{
     height: auto;
-    width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;;
+    margin-left: 10%;
     margin-top: 10rem;
     background-color: #3458C7; }  
-
-/* ------------legend -------------- */
-
-.legendtxt__box {
-    width: 90%;
-    margin-left: 5%;}
 
 /* ------------backend -------------- */
 
@@ -803,26 +798,29 @@ body.color .backend__hrefrig svg{
 
 .backend__box{
     height: auto;
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    margin-left: 5%;  }
+    margin-left: 10%;  }
 
     .backend__txt h3{
         width: 95%;  }
 
     .backend__txt p{
-        width: 95%;
+        width: 100%;
         margin-top: 3rem;  }
 
 .backend__img{
     margin-top: 4rem;
     height: auto;
-    width: 100%;  }
+    max-height: 500px;
+    max-width: 100%;
+    width: 100%; 
+    justify-self: left;
+    height: auto; }
 
     .backend__img img{
-        border-radius: 8px;
         height: 100%;
         width: 100%;
         margin-left: 0%; }
@@ -846,15 +844,15 @@ body.color .backend__hrefrig svg{
     "img1" "txt" "img2" "img3" "img4"
     "img5" ;
     min-height: 1800px;
-    width: 90%;
-    margin-left: 5%;  }
+    width: 80%;
+    margin-left: 10%; }
 
     .grid__txt p{
         bottom: 5rem; }
 
     .grid__txtbox svg{
         bottom: 40%;
-        left: 40%;  }
+        left: 50%;  }
 
 /* ------------backend final -------------- */
 
@@ -883,20 +881,19 @@ body.color .backend__hrefrig svg{
     margin-bottom: 11rem; }   
 
 .centraltxt__sub{
-    margin-left: 12.5%; }
+    margin-left: 10%;}
 
 .centraltxt__title {
     width: 80%;
-    margin-left: 12.5%; }
+    margin-left: 10%; }
 
 .centraltxt__info{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    width: auto;
+    width: 80%;
     height: auto;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    margin-left: 10%;
     margin-top: 6rem; }
 
 .centraltxt__mission{
@@ -916,16 +913,16 @@ body.color .backend__hrefrig svg{
 
 .elements__title{
     width: auto;
-    margin-left: 12.5%;  }
+    margin-left: 10%; }
 
 .elements__box{
     height: auto;
-    width: 75%;
+    width: 80%;
     display: grid;
     gap: 1.75rem;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    margin-left: 12.5%;
+    margin-left: 10%;
     margin-top: 4rem; }
 
 .elements__txt{
@@ -937,34 +934,43 @@ body.color .backend__hrefrig svg{
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
-.multimedia__boximg{
-    height: auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(1fr);
-    margin-left: 12.5%;
-    row-gap: 1.5rem;  }
-
-.multimedia__boximg img{
-    height: auto; }
-
-.multimedia__boxlogo{
-    height: auto;
-    width: auto;
-    margin-left:12.5%;
-    margin-right: 12.5%;
-    margin-bottom: 1.5rem; }
-
-.multimedia__txt{
-    height: auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    gap: 2rem;
-    margin-left: 12.5%;
-    margin-top: 6rem;  }   
+    .multimedia__boxexamp{
+        height: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 10%;
+        row-gap: 1.5rem; 
+        text-align: center; }
+    
+    .multimedia__boxlogo{
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 1.5rem; 
+        overflow: hidden;
+        border-radius: 8px; 
+        text-align: center; }
+    
+        .multimedia__boxlogo img{
+            height: 550px;
+            width: auto;
+            object-fit: cover; }
+    
+        .multimedia__boxlogo p{
+            margin-top: 1rem;
+            margin-bottom: 2rem; }
+    
+    .multimedia__txt{
+        height: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 2rem;
+        margin-left: 10%;
+        margin-top: 5rem;  }   
 
 /* ---------Going Digital--------- */
 
@@ -974,57 +980,49 @@ body.color .backend__hrefrig svg{
 
 .digital__title {
     width: auto;
-    margin-left: 12.5%;  }
+    margin-left: 10%;  }
 
 .digital__box{
     height: auto;
-    width: 75%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     gap: 0rem;
-    margin-left: 12.5%;
+    margin-left: 10%;
     margin-top: 4rem;  }
+
+.digital__txt{
+    width: 100%; 
+    margin-bottom: 3.5rem;  }
+        
+.digital__boxexamp{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    row-gap: 1.5rem;  }
+        
+.digital__boximg{
+    text-align: center; }
+
+    .digital__boximg img{
+        height: 90%;
+        width: 100%;
+        object-fit: cover; }
 
 /* -------------Graphics-------------- */
 
 .graphics{
     margin-top: 8rem;
     margin-bottom: 8rem; }
-
-.graphics__boximg{
-    height: auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(1fr);
-    margin-left: 12.5%;
-    row-gap: 1.5rem;  }
-
-.graphics__boximg img{
-    height: auto; }
-
-.graphics__boxstudy{
-    height: auto;
-    width: auto;
-    margin-left: 12.5%;
-    margin-right: 12.5%; }
-
-.graphics__txt{
-    height: auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    gap: 2rem;
-    margin-left: 12.5%;
-    margin-top: 5rem;  }   
     
 .graphics__screen{
     height: auto;
-    width: auto;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 10rem;
     background-color: #3458C7; }  
 
@@ -1058,7 +1056,10 @@ body.color .backend__hrefrig svg{
 .backend__img{
     margin-top: 4rem;
     height: auto;
-    width: 100%;  }
+    max-height: 550px;
+    max-width: 100%;
+    width: 100%; 
+    justify-self: left; }
 
     .backend__img img{
         height: 100%;
@@ -1084,9 +1085,15 @@ body.color .backend__hrefrig svg{
     "img1" "txt" "img2" "img3" "img4"
     "img5" ;
     min-height: 3300px;
-    width: 75%;
-    margin-left: 12.5%;  }
+    width: 80%;
+    margin-left: 10%;  }
 
+    .grid__txt p{
+        bottom: 5rem; }
+
+    .grid__txtbox svg{
+        bottom: 40%;
+        left: 50%;  }
 
 /* ------------backend final -------------- */
 
@@ -1095,17 +1102,15 @@ body.color .backend__hrefrig svg{
         padding-left: 1rem; }
 
     .backend__hrefrig p{
-        width: 11rem;
+        width: 15rem;
         text-align: end;
         padding-right: 1rem;  }
 
 }
 
-
-
 @media (min-width: 1600px) {
   
-    main{
+    .centraltxt, .elements, .multimedia, .digital, .graphics, .backend, .grid, .backend__lets, .footer {
         width: 80%;
         margin-left: 10%; } 
 }
