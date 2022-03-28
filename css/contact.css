@@ -215,30 +215,63 @@ input {
     .centraltxt__box h2{
         line-height: 8rem; }
 
-/* ----------- Instagram gallery ----------- */
 
-.instagram__gallery {
-    margin-top: 11rem;
-    width: 100%; }
+/*----------- team gallery ------------------ */
 
-.instagram__title{
-    margin-left: 12.5%;
-    width: 75%;
-    height: auto;
-    margin-bottom: 3.5rem; }
-
-    .instagram__gallery h3 {
-        padding-bottom: 2rem; }
-
-    .instagram__gallery a {
-        transition: .3s ease all; }
-
-    .instagram__gallery a:hover {
-        color: #DE5D37; }
-
-.instagram__screen .lightwidget-widget{
-    margin-top: 3.5rem;
+.case__studies {
+    margin: 0 auto 2.5rem 12.5%;
 }
+
+.items {
+    scrollbar-width: none;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    height: min-content;
+}
+
+.items::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.items.active {
+    cursor: pointer;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.item {
+    display: inline-block;
+    margin: 2em 1em;
+}
+
+.gallery__card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__card .img__container img {
+    cursor: url("../assets/draghandle.svg"), pointer;
+}
+
+.gallery__card h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery__card svg {
+    margin-right: 0.5rem;
+    fill: #DE5D37;
+}
+
 
 /* ============================ LIGHT MODE ============================ */
 
