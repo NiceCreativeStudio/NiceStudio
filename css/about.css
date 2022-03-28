@@ -3,44 +3,52 @@
     height: auto;
     width: 100%;
     margin-top: 11rem;
-    margin-bottom: 11rem; }
+    margin-bottom: 11rem;
+}
 
 .team__box {
     height: auto;
     width: 75%;
-    margin-left: 12.5%; }
+    margin-left: 12.5%;
+}
 
-    .team h1 {
-        margin-bottom: 3.5rem; }
+.team h1 {
+    margin-bottom: 3.5rem;
+}
 
-    .team h4 {
-        margin-bottom: 6rem; }
+.team h4 {
+    margin-bottom: 6rem;
+}
 
-.team__boxtxt{
+.team__boxtxt {
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-    margin-bottom: 3.5rem; }
+    margin-bottom: 3.5rem;
+}
 
-.team__boximg{
+.team__boximg {
     width: 100%;
-    display: grid; 
-    grid-template-columns: 1fr 1fr .2fr 1fr 1fr; 
-    grid-template-areas: 
-    "lautaro yohanna . laura ignacio";  }   
+    display: grid;
+    grid-template-columns: 1fr 1fr .2fr 1fr 1fr;
+    grid-template-areas:
+        "lautaro yohanna . laura ignacio";
+}
 
-.team__container{
+.team__container {
     width: 100%;
 }
-.team__container .team__occupation{
+
+.team__container .team__occupation {
     color: #fefbf348;
     margin-bottom: 0.5rem;
     margin-left: 0 auto 1rem 0;
-    height: auto;  }
+    height: auto;
+}
 
-.team__container .team__name{
+.team__container .team__name {
     line-height: 3rem;
 }
 
@@ -48,78 +56,95 @@
     object-fit: contain;
     width: 110%;
     height: 80%;
-    transform: translateX(-10%); }
+    transform: translateX(-10%);
+}
 
-    .team__container h5 {
-        height: auto;
-        margin-bottom: 1rem; }
+.team__container h5 {
+    height: auto;
+    margin-bottom: 1rem;
+}
 
-    .team__container h4 {
-        height: 80px;
-        margin-bottom: 0; }
+.team__container h4 {
+    height: 80px;
+    margin-bottom: 0;
+}
 
-.lautaro{
+.lautaro {
     grid-area: lautaro;
 }
-.yohanna{
+
+.yohanna {
     grid-area: yohanna;
 }
-.laura{
+
+.laura {
     grid-area: laura;
 }
-.ignacio{
+
+.ignacio {
     grid-area: ignacio;
 }
 
 /*----------- Our core values ----------- */
 
-.values{
+.values {
     width: 100%;
-    height: auto;  }
+    height: auto;
+}
 
-.values__box{
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: min-content min-content min-content; 
-    gap: 3.5rem 2rem; 
-    grid-template-areas: 
+.values__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content min-content;
+    gap: 3.5rem 2rem;
+    grid-template-areas:
         "title title"
         "work simple"
-        "true respect"; 
-    margin: 11rem 12.5%; }
+        "true respect";
+    margin: 11rem 12.5%;
+}
 
-.values h2{
-    grid-area: title; }
+.values h2 {
+    grid-area: title;
+}
 
-.values__container{
+.values__container {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+}
 
-.values__container h4{
-    margin-bottom: 2.5rem; }
+.values__container h4 {
+    margin-bottom: 2.5rem;
+}
 
-.work{
-    grid-area: work; }
+.work {
+    grid-area: work;
+}
 
-.simple{
-    grid-area: simple; }
+.simple {
+    grid-area: simple;
+}
 
-.true{
-    grid-area: true; }
+.true {
+    grid-area: true;
+}
 
-.respect{
-    grid-area: respect;}
+.respect {
+    grid-area: respect;
+}
 
 /*-----------  Quote ----------- */
 
-.about__quote{
+.about__quote {
     width: 100%;
-    height: auto; }
+    height: auto;
+}
 
-.about__quote{
+.about__quote {
     line-height: 8rem;
     width: 75%;
-    margin: 11rem 12.5%; }
+    margin: 11rem 12.5%;
+}
 
 /*----------- careers ------------------ */
 
@@ -127,7 +152,8 @@
     height: auto;
     width: 100%;
     margin-top: 11rem;
-    margin-bottom: 11rem; }
+    margin-bottom: 11rem;
+}
 
 .team__careersbox {
     display: grid;
@@ -135,23 +161,27 @@
     grid-template-columns: auto 22rem 13rem;
     height: auto;
     width: 75%;
-    margin-left: 12.5%;  }
+    margin-left: 12.5%;
+}
 
 .team__careers1 {
     grid-area: txt1;
     width: 100%;
     height: 9.25rem;
-    position: relative; }
+    position: relative;
+}
 
 .team__careers1a {
     position: absolute;
     left: 0;
-    bottom: 3rem; }
+    bottom: 3rem;
+}
 
 .team__careers1b {
     position: absolute;
     left: 0;
-    bottom: 0rem; }
+    bottom: 0rem;
+}
 
 .team__careers1svg {
     position: absolute;
@@ -159,16 +189,19 @@
     height: 25px;
     left: 8.75rem;
     bottom: 0.5rem;
-    fill: #FEFBF3; }
+    fill: #FEFBF3;
+}
 
 .team__careers2 {
     grid-area: txt2;
     position: relative;
-    width: 90%; }
+    width: 90%;
+}
 
 .team__careers3 {
     grid-area: txt3;
-    position: relative; }
+    position: relative;
+}
 
 .team__careerstxt {
     font-family: Montserrat;
@@ -179,16 +212,19 @@
     position: absolute;
     top: 4rem;
     text-align: justify;
-    text-justify: inter-word; }
+    text-justify: inter-word;
+}
 
-    .team__careerstxt a{
-        font-weight: bold; }
+.team__careerstxt a {
+    font-weight: bold;
+}
 
 .team__careersSub {
     height: 2.5rem;
     display: flex;
     align-items: flex-start;
-    position: relative;  }
+    position: relative;
+}
 
 .team__careersSub h5 {
     font-family: Montserrat;
@@ -197,33 +233,96 @@
     font-size: 1rem;
     line-height: 1.5rem;
     margin-left: 3rem;
-    align-self: center; }
+    align-self: center;
+}
 
-.team__careerssub2{
-    width: auto; }
+.team__careerssub2 {
+    width: auto;
+}
 
-.team__careersSvg--shape1{
+.team__careersSvg--shape1 {
     stroke: #fefbf3;
     width: 2.25rem;
     height: 2.25rem;
-    position: absolute; }
+    position: absolute;
+}
 
-.team__careersSvg--shape2{
+.team__careersSvg--shape2 {
     fill: #fefbf3;
     width: 2.25rem;
     height: 2.25rem;
-    position: absolute; }
+    position: absolute;
+}
+
+/*----------- team gallery ------------------ */
+
+.case__studies {
+    margin: 0 auto 2.5rem 12.5%;
+}
+
+.items {
+    scrollbar-width: none;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    height: min-content;
+}
+
+.items::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.items.active {
+    cursor: pointer;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.item {
+    display: inline-block;
+    margin: 2em 1em;
+}
+
+.gallery__card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__card .img__container img {
+    cursor: url("../assets/draghandle.svg"), pointer;
+}
+
+.gallery__card h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery__card svg {
+    margin-right: 0.5rem;
+    fill: #DE5D37;
+}
 
 /* ============================ COLOR MODE ============================ */
 
 body.color .team__careers1svg {
-    fill: #202020; }
+    fill: #202020;
+}
 
-body.color .team__careersSvg--shape1{
-    stroke: #ED764A; }
+body.color .team__careersSvg--shape1 {
+    stroke: #ED764A;
+}
 
-body.color .team__careersSvg--shape2{
-    fill: #F3A8BE; }
+body.color .team__careersSvg--shape2 {
+    fill: #F3A8BE;
+}
 
 /* ============================ MEDIA ============================ */
 
@@ -233,114 +332,132 @@ body.color .team__careersSvg--shape2{
 
     .team {
         margin-top: 10rem;
-        margin-bottom: 10rem; }
+        margin-bottom: 10rem;
+    }
 
     .team__box {
         width: 80%;
-        margin-left: 10%; }
+        margin-left: 10%;
+    }
 
-        .team__boxtxt{
-            width: 100%;
-            height: auto;
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto;
-            row-gap: 3.5rem;
-            margin-bottom: 3.5rem; }
+    .team__boxtxt {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        row-gap: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
 
-        /*----------- a nice team AVATARS----------- */
-        .team__boximg{
-            width: 100%;
-            display: grid; 
-            grid-template-columns: 100%; 
-            grid-template-rows: 1fr 1fr 1fr 1fr;
-            grid-template-areas: 
-            "lautaro" "yohanna" "laura" "ignacio"; 
-            gap: 1rem; }   
-        
-        .team__container{
-            width: 100%;
-            height: auto; 
-            text-align: center; }
-        
-        .team__container img {
-            object-fit: contain;
-            width: 100%;
-            height: 70%;
-            max-height: 400px;
-            transform: translateX(0%); }
+    /*----------- a nice team AVATARS----------- */
+    .team__boximg {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "lautaro""yohanna""laura""ignacio";
+        gap: 1rem;
+    }
+
+    .team__container {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .team__container img {
+        object-fit: contain;
+        width: 100%;
+        height: 70%;
+        max-height: 400px;
+        transform: translateX(0%);
+    }
 
     /*----------- Our core values ----------- */
-    
-    .values__box{
-        display: grid; 
-        grid-template-columns: 100%; 
-        grid-template-rows: repeat(auto); 
-        gap: 3.5rem; 
-        grid-template-areas: 
-            "title" "title"
-            "work" "simple"
-            "true" "respect"; 
-            margin: 10rem 10%; }
-    
-    .values__container h4{
-        margin-bottom: 2rem; }
+
+    .values__box {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto);
+        gap: 3.5rem;
+        grid-template-areas:
+            "title""title"
+            "work""simple"
+            "true""respect";
+        margin: 10rem 10%;
+    }
+
+    .values__container h4 {
+        margin-bottom: 2rem;
+    }
 
     /*----------- Quote ----------- */
-    .about__quote{
+    .about__quote {
         line-height: 6rem;
         width: 80%;
-        margin: 10rem 10%; }
+        margin: 10rem 10%;
+    }
 
     /*----------- careers ------------------ */
 
     .team__careers {
         margin-top: 10rem;
-        margin-bottom: 10rem; }
+        margin-bottom: 10rem;
+    }
 
     .team__careersbox {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto;
-        grid-template-areas: "txt1" "txt2" "txt3";
+        grid-template-areas: "txt1""txt2""txt3";
         row-gap: 3.5rem;
         height: auto;
         width: 80%;
-        margin-left: 10%;  }
-    
+        margin-left: 10%;
+    }
+
     .team__careers1 {
         grid-area: txt1;
         width: 100%;
         height: 5rem;
-        position: relative; }
-    
+        position: relative;
+    }
+
     .team__careers1a {
         position: absolute;
         margin: 0;
         left: 0;
-        top: 0rem; }
-    
+        top: 0rem;
+    }
+
     .team__careers1b {
         position: absolute;
         left: 0rem;
-        top: 3rem; }
-    
+        top: 3rem;
+    }
+
     .team__careers1svg {
         position: absolute;
         left: 8rem;
-        top: 3.25rem; 
-        transform: rotate(90deg);}
-    
+        top: 3.25rem;
+        transform: rotate(90deg);
+    }
+
     .team__careers2 {
-        height: 9.25rem; 
+        height: 9.25rem;
         position: relative;
-        width: 100%; }
+        width: 100%;
+    }
 
     .team__careers3 {
-        height: 9.25rem; }
-    
-    .team__careerssub2{
-        width: 100px;  }
+        height: 9.25rem;
+    }
+
+    .team__careerssub2 {
+        width: 100px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -348,53 +465,64 @@ body.color .team__careersSvg--shape2{
     /*----------- a nice team ----------- */
     .team {
         width: 100%;
-        margin-left: 0%; }
+        margin-left: 0%;
+    }
 
     /*----------- Our core values ----------- */
-    .values{
-        margin: 11rem 10%; }
+    .values {
+        margin: 11rem 10%;
+    }
 
     /*----------- Quote ----------- */
-    .about__quote{
+    .about__quote {
         width: 80%;
-        margin: 11rem 10%; }
+        margin: 11rem 10%;
+    }
 
     /*----------- careers ------------------ */
     .team__careersbox {
         width: 80%;
-        margin: 11rem 10%;  }
-    
+        margin: 11rem 10%;
+    }
+
     .team__careers1 {
         grid-area: txt1;
         width: 100%;
         height: 2rem;
-        position: relative; }
-    
+        position: relative;
+    }
+
     .team__careers1a {
         position: absolute;
         margin: 0;
         left: 0;
-        top: 0rem; }
-    
+        top: 0rem;
+    }
+
     .team__careers1b {
         position: absolute;
         left: 12.5rem;
-        top: 0rem; }
-    
+        top: 0rem;
+    }
+
     .team__careers1svg {
         position: absolute;
         left: 21.25rem;
-        top: 0.5rem; 
-        transform: rotate(90deg);}
-    
+        top: 0.5rem;
+        transform: rotate(90deg);
+    }
+
     .team__careers2 {
-        height: 9.25rem; }
+        height: 9.25rem;
+    }
 
     .team__careers3 {
-        height: 9.25rem; }
-    
-    .team__careerssub2{
-        width: 100px;  }
+        height: 9.25rem;
+    }
+
+    .team__careerssub2 {
+        width: 100px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -404,46 +532,56 @@ body.color .team__careersSvg--shape2{
     .team__box {
         height: auto;
         width: 80%;
-        margin-left: 10%; }
+        margin-left: 10%;
+    }
 
-    .team__boximg{
+    .team__boximg {
         width: 100%;
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-template-areas: 
-        "lautaro yohanna" "laura ignacio"; 
-        gap: 3.5rem; 
-        margin-left: 5%;}   
-    
-    .team__container{
+        grid-template-areas:
+            "lautaro yohanna""laura ignacio";
+        gap: 3.5rem;
+        margin-left: 5%;
+    }
+
+    .team__container {
         width: 100%;
-        height: auto;  }
-    
+        height: auto;
+    }
+
     .team__container img {
         object-fit: contain;
         width: 90%;
         height: 70%;
-        transform: translateX(-10%); }
+        transform: translateX(-10%);
+    }
 
     /*----------- careers ------------------ */
-        
+
     .team__careersbox {
         display: grid;
         grid-template-columns: 1.4fr 1fr;
         grid-template-rows: auto auto;
-        grid-template-areas: "txt1 txt1" "txt2 txt3";
+        grid-template-areas: "txt1 txt1""txt2 txt3";
         row-gap: 3.5rem;
         height: auto;
         width: 80%;
-        margin-left: 10%;  }
+        margin-left: 10%;
+    }
 }
 
 @media (min-width: 1600px) {
-  
-    .team, .values, .quote, .team__careers, .footer {
+
+    .team,
+    .values,
+    .quote,
+    .team__careers,
+    .footer {
         width: 80%;
-        margin-left: 10%; } 
+        margin-left: 10%;
+    }
 }
 
 

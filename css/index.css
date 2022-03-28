@@ -116,7 +116,6 @@ header {
   flex-direction: column; }
 
 .gallery__card .img__container img {
-  width: 50rem;
   cursor: url("../assets/draghandle.svg"), pointer; }
 
 .gallery__card h5 {
