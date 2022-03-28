@@ -3,148 +3,114 @@
     height: auto;
     width: 100%;
     margin-top: 11rem;
-    margin-bottom: 11rem;
-}
+    margin-bottom: 11rem; }
 
 .team__box {
     height: auto;
     width: 75%;
-    margin-left: 12.5%;
-}
+    margin-left: 12.5%; }
 
-.team h1 {
-    margin-bottom: 3.5rem;
-}
+    .team h1 {
+        margin-bottom: 3.5rem; }
 
-.team h4 {
-    margin-bottom: 6rem;
-}
+    .team h4 {
+        margin-bottom: 6rem; }
 
-.team__boxtxt {
+.team__boxtxt{
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-    margin-bottom: 3.5rem;
-}
+    margin-bottom: 3.5rem; }
 
-.team__boximg {
+.team__boximg{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr .2fr 1fr 1fr;
-    grid-template-areas:
-        "lautaro yohanna . laura ignacio";
-}
+    display: grid; 
+    grid-template-columns: 1fr 1fr .2fr 1fr 1fr; 
+    grid-template-areas: 
+    "lautaro yohanna . laura ignacio";  }   
 
-.team__container {
+.team__container{
     width: 100%;
-}
-
-.team__container .team__occupation {
-    color: #fefbf348;
-    margin-bottom: 0.5rem;
-    margin-left: 0 auto 1rem 0;
-    height: auto;
-}
-
-.team__container .team__name {
-    line-height: 3rem;
-}
+    height: auto;  }
 
 .team__container img {
     object-fit: contain;
     width: 110%;
     height: 80%;
-    transform: translateX(-10%);
-}
+    transform: translateX(-10%); }
 
-.team__container h5 {
-    height: auto;
-    margin-bottom: 1rem;
-}
+    .team__container h5 {
+        height: auto;
+        margin-bottom: 1rem; }
 
-.team__container h4 {
-    height: 80px;
-    margin-bottom: 0;
-}
+    .team__container h4 {
+        height: 80px;
+        margin-bottom: 0; }
 
-.lautaro {
+.lautaro{
     grid-area: lautaro;
 }
-
-.yohanna {
+.yohanna{
     grid-area: yohanna;
 }
-
-.laura {
+.laura{
     grid-area: laura;
 }
-
-.ignacio {
+.ignacio{
     grid-area: ignacio;
 }
 
 /*----------- Our core values ----------- */
 
-.values {
+.values{
     width: 100%;
-    height: auto;
-}
+    height: auto;  }
 
-.values__box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: min-content min-content min-content;
-    gap: 3.5rem 2rem;
-    grid-template-areas:
+.values__box{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: min-content min-content min-content; 
+    gap: 3.5rem 2rem; 
+    grid-template-areas: 
         "title title"
         "work simple"
-        "true respect";
-    margin: 11rem 12.5%;
-}
+        "true respect"; 
+    margin: 11rem 12.5%; }
 
-.values h2 {
-    grid-area: title;
-}
+.values h2{
+    grid-area: title; }
 
-.values__container {
+.values__container{
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column; }
 
-.values__container h4 {
-    margin-bottom: 2.5rem;
-}
+.values__container h4{
+    margin-bottom: 2.5rem; }
 
-.work {
-    grid-area: work;
-}
+.work{
+    grid-area: work; }
 
-.simple {
-    grid-area: simple;
-}
+.simple{
+    grid-area: simple; }
 
-.true {
-    grid-area: true;
-}
+.true{
+    grid-area: true; }
 
-.respect {
-    grid-area: respect;
-}
+.respect{
+    grid-area: respect;}
 
 /*-----------  Quote ----------- */
 
-.about__quote {
+.about__quote{
     width: 100%;
-    height: auto;
-}
+    height: auto; }
 
-.about__quote {
+.about__quote{
     line-height: 8rem;
     width: 75%;
-    margin: 11rem 12.5%;
-}
+    margin: 11rem 12.5%; }
 
 /*----------- careers ------------------ */
 
@@ -152,8 +118,7 @@
     height: auto;
     width: 100%;
     margin-top: 11rem;
-    margin-bottom: 11rem;
-}
+    margin-bottom: 11rem; }
 
 .team__careersbox {
     display: grid;
@@ -161,27 +126,23 @@
     grid-template-columns: auto 22rem 13rem;
     height: auto;
     width: 75%;
-    margin-left: 12.5%;
-}
+    margin-left: 12.5%;  }
 
 .team__careers1 {
     grid-area: txt1;
     width: 100%;
     height: 9.25rem;
-    position: relative;
-}
+    position: relative; }
 
 .team__careers1a {
     position: absolute;
     left: 0;
-    bottom: 3rem;
-}
+    bottom: 3rem; }
 
 .team__careers1b {
     position: absolute;
     left: 0;
-    bottom: 0rem;
-}
+    bottom: 0rem; }
 
 .team__careers1svg {
     position: absolute;
@@ -189,19 +150,16 @@
     height: 25px;
     left: 8.75rem;
     bottom: 0.5rem;
-    fill: #FEFBF3;
-}
+    fill: #FEFBF3; }
 
 .team__careers2 {
     grid-area: txt2;
     position: relative;
-    width: 90%;
-}
+    width: 90%; }
 
 .team__careers3 {
     grid-area: txt3;
-    position: relative;
-}
+    position: relative; }
 
 .team__careerstxt {
     font-family: Montserrat;
@@ -212,19 +170,16 @@
     position: absolute;
     top: 4rem;
     text-align: justify;
-    text-justify: inter-word;
-}
+    text-justify: inter-word; }
 
-.team__careerstxt a {
-    font-weight: bold;
-}
+    .team__careerstxt a{
+        font-weight: bold; }
 
 .team__careersSub {
     height: 2.5rem;
     display: flex;
     align-items: flex-start;
-    position: relative;
-}
+    position: relative;  }
 
 .team__careersSub h5 {
     font-family: Montserrat;
@@ -233,26 +188,22 @@
     font-size: 1rem;
     line-height: 1.5rem;
     margin-left: 3rem;
-    align-self: center;
-}
+    align-self: center; }
 
-.team__careerssub2 {
-    width: auto;
-}
+.team__careerssub2{
+    width: auto; }
 
-.team__careersSvg--shape1 {
+.team__careersSvg--shape1{
     stroke: #fefbf3;
     width: 2.25rem;
     height: 2.25rem;
-    position: absolute;
-}
+    position: absolute; }
 
-.team__careersSvg--shape2 {
+.team__careersSvg--shape2{
     fill: #fefbf3;
     width: 2.25rem;
     height: 2.25rem;
-    position: absolute;
-}
+    position: absolute; }
 
 /*----------- team gallery ------------------ */
 
@@ -573,16 +524,12 @@ body.color .team__careersSvg--shape2 {
 }
 
 @media (min-width: 1600px) {
-
-    .team,
-    .values,
-    .quote,
-    .team__careers,
-    .footer {
+  
+    .team, .values, .quote, .team__careers, .footer {
         width: 80%;
-        margin-left: 10%;
-    }
+        margin-left: 10%; } 
 }
+
 
 
 /*----------- drag elements ----------- 
