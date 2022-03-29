@@ -248,6 +248,7 @@
 }
 
 .gallery__card .img__container img {
+    width: 48rem;
     cursor: url("../assets/draghandle.svg"), pointer;
 }
 
