@@ -25,7 +25,7 @@ a {
     font-family: 'Maine Bold';
     font-style: normal;
     font-weight: normal;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     line-height: 3.5rem; }
 
 .csH3bdIt {
@@ -56,20 +56,6 @@ a {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-.csPgMai{
-    font-family: 'Maine Regular'; 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25rem;
-    line-height: 2rem; }
-
-.csPgsm{
-    font-family: 'Maine Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 2rem; }
-
 .csPgMonSm{
     font-family: Montserrat;
     font-style: normal;
@@ -78,12 +64,11 @@ a {
     line-height: 1.5rem; }
 
 .csInd {
-    font-family: 'Maine Bold';
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1rem;
-    letter-spacing: 0.15em; }
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1rem;}
 
  /* ------------hero -------------- */
 
@@ -91,7 +76,7 @@ a {
     width: 100%;
     height: 33rem;
     margin-top: 4rem;
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/stone-balancing-breathology-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648048831007);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathe_hero_O5Zd8_fgG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574823207);
     background-position: center;
     background-size: cover; }
 
@@ -625,10 +610,12 @@ body.color .backend__arrowR {
         font-size: 3.5rem;
         line-height: 4rem; }
 
- /* ------------hero -------------- */
+/* ------------hero -------------- */
 
+ .heroimg {
+    height: 20rem; }
 
- /* ------------central text -------------- */
+/* ------------central text -------------- */
 
 .centraltxt{ 
     margin-bottom: 8rem;}   
@@ -688,14 +675,6 @@ body.color .backend__arrowR {
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
-    /*
-.multimedia__boxlogo{
-    height: auto;
-    width: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 1.5rem; }  */
-
 .multimedia__boxlogo{
     height: 550px;
     width: auto;
@@ -703,12 +682,13 @@ body.color .backend__arrowR {
     margin-right: 10%;
     margin-bottom: 1.5rem; 
     overflow: hidden;
-    border-radius: 8px;  }
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathology_logo__3RjITb-2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1648559275117); }
 
     .multimedia__boxlogo img{
-        height: 100%;
-        width: auto;
-        object-fit: cover; }
+        visibility: hidden; }
 
 .multimedia__boximg{
     height: auto;
@@ -777,12 +757,13 @@ body.color .backend__arrowR {
     margin-right: 10%;
     margin-bottom: 1.5rem; 
     overflow: hidden;
-    border-radius: 8px;  }
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/sitemap_lWgKgqugn.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1647260080321); }
 
     .graphics__boxstudy img{
-        height: 120%;
-        width: auto;
-        object-fit: cover; }
+        visibility: hidden; }
 
 .graphics__txt{
     height: auto;
@@ -890,7 +871,7 @@ body.color .backend__arrowR {
  /* ------------hero -------------- */
 
  .heroimg {
-    height: 37rem; }
+    height: 30rem; }
 
  /* ------------central text -------------- */
 
@@ -965,11 +946,19 @@ body.color .backend__arrowR {
     height: auto; }
 
 .multimedia__boxlogo{
-    height: auto;
+    height: 800px;
     width: auto;
-    margin-left:10%; 
-    margin-right: 10%; 
-    margin-bottom: 1.5rem; }
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathology_logo__3RjITb-2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1648559275117); }
+
+    .multimedia__boxlogo img{
+        visibility: hidden; }
 
 .multimedia__txt{
     height: auto;
@@ -1020,10 +1009,19 @@ body.color .backend__arrowR {
     height: auto; }
 
 .graphics__boxstudy{
-    height: auto;
+    height: 800px;
     width: auto;
-    margin-left: 10%; 
-    margin-right: 10%;  }
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/sitemap_lWgKgqugn.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1647260080321); }
+
+    .graphics__boxstudy img{
+        visibility: hidden; }
 
 .graphics__txt{
     height: auto;

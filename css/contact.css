@@ -181,7 +181,7 @@ input {
     top: 14%;
     right: 57%; }
 
-.shape__orange {
+.shape__blue {
     stroke:#FEFBF3;
     position: absolute;
     top: 60%;
@@ -287,8 +287,8 @@ body.color .shape__pink {
 body.color .shape__yellow {
     fill:#FCB95C; }
 
-body.color .shape__orange {
-    stroke:#DE5D37; }
+body.color .shape__blue {
+    stroke:#6273D1;; }
 
 body.color .select-items div,
 body.color .select-selected {

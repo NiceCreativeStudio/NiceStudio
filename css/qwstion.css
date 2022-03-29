@@ -29,7 +29,7 @@ a {
     font-family: 'Maine Bold';
     font-style: normal;
     font-weight: normal;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     line-height: 3.5rem; }
 
 .csH3bdIt {
@@ -60,20 +60,6 @@ a {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-.csPgMai{
-    font-family: 'Maine Regular'; 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25rem;
-    line-height: 2rem; }
-
-.csPgsm{
-    font-family: 'Maine Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 2rem; }
-
 .csPgMonSm{
     font-family: Montserrat;
     font-style: normal;
@@ -82,12 +68,11 @@ a {
     line-height: 1.5rem; }
 
 .csInd {
-    font-family: 'Maine Bold';
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1rem;
-    letter-spacing: 0.15em; }
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1rem;}
 
  /* ------------hero -------------- */
 
@@ -95,7 +80,7 @@ a {
     width: 100%;
     height: 33rem;
     margin-top: 4rem;
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/qwstion-case-study-cover-nice-studio_TnsgZK4sw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648136664787);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/qwhero_iJc4HC5Hu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574826810);
     background-position: center;
     background-size: cover; }
 
@@ -172,7 +157,7 @@ a {
         object-fit: cover; }
 
     .stylescapes p {
-        margin-top: 2rem;  }
+        margin-top: 1.25rem;  }
 
 /* --------Setting the identity-------- */
 
@@ -324,9 +309,14 @@ a {
     text-align: center; }
 
     .digital__boximg img{
-        height: 100%;
+        height: auto;
         width: 100%;
         object-fit: cover; }
+
+    .digital__boximg video{
+        border-radius: 0.5rem;
+        height: auto;
+        width: 100%;  }
 
     .digital__boximg p{
         margin-top: 1rem;
@@ -481,7 +471,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/a-material-revoluction-qwstion-case-study-black_vlxBcKa15.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139812184) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/circular-economy-qwstion-case-study-nice-studio_nmUdjtZZa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648572251543) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -498,7 +488,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/flap-tote-card-shop-qwstion-case-study-nice-studio_bS6YtxyGX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139817368) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/collaborations-highlight-qwstion-case-study-nice-studio_9LdoU-pYL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648572080631) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -515,7 +505,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/hip-pouch-highlight-qwstion-case-study_vg4b2nkiL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139808665) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/the-art-of-upcycling-qwstion-case-study-nice-studio.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648572532340) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -636,8 +626,10 @@ body.color .backend__arrowR {
         font-size: 3.5rem;
         line-height: 4rem; }
 
- /* ------------hero -------------- */
+/* ------------hero -------------- */
 
+.heroimg {
+    height: 20rem; }
 
  /* ------------central text -------------- */
 
@@ -719,7 +711,7 @@ body.color .backend__arrowR {
 
     .multimedia__boxlogo img{
         height: 380px;
-        width: auto;
+        width: 100%;
         object-fit: cover; }
 
     .multimedia__boxlogo p{
@@ -776,6 +768,10 @@ body.color .backend__arrowR {
         height: 90%;
         width: 100%;
         object-fit: cover; }
+
+    .digital__boximg video{
+        height: auto;
+        width: 100%;  }
 
 /* -------------Graphics-------------- */
 
@@ -873,7 +869,7 @@ body.color .backend__arrowR {
  /* ------------hero -------------- */
 
  .heroimg {
-    height: 37rem; }
+    height: 30rem; }
 
  /* ------------central text -------------- */
 
@@ -1012,6 +1008,10 @@ body.color .backend__arrowR {
         height: 90%;
         width: 100%;
         object-fit: cover; }
+
+    .digital__boximg video{
+        height: auto;
+        width: 100%;  }
 
 /* -------------Graphics-------------- */
 
