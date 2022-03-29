@@ -122,12 +122,14 @@
     margin: 11rem 5%;
 }
 
-.holistic .holisitc__lottie {
+.holistic .holisitc__lottie{
     grid-area: orbit;
     width: 150%;
     margin: auto auto auto -65%;
 }
-
+.lottie__container--light{
+    display: none;
+}
 .holistic h2 {
     grid-area: title;
     margin-bottom: 3.5rem;
@@ -309,8 +311,15 @@ body.color .process__accordion--values .testing {
     color: #F3A8BE;
 
 }
-
-
+body.color .holistic .holisitc__lottie{
+    display: none;
+}
+body.color  .lottie__container--light{
+    display: block;
+    grid-area: orbit;
+    width: 150%;
+    margin: auto auto auto -65%;
+}
 
 /* ============================ MEDIA ============================ */
 @media (max-width: 768px) {
