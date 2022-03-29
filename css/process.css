@@ -103,7 +103,8 @@
 .testing {
     border: 2px solid #FEFBF3;
 }
-.process__accordion--dummy{
+
+.process__accordion--dummy {
     height: 5rem;
 }
 
@@ -122,14 +123,16 @@
     margin: 11rem 5%;
 }
 
-.holistic .holisitc__lottie{
+.holistic .holisitc__lottie {
     grid-area: orbit;
     width: 150%;
     margin: auto auto auto -65%;
 }
-.lottie__container--light{
+
+.lottie__container--light {
     display: none;
 }
+
 .holistic h2 {
     grid-area: title;
     margin-bottom: 3.5rem;
@@ -150,6 +153,46 @@
 }
 
 .holistic .holistic__table {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.holistic__table--row1,
+.holistic__table--row2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid #FEFBF348;
+}
+
+.holistic__table--row3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid #FEFBF348;
+}
+
+.holistic__table--row3 .UXUI {
+    margin-right: 8rem;
+}
+
+.holistic__table--row4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.holistic__table--row1 p,
+.holistic__table--row2 p,
+.holistic__table--row3 p,
+.holistic__table--row4 p {
+    margin: 1rem 1rem;
+}
+
+/*                  Te dejo la tabla con grids por si la necesitas                   */
+
+/* .holistic .holistic__table {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -221,12 +264,13 @@
 .Illustration {
     grid-area: Illustration;
 }
-
+ */
 /* ----------- Case studies OKKK----------- */
-.case__studies{
-    margin: 0 auto 2.5rem 12.5%; }
-  
-  .items {
+.case__studies {
+    margin: 0 auto 2.5rem 12.5%;
+}
+
+.items {
     scrollbar-width: none;
     position: relative;
     width: 100%;
@@ -237,37 +281,45 @@
     transform: scale(0.98);
     will-change: transform;
     user-select: none;
-    height: min-content; }
-  
-  .items::-webkit-scrollbar {
+    height: min-content;
+}
+
+.items::-webkit-scrollbar {
     display: none;
-    /* for Chrome, Safari, and Opera */ }
-  
-  .items.active {
+    /* for Chrome, Safari, and Opera */
+}
+
+.items.active {
     cursor: pointer;
     cursor: -webkit-grabbing;
-    transform: scale(1); }
-  
-  .item {
+    transform: scale(1);
+}
+
+.item {
     display: inline-block;
-    margin: 2em 1em; }
-  
-  .gallery__card {
+    margin: 2em 1em;
+}
+
+.gallery__card {
     cursor: pointer;
     display: flex;
-    flex-direction: column; }
-  
-  .gallery__card .img__container img {
+    flex-direction: column;
+}
+
+.gallery__card .img__container img {
     width: 48rem;
-    cursor: url("../assets/draghandle.svg"), pointer; }
-  
-  .gallery__card h5 {
+    cursor: url("../assets/draghandle.svg"), pointer;
+}
+
+.gallery__card h5 {
     margin-top: 1rem;
-    margin-bottom: 1rem; }
-  
-  .gallery__card svg {
+    margin-bottom: 1rem;
+}
+
+.gallery__card svg {
     margin-right: 0.5rem;
-    fill: #DE5D37; }
+    fill: #DE5D37;
+}
 
 
 /* ============================ COLOR MODE ============================ */
@@ -311,14 +363,22 @@ body.color .process__accordion--values .testing {
     color: #F3A8BE;
 
 }
-body.color .holistic .holisitc__lottie{
+
+body.color .holistic .holisitc__lottie {
     display: none;
 }
-body.color  .lottie__container--light{
+
+body.color .lottie__container--light {
     display: block;
     grid-area: orbit;
     width: 150%;
     margin: auto auto auto -65%;
+}
+
+body.color .holistic__table--row1,
+body.color .holistic__table--row2,
+body.color .holistic__table--row3 {
+    border-bottom: 1px solid #20202049;
 }
 
 /* ============================ MEDIA ============================ */
@@ -402,12 +462,14 @@ body.color  .lottie__container--light{
     }
 
 
-/* ----------- Case studies OKKK----------- */
-.case__studies{
-    margin: 0 7.5% 2rem 7.5%; }
-  
-  .gallery__card .img__container img {
-    width: 30rem; }
+    /* ----------- Case studies OKKK----------- */
+    .case__studies {
+        margin: 0 7.5% 2rem 7.5%;
+    }
+
+    .gallery__card .img__container img {
+        width: 30rem;
+    }
 
 
 
@@ -422,12 +484,14 @@ body.color  .lottie__container--light{
         display: block;
     }
 
-/* ----------- Case studies OKKK----------- */
-.case__studies{
-    margin: 0 10% 2rem 10%; }
-  
-  .gallery__card .img__container img {
-    width: 38rem; }
+    /* ----------- Case studies OKKK----------- */
+    .case__studies {
+        margin: 0 10% 2rem 10%;
+    }
+
+    .gallery__card .img__container img {
+        width: 38rem;
+    }
 
 
 }
