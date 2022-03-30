@@ -61,8 +61,6 @@
     transition: max-height 0.3s ease-out; }
 
 .process__accordion--values {
-    display: flex;
-    flex-wrap: wrap;
     width: 80%;
     margin-top: 2rem; }
 
