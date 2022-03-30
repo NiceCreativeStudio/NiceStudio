@@ -1,7 +1,7 @@
 /*----------- Intro ----------- */
 .workIntro{
     width: 100%;
-    margin: 11rem 0 7rem 0; }
+    margin: 11rem 0 3.5rem 0; }
 
 .work__intro{
     height: auto;
@@ -136,7 +136,7 @@ body.color .work__accordion{
 
     /*----------- Intro ----------- */
     .workIntro{
-        margin: 10rem 0 7rem 0; }
+        margin: 10rem 0 3.5rem 0; }
 
     .work__intro{
         width: 80%;
