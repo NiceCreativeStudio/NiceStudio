@@ -36,6 +36,17 @@ input {
     color:#FEFBF3; 
     }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    box-shadow: 0 0 0 30px #202020 inset !important;
+    -webkit-box-shadow: 0 0 0 30px #202020 inset !important;
+}
+
+input:-webkit-autofill{
+    -webkit-text-fill-color: #FEFBF3 !important;
+}
 /* ----------- Form ----------- */
 
 .contact {
