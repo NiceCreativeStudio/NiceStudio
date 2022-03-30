@@ -26,7 +26,7 @@
 </head>
 <body>
     <header>
-        <!----------------------------------- Navbar -->
+        <!---------------- Navbar --------------->
         <nav id="navbar">
             <a href="./index.html" class="logo">
                 <svg width="65" height="30" viewBox="0 0 58 22" fill="" xmlns="http://www.w3.org/2000/svg">
@@ -77,138 +77,129 @@
         </nav>
     </header>
     <main>
-        <!------------------- Intro ------------------->
-        <section class="process__intro">
-            <h1 class="fonXl">This is <span class="BdIt yellow">how</span> we set ourselves <span class="Bd pink">apart</span></h1>
-            <h3 class="fonH3">A frictionless process to take your brand exactly where it needs to be.</h3>
-        </section>
-        <section class="process__accordion--container">
-            <button class="process__accordion">
-                <h6 class="fonPar">NO .1</h6>
-                <h2 class="fonH2 It blue">Strategy<span>
-                    <svg class="process__accordion--arrow" id="accordion--arrow" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 167.8 188.1" style="enable-background:new 0 0 167.8 188.1" xml:space="preserve"><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'#DE5D37' " d="m72.8 0 95 93.1-93.1 95-18.2-17.8 62.3-63.6H0V80.4h118.4L54.9 18.2z"/></svg>
-                </span></h2>
-            </button>
-            <div class="panel">
-                <p class="fonPg">We focus on defining your goals and helping you reach your milestones. Through our  innovative workshops we’ll collaborate to find that it thing that will make you stand out from the crowd and reach to the right audiences.</p>
-                <div class="process__accordion--values">
-                    <p class="fonH4 audit">Product Audit</p>
-                    <p class="fonH4 benchmarking">Benchmarking</p>
-                    <p class="fonH4 problem">Problem Definition</p>
-                    <p class="fonH4 strategy">Brand Strategy</p>
-                    <p class="fonH4 persona">Persona Discovery</p>
-                    <p class="fonH4 journeys">User Journeys</p>
-                </div>
-                <div class="process__accordion--dummy"></div>
-            </div>
-
-            <!------------------- Accordions ------------------->
-            <button class="process__accordion">
-                <h6 class="fonPar">NO .2</h6>
-                <h2 class="fonH2 Bd orange">Design<span>
-                    <svg class="process__accordion--arrow" id="accordion--arrow" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 167.8 188.1" style="enable-background:new 0 0 167.8 188.1" xml:space="preserve"><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'#DE5D37' " d="m72.8 0 95 93.1-93.1 95-18.2-17.8 62.3-63.6H0V80.4h118.4L54.9 18.2z"/></svg>
-                </span></h2>
-            </button>
-            <div class="panel">
-                <p class="fonPg">Set your brand apart and build an experience around it. Our team of visual experts will help you engage with your customers, generate impact and create connections that will last. We’ll create proposals that fit to the previously defined strategy and we’ll iterate until we find the visual perfect match.</p>
-                <div class="process__accordion--values">
-                    <p class="fonH4 style">Style Definition</p>
-                    <p class="fonH4 design">Brand Design</p>
-                    <p class="fonH4 guidelines">Brand Guidelines</p>
-                    <p class="fonH4 uxui">UX/UI</p>
-                    <p class="fonH4 wireframes">Wireframes</p>
-                    <p class="fonH4 product">Product Design</p>
-                    <p class="fonH4 system">Design System</p>
-                    <p class="fonH4 prototyping">Prototyping</p>
-                </div>
-                <div class="process__accordion--dummy"></div>
-            </div>
-    
-            
-            <button class="process__accordion">
-                <h6 class="fonPar">NO .3</h6>
-                <h2 class="fonH2 BdIt pink">Launch<span>
-                    <svg class="process__accordion--arrow" id="accordion--arrow" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 167.8 188.1" style="enable-background:new 0 0 167.8 188.1" xml:space="preserve"><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'#DE5D37' " d="m72.8 0 95 93.1-93.1 95-18.2-17.8 62.3-63.6H0V80.4h118.4L54.9 18.2z"/></svg>
-                </span></h2>
-            </button>
-            <div class="panel">
-                <p class="fonPg">At the end of the process your brand will speak louder by our captivate social content that converts interested users in true advocates. Every piece has a special attention to detail driving value to the whole.</p>
-                <p class="fonPg">Our dev team will deliver polished coding to keep the headaches away, building dynamic interactions and eye-catching digital experiences we’ll strive to give you the best.</p>
-                <div class="process__accordion--values">
-                    <p class="fonH4 social">Social Content</p>
-                    <p class="fonH4 web">Web Development</p>
-                    <p class="fonH4 responsive">Responsive</p>
-                    <p class="fonH4 qa">QA</p>
-                    <p class="fonH4 testing">User Testing</p>
-                </div>
-                <div class="process__accordion--dummy"></div>
+    <!------------------- Intro ------------------->
+        <section class="processIntro">
+            <div class="process__intro">
+                <h1 class="fonXl">This is <span class="BdIt yellow">how</span> we set ourselves <span class="Bd pink">apart</span></h1>
+                <h3 class="fonPar">A frictionless process to take your brand exactly where it needs to be.</h3>
             </div>
         </section>
-        
-        <!------------------- The holistic method ------------------->
+    <!--------------- Intro Accordion---------------->
+        <section class="processAccordion">
+            <div class="processAccordion__box">
+                <!-- Strategy -->
+                <button class="process__accordion">
+                    <h5 class="fonH5">No. 1</h5>
+                    <h3 class="fonH3 MeIt blue">Strategy<span>
+                        <svg class="process__accordion--arrow" id="accordion--arrow" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 167.8 188.1" style="enable-background:new 0 0 167.8 188.1" xml:space="preserve"><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'#DE5D37' " d="m72.8 0 95 93.1-93.1 95-18.2-17.8 62.3-63.6H0V80.4h118.4L54.9 18.2z"/></svg>
+                    </span></h3>
+                </button>
+                <div class="panel">
+                    <p class="fonPar">We focus on defining your goals and helping you reach your milestones. Through our  innovative workshops we’ll collaborate to find that it thing that will make you stand out from the crowd and reach to the right audiences.</p>
+                    <div class="process__accordion--values">
+                        <p class="fonH4 btnBlue">Product Audit</p>
+                        <p class="fonH4 btnBlue">Benchmarking</p>
+                        <p class="fonH4 btnBlue">Problem Definition</p>
+                        <p class="fonH4 btnBlue">Brand Strategy</p>
+                        <p class="fonH4 btnBlue">Persona Discovery</p>
+                        <p class="fonH4 btnBlue">User Journeys</p>
+                    </div>
+                    <div class="process__accordion--dummy"></div>
+                </div>
+                <!-- Design -->
+                <button class="process__accordion">
+                    <h5 class="fonH5">No. 2</h5>
+                    <h3 class="fonH3 Bd orange">Design<span>
+                        <svg class="process__accordion--arrow" id="accordion--arrow" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 167.8 188.1" style="enable-background:new 0 0 167.8 188.1" xml:space="preserve"><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'#DE5D37' " d="m72.8 0 95 93.1-93.1 95-18.2-17.8 62.3-63.6H0V80.4h118.4L54.9 18.2z"/></svg>
+                    </span></h3>
+                </button>
+                <div class="panel">
+                    <p class="fonPar">Set your brand apart and build an experience around it. Our team of visual experts will help you engage with your customers, generate impact and create connections that will last. We’ll create proposals that fit to the previously defined strategy and we’ll iterate until we find the visual perfect match.</p>
+                    <div class="process__accordion--values">
+                        <p class="fonH4 btnOrange">Style Definition</p>
+                        <p class="fonH4 btnOrange">Brand Design</p>
+                        <p class="fonH4 btnOrange">Brand Guidelines</p>
+                        <p class="fonH4 btnOrange">UX/UI</p>
+                        <p class="fonH4 btnOrange">Wireframes</p>
+                        <p class="fonH4 btnOrange">Product Design</p>
+                        <p class="fonH4 btnOrange">Design System</p>
+                        <p class="fonH4 btnOrange">Prototyping</p>
+                    </div>
+                    <div class="process__accordion--dummy"></div>
+                </div>
+                <!-- Launch -->
+                <button class="process__accordion">
+                    <h5 class="fonH5">No. 3</h5>
+                    <h3 class="fonH3 BdIt pink">Launch<span>
+                        <svg class="process__accordion--arrow" id="accordion--arrow" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 167.8 188.1" style="enable-background:new 0 0 167.8 188.1" xml:space="preserve"><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'#DE5D37' " d="m72.8 0 95 93.1-93.1 95-18.2-17.8 62.3-63.6H0V80.4h118.4L54.9 18.2z"/></svg>
+                    </span></h3>
+                </button>
+                <div class="panel">
+                    <p class="fonPar">At the end of the process your brand will speak louder by our captivate social content that converts interested users in true advocates. Every piece has a special attention to detail driving value to the whole.</p>
+                    <p class="fonPar">Our dev team will deliver polished coding to keep the headaches away, building dynamic interactions and eye-catching digital experiences we’ll strive to give you the best.</p>
+                    <div class="process__accordion--values">
+                        <p class="fonH4 btnPink">Social Content</p>
+                        <p class="fonH4 btnPink">Web Development</p>
+                        <p class="fonH4 btnPink">Responsive</p>
+                        <p class="fonH4 btnPink">QA</p>
+                        <p class="fonH4 btnPink">User Testing</p>
+                    </div>
+                    <div class="process__accordion--dummy"></div>
+                </div>
+            </div>
+        </section>
+    <!------------------- The holistic method ------------------->
         <section class="holistic">
-            <div class="lottie__container--light">
-                <lottie-player id="processLottie--light" src="https://assets2.lottiefiles.com/packages/lf20_l1d9vcun.json"></lottie-player>
+            <div class="holistic__box">
+                <div class="lottie__container--light">
+                    <lottie-player id="processLottie--light" src="https://assets2.lottiefiles.com/packages/lf20_l1d9vcun.json"></lottie-player>
+                </div>
+                <div class="holisitc__lottie">
+                    <lottie-player id="processLottie" src="https://assets8.lottiefiles.com/packages/lf20_52ymeyws.json"></lottie-player>
+                </div>
+                <div class="holistic__title">
+                    <h2 class="fonXl Rg">The <span class="BdIt orange">holistic</span> method</h2>
+                    <p class="fonPar txt1">We approach each project as an interconnected piece that has <span class="BdIt">relationships</span>  not only with its users but also with its founders and the environment it affects.  As in life, we make <span class="BdIt">connections</span>  that bring support to our processes, creating strong solutions that <span class="BdIt">last</span>.</p>
+                    <p class="fonPar txt2">We focus on creating products that sustainably evolve and are fun to interact with. Interconected pieces that are part of a whole: The experience</p>
+                </div>
+                <div class="holistic__tablebox">
+                    <h3 class="fonH3">And <span class="MeIt pink">what</span> do <span class="Bd yellow">we do?</span></h3>
+                    <div class="holistic__table">
+                        <div class="holistic__row1 border">
+                            <p class="fonPar">Brand Positioning</p>
+                            <p class="fonPar">Content Creation</p>
+                            <p class="fonPar">Web Development</p>
+                        </div>
+                        <div class="holistic__row2 border">
+                            <p class="fonPar">Brand Identity</p>
+                            <p class="fonPar">Logo Design</p>
+                            <p class="fonPar">Print + Editorial</p>
+                        </div>
+                        <div class="holistic__row3 border">
+                            <p class="fonPar">UX/UI</p>
+                            <p class="fonPar">Art Direction</p>
+                            <p class="fonPar">Digital Design</p>
+                        </div>
+                        <div class="holistic__row4">
+                            <p class="fonPar">Design Systems</p>
+                            <p class="fonPar">Web Design</p>
+                            <p class="fonPar">Illustration</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="holisitc__lottie">
-                <lottie-player id="processLottie" src="https://assets8.lottiefiles.com/packages/lf20_52ymeyws.json"></lottie-player>
-            </div>
-            <h2 class="fonXl Rg">The <span class="BdIt">holistic</span> method</h2>
-            <p class="fonPg txt1">We approach each project as an interconnected piece that has <span class="BdIt">relationships</span>  not only with its users but also with its founders and the environment it affects.  As in life, we make <span class="BdIt">connections</span>  that bring support to our processes, creating strong solutions that <span class="BdIt">last</span>.</p>
-            <p class="fonPg txt2">We focus on creating products that sustainably evolve and are fun to interact with. Interconected pieces that are part of a whole: The experience</p>
-            <h3 class="fonH3">And <span class="MeIt pink">what</span><br>do <span class="Bd yellow">we do?</span></h3>
-            <div class="holistic__table">
-                <div class="holistic__table--row1">
-                    <p class="BrandPos fonPg">Brand Positioning</p>
-                    <p class="Content fonPg">Content Creation</p>
-                    <p class="WebDev fonPg">Web Development</p>
-                </div>
-                <div class="holistic__table--row2">
-                    <p class="BrandIde fonPg">Brand Identity</p>
-                    <p class="LogoDes fonPg">Logo Design</p>
-                    <p class="PrintEdi fonPg">Print + Editorial</p>
-                </div>
-                <div class="holistic__table--row3">
-                    <p class="UXUI fonPg">UX/UI</p>
-                    <p class="ArtDir fonPg">Art Direction</p>
-                    <p class="DigitalDes fonPg">Digital Design</p>
-                </div>
-                <div class="holistic__table--row4">
-                    <p class="DesignSys fonPg">Design Systems</p>
-                    <p class="WebDes fonPg">Web Design</p>
-                    <p class="Illustration fonPg">Illustration</p>
-                </div>
-            </div>
-            <!--                  Te dejo la tabla con grids por si la necesitas                   -->
-            
-            <!-- <div class="holistic__table">
-
-                <p class="BrandPos fonPg">Brand Positioning</p>
-                <p class="Content fonPg">Content Creation</p>
-                <p class="WebDev fonPg">Web Development</p>
-
-                <p class="BrandIde fonPg">Brand Identity</p>
-                <p class="LogoDes fonPg">Logo Design</p>
-                <p class="PrintEdi fonPg">Print + Editorial</p>
-
-                <p class="UXUI fonPg">UX/UI <span></span></p>
-                <p class="ArtDir fonPg">Art Direction</p>
-                <p class="DigitalDes fonPg">Digital Design</p>
-
-                <p class="DesignSys fonPg">Design Systems</p>
-                <p class="WebDes fonPg">Web Design</p>
-                <p class="Illustration fonPg">Illustration</p>
-            </div> -->
         </section>
-        <!------------------- Case studies - legend------------------->
-        <h3 class="case__studies fonH3">Some of our <span class="MeIt blue">Case Studies</span></h3>
-        <section class="grab__gallery">
+    <!------------------- Case studies ------------------->
+        <section class="caseStudy">
+            <h3 class="fonH3">Some of our <span class="MeIt blue">Case Studies</span></h3>
+        </section>
+        <section class="caseStudy__gallery">
             <div class="items">
                 <!-- BREATHOLOGY -->
-                <div class="item item6">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                            src="https://ik.imagekit.io/nicecreativestudio/image_813_9tUwW2KtfT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647978393397"
+                            src="https://ik.imagekit.io/nicecreativestudio/breathsmall_b_z0sgbJ_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574576913"
                             alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / UXUI</h5>
                         <a href="breathology.html" target="_blank">
@@ -230,10 +221,10 @@
                     </div>
                 </div>
                 <!-- NUET -->
-                <div class="item item5">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                            src="https://ik.imagekit.io/nicecreativestudio/nuet-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273151097"
+                            src="https://ik.imagekit.io/nicecreativestudio/nuetsmall_MgoKxxE4z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574571897"
                             alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / Packaging / Web</h5>
                         <a href="nuet.html" target="_blank">
@@ -255,10 +246,10 @@
                     </div>
                 </div>
                 <!-- QWSTION -->
-                <div class="item item4">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/qwstion-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273140441"
+                                src="https://ik.imagekit.io/nicecreativestudio/qwsmall_pVX5q7M2Y.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574575971"
                                 alt=""></span>
                         <h5 class="fonH5">Audit / Research / Strategy / UXUI</h5>
                         <a href="qwstion.html" target="_blank">
@@ -280,10 +271,10 @@
                     </div>
                 </div>
                 <!-- BREATHOLOGY -->
-                <div class="item item6">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/image_813_9tUwW2KtfT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647978393397"
+                            src="https://ik.imagekit.io/nicecreativestudio/breathsmall_b_z0sgbJ_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574576913"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / UXUI</h5>
                         <a href="breathology.html" target="_blank">
@@ -305,10 +296,10 @@
                     </div>
                 </div>
                 <!-- NUET -->
-                <div class="item item5">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/nuet-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273151097"
+                            src="https://ik.imagekit.io/nicecreativestudio/nuetsmall_MgoKxxE4z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574571897"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / Packaging / Web</h5>
                         <a href="nuet.html" target="_blank">
@@ -330,11 +321,11 @@
                     </div>
                 </div>
                 <!-- QWSTION -->
-                <div class="item item4">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/qwstion-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273140441"
-                                alt=""></span>
+                            src="https://ik.imagekit.io/nicecreativestudio/qwsmall_pVX5q7M2Y.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574575971"
+                            alt=""></span>
                         <h5 class="fonH5">Audit / Research / Strategy / UXUI</h5>
                         <a href="qwstion.html" target="_blank">
                             <h4 class="fonH4tit"><span>
@@ -355,10 +346,10 @@
                     </div>
                 </div>
                 <!-- BREATHOLOGY -->
-                <div class="item item6">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/image_813_9tUwW2KtfT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647978393397"
+                            src="https://ik.imagekit.io/nicecreativestudio/breathsmall_b_z0sgbJ_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574576913"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / UXUI</h5>
                         <a href="breathology.html" target="_blank">
@@ -380,10 +371,10 @@
                     </div>
                 </div>
                 <!-- NUET -->
-                <div class="item item5">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/nuet-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273151097"
+                            src="https://ik.imagekit.io/nicecreativestudio/nuetsmall_MgoKxxE4z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574571897"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / Packaging / Web</h5>
                         <a href="nuet.html" target="_blank">
@@ -405,11 +396,11 @@
                     </div>
                 </div>
                 <!-- QWSTION -->
-                <div class="item item4">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/qwstion-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273140441"
-                                alt=""></span>
+                            src="https://ik.imagekit.io/nicecreativestudio/qwsmall_pVX5q7M2Y.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574575971"
+                            alt=""></span>
                         <h5 class="fonH5">Audit / Research / Strategy / UXUI</h5>
                         <a href="qwstion.html" target="_blank">
                             <h4 class="fonH4tit"><span>
@@ -430,10 +421,10 @@
                     </div>
                 </div>
                 <!-- BREATHOLOGY -->
-                <div class="item item6">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/image_813_9tUwW2KtfT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647978393397"
+                            src="https://ik.imagekit.io/nicecreativestudio/breathsmall_b_z0sgbJ_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574576913"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / UXUI</h5>
                         <a href="breathology.html" target="_blank">
@@ -455,10 +446,10 @@
                     </div>
                 </div>
                 <!-- NUET -->
-                <div class="item item5">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/nuet-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273151097"
+                            src="https://ik.imagekit.io/nicecreativestudio/nuetsmall_MgoKxxE4z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574571897"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / Packaging / Web</h5>
                         <a href="nuet.html" target="_blank">
@@ -480,11 +471,11 @@
                     </div>
                 </div>
                 <!-- QWSTION -->
-                <div class="item item4">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/qwstion-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273140441"
-                                alt=""></span>
+                            src="https://ik.imagekit.io/nicecreativestudio/qwsmall_pVX5q7M2Y.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574575971"
+                            alt=""></span>
                         <h5 class="fonH5">Audit / Research / Strategy / UXUI</h5>
                         <a href="qwstion.html" target="_blank">
                             <h4 class="fonH4tit"><span>
@@ -505,10 +496,10 @@
                     </div>
                 </div>
                 <!-- BREATHOLOGY -->
-                <div class="item item6">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/image_813_9tUwW2KtfT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647978393397"
+                            src="https://ik.imagekit.io/nicecreativestudio/breathsmall_b_z0sgbJ_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574576913"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / UXUI</h5>
                         <a href="breathology.html" target="_blank">
@@ -530,10 +521,10 @@
                     </div>
                 </div>
                 <!-- NUET -->
-                <div class="item item5">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/nuet-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273151097"
+                            src="https://ik.imagekit.io/nicecreativestudio/nuetsmall_MgoKxxE4z.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574571897"
                                 alt=""></span>
                         <h5 class="fonH5">Strategy / Branding / Packaging / Web</h5>
                         <a href="nuet.html" target="_blank">
@@ -555,11 +546,11 @@
                     </div>
                 </div>
                 <!-- QWSTION -->
-                <div class="item item4">
+                <div class="item">
                     <div class="gallery__card">
                         <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/qwstion-card.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647273140441"
-                                alt=""></span>
+                            src="https://ik.imagekit.io/nicecreativestudio/qwsmall_pVX5q7M2Y.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574575971"
+                            alt=""></span>
                         <h5 class="fonH5">Audit / Research / Strategy / UXUI</h5>
                         <a href="qwstion.html" target="_blank">
                             <h4 class="fonH4tit"><span>
@@ -582,7 +573,7 @@
             </div>
         </section>
     </main>
-    <!----------------------------------- footer -->
+<!------------ footer -------------->
     <footer class="footer">
         <div class="footer__box"> 
             <h2 class="footer__title fonH2">It would be <span class="MeIt orange">nice</span> to hear from you</h2>

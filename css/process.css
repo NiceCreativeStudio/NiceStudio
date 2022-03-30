@@ -1,276 +1,176 @@
 /* ----------- Introduction ----------- */
+.processIntro {
+    width: 100%;
+    margin-top: 11rem;
+    margin-bottom: 7rem; }
+
 .process__intro {
-    margin: 11rem 12.5%;
-}
+    width: 75%;
+    margin: 0 12.5%; }
 
 .process__intro h1 {
-    margin-bottom: 3.5rem;
-}
+    margin-bottom: 3.5rem; }
 
 .process__intro h3 {
     font-size: 2rem;
     line-height: 3rem;
-    width: 70%;
-}
-
-.process__intro {
-    margin-bottom: 11rem;
-}
+    width: 70%; }
 
 /*----------- Process Accordion ----------- */
-.process__accordion--container {
-    margin: 0 12.5%;
-}
+.processAccordion {
+    width: 100%;
+    margin: 11rem 0; }
+
+.processAccordion__box {
+    width: 75%;
+    margin-left: 12.5%; }
 
 .process__accordion {
     background: none;
-    border-bottom: 1px solid #FEFBF3;
+    border-bottom: 1px solid #595959;
     border-top: none;
     border-left: none;
     border-right: none;
     cursor: pointer;
-    padding: 2rem 2rem 2rem 0;
+    padding: 2rem 0;
     width: 100%;
     text-align: left;
     transition: 0.3s;
-    margin-bottom: 2rem;
-}
+    margin-bottom: 2rem; }
 
-.process__accordion h2 {
-    position: relative;
-}
+.process__accordion h5 {
+    padding-bottom: 0.5rem;
+    color: #FEFBF3; }
+
+.process__accordion h3 {
+    width: auto;
+    position: relative; }
 
 .process__accordion--arrow {
     fill: #DE5D37;
     position: absolute;
-    right: 0;
-    top: 2.5rem;
-    transform: rotate(45deg);
-}
+    right: 0.5rem;
+    bottom: 0.5rem;
+    transform: rotate(45deg); }
 
 .panel {
-    padding: 0 18px;
+    width: 90%;
+    height: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
-
+    transition: max-height 0.3s ease-out; }
 
 .process__accordion--values {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin-top: 1rem;
-}
+    margin-top: 2rem; }
 
 .process__accordion--values p {
     line-height: 2rem;
     padding: 0.5rem 1rem;
     margin: 0 1rem 1rem 0;
-    border-radius: 25px;
-}
-
-.process__accordion .fonPar {
-    color: #FEFBF3;
-}
+    border-radius: 25px; }
 
 #accordion--arrow {
-    transition: .3s ease all;
-}
+    transition: .3s ease all; }
 
 .process__accordion.active #accordion--arrow {
-    transform: rotate(-45deg);
-}
+    transform: rotate(-45deg); }
 
-.process__accordion--values .audit,
-.benchmarking,
-.problem,
-.strategy,
-.persona,
-.journeys,
-.style,
-.design,
-.guidelines,
-.uxui,
-.wireframes,
-.product,
-.system,
-.prototyping,
-.social,
-.web,
-.responsive,
-.qa,
-.testing {
-    border: 2px solid #FEFBF3;
-}
+.btnBlue, .btnOrange, .btnPink {
+    border: 2px solid #FEFBF3; }
 
 .process__accordion--dummy {
-    height: 5rem;
-}
+    height: 3.5rem; }
 
 /*----------- The holistic method ----------- */
+
 .holistic {
+    width: 100%;
+    height: auto;
+    margin: 11rem 0; }
+
+.holistic__box {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: min-content min-content min-content min-content min-content;
-    gap: 0px 0px;
+    grid-template-columns: auto 550px;
+    grid-template-rows: repeat(auto);
     grid-template-areas:
         "orbit title"
-        "orbit txt1"
-        "orbit txt2"
-        "orbit subtitle"
         "orbit table";
-    margin: 11rem 5%;
-}
+    column-gap: 3.5rem;
+    margin-right: 5%;
+    width: 95%; }
 
 .holistic .holisitc__lottie {
     grid-area: orbit;
-    width: 150%;
-    margin: auto auto auto -65%;
-}
+    max-height: 1250px;
+    width: 140%;
+    justify-self: right; }
 
 .lottie__container--light {
-    display: none;
-}
+    display: none; }
 
-.holistic h2 {
-    grid-area: title;
-    margin-bottom: 3.5rem;
-}
+.holistic__title {
+    height: auto;
+    width: 550px;
+    grid-area: title; }
 
-.holistic .txt1 {
-    grid-area: txt1;
-    margin-bottom: 2rem;
-}
+    .holistic__title h2 {
+        width: 110%; }
 
-.holistic .txt2 {
-    grid-area: txt2;
-    margin-bottom: 7rem;
-}
+    .holistic .txt1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem; }
+    
+    .holistic .txt2 {
+        margin-bottom: 5rem; }
 
-.holistic h3 {
-    grid-area: subtitle;
-}
+.holistic__tablebox {
+    height: auto;
+    width: 100%;
+    grid-area: table; }
 
-.holistic .holistic__table {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
+    .holistic__tablebox h3 {
+        width: 60%;
+        margin-bottom: 1rem; }
 
-.holistic__table--row1,
-.holistic__table--row2 {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    border-bottom: 1px solid #FEFBF348;
-}
+.holistic__table {
+    height: auto;
+    width: 550px; }
 
-.holistic__table--row3 {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    border-bottom: 1px solid #FEFBF348;
-}
-
-.holistic__table--row3 .UXUI {
-    margin-right: 8rem;
-}
-
-.holistic__table--row4 {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-}
-
-.holistic__table--row1 p,
-.holistic__table--row2 p,
-.holistic__table--row3 p,
-.holistic__table--row4 p {
-    margin: 1rem 1rem;
-}
-
-/*                  Te dejo la tabla con grids por si la necesitas                   */
-
-/* .holistic .holistic__table {
+.holistic__row1,
+.holistic__row2,
+.holistic__row3,
+.holistic__row4 {
+    width: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "BrandPos Content WebDev"
-        "BrandIde LogoDes PrintEdi"
-        "UXUI ArtDir DigitalDes"
-        "DesignSys WebDes Illustration";
-    margin-top: 3.5rem;
-}
+    column-gap: 2rem; }
+
+.holistic__table .border {
+    border-bottom: solid 1px #595959;  }
 
 .holistic__table p {
-    padding: 1rem 2rem;
-    margin: auto 0 auto 0;
+  padding: 1.25rem 0; }
 
-}
-
-.holistic__table .fonPg:nth-child(-n+3),
-.holistic__table .fonPg:nth-child(-n+6),
-.holistic__table .fonPg:nth-child(-n+9) {
-    border-bottom: 1px solid #FEFBF348;
-}
-
-.BrandPos {
-    grid-area: BrandPos;
-}
-
-.Content {
-    grid-area: Content;
-}
-
-.WebDev {
-    grid-area: WebDev;
-}
-
-.BrandIde {
-    grid-area: BrandIde;
-}
-
-.LogoDes {
-    grid-area: LogoDes;
-}
-
-.PrintEdi {
-    grid-area: PrintEdi;
-}
-
-.UXUI {
-    grid-area: UXUI;
-}
-
-.ArtDir {
-    grid-area: ArtDir;
-}
-
-.DigitalDes {
-    grid-area: DigitalDes;
-}
-
-.DesignSys {
-    grid-area: DesignSys;
-}
-
-.WebDes {
-    grid-area: WebDes;
-}
-
-.Illustration {
-    grid-area: Illustration;
-}
- */
 /* ----------- Case studies OKKK----------- */
-.case__studies {
-    margin: 0 auto 2.5rem 12.5%;
-}
-
-.items {
+.caseStudy{
+    width: 100%;
+    height: auto;
+    margin-top: 11rem; }
+  
+    .caseStudy h3{
+      margin-left: 12.5%; }
+  
+  .caseStudy__gallery{
+    width: 100%;
+    height: auto;
+    margin-top: 3.5rem; 
+    margin-bottom: 11rem;}
+  
+  .items {
     scrollbar-width: none;
     position: relative;
     width: 100%;
@@ -281,208 +181,279 @@
     transform: scale(0.98);
     will-change: transform;
     user-select: none;
-    height: min-content;
-}
-
-.items::-webkit-scrollbar {
+    height: min-content; }
+  
+  .items::-webkit-scrollbar {
     display: none;
-    /* for Chrome, Safari, and Opera */
-}
-
-.items.active {
+    /* for Chrome, Safari, and Opera */ }
+  
+  .items.active {
     cursor: pointer;
     cursor: -webkit-grabbing;
-    transform: scale(1);
-}
-
-.item {
+    transform: scale(1); }
+  
+  .item {
     display: inline-block;
-    margin: 2em 1em;
-}
-
-.gallery__card {
+    margin: 2rem 0.75rem; }
+  
+  .gallery__card {
     cursor: pointer;
     display: flex;
-    flex-direction: column;
-}
-
-.gallery__card .img__container img {
+    flex-direction: column; }
+  
+  .gallery__card .img__container img {
     width: 48rem;
-    cursor: url("../assets/draghandle.svg"), pointer;
-}
-
-.gallery__card h5 {
+    cursor: url("../assets/draghandle.svg"), pointer; }
+  
+  .gallery__card h5 {
     margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.gallery__card svg {
+    margin-bottom: 1rem; }
+  
+  .gallery__card svg {
     margin-right: 0.5rem;
-    fill: #DE5D37;
-}
+    fill: #DE5D37; }
+   
+/* ============== COLOR MODE ============= */
 
+body.color .process__accordion h5 {
+    color: #202020; }
 
-/* ============================ COLOR MODE ============================ */
 body.color .process__accordion {
-    border-bottom: 1px solid #202020;
-}
+    border-bottom: 1px solid #202020; }
 
-body.color .process__accordion h6 {
-    color: #20202043;
-}
-
-body.color .process__accordion--values .audit,
-body.color .process__accordion--values .benchmarking,
-body.color .process__accordion--values .problem,
-body.color .process__accordion--values .strategy,
-body.color .process__accordion--values .persona,
-body.color .process__accordion--values .journeys {
+body.color .btnBlue {
     border: 2px solid #6273D1;
-    color: #6273D1;
-}
+    color: #6273D1; }
 
-body.color .process__accordion--values .style,
-body.color .process__accordion--values .design,
-body.color .process__accordion--values .guidelines,
-body.color .process__accordion--values .uxui,
-body.color .process__accordion--values .wireframes,
-body.color .process__accordion--values .product,
-body.color .process__accordion--values .system,
-body.color .process__accordion--values .prototyping {
+body.color .btnOrange {
     border: 2px solid #DE5D37;
-    color: #DE5D37;
+    color: #DE5D37; }
 
-}
-
-body.color .process__accordion--values .social,
-body.color .process__accordion--values .web,
-body.color .process__accordion--values .responsive,
-body.color .process__accordion--values .qa,
-body.color .process__accordion--values .testing {
+body.color .btnPink {
     border: 2px solid #F3A8BE;
-    color: #F3A8BE;
+    color: #F3A8BE; }
 
-}
+body.color .holistic__table .border {
+    border-bottom: solid 1px #202020;  }
 
 body.color .holistic .holisitc__lottie {
-    display: none;
-}
+    display: none; }
 
 body.color .lottie__container--light {
     display: block;
     grid-area: orbit;
-    width: 150%;
-    margin: auto auto auto -65%;
-}
-
-body.color .holistic__table--row1,
-body.color .holistic__table--row2,
-body.color .holistic__table--row3 {
-    border-bottom: 1px solid #20202049;
-}
+    width: 140%;
+    justify-self: right; }
 
 /* ============================ MEDIA ============================ */
 @media (max-width: 768px) {
-    .process__title {
-        display: none;
-    }
+ 
+/* ----------- Introduction ----------- */
+.processIntro {
+    margin-top: 10rem; }
 
-    .process__title--mobile {
+.process__intro {
+    width: 80%;
+    margin: 0 10%; }
+
+.process__intro h3 {
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    width: 100%; }
+
+/*----------- Process Accordion ----------- */
+.processAccordion {
+    margin: 10rem 0; }
+
+.processAccordion__box {
+    width: 80%;
+    margin-left: 10%; }
+
+.panel {
+    width: 90%;
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; }
+
+.process__accordion--values {
+    width: 100%; }
+
+/*--------- The holistic method ----------- */
+
+.holistic {
+    margin: 10rem 0; }
+
+.holistic__box {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto);
+    grid-template-areas:
+        "orbit" "title" "table";
+    row-gap: 3.5rem;
+    margin-left: 10%;
+    width: 80%; }
+
+.holistic .holisitc__lottie {
+    grid-area: orbit;
+    max-height: auto;
+    width: 180%;
+    justify-self: center; }
+
+    body.color .lottie__container--light {
         display: block;
-        margin-top: 10rem;
-        font-size: 5rem;
-        line-height: 6.5rem;
-    }
+        grid-area: orbit;
+        max-height: auto;
+        width: 180%;
+        justify-self: center; }
 
-    .process__title--mobile svg {
-        width: 20%;
-    }
+.holistic__title {
+    height: auto;
+    width: 100%;
+    grid-area: title; }
 
-    .process__intro {
-        margin: 5% 5%;
-    }
+    .holistic__title h2 {
+        width: 100%; }
 
-    .process__intro h2 {
+.holistic__tablebox {
+    height: auto;
+    width: 100%;
+    grid-area: table; }
+
+    .holistic__tablebox h3 {
         width: 100%;
-    }
+        margin-bottom: 3rem; }
 
+.holistic__table {
+    height: auto;
+    width: 100%; }
 
+.holistic__row1,
+.holistic__row2,
+.holistic__row3,
+.holistic__row4 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(1fr);
+    column-gap: 2rem; }
 
+.holistic__table p {
+  padding: 0.5rem 0; }
 
-    .undefined__container {
-        width: 90%;
-        margin: 30% 5% 30% 5%;
-    }
-
-    .undefined__container h2 {
-        font-size: 3rem;
-        letter-spacing: 2px;
-        line-height: 4rem;
-    }
-
-
-    .services__listbox {
-        display: flex;
-        flex-direction: column;
-        row-gap: 4rem;
-        padding: 5% 5%;
-    }
-
-    .services__title h2 {
-        position: relative;
-        margin: 5% 5%;
-        width: 90%;
-    }
-
-    .services__title svg {
-        width: 15%;
-    }
-
-    .service__container h5 {
-        font-size: 1.3rem;
-        margin-bottom: 0.8rem;
-    }
-
-    .service__container h4 {
-        font-size: 2.8rem;
-    }
-
-    .service__container p {
-        font-size: 1.5rem;
-        line-height: 2.3rem;
-    }
-
-    .services__table {
-        width: 130%;
-        overflow-x: scroll;
-    }
-
-    .services__tablebox {
-        width: 200%;
-    }
-
-
-    /* ----------- Case studies OKKK----------- */
-    .case__studies {
-        margin: 0 7.5% 2rem 7.5%;
-    }
-
-    .gallery__card .img__container img {
-        width: 30rem;
-    }
-
-
-
+/* ----------- Case studies OKKK----------- */
+.caseStudy{
+    width: 100%;
+    height: auto;
+    margin-top: 10rem; }
+  
+    .caseStudy h3{
+      margin-left: 10%; }
+  
+  .caseStudy__gallery{
+    width: 100%;
+    height: auto;
+    margin-top: 3.5rem; 
+    margin-bottom: 10rem;}
+  
+  .gallery__card .img__container img {
+    width: 30rem; }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .process__title--mobile {
-        display: none;
-    }
 
-    .process__title {
-        display: block;
-    }
+    /* ----------- Introduction ----------- */
+    .process__intro {
+        width: 80%;
+        margin: 0 10%; }
+
+    .process__intro h3 {
+        width: 100%; }
+
+    /*----------- Process Accordion ----------- */
+    .processAccordion {
+        margin: 10rem 0; }
+
+    .processAccordion__box {
+        width: 80%;
+        margin-left: 10%; }
+
+    .panel {
+        width: 100%;  }
+
+    .process__accordion--values {
+        width: 100%; }
+
+    /*--------- The holistic method ----------- */
+
+    .holistic__box {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto);
+        grid-template-areas:
+            "orbit" "title" "table";
+        row-gap: 3.5rem;
+        margin-left: 10%;
+        width: 80%; }
+
+    .holistic .holisitc__lottie {
+        grid-area: orbit;
+        max-height: auto;
+        width: 140%;
+        justify-self: center; }
+
+        body.color .lottie__container--light {
+            display: block;
+            grid-area: orbit;
+            max-height: auto;
+            width: 140%;
+            justify-self: center; }
+
+    .holistic__title {
+        height: auto;
+        width: 100%;
+        grid-area: title; }
+
+        .holistic__title h2 {
+            width: 100%; }
+
+    .holistic__tablebox {
+        height: auto;
+        width: 100%;
+        grid-area: table; }
+
+        .holistic__tablebox h3 {
+            width: 100%;
+            margin-bottom: 3rem; }
+
+    .holistic__table {
+        height: auto;
+        width: 100%; }
+
+    .holistic__row1,
+    .holistic__row2,
+    .holistic__row3,
+    .holistic__row4 {
+        width: 100%; }
+
+    /* ----------- Case studies OKKK----------- */
+    .caseStudy{
+        width: 100%;
+        height: auto;
+        margin-top: 10rem; }
+    
+        .caseStudy h3{
+        margin-left: 10%; }
+    
+    .caseStudy__gallery{
+        width: 100%;
+        height: auto;
+        margin-top: 3.5rem; 
+        margin-bottom: 10rem;}
+    
+    .gallery__card .img__container img {
+        width: 30rem; }
 
     /* ----------- Case studies OKKK----------- */
     .case__studies {
@@ -492,16 +463,13 @@ body.color .holistic__table--row3 {
     .gallery__card .img__container img {
         width: 38rem;
     }
-
-
 }
 
-@media (min-width: 1024px) {
-    .process__title--mobile {
-        display: none;
-    }
+@media (min-width: 1600px) {
 
-
-
-
-}
+    .processIntro, .processAccordion, .holistic, .caseStudy, .footer {
+        width: 80%;
+        margin-left: 10%; } 
+  
+  }
+  
