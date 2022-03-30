@@ -351,7 +351,7 @@ body.color .select-selected.select-arrow-active:after {
         top: -25px;
         right: 77px; }
 
-    .shape__orange {
+    .shape__blue {
         stroke:#FEFBF3;
         width: auto;
         position: absolute;
@@ -434,7 +434,7 @@ body.color .select-selected.select-arrow-active:after {
         top: -15%;
         right: 19%; }
 
-    .shape__orange {
+    .shape__blue {
         stroke:#FEFBF3;
         width: auto;
         position: absolute;
