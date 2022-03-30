@@ -9,6 +9,6 @@
     $hear = $_POST['hear'];
 
     $header = "Sent from website contact form";
-    $content = "\n Hi! We're " . $email . "\n About our project: " . $description . "\n Our ideal launch date is: " . $launch . "\n Our budget is " . $budget . "\n We heard about you through " . $hear;
+    $content = "\n Hi! We're " . $email . "\n About our project: " . $description . "\n Our ideal launch date is: " . $launch . "\n Our budget is: " . $budget . "\n We heard about you through " . $hear;
     mail($receiver, $name, $content, $header);
 ?>
