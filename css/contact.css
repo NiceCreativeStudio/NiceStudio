@@ -301,6 +301,17 @@ body.color .select-selected:after {
 body.color .select-selected.select-arrow-active:after {
     border-color: transparent transparent #202020 transparent; }
 
+    body.color input:-webkit-autofill,
+    body.color input:-webkit-autofill:hover, 
+    body.color input:-webkit-autofill:focus, 
+    body.color input:-webkit-autofill:active{
+        box-shadow: 0 0 0 30px #FEFBF3 inset !important;
+        -webkit-box-shadow: 0 0 0 30px #FEFBF3 inset !important;
+    }
+    
+    body.color input:-webkit-autofill{
+        -webkit-text-fill-color: #202020 !important;
+    }
 /* ============================ MEDIA ============================ */
 
 @media (max-width: 768px) { 
