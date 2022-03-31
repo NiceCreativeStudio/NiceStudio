@@ -21,6 +21,9 @@ textarea {
     background-color: transparent; 
     color:  #FEFBF3; }
 
+input:invalid {
+    border: 2px solid #DE5D37;
+}
 input {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -35,6 +38,7 @@ input {
     background-color: transparent; 
     color:#FEFBF3; 
     }
+    
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 

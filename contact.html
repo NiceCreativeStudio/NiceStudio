@@ -76,7 +76,7 @@
     <main>
     <!---============= Form grid ===============-->
     <section class="contact">
-        <form class="contact__box" method="POST">
+        <form class="contact__box" action="./form.php" method="POST">
             <div class="contact__txtbox">
                 <div class="contact__title">
                     <h1 class="fonH1">Drop us <span class="BdIt orange">a line</span></h1>
@@ -86,28 +86,28 @@
                     <div class="name">
                         <label for="name">Name</label>
                         <br>
-                        <input type="text" name="name">
+                        <input type="text" name="name" >
                     </div>
                     <div class="email">
                         <label for="email">Email</label>
                         <br>
-                        <input type="text" name="email">
+                        <input type="email" name="email">
                     </div>
                     <div class="textarea">
                         <label for="description">Tell us a bit about your project</label>
                         <br>
-                        <textarea name="description"></textarea>
+                        <textarea name="description" required></textarea>
                     </div>
                     <div class="launch">
                         <label for="launch">What’s your ideal launch date?</label>
                         <br>
                         <div class="custom-select">
-                            <select id="launch__date">
+                            <select id="launch__date" name="launch__date" required>
                                 <option value="date__Less than a month" selected>-</option>
-                                <option value="date__Option2">Less than a month</option>
-                                <option value="date__Option3">From one to two months</option>
-                                <option value="date__Option4">More than two months</option>
-                                <option value="date__Option5">I’m not sure</option>
+                                <option value="date__Option1">Less than a month</option>
+                                <option value="date__Option2">From one to two months</option>
+                                <option value="date__Option3">More than two months</option>
+                                <option value="date__Option4">I’m not sure</option>
                             </select>
                         </div>
                     </div>
@@ -115,12 +115,12 @@
                         <label for="budget">What’s your ideal all-in budget?</label>
                         <br>
                         <div class="custom-select">
-                            <select id="budget">
+                            <select id="budget" name="budget" required>
                                 <option class="custom-select__txt" value="budget__Under" selected>-</option>
-                                <option class="custom-select__txt" value="budget__Option2">€ 5.000 to 10.000</option>
-                                <option class="custom-select__txt" value="budget__Option3">€ 10.000 to 25.000</option>
-                                <option class="custom-select__txt" value="budget__Option4">€ 25.000 to 50.000</option>
-                                <option class="custom-select__txt" value="budget__Option5">+ € 50.000</option>
+                                <option class="custom-select__txt" value="budget__Option1">€ 5.000 to 10.000</option>
+                                <option class="custom-select__txt" value="budget__Option2">€ 10.000 to 25.000</option>
+                                <option class="custom-select__txt" value="budget__Option3">€ 25.000 to 50.000</option>
+                                <option class="custom-select__txt" value="budget__Option4">+ € 50.000</option>
                             </select>
                         </div>
                     </div>
