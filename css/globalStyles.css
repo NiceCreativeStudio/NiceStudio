@@ -15,6 +15,15 @@ body {
     overflow-x: hidden;
     transition: .3s ease all;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #202020;
+    background: #DE5D37;
+}
+
+::selection {
+    color: #202020;
+    background: #DE5D37;
+}
 
 a {
     color: #FEFBF3;
@@ -109,36 +118,43 @@ img {
 @font-face {
     font-family: 'Maine Light';
     src: url('../assets/Maine/Maine-Light.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Regular';
     src: url('../assets/Maine/Maine-Regular.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Book';
     src: url('../assets/Maine/Maine-Book.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Book Italic';
     src: url('../assets/Maine/Maine-BookItalic.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Bold';
     src: url('../assets/Maine/Maine-Bold.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Bold Italic';
     src: url('../assets/Maine/Maine-BoldItalic.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Medium Italic';
     src: url('../assets/Maine/Maine-MediumItalic.otf');
+    font-display: swap;
 }
 
 .fonXl {  /* == Confirmar si va === */
@@ -631,6 +647,15 @@ body.color a {
     color: #202020;
 }
 
+body.color ::-moz-selection { /* Code for Firefox */
+    color: #FEFBF3;
+    background: #DE5D37;
+}
+
+body.color ::selection {
+    color: #FEFBF3;
+    background: #DE5D37;
+}
 body.color .btn__active{
     border: 2px solid #202020;
 }

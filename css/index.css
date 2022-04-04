@@ -50,14 +50,16 @@ header {
   height: auto; }
 
 .reel__box{
-  height: auto;
+  height: 80vh;
   width: auto;
   margin-left: 5%;
   margin-right: 5%;
   position: relative;  }
 
-  .reel__box video{
-      border-radius: 0.5rem; }
+.reel__box video{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; }
 
 /* ----------- Holistic OKK----------- */
 .holistic{
