@@ -15,6 +15,15 @@ body {
     overflow-x: hidden;
     transition: .3s ease all;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #202020;
+    background: #DE5D37;
+}
+
+::selection {
+    color: #202020;
+    background: #DE5D37;
+}
 
 a {
     color: #FEFBF3;
@@ -631,6 +640,15 @@ body.color a {
     color: #202020;
 }
 
+body.color ::-moz-selection { /* Code for Firefox */
+    color: #FEFBF3;
+    background: #DE5D37;
+}
+
+body.color ::selection {
+    color: #FEFBF3;
+    background: #DE5D37;
+}
 body.color .btn__active{
     border: 2px solid #202020;
 }

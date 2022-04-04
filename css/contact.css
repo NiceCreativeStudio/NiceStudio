@@ -51,6 +51,13 @@ input:-webkit-autofill:active{
 input:-webkit-autofill{
     -webkit-text-fill-color: #FEFBF3 !important;
 }
+
+#contactLottie{
+    display: none;
+    position: fixed;
+    top: 5rem;
+}
+
 /* ----------- Form ----------- */
 
 .contact {
