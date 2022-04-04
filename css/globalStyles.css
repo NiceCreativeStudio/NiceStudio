@@ -118,36 +118,43 @@ img {
 @font-face {
     font-family: 'Maine Light';
     src: url('../assets/Maine/Maine-Light.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Regular';
     src: url('../assets/Maine/Maine-Regular.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Book';
     src: url('../assets/Maine/Maine-Book.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Book Italic';
     src: url('../assets/Maine/Maine-BookItalic.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Bold';
     src: url('../assets/Maine/Maine-Bold.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Bold Italic';
     src: url('../assets/Maine/Maine-BoldItalic.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Maine Medium Italic';
     src: url('../assets/Maine/Maine-MediumItalic.otf');
+    font-display: swap;
 }
 
 .fonXl {  /* == Confirmar si va === */
