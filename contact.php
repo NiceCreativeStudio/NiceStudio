@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <link rel="icon" type="apple-touch-icon" href="./assets/icons/contact.ico">
     <link rel="icon" type="image/x-icon" href="./assets/icons/contact.ico">
     <title>Let's talk! | Nice Studio</title>
@@ -43,7 +42,7 @@
                 <li><a href="./about.html" class="aLink aLink--under">About</a></li>
                 <li><a href="./process.html" class="aLink aLink--under">Process</a></li>
                 <li><a href="./work.html" class="aLink aLink--under">Work</a></li>
-                <li><a href="./contact.html" class="aLink aLink--under">Contact</a></li>
+                <li><a href="https://nicecreativestudio.com/contact.php" class="aLink aLink--under">Contact</a></li>
             </ul>
             <img id="switch" class="colorSwitch"
                 src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png"
@@ -88,7 +87,7 @@
                                 fill="" />
                         </svg>
                     </li>
-                    <li><a href="./contact.html" class="Bd">Contact</a></li>
+                    <li><a href="https://nicecreativestudio.com/contact.php" class="Bd">Contact</a></li>
                     <a href="mailto:hello@nicecreativestuido.com"
                         class="mobile__menu--mail Rg">hello@nicecreativestudio.com</a>
                 </ul>
@@ -96,13 +95,10 @@
         </nav>
     </header>
     <main>
-        <div class="lottie__container">
-            <lottie-player id="contactLottie" src="https://assets10.lottiefiles.com/packages/lf20_robi7jpz.json">
-            </lottie-player>
-        </div>
+    
         <!---============= Form grid ===============-->
         <section class="contact">
-            <form class="contact__box" action="./form.php" method="POST">
+            <form class="contact__box"  method="POST">
                 <div class="contact__txtbox">
                     <div class="contact__title">
                         <h1 class="fonH1">Drop us <span class="BdIt orange">a line</span></h1>
@@ -160,7 +156,7 @@
                             <input type="text" name="hear">
                         </div>
                         <div class="btn">
-                            <button type="submit" name="SubmitButton" class="btn__active submit__btn" onclick="myFunction()">
+                            <button type="submit" value="submit" id="submit "name="SubmitButton" class="btn__active submit__btn" onclick="myFunction()">
                                 <a class="fonH4">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -376,7 +372,7 @@
                     </article>
                     <article class="footer__linksbox1a">
                         <a class="aLink aLink--under" href="./process.html">PROCESS</a>
-                        <a class="aLink aLink--under" href="./contact.html">CONTACT</a>
+                        <a class="aLink aLink--under" href="https://nicecreativestudio.com/contact.php">CONTACT</a>
                     </article>
                     <h4 class="footer__linkstit2 fonSubFoot">SOCIAL</h4>
                     <article class="footer__linksbox2">
@@ -413,15 +409,10 @@
     <script src="./assets/js/nav.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/customSelect.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
-    <script src="./assets/js/contactLottie.js"></script>
-    <script src="./form.php"></script>
     <script src="./assets/js/slider.js"></script>
-    <script>
-        function myFunction() {
-            document.getElementById("contactLottie").style.display = "block";
-        }
-    </script>
+
+<?php
+include ("form.php")
+?>
 </body>
 </html>
