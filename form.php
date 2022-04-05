@@ -1,8 +1,5 @@
 <?php
-    $previous = "javascript:history.go(-1)";
-    
     if(isset($_POST['SubmitButton'])){ //check if form was submitted
-        echo('<script>document.getElementById("contactLottie").style.display = "block";</script>');
         
         $receiver = 'hellonicestudio@gmail.com';
         
@@ -12,13 +9,11 @@
         $launch = $_POST['launch__date'];
         $budget = $_POST['budget'];
         $hear = $_POST['hear'];
-        
         $header = "Sent from website contact form";
         $content = "\n Hi! We're " . $email . "\n About our project: " . $description . "\n Our ideal launch date is: " . $launch . "\n Our budget is: " . $budget . "\n We heard about you through " . $hear;
         
         mail($receiver, $name, $content, $header);
-        
+        header("Location: https://nicecreativestudio.com/contact.php");
+        echo("<h1 class='formMsg'>Message sent!</h1>");
     } 
-    echo("<script>alert('We´ll be on touch!')</script>");
-    echo("<script>window.location = 'contact.html';</script>");
-    ?>
+?>
