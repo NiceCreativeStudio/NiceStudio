@@ -203,7 +203,7 @@
                         </svg>
                     </div>
                     <div class="shapes__us">
-                        <h4 class="fonPar">hello@nicecreativestudio.com</h4>
+                        <h4 class="fonPar" translate="no">hello@nicecreativestudio.com</h4>
                         <h4 class="fonPar">Barcelona, Spain</h4>
                     </div>
                 </div>
@@ -398,7 +398,7 @@
                     </svg>
                 </a>
                 <div class="footer__copy">
-                    <h5 class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
+                    <h5 translate="no" class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
                 </div>
             </div>
         </div>
