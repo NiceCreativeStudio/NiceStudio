@@ -334,8 +334,7 @@ a {
     height: auto;
     width: auto;
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10rem; }  
+    margin-right: 5%; }  
 
     .graphics__screen img{
         height: auto;
@@ -353,7 +352,11 @@ a {
     width: 75%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "txt img";
     margin-left: 12.5%;  }
+
+.backend__txt{
+    grid-area: txt;}
 
     .backend__txt svg{
         fill:  #FEFBF3;
@@ -374,6 +377,7 @@ a {
     margin-bottom: 3rem; } 
 
 .backend__img{
+    grid-area: img;
     height: auto;
     max-height: 800px;
     max-width: 475px;
@@ -392,7 +396,6 @@ a {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 0rem;
     margin-top: 11rem; }
 
 .grid__img {
@@ -597,7 +600,7 @@ a {
         height: 2rem;
         padding-top: 0.25rem; }
 
-/* ============================ LIGHT MODE ============================ */
+/* ================ LIGHT MODE =================== */
 
 body.color a {
     color: #202020; }
@@ -617,7 +620,7 @@ body.color .backend__arrowL {
 body.color .backend__arrowR {
     fill: #202020;  }
 
-/* ============================ MEDIA ============================ */
+/* ================= MEDIA ================== */
 
 
 @media (max-width: 768px) { 
@@ -634,7 +637,7 @@ body.color .backend__arrowR {
  /* ------------central text -------------- */
 
 .centraltxt{ 
-    margin-bottom: 10rem; }   
+    margin-bottom: 5rem; }   
 
 .centraltxt__sub{
     margin-left: 10%; }
@@ -650,12 +653,12 @@ body.color .backend__arrowR {
     width: 80%;
     height: auto;
     margin-left: 10%;
-    margin-top: 6rem; }
+    margin-top: 3rem; }
 
 .centraltxt__mission{
     height: auto;
     width: 95%;
-    margin-bottom: 4rem; }
+    margin-bottom: 3rem; }
 
 .centraltxt__services {
     width: 80%;
@@ -664,8 +667,8 @@ body.color .backend__arrowR {
 /* --------Setting the identity-------- */
 
 .elements{  
-    margin-top: 8rem;
-    margin-bottom: 8rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .elements__title{
     width: auto;
@@ -679,7 +682,7 @@ body.color .backend__arrowR {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     margin-left: 10%;
-    margin-top: 4rem; }
+    margin-top: 3rem; }
 
 .elements__txt{
     width: auto;  }
@@ -687,8 +690,8 @@ body.color .backend__arrowR {
 /* ------------multimedia -------------- */
 
 .multimedia{
-    margin-top: 8rem;
-    margin-bottom: 8rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .multimedia__boxexamp{
     height: auto;
@@ -726,13 +729,13 @@ body.color .backend__arrowR {
     grid-template-rows: auto auto;
     gap: 2rem;
     margin-left: 10%;
-    margin-top: 5rem;  }   
+    margin-top: 3rem;  }   
 
 /* ---------Going Digital--------- */
 
 .digital{
-    margin-top: 10rem;
-    margin-bottom: 8rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .digital__title {
     width: auto;
@@ -746,11 +749,11 @@ body.color .backend__arrowR {
     grid-template-rows: auto auto;
     gap: 0rem;
     margin-left: 10%;
-    margin-top: 4rem;  }
+    margin-top: 3rem;  }
 
 .digital__txt{
     width: 100%; 
-    margin-bottom: 3.5rem;  }
+    margin-bottom: 3rem;  }
         
 .digital__boxexamp{
     height: auto;
@@ -776,14 +779,13 @@ body.color .backend__arrowR {
 /* -------------Graphics-------------- */
 
 .graphics{
-    margin-top: 10rem;
-    margin-bottom: 10rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .graphics__screen{
     height: auto;
     width: 80%;;
     margin-left: 10%;
-    margin-top: 10rem;
     background-color: #3458C7; }  
 
 /* ------------backend -------------- */
@@ -798,6 +800,7 @@ body.color .backend__arrowR {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
+    grid-template-areas: "img" "txt";
     margin-left: 10%;  }
 
     .backend__txt h3{
@@ -808,7 +811,7 @@ body.color .backend__arrowR {
         margin-top: 3rem;  }
 
 .backend__img{
-    margin-top: 4rem;
+    margin-bottom: 3rem;
     height: auto;
     max-height: 500px;
     max-width: 100%;
@@ -827,9 +830,7 @@ body.color .backend__arrowR {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 8rem;
-    padding-bottom: 5rem;
-    margin-top: 8rem; }
+    margin-top: 5rem; }
 
 .grid__img {
     display: grid;
@@ -874,7 +875,7 @@ body.color .backend__arrowR {
  /* ------------central text -------------- */
 
 .centraltxt{ 
-    margin-bottom: 11rem; }   
+    margin-bottom: 8rem; }   
 
 .centraltxt__sub{
     margin-left: 10%;}
@@ -890,12 +891,12 @@ body.color .backend__arrowR {
     width: 80%;
     height: auto;
     margin-left: 10%;
-    margin-top: 6rem; }
+    margin-top: 3.5rem; }
 
 .centraltxt__mission{
     height: auto;
     width: auto;
-    margin-bottom: 4rem; }
+    margin-bottom: 3.5rem; }
 
 .centraltxt__services {
     width: 23rem;
@@ -904,7 +905,7 @@ body.color .backend__arrowR {
 /* --------Setting the identity-------- */
 
 .elements{  
-    margin-top: 11rem;
+    margin-top: 8rem;
     margin-bottom: 8rem; }
 
 .elements__title{
@@ -919,7 +920,7 @@ body.color .backend__arrowR {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     margin-left: 10%;
-    margin-top: 4rem; }
+    margin-top: 3.5rem; }
 
 .elements__txt{
     width: auto;  }
@@ -937,7 +938,7 @@ body.color .backend__arrowR {
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr;
         margin-left: 10%;
-        row-gap: 1.5rem; 
+        row-gap: 0rem; 
         text-align: center; }
     
     .multimedia__boxlogo{
@@ -966,7 +967,7 @@ body.color .backend__arrowR {
         grid-template-rows: auto auto;
         gap: 2rem;
         margin-left: 10%;
-        margin-top: 5rem;  }   
+        margin-top: 3.5rem;  }   
 
 /* ---------Going Digital--------- */
 
@@ -986,7 +987,8 @@ body.color .backend__arrowR {
     grid-template-rows: auto auto;
     gap: 0rem;
     margin-left: 10%;
-    margin-top: 4rem;  }
+    margin-top: 3.5rem; 
+    margin-bottom: 3.5rem;   }
 
 .digital__txt{
     width: 100%; 
@@ -1005,13 +1007,16 @@ body.color .backend__arrowR {
     text-align: center; }
 
     .digital__boximg img{
-        height: 90%;
+        height: 95%;
         width: 100%;
         object-fit: cover; }
 
     .digital__boximg video{
         height: auto;
         width: 100%;  }
+
+        .digital__boximg p{
+            margin-bottom: 0rem; }
 
 /* -------------Graphics-------------- */
 
@@ -1022,29 +1027,23 @@ body.color .backend__arrowR {
 .graphics__screen{
     height: auto;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 10rem;
-    background-color: #3458C7; }  
-
-/* ------------legend -------------- */
-
-.legendtxt__box {
-    width: 80%;
-    margin-left: 10%;}
+    margin-left: 10%; }  
 
 /* ------------backend -------------- */
 
 .backend{
     height: auto;
+    margin-top: 8rem;
     width: 100%; }
 
 .backend__box{
     height: auto;
-    width: 75%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    margin-left: 12.5%;  }
+    grid-template-areas: "img" "txt";
+    margin-left: 10%;  }
 
     .backend__txt h2{
         width: 80%;  }
@@ -1054,7 +1053,7 @@ body.color .backend__arrowR {
         margin-top: 3rem;  }
 
 .backend__img{
-    margin-top: 4rem;
+    margin-bottom: 3.5rem;
     height: auto;
     max-height: 550px;
     max-width: 100%;
@@ -1072,8 +1071,6 @@ body.color .backend__arrowR {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 8rem;
-    padding-bottom: 0rem;
     margin-top: 8rem; }
 
 .grid__img {
@@ -1089,7 +1086,7 @@ body.color .backend__arrowR {
     margin-left: 10%;  }
 
     .grid__txt p{
-        bottom: 5rem; }
+        bottom: 3.5rem; }
 
     .grid__txtbox svg{
         bottom: 40%;
