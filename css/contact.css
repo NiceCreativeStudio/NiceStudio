@@ -21,8 +21,8 @@ textarea {
     background-color: transparent; 
     color:  #FEFBF3; }
 
-input:invalid {
-    border: 2px solid #DE5D37;
+.required{
+    color:  #DE5D37;
 }
 input {
     font-family: 'Montserrat', sans-serif;
@@ -221,6 +221,67 @@ input:-webkit-autofill{
 .submit__btn {
     margin-top: 1.5rem; }
 
+    
+.formMsg{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FEFBF3;
+    top: -10vh;
+    left: 40vw;
+    right: 40vw;
+    width: 20vw;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #DE5D37;
+    position: fixed;
+    -webkit-animation: fadein 5s;
+    animation: fadein 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 20;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@-webkit-keyframes fadein {
+    0%{
+        top: -10vh;
+        opacity: 0;
+    }
+    10%{
+        top: 15vh;
+        opacity: 1;
+    }
+    80%{
+        top: 15vh;
+        opacity: 1;
+    }
+    100%{
+        top: -10vh;
+        opacity: 0;
+    }
+}
+
+@keyframes fadein {
+    0%{
+        top: -10vh;
+        opacity: 0;
+    }
+    10%{
+        top: 15vh;
+        opacity: 1;
+    }
+    80%{
+        top: 15vh;
+        opacity: 1;
+    }
+    100%{
+        top: -10vh;
+        opacity: 0;
+    }
+}
+
 /* ----------- central txt ----------- */
 
 .centraltxt{
@@ -328,7 +389,11 @@ body.color .select-selected.select-arrow-active:after {
 @media (max-width: 768px) { 
 
     /* ----------- Form ----------- */
-
+    .formMsg{
+        left: 35vw;
+        right: 35vw;
+        width: 30vw
+    }
     .contact {
         width: 100%;
         height: auto;
@@ -421,6 +486,11 @@ body.color .select-selected.select-arrow-active:after {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .formMsg{
+        left: 37.5vw;
+        right: 37.5vw;
+        width: 25vw;
+    }
     /* ----------- Form ----------- */
     .contact {
         width: 100%;
@@ -496,7 +566,11 @@ body.color .select-selected.select-arrow-active:after {
 }
 
 @media (min-width: 1600px) {
-  
+    .formMsg{
+        left: 45vw;
+        right: 45vw;
+        width: 10vw
+    }
     .contact, .centraltxt, .footer  {
         width: 80%;
         margin-left: 10%; } 

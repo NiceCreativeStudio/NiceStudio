@@ -107,26 +107,26 @@
                     </div>
                     <div class="contact__form">
                         <div class="name">
-                            <label for="name">Name</label>
+                            <label for="name">Name <span class="required">*</span></label>
                             <br>
-                            <input type="text" name="name">
+                            <input type="text" name="name" required>
                         </div>
                         <div class="email">
-                            <label for="email">Email</label>
+                            <label for="email">Email <span class="required">*</span></label>
                             <br>
-                            <input type="email" name="email">
+                            <input type="email" name="email" required>
                         </div>
                         <div class="textarea">
-                            <label for="description">Tell us a bit about your project</label>
+                            <label for="description">Tell us a bit about your project <span class="required">*</span></label>
                             <br>
                             <textarea name="description" required></textarea>
                         </div>
                         <div class="launch">
-                            <label for="launch">What’s your ideal launch date?</label>
+                            <label for="launch">What’s your ideal launch date? <span class="required">*</span></label>
                             <br>
                             <div class="custom-select">
                                 <select id="launch__date" name="launch__date" required>
-                                    <option value="-" selected>-</option>
+                                    <option value="" selected>-</option>
                                     <option value="Less than a month">Less than a month</option>
                                     <option value="From one to two months">From one to two months</option>
                                     <option value="More than two months">More than two months</option>
@@ -135,11 +135,11 @@
                             </div>
                         </div>
                         <div class="budget">
-                            <label for="budget">What’s your ideal all-in budget?</label>
+                            <label for="budget">What’s your ideal all-in budget? <span class="required">*</span></label>
                             <br>
                             <div class="custom-select">
                                 <select id="budget" name="budget" required>
-                                    <option class="custom-select__txt" value="-" selected>-</option>
+                                    <option class="custom-select__txt" value="" selected>-</option>
                                     <option class="custom-select__txt" value="€ 5.000 to 10.000">€ 5.000 to 10.000
                                     </option>
                                     <option class="custom-select__txt" value="€ 10.000 to 25.000">€ 10.000 to 25.000
