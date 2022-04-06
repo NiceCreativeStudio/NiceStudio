@@ -4,7 +4,6 @@ let startX = 50;
 let scrollLeft;
 $( document ).ready(function() {
     slider.scrollLeft = 3000;
-    console.log( "ready!" );
 });
 slider.addEventListener('mousedown', (e) => {
     isDown = true;
