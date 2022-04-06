@@ -16,65 +16,6 @@ body {
     transition: .3s ease all;
 }
 
-.formMsg{
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-    color: #FEFBF3;
-    top: 110vh;
-    left: 45vw;
-    right: 45vw;
-    width: 10vw;
-    padding: 1rem;
-    border-radius: 8px;
-    background-color: #DE5D37;
-    position: fixed;
-    -webkit-animation: fadein 5s;
-    animation: fadein 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    z-index: 20;
-}
-
-@-webkit-keyframes fadein {
-    0%{
-        top: 110vh;
-        opacity: 0;
-    }
-    10%{
-        top: 88vh;
-        opacity: 1;
-    }
-    80%{
-        top: 88vh;
-        opacity: 1;
-    }
-    100%{
-        top: 110vh;
-        opacity: 0;
-    }
-}
-
-@keyframes fadein {
-    0%{
-        top: 110vh;
-        opacity: 0;
-    }
-    10%{
-        top: 88vh;
-        opacity: 1;
-    }
-    80%{
-        top: 88vh;
-        opacity: 1;
-    }
-    100%{
-        top: 110vh;
-        opacity: 0;
-    }
-}
-
 ::-moz-selection { /* Code for Firefox */
     color: #202020;
     background: #DE5D37;
@@ -784,11 +725,7 @@ body.color .grab__gallery {
 /* ------------  @ MEDIA -------------------------------- */
 
 @media (max-width: 768px) {
-    .formMsg{
-        left: 35vw;
-        right: 35vw;
-        width: 30vw
-    }
+    
     .arrow__link{
         width: 45px;
         height: 45px;
@@ -950,10 +887,7 @@ body.color .grab__gallery {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .formMsg{
-        left: 35vw;
-        right: 35vw;
-    }
+
     /* ----------- Nav -----*/
     .nav__mobile,
     .nav__burger {
@@ -1002,11 +936,7 @@ body.color .grab__gallery {
 }
 
 @media (min-width: 1024px) {
-    .formMsg{
-        left: 45vw;
-        right: 45vw;
-        width: 10vw
-    }
+    
     .nav__mobile,
     .nav__burger {
         display: none;
