@@ -441,7 +441,7 @@ a {
     height: 100%;  }
 
     .grid__txt p{
-        font-family: Montserrat;
+        font-family: 'Montserrat 600';
         font-style: normal;
         font-weight: 600;
         font-size: 1rem;
