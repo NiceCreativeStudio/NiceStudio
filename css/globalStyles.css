@@ -860,7 +860,7 @@ body.color .grab__gallery {
 
     .footer__copy {
         position: absolute;
-        bottom: -7.5rem;
+        bottom: 0;
         left: 0; }
 
         .footer__copy h5 {
@@ -911,7 +911,7 @@ body.color .grab__gallery {
 
     .footer__copy {
         position: absolute;
-        bottom: -8.5rem;
+        bottom: 0;
         left: 0; }
 }
 
