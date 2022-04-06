@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/globalStyles.css">
     <link rel="stylesheet" href="./css/contact.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="apple-touch-icon" href="./assets/icons/contact.ico">
     <link rel="icon" type="image/x-icon" href="./assets/icons/contact.ico">
     <title>Let's talk! | Nice Studio</title>

@@ -43,28 +43,28 @@ a {
     line-height: 1.55rem; }
 
 .csH5 {
-    font-family: Montserrat;
+    font-family: 'Montserrat 700';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1rem; }
 
 .csPgMon{
-    font-family: Montserrat;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 2rem; }
 
 .csPgMonSm{
-    font-family: Montserrat;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem; }
 
 .csInd {
-    font-family: Montserrat;
+    font-family: 'Montserrat 600';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;

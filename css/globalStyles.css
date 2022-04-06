@@ -152,7 +152,31 @@ img {
     font-display: swap;
 }
 
-.fonXl {  /* == Confirmar si va === */
+@font-face {
+    font-family: 'Montserrat 500';
+    src: url('../assets/Maine/Montserrat-Medium.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat 600';
+    src: url('../assets/Maine/Montserrat-SemiBold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat 700';
+    src: url('../assets/Maine/Montserrat-Bold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat 800';
+    src: url('../assets/Maine/Montserrat-ExtraBold.ttf');
+    font-display: swap;
+}
+
+.fonXl {  
     font-family: 'Maine Light';
     font-style: normal;
     font-weight: normal;
@@ -187,74 +211,36 @@ img {
     font-size: 2rem;
     line-height: 2.5rem; }
 
-.fonH4tit {  /* == Cambie nombre === */
-    font-family: 'Montserrat', sans-serif;
+.fonH4tit {  
+    font-family: 'Montserrat 600';
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.5rem; }
 
 .fonH5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem; }
 
-.fonH6 { 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 2rem;
-    opacity: 0.5; }
-
-.fonLab {
-    font-family: 'Maine Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 1.5rem; }
-
 .fonPar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 2rem; }
 
 .fonTab {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem; }
 
-.fonSmall {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.75rem;
-    line-height: 1rem; }
-
-.fonPgSt { /* == Confirmar si va === */
-    font-family: 'Maine Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25rem;
-    line-height: 2rem;
-}
-
-.fonLink { /* == Confirmar si va === */
-    font-family: 'Maine Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-}
-
-.fonSubFoot { /* == Confirmar si va === */
-    font-family: 'Montserrat', sans-serif;
+.fonSubFoot { 
+    font-family: 'Montserrat 800';
     font-style: normal;
     font-weight: 800;
     font-size: 1rem;
@@ -364,7 +350,7 @@ body.color .blue {
 /* ------------ A LINKS ------------------- */
 
 .aLink {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
@@ -764,7 +750,7 @@ body.color .grab__gallery {
         line-height: 2.5rem; }
 
     .fonH4tit {  
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat 600';
         font-style: normal;
         font-weight: 600;
         font-size: 1.75rem;
