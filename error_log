@@ -1,5 +1,0 @@
-[05-Apr-2022 03:20:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nicecrea/public_html/contact.php:1) in /home/nicecrea/public_html/form.php on line 16
-[05-Apr-2022 03:33:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nicecrea/public_html/contact.php:1) in /home/nicecrea/public_html/form.php on line 16
-[05-Apr-2022 12:14:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nicecrea/public_html/contact.php:1) in /home/nicecrea/public_html/form.php on line 16
-[05-Apr-2022 12:16:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nicecrea/public_html/contact.php:1) in /home/nicecrea/public_html/form.php on line 16
-[06-Apr-2022 13:13:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nicecrea/public_html/contact.php:1) in /home/nicecrea/public_html/form.php on line 16
