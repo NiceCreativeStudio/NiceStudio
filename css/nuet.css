@@ -228,21 +228,6 @@ a {
     .multimedia__boxvid video{
         border-radius: 0.5rem; }
 
-.multimedia__controls{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    cursor: pointer;
-    transform: translate(-15px, -35px); }
-
-.multimedia__btn{
-    border: none;
-    background-color: transparent;  }
-
-.multimedia__btn button:before{
-    border: none;
-    background-color: transparent; }
-
 /* ------------legend -------------- */
 
 .legendtxt{

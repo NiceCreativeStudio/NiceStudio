@@ -26,7 +26,7 @@
 </head>
 <body>
     <header>
-        <!---------------- Navbar ---------------->
+        <!---- Navbar ---->
         <nav id="navbar">
             <a href="./index.html" class="logo">
                 <svg width="65" height="30" viewBox="0 0 59 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@
                 <li><a href="./about.html" class="aLink aLink--under">About</a></li>
                 <li><a href="./process.html" class="aLink aLink--under">Process</a></li>
                 <li><a href="./work.html" class="aLink aLink--under">Work</a></li>
-                <li><a href="./contact.html" class="aLink aLink--under">Contact</a></li>
+                <li><a href="https://nicecreativestudio.com/contact.php" class="aLink aLink--under">Contact</a></li>
             </ul>
             <img id="switch" class="colorSwitch" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png" alt="">
             <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -67,29 +67,31 @@
                             <path d="M34 17C23.614 17 17 23.6103 17 34C17 23.6103 10.3897 17 0 17C10.3897 17 17 10.3897 17 0C17.0037 10.3897 23.614 17 34 17Z" fill=""/>
                         </svg>
                     </li>
-                    <li><a href="./contact.html" class="Bd">Contact</a></li>
+                    <li><a href="https://nicecreativestudio.com/contact.php" class="Bd">Contact</a></li>
                     <a href="mailto:hello@nicecreativestuido.com" class="mobile__menu--mail Rg">hello@nicecreativestudio.com</a>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-    <!------------------- Intro ------------------->
+    <!---- Intro ---->
         <section class="workIntro">
             <div class="work__intro">
                 <h1 class="fonXl">The <span class="MeIt yellow">stories<br></span> we are <span class="Bd pink">proud of</span></h1>
-                <h3 class="fonPar">Here’s a showcase of our recent work, stories that celebrate the success of brands that we have worked with and projects we are proud to share.</h3>
+                <h3 class="fonPar">Here's a showcase of our recent work, stories that celebrate the success of brands that we have worked with and projects we are proud to share.</h3>
             </div>
         </section>
         <section class="reel">
-            <div class="reel__box--desktop">
-                <video class="reel--desktop" muted loop autoplay width="100%" height="auto" style="left: 5%" src="https://ik.imagekit.io/nicecreativestudio/nicestudio-reel-2022.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649105899108" ></video>
-            </div>
-            <div class="reel__box--mobile">
-                <iframe class="reel--mobile" src="https://www.youtube.com/embed/O9X6YHE-urY"></iframe>
+            <div class="reel__box">
+                <video controls controlslist="nodownload" width="100%" height="auto" style="left: 5%" poster="https://ik.imagekit.io/nicecreativestudio/covervideo_N93-IsXqi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1649164295920" src="https://ik.imagekit.io/nicecreativestudio/nicestudio-reel-2022.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649105899108" ></video>
             </div>
         </section>
-    <!------------------- List Case studies ------------------->
+        <section class="reelmobile">
+            <div class="reelmobile__box">
+                <video controls controlslist="nodownload" width="80%" height="auto" style="margin-left: 10%" poster="https://ik.imagekit.io/nicecreativestudio/covervideo_N93-IsXqi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1649164295920" src="https://ik.imagekit.io/nicecreativestudio/reel2mb_vrjWIgNxH.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649194846944"></video>
+            </div>
+        </section>
+    <!---- List Case studies ---->
         <section class="workAccordion">
             <div class="work__accordionbox">
                 <h3 class="fonH3">Some of our <span class="MeIt yellow">Case Studies</span></h3>
@@ -155,7 +157,7 @@
                 </a>
             </div>
         </section>
-    <!------------------- Quote ------------------->
+    <!--- Quote ---->
         <section class="quote">
             <h2 class="work__quote fonH2">Want to know <span class="Bd blue">how</span> we do it and <span class="BdIt pink">what</span> we do? Check <span class="yellow Un">our process</span><span>
                 <a href="./work.html">
@@ -163,7 +165,7 @@
                 </a>
             </span></h2>
         </section>
-    <!------------------- Instagram gallery ------------------->
+    <!---- Instagram gallery ---->
         <section class="instagram__gallery">
             <div class="instagram__title">
                 <h3 class="fonH3">We also <span class="MeIt pink">like</span> to <span class="MeIt blue">have fun</span></h3>
@@ -174,7 +176,7 @@
             <iframe src="https://cdn.lightwidget.com/widgets/7008dd282e17583fb526deb26952091c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </section>           
     </main>
-    <!--------------------- footer ---------------->
+    <!---- Footer ---->
     <footer class="footer">
         <div class="footer__box"> 
             <h2 class="footer__title fonH2">It would be <span class="MeIt orange">nice</span> to hear from you</h2>
@@ -206,12 +208,12 @@
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 59 59" style="enable-background:new 0 0 59 59" xml:space="preserve"><circle cx="29.5" cy="29.5" r="28" style="fill:none;stroke:'';stroke-width:3"/><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'' " d="M42.3 30.7 29.7 17.9 16.9 30.4l2.4 2.5 8.6-8.4v16h3.6v-16l8.3 8.6z"/></svg>
                 </a>
                 <div class="footer__copy">
-                    <h5  class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
+                    <h5 translate="no" class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Scripts -->
+    <!---- Scripts ---->
     <script src="./assets/js/nav.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/colorMode.js"></script>

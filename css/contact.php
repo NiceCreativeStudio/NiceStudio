@@ -29,7 +29,7 @@
 
 <body>
     <header>
-        <!---- Navbar ---->
+        <!------------------- Navbar ------------------>
         <nav id="navbar">
             <a href="./index.html" class="logo">
                 <svg width="65" height="30" viewBox="0 0 59 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,7 +95,8 @@
         </nav>
     </header>
     <main>
-    <!---- Form grid ---->
+    
+        <!---============= Form grid ===============-->
         <section class="contact">
             <form class="contact__box"  method="POST">
                 <div class="contact__txtbox">
@@ -208,7 +209,8 @@
                 </div>
             </form>
         </section>
-    <!---- Central txt ---->
+
+        <!---============= central txt =============-->
         <section class="centraltxt">
             <div class="centraltxt__box">
                 <h2 class="fonH2">What defines us as <span class="Bd blue">humans</span> are the <span
@@ -251,7 +253,7 @@
                 </h2>
             </div>
         </section>
-    <!---- Team gallery ---->
+        <!---============= Team gallery ==================-->
         <section class="teamGallery">
             <div class="items">
                 <!-- PHOTO 1 -->
@@ -353,7 +355,7 @@
             </div>
         </section>
     </main>
-    <!---- Footer ---->
+    <!--------------- footer ---------------->
     <footer class="footer">
         <div class="footer__box">
             <h2 class="footer__title fonH2">It would be <span class="MeIt orange">nice</span> to hear from you</h2>
@@ -396,7 +398,7 @@
                     </svg>
                 </a>
                 <div class="footer__copy">
-                    <h5 translate="no" class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
+                    <h5 class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
                 </div>
             </div>
         </div>

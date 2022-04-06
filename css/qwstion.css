@@ -8,7 +8,6 @@ a {
 .text__space{
     height: 2rem;  }
 
-
  /* ------------ case study fonts -------------- */
 
 .csH2 {
@@ -321,6 +320,12 @@ a {
     .digital__boximg p{
         margin-top: 1rem;
         margin-bottom: 2rem; }
+
+.digital__video {
+    display: block;  }   
+
+.digital__videomobile {
+    display: none;  }
 
 /* -------------Graphics-------------- */
 
@@ -776,6 +781,13 @@ body.color .backend__arrowR {
         height: auto;
         width: 100%;  }
 
+.digital__video {
+    display: none; }
+
+.digital__videomobile {
+    display: block;  }
+        
+
 /* -------------Graphics-------------- */
 
 .graphics{
@@ -1017,6 +1029,12 @@ body.color .backend__arrowR {
 
         .digital__boximg p{
             margin-bottom: 0rem; }
+
+.digital__video {
+    display: none; }
+
+.digital__videomobile {
+    display: block;  }
 
 /* -------------Graphics-------------- */
 

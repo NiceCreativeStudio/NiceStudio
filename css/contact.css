@@ -21,9 +21,9 @@ textarea {
     background-color: transparent; 
     color:  #FEFBF3; }
 
-.required{
-    color:  #DE5D37;
-}
+input:invalid {
+    border: 2px solid #DE5D37; }
+
 input {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -36,9 +36,7 @@ input {
     border-radius: 5px;
     padding-left: 2%;
     background-color: transparent; 
-    color:#FEFBF3; 
-    }
-    
+    color:#FEFBF3;  }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -55,15 +53,13 @@ input:-webkit-autofill{
 #contactLottie{
     display: none;
     position: fixed;
-    top: 5rem;
-}
+    top: 5rem;  }
 
 /* ----------- Form ----------- */
 
 .contact {
     width: 100%;
     height: auto;
-    margin-top: 11rem;
     margin-top: 11rem; }
 
 .contact__box {
@@ -221,67 +217,6 @@ input:-webkit-autofill{
 .submit__btn {
     margin-top: 1.5rem; }
 
-    
-.formMsg{
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-    color: #FEFBF3;
-    top: -10vh;
-    left: 40vw;
-    right: 40vw;
-    width: 20vw;
-    padding: 1rem;
-    border-radius: 8px;
-    background-color: #DE5D37;
-    position: fixed;
-    -webkit-animation: fadein 5s;
-    animation: fadein 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    z-index: 20;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-@-webkit-keyframes fadein {
-    0%{
-        top: -10vh;
-        opacity: 0;
-    }
-    10%{
-        top: 15vh;
-        opacity: 1;
-    }
-    80%{
-        top: 15vh;
-        opacity: 1;
-    }
-    100%{
-        top: -10vh;
-        opacity: 0;
-    }
-}
-
-@keyframes fadein {
-    0%{
-        top: -10vh;
-        opacity: 0;
-    }
-    10%{
-        top: 15vh;
-        opacity: 1;
-    }
-    80%{
-        top: 15vh;
-        opacity: 1;
-    }
-    100%{
-        top: -10vh;
-        opacity: 0;
-    }
-}
-
 /* ----------- central txt ----------- */
 
 .centraltxt{
@@ -298,7 +233,7 @@ input:-webkit-autofill{
     .centraltxt__box h2{
         line-height: 8rem; }
 
-/*----------- team gallery ------------------ */
+/*----------- team gallery ------------- */
 
 .teamGallery {
     width: 100%;
@@ -330,7 +265,7 @@ input:-webkit-autofill{
 
 .item {
     display: inline-block;
-    margin: 0 0.75em; }
+    padding-left: 3px; }
 
 .gallery__card {
     cursor: pointer;
@@ -338,11 +273,10 @@ input:-webkit-autofill{
     flex-direction: column; }
 
 .gallery__card .img__container img {
-    width: 30rem;
+    width: 27rem;
     cursor: url("../assets/draghandle.svg"), pointer; }
 
-
-/* ============================ LIGHT MODE ============================ */
+/* ================= LIGHT MODE ================== */
 
 body.color textarea {
     color: #000000; }
@@ -384,20 +318,15 @@ body.color .select-selected.select-arrow-active:after {
     body.color input:-webkit-autofill{
         -webkit-text-fill-color: #202020 !important;
     }
-/* ============================ MEDIA ============================ */
+/* =================== MEDIA ================= */
 
 @media (max-width: 768px) { 
 
     /* ----------- Form ----------- */
-    .formMsg{
-        left: 35vw;
-        right: 35vw;
-        width: 30vw
-    }
+
     .contact {
         width: 100%;
         height: auto;
-        margin-top: 10rem;
         margin-top: 10rem; }
 
     .contact__box {
@@ -466,8 +395,8 @@ body.color .select-selected.select-arrow-active:after {
     /* ----central txt ----- */
 
     .centraltxt{
-        margin-top: 10rem;
-        margin-bottom: 10rem; }
+        margin-top: 7rem;
+        margin-bottom: 5rem; }
 
     .centraltxt__box{
         width: 80%;
@@ -475,27 +404,24 @@ body.color .select-selected.select-arrow-active:after {
         margin-left: 10%; }
 
     .centraltxt__box h2{
-        line-height: 6rem; }
+        line-height: 4.5rem; }
 
     /* ----- Team gallery ---- */
 
+    .teamGallery {
+        margin-top: 5rem;
+        margin-bottom: 5rem; }
+
     .gallery__card .img__container img {
         width: 20rem; }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .formMsg{
-        left: 37.5vw;
-        right: 37.5vw;
-        width: 25vw;
-    }
     /* ----------- Form ----------- */
     .contact {
         width: 100%;
         height: auto;
-        margin-top: 11rem;
         margin-top: 11rem; }
 
     .contact__box {
@@ -552,25 +478,32 @@ body.color .select-selected.select-arrow-active:after {
         margin-left: 0rem;  }
 
     /* ----central txt ----- */
+
+    .centraltxt{
+        margin-top: 8rem;
+        margin-bottom: 8rem; }
         
     .centraltxt__box{
         width: 80%;
         height: auto;
         margin-left: 10%; }
 
+        .centraltxt__box h2{
+            line-height: 7rem; }
+
     /* ----- Team gallery ---- */
 
+    .teamGallery {
+        margin-top: 8rem;
+        margin-bottom: 8rem; }
+
     .gallery__card .img__container img {
-        width: 25rem; }
+        width: 24rem; }
 
 }
 
 @media (min-width: 1600px) {
-    .formMsg{
-        left: 45vw;
-        right: 45vw;
-        width: 10vw
-    }
+  
     .contact, .centraltxt, .footer  {
         width: 80%;
         margin-left: 10%; } 
