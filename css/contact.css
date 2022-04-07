@@ -23,8 +23,8 @@ textarea {
     color: #FEFBF3;
 }
 
-input:invalid {
-    border: 2px solid #DE5D37;
+.required{
+    color: #DE5D37;
 }
 
 input {
@@ -253,7 +253,7 @@ input:-webkit-autofill {
     transition: .3s ease all;
 }
 
-.shapes__us .fonPar:hover {
+.shapes__us a.fonPar:hover {
     color: #DE5D37;
 }
 
