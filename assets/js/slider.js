@@ -3,7 +3,7 @@ let isDown = false;
 let startX = 50;
 let scrollLeft;
 $( document ).ready(function() {
-    slider.scrollLeft = 3000;
+    slider.scrollLeft = 400;
 });
 slider.addEventListener('mousedown', (e) => {
     isDown = true;
