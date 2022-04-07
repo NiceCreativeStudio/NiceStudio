@@ -41,9 +41,7 @@
                 <li><a href="./work.html" class="aLink aLink--under">Work</a></li>
                 <li><a href="https://nicecreativestudio.com/contact.php" class="aLink aLink--under">Contact</a></li>
             </ul>
-            <img id="switch" class="colorSwitch"
-                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png"
-                alt="">
+            <img id="switch" class="colorSwitch" src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/rainbow-switch-dark_white-website-mode.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649368706757" alt="website light & dark mode switch on nice studio website">
             <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
                 <div class="bar1"></div>
                 <div class="bar3"></div>
@@ -256,7 +254,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                     src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
-                                    alt=""></span>
+                                    alt="working space with plants and screens in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 2 -->
@@ -264,7 +262,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
-                                alt=""></span>
+                                alt="cat in front of monitor screen in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 3 -->
@@ -272,7 +270,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
-                                alt=""></span>
+                                alt="notebook and pen showcasing different logo styles and interaction in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 4 -->
@@ -280,7 +278,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
-                                alt=""></span>
+                                alt="books on a table displaying the title creative typography, a computer and a lego set in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 1 -->
@@ -288,7 +286,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                     src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
-                                    alt=""></span>
+                                    alt="working space with plants and screens in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 2 -->
@@ -296,7 +294,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
-                                alt=""></span>
+                                alt="cat in front of monitor screen in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 3 -->
@@ -304,7 +302,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
-                                alt=""></span>
+                                alt="notebook and pen showcasing different logo styles and interaction in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 4 -->
@@ -312,7 +310,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
-                                alt=""></span>
+                                alt="books on a table displaying the title creative typography, a computer and a lego set in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 1 -->
@@ -320,7 +318,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                     src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
-                                    alt=""></span>
+                                    alt="working space with plants and screens in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 2 -->
@@ -328,7 +326,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
-                                alt=""></span>
+                                alt="cat in front of monitor screen in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 3 -->
@@ -336,7 +334,7 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
-                                alt=""></span>
+                                alt="notebook and pen showcasing different logo styles and interaction in a black & white photo"></span>
                         </div>
                     </div>
                     <!-- PHOTO 4 -->
@@ -344,7 +342,39 @@
                         <div class="gallery__card">
                             <span class="img__container"><img
                                 src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
-                                alt=""></span>
+                                alt="books on a table displaying the title creative typography, a computer and a lego set in a black & white photo"></span>
+                        </div>
+                    </div>
+                    <!-- PHOTO 1 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                    src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
+                                    alt="working space with plants and screens in a black & white photo"></span>
+                        </div>
+                    </div>
+                    <!-- PHOTO 2 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
+                                alt="cat in front of monitor screen in a black & white photo"></span>
+                        </div>
+                    </div>
+                    <!-- PHOTO 3 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
+                                alt="notebook and pen showcasing different logo styles and interaction in a black & white photo"></span>
+                        </div>
+                    </div>
+                    <!-- PHOTO 4 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
+                                alt="books on a table displaying the title creative typography, a computer and a lego set in a black & white photo"></span>
                         </div>
                     </div>
                 </div>
