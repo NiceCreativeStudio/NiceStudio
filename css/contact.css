@@ -211,6 +211,12 @@ input:-webkit-autofill{
     position: absolute;
     bottom: 6.75rem;
     margin-left: 0.5rem;  }
+.shapes__us a{
+    transition: .3s ease all;
+}
+.shapes__us a:hover{
+    color: #DE5D37;
+}
 
 /* SUBMIT -------- */
 

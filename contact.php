@@ -199,7 +199,7 @@
                         </svg>
                     </div>
                     <div class="shapes__us">
-                        <h4 class="fonPar">hello@nicecreativestudio.com</h4>
+                        <a class="fonPar" href="mailto:hello@nicecreativestudio.com">hello@nicecreativestudio.com</a>
                         <h4 class="fonPar">Barcelona, Spain</h4>
                     </div>
                 </div>
