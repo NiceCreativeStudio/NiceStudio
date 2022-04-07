@@ -696,6 +696,11 @@ body.color .grab__gallery {
 }
 
 /* ------------  @ MEDIA -------------------------------- */
+@media (max-width: 576px){
+    .open .mobile__menu--mail{
+        display: none;
+    }
+}
 
 @media (max-width: 768px) {
     

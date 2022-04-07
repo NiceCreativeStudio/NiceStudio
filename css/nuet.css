@@ -123,9 +123,9 @@ a {
 .centraltxt__mission{
     height: auto;
     width: 75%; }
-
-    .centraltxt__mission h4{
-        margin-bottom: 2rem; }
+        .centraltxt__mission p{
+            margin: 2rem 0;
+        }
 
 .centraltxt__services {
     height: auto; }
