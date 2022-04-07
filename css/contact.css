@@ -249,11 +249,11 @@ input:-webkit-autofill {
     margin-left: 0.5rem;
 }
 
-.shapes__us a {
+.shapes__us .fonPar {
     transition: .3s ease all;
 }
 
-.shapes__us a:hover {
+.shapes__us .fonPar:hover {
     color: #DE5D37;
 }
 

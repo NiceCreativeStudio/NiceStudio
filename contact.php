@@ -249,102 +249,103 @@
             </div>
         </section>
     <!---- Team gallery ---->
-        <section class="teamGallery">
-            <div class="items">
-                <!-- PHOTO 1 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16210_rUiO0C5DK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637934578"
-                                alt="" loading="lazy"></span>
+    <section class="teamGallery">
+                <div class="items">
+                    <!-- PHOTO 1 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                    src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
+                                    alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 2 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16110_XHHEpEvGe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637933624"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 2 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 3 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16101_RI5ORGZff.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637931436"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 3 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 4 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16209_wk3n3b4g3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637927881"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 4 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 1 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16210_rUiO0C5DK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637934578"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 1 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                    src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
+                                    alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 2 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16110_XHHEpEvGe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637933624"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 2 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 3 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16101_RI5ORGZff.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637931436"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 3 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 4 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16209_wk3n3b4g3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637927881"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 4 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 1 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16210_rUiO0C5DK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637934578"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 1 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                    src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio_S08PwoJcK.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346670652"
+                                    alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 2 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16110_XHHEpEvGe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637933624"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 2 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-companion-nice-studio_NgrlgwsAF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346668952"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 3 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16101_RI5ORGZff.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637931436"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 3 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-notes-nice-studio_5Gi6cEPYE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346665298"
+                                alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <!-- PHOTO 4 -->
-                <div class="item">
-                    <div class="gallery__card">
-                        <span class="img__container"><img
-                                src="https://ik.imagekit.io/nicecreativestudio/Frame_16209_wk3n3b4g3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648637927881"
-                                alt="" loading="lazy"></span>
+                    <!-- PHOTO 4 -->
+                    <div class="item">
+                        <div class="gallery__card">
+                            <span class="img__container"><img
+                                src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/our-place-nice-studio-books_DWku_-4AR.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649346669639"
+                                alt=""></span>
+                        </div>
                     </div>
                 </div>
             </div>
