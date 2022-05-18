@@ -7,11 +7,13 @@
 
 .hero__box {
   width: 90%;
-  margin-left: 5%; }
+  margin-left: 5%;
+}
 
 .hero__box h1 {
   width: auto;
   height: auto;
+  text-align: center;
   line-height: 9rem; }
 
   .hero__box h1 .underline{
@@ -25,9 +27,13 @@
 
 .hero__btn{
   width: 100%;
-  height: min-content;
-  display: grid;
-  grid-template-columns: 50% 50%; }
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  height: min-content;}
+.hero__btn button{
+  margin: auto;
+}
 
 .shapes {
   text-align: right; }
@@ -256,7 +262,8 @@ header {
   grid-template-areas:
     "one two four five"
     "one three . five" ;
-  margin-left: 5%; }
+  margin-left: 5%;
+}
 
 .messy__img--container {
   width: 120%;
